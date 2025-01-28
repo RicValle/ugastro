@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-import matplotlib.pyploy as plt
+import matplotlib.pyplot as plt
 
 def extractData(filename):
     ''' Extracting captured data from the lab1 npz array from SDR'''
