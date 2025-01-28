@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyploy as plt
 
 def extractData(filename):
-''' Extracting captured data from the lab1 npz array from SDR'''
-  raw_data = np.load(filename)
-  return raw_data['arr_0'][0]
+    ''' Extracting captured data from the lab1 npz array from SDR'''
+    raw_data = np.load(filename)
+    return raw_data['arr_0'][0]
 
 
