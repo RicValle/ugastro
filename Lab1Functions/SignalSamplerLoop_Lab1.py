@@ -1,29 +1,19 @@
-# Test file; doesn't work yet
 import ugradio
 import numpy as np
 
 coeffs = np.array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2047])
 
-# First round: 400 kHz signal
-# Second round: 1.5 MHz signal
-
-#sdr_filtered_zone_1 = ugradio.sdr.SDR(sample_rate=3.1e6, fir_coeffs=coeffs) # 3.1 MHz
-#time_data_zone_1 = sdr_filtered_zone_1.capture_data()
-#
-#sdr_filtered_zone_2 = ugradio.sdr.SDR(sample_rate=2e6, fir_coeffs=coeffs) # 2 MHz
-#time_data_zone_2 = sdr_filtered_zone_2.capture_data()
-# 
-sdr_filtered_zone_3 = ugradio.sdr.SDR(sample_rate=1.3e6, fir_coeffs=coeffs) # 1.3 MHz
-time_data_zone_3 = sdr_filtered_zone_3.capture_data()
-# 
-np.savez("lab_1_data_1500khz_1300khz", time_data_zone_3) #, time_data_zone_2, time_data_zone_3)
-
-sample_rates = np.array([])
+offset = 0 #Volts
+sample_rates = np.array([3.1e6,2e6,1.3e6])
+save_path = "../Lab1Data/Section5_2/"
 for i, rate in enumerate(sample_rates):
-    print(f"Capturing data at {rate / 1e6:.1f} MHz sample rate...")
+    print(f"Capturing data at {int(rate / 1e3)} kHz sample rate...")
     
     sdrdata = ugradio.sdr.SDR(sample_rate=rate, fir_coeffs=coeffs)  # Initialize SDR
-    time_data = sdrdata.capture_data()  # Capture data
+    time_data = sdrdata.capture_data(nblocks = 5, nsamples = 2048)  # Capture data
     sdrdata.close()  # Close SDR before the next iteration
     
-    np.savez("lab_1_data_1500khz_1300khz", time_data)
+    filename = f"{save_path}lab_1_data_1450khz_{int(rate / 1e3)}khz.npz"
+
+    np.savez(filename, time_data = time_data, sample_rate = rate, offset = offset)
+
