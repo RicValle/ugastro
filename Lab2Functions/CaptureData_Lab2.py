@@ -1,11 +1,13 @@
 import ugradio
 import numpy as np
 
+
+
 #Capture raw 21-cm line data
 
 def capture_21cm_data(filename, duration=60, sample_rate=2.048e6, center_freq=1.42e9, gain=20):
   
-    radio = ugradio.sdr.SDR(sample_rate=sample_rate, center_freq=center_freq, gain=gain)
+    radio = ugradio.sdr.SDR(sample_rate=sample_rate, center_freq=center_freq, gain=gain) # 21-cm line frequency, Gain is arbritrary value we need to check and see which value actually works
     
     start_time = ugradio.timing.utc()
     julian_date = ugradio.timing.julian_date()
