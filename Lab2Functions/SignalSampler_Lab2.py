@@ -1,23 +1,20 @@
 import numpy as np
-import ugradio.timing as timing
-import ugradio.sdr as sdr
-import time
-import datetime
+import ugradio
 import matplotlib.pyplot as plt
 
 # 1. Time Conversions
 
-print("Local Time:", timing.local_time())
-print("UTC Time:", timing.utc())
-print("Unix Time:", timing.unix_time())
-print("Julian Date:", timing.julian_date())
-print("Local Sidereal Time (LST):", timing.lst())
+print("Local Time:", ugradio.timing.local_time())
+print("UTC Time:", ugradio.timing.utc())
+print("Unix Time:", ugradio.timing.unix_time())
+print("Julian Date:", ugradio.timing.julian_date())
+print("Local Sidereal Time (LST):", ugradio.timing.lst())
 
 # 2. System Checks
 
 def check_signal_levels():
     #Check SDR signal levels to ensure they are not clipping or too weak
-    radio = sdr.SDR(sample_rate=2.048e6, center_freq=1.42e9, gain=20)  # 21-cm line frequency
+    radio = ugradio.sdr.SDR(sample_rate=2.048e6, center_freq=1.42e9, gain=20)  # 21-cm line frequency, Gain is arbritrary value we need to check and see which value actually works
     samples = radio.capture_data(nsamples=1024)
     hist, bins = np.histogram(samples, bins=50)
     
@@ -34,18 +31,17 @@ check_signal_levels()
 
 def capture_21cm_data(filename, duration=60, sample_rate=2.048e6, center_freq=1.42e9, gain=20):
     #Capture raw 21-cm line data and save it with metadata.
-    radio = sdr.SDR(sample_rate=sample_rate, center_freq=center_freq, gain=gain)
+    radio = ugradio.sdr.SDR(sample_rate=sample_rate, center_freq=center_freq, gain=gain)
     
-    start_time = timing.utc()
-    julian_date = timing.julian_date()
-    lst = timing.lst()
+    start_time = ugradio.timing.utc()
+    julian_date = ugradio.timing.julian_date()
+    lst = ugradio.timing.lst()
     
     print(f"Capturing data for {duration} seconds...")
     data = []
     for _ in range(duration):
         samples = radio.capture_data(nsamples=1024)
         data.append(samples)
-        time.sleep(1)  # Ensure 1-second intervals
     
     data = np.array(data)
     np.savez(filename, data=data, start_time=start_time, julian_date=julian_date, lst=lst)
