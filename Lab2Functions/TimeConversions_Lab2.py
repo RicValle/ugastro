@@ -2,7 +2,7 @@ import numpy as np
 import ugradio
 import matplotlib.pyplot as plt
 
-# 1. Time Conversions
+# Time Conversions
 
 print("Local Time:", ugradio.timing.local_time())
 print("UTC Time:", ugradio.timing.utc())
