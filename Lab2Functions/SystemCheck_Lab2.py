@@ -10,7 +10,7 @@ print("Unix Time:", ugradio.timing.unix_time())
 print("Julian Date:", ugradio.timing.julian_date())
 print("Local Sidereal Time (LST):", ugradio.timing.lst())
 
-#Check SDR signal levels to ensure they are not clipping or too weak
+# Check SDR signal levels to ensure they are not clipping or too weak
 
 def check_signal_levels():
     
