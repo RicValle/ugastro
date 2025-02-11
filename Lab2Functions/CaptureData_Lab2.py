@@ -1,9 +1,15 @@
 import ugradio
 import numpy as np
 
+# Time Conversions
 
+print("Local Time:", ugradio.timing.local_time())
+print("UTC Time:", ugradio.timing.utc())
+print("Unix Time:", ugradio.timing.unix_time())
+print("Julian Date:", ugradio.timing.julian_date())
+print("Local Sidereal Time (LST):", ugradio.timing.lst())
 
-#Capture raw 21-cm line data
+# Capture raw 21-cm line data
 
 def capture_21cm_data(filename, duration=60, sample_rate=2.048e6, center_freq=1.42e9, gain=20):
   
