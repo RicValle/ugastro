@@ -19,14 +19,14 @@ def capture_21cm_data(filename, duration=60, sample_rate=2.048e6, center_freq=1.
     julian_date = ugradio.timing.julian_date()
     lst = ugradio.timing.lst()
     
-    print(f"Capturing data for {duration} seconds...")
+    save_path = "../Lab2Data/Section6_2/"
     data = []
     for _ in range(duration):
         samples = radio.capture_data(nsamples=1024)
         data.append(samples)
     
     data = np.array(data)
+    filename = f"{save_path}lab2_data.npz"
     np.savez(filename, data=data, start_time=start_time, julian_date=julian_date, lst=lst)
     print(f"Data saved to {filename}")
 
-capture_21cm_data("21cm_data_week1.npz", duration=60)
