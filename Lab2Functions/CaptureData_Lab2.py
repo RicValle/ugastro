@@ -31,4 +31,4 @@ sdrdata.close()
 
 filename = f"{save_path}lab_2_.npz"
 
-np.savez(filename, time_data=time_data, sample_rate = sample_rate, gain = gain , utc = utc, pst = pst, jd = jd, lst = lst)
+np.savez(filename, time_data=time_data, sample_rate = sample_rate, center_freq = center_freq, gain = gain , utc = utc, pst = pst, jd = jd, lst = lst)
