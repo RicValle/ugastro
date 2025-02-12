@@ -21,7 +21,7 @@ pst = ugradio.timing.pst()
 jd = ugradio.timing.julian_date()
 lst = ugradio.timing.lst()
 
-save_path = "../Lab2Data/Section6_2/"
+save_path = "../Lab2Data/Section6_2/6_1_1"
 
 sdrdata = ugradio.sdr.SDR(sample_rate=sample_rate, center_freq=center_freq, gain=gain, direct = False) # 21-cm line frequency, Gain is arbritrary value we need to check and see which value actually works
 
