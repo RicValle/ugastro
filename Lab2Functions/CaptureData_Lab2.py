@@ -10,24 +10,25 @@ print("Julian Date:", ugradio.timing.julian_date())
 print("Local Sidereal Time (LST):", ugradio.timing.lst())
 
 # Capture raw 21-cm line data
-azi_ang = #
-alt_ang = #
+azi_ang = #degrees
+alt_ang = #degrees
+sample_rate = 3.1e6 #Hz
+center_freq = 1.420405e9 #Hz
+gain = 0 # ?
 
-def capture_21cm_data(filename, sample_rate=3.1e6, center_freq=1.42e9, gain=20):
-  
-    radio = ugradio.sdr.SDR(sample_rate=sample_rate, center_freq=center_freq, gain=gain) # 21-cm line frequency, Gain is arbritrary value we need to check and see which value actually works
-    
-    start_time = ugradio.timing.utc()
-    julian_date = ugradio.timing.julian_date()
-    lst = ugradio.timing.lst()
-    
-    save_path = "../Lab2Data/Section6_2/"
-    data = []
-    samples = radio.capture_data(nsamples=1024)
-    data.append(samples)
-    
-    data = np.array(data)
-    filename = f"{save_path}lab2_data.npz"
-    np.savez(filename, data=data, sample_rate = sample_rate, julian_date=julian_date, lst=lst)
-    print(f"Data saved to {filename}")
+utc = ugradio.timing.utc()
+pst = ugradio.timing.pst()
+jd = ugradio.timing.julian_date()
+lst = ugradio.timing.lst()
 
+save_path = "../Lab2Data/Section6_2/"
+
+sdrdata = ugradio.sdr.SDR(sample_rate=sample_rate, center_freq=center_freq, gain=gain, direct = False) # 21-cm line frequency, Gain is arbritrary value we need to check and see which value actually works
+
+time_data = radio.capture_data(nblocks = 51, nsamples=8192)
+
+sdrdata.close()
+
+filename = f"{save_path}lab_2_.npz"
+
+np.savez(filename, time_data=time_data, sample_rate = sample_rate, gain = gain , utc = utc, pst = pst, jd = jd, lst = lst)
