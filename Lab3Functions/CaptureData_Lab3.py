@@ -26,10 +26,10 @@ RA = 180 # degrees
 DEC = 45 # degrees
 OBS_SUN = False # Bool to measure sun instead of specific coords
 
-DATA_FILE = os.path.join(FOLDER, f"{OBS_NAME}_data.npy") #Might change to npz 
+DATA_FILE = os.path.join(FOLDER, f"{OBS_NAME}_data.npz") #Changed to NPZ 
 LOG_FILE = os.path.join(FOLDER, f"{OBS_NAME}_log.json")
 
-# ======= CONFIG ======= #
+# ======= CONFIG ======= 
 def log_message(message):
     """Write log messages to the log file."""
     timestamp = utc()
