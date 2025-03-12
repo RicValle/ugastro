@@ -48,6 +48,7 @@ def point_telescope(target_alt, target_az):
         while not terminate_flag.is_set():
             ifm.point(alt=target_alt, az=target_az, wait=True, verbose=True)
             print(f"Telescope pointed to Alt: {target_alt}, Az: {target_az}")
+            log_message(f"Telescope pointed to Alt: {ifm.get_pointing()[0]}, Az: {ifm.get_pointing()[1]}")
             time.sleep(5)
     except Exception as e:
         print(f"Telescope error: {e}")
@@ -130,7 +131,7 @@ except Exception as e:
 log_message("Saving final dataset...")
 with data_lock:
     if data_buffer:
-        np.save(DATA_FILE, np.array(data_buffer, dtype=object))
+        np.savez(DATA_FILE, np.array(data_buffer, dtype=object))
         log_message("Final data saved successfully.")
 
 log_message("Data collection completed.")
