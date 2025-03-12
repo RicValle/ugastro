@@ -26,12 +26,9 @@ RA = 180 # degrees
 DEC = 45 # degrees
 OBS_SUN = True  # Bool to measure sun instead of specific coords
 
-#with open(os.path.join(FOLDER, f"{OBS_NAME}_data.npz"), 'w') as DATA_FILE:
-    #pass
-#with open(os.path.join(FOLDER, f"{OBS_NAME}_log.json"), 'w') as DATA_LOG:
-    #pass
 DATA_FILE = os.path.join(FOLDER, f"{OBS_NAME}_data.npz")
 LOG_FILE = os.path.join(FOLDER, f"{OBS_NAME}_log.json")
+BACKUP_FILE = os.path.join(FOLDER, f"{OBS_NAME}_backup.npz")
 
 # ======= CONFIG ======= 
 def log_message(message):
@@ -136,6 +133,8 @@ except Exception as e:
     terminate_flag.set()
 finally:
     ifm.stow()
+    np.savez(BACKUP_FILE, data_buffer)
+    log_message(f"Backup file saved successfully.")
 
 log_message("Saving final dataset...")
 with data_lock:
