@@ -48,10 +48,10 @@ def point_telescope(target_ra, target_dec):
         while not terminate_flag.is_set():
             jd = julian_date()
             target_alt, target_az = get_altaz(target_ra, target_dec, jd)
-            ifm.point(alt=target_alt, az=target_az, wait=True, verbose=True)
+            ifm.point(alt=target_alt, az=target_az, wait=True)
             print(f"Telescope pointed to Alt: {target_alt}, Az: {target_az}")
-            log_message(f"Telescope pointed to Alt: {ifm.get_pointing()[0]}, Az: {ifm.get_pointing()[1]}")
-            time.sleep(10)
+            log_message(f"Telescope pointed to Alt: {target_alt}, Az: {target_az}")
+            time.sleep(5)
     except Exception as e:
         print(f"Telescope error: {e}")
 
@@ -80,7 +80,7 @@ def save_data_periodically():
         while not terminate_flag.is_set():
             with data_lock:
                 if data_buffer:
-                    np.save(DATA_FILE, np.array(data_buffer, dtype=object))
+                    np.savez(DATA_FILE, np.array(data_buffer, dtype=object))
                     log_message("Data saved successfully.")
             time.sleep(10)
     except Exception as e:
@@ -131,7 +131,7 @@ except Exception as e:
 log_message("Saving final dataset...")
 with data_lock:
     if data_buffer:
-        np.savez(DATA_FILE, np.array(data_buffer, dtype=object))
+        np.savez(DATA_FILE, data_buffer)
         log_message("Final data saved successfully.")
 
 log_message("Data collection completed.")
