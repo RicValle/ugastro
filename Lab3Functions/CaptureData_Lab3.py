@@ -49,11 +49,15 @@ def point_telescope(target_ra, target_dec):
             jd = julian_date()
             target_alt, target_az = get_altaz(target_ra, target_dec, jd)
             ifm.point(alt=target_alt, az=target_az, wait=True)
-            print(f"Telescope pointed to Alt: {target_alt}, Az: {target_az}")
-            log_message(f"Telescope pointed to Alt: {target_alt}, Az: {target_az}")
+            print(f"Telescope commanded to point to Alt: {target_alt}, Az: {target_az}")
+            log_message(f"Telescope commanded to point to Alt: {target_alt}, Az: {target_az}")
+            actual_alt, actual_az = ifm.get_pointing()
+            print(f"Telescope actually pointing to Alt: {actual_alt}, Az: {actual_az}")
+            log_message(f"Telescope actually pointing to Alt: {actual_alt}, Az: {actual_az}")
             time.sleep(5)
     except Exception as e:
         print(f"Telescope error: {e}")
+        log_message(f"Telescope error: {e}")
 
 # ======= DATA COLLECTION ======= #
 def collect_spectrometer_data(duration):
@@ -70,8 +74,10 @@ def collect_spectrometer_data(duration):
                 log_message(f"Collected spectrometer data. Accumulator count: {prev_cnt}")
             time.sleep(1)
         print("Spectrometer finished collecting.")
+        log_message("Spectrometer finished collecting.")
     except Exception as e:
         print(f"Spectrometer error: {e}")
+        log_message(f"Spectrometer error: {e}")
 
 # ======= DATA SAVING ======= #
 def save_data_periodically():
@@ -84,6 +90,7 @@ def save_data_periodically():
                     log_message("Data saved successfully.")
             time.sleep(10)
     except Exception as e:
+        print(f"Error saving data: {e}")
         log_message(f"Error saving data: {e}")
 
 
