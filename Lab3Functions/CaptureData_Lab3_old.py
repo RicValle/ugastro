@@ -19,18 +19,14 @@ data_buffer = []
 terminate_flag = threading.Event()
 
 # ======= CONFIG ======= #
-FOLDER = ""
+FOLDER = "//Section3//"
 OBS_NAME = "test_observation"
 OBS_TIME = 3600 # seconds
 RA = 180 # degrees
 DEC = 45 # degrees
-OBS_SUN = True  # Bool to measure sun instead of specific coords
+OBS_SUN = False # Bool to measure sun instead of specific coords
 
-#with open(os.path.join(FOLDER, f"{OBS_NAME}_data.npz"), 'w') as DATA_FILE:
-    #pass
-#with open(os.path.join(FOLDER, f"{OBS_NAME}_log.json"), 'w') as DATA_LOG:
-    #pass
-DATA_FILE = os.path.join(FOLDER, f"{OBS_NAME}_data.npz")
+DATA_FILE = os.path.join(FOLDER, f"{OBS_NAME}_data.npz") #Changed to NPZ 
 LOG_FILE = os.path.join(FOLDER, f"{OBS_NAME}_log.json")
 
 # ======= CONFIG ======= 
@@ -105,7 +101,7 @@ telescope_thread = threading.Thread(target=point_telescope, args=(alt, az))
 spectrometer_thread = threading.Thread(target=collect_spectrometer_data, args=(OBS_TIME,))
 save_thread = threading.Thread(target=save_data_periodically)
 
-for t in [telescope_thread, spectrometer_thread, save_thread]:  
+for t in [telescope_thread, spectrometer_thread, save_thread]:
     t.daemon = True
     t.start()
 
@@ -134,5 +130,3 @@ with data_lock:
         log_message("Final data saved successfully.")
 
 log_message("Data collection completed.")
-
-ifm.stow()
