@@ -127,6 +127,8 @@ except KeyboardInterrupt:
 except Exception as e:
     log_message(f"Unexpected error: {e}")
     terminate_flag.set()
+finally:
+    ifm.stow()
 
 log_message("Saving final dataset...")
 with data_lock:
@@ -135,5 +137,3 @@ with data_lock:
         log_message("Final data saved successfully.")
 
 log_message("Data collection completed.")
-
-ifm.stow()
