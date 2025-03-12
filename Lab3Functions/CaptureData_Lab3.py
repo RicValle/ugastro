@@ -80,7 +80,7 @@ def save_data_periodically():
         while not terminate_flag.is_set():
             with data_lock:
                 if data_buffer:
-                    np.savez(DATA_FILE, np.array(data_buffer, dtype=object))
+                    np.savez(DATA_FILE, data_buffer)
                     log_message("Data saved successfully.")
             time.sleep(10)
     except Exception as e:
