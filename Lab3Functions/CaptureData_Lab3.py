@@ -42,14 +42,16 @@ def log_message(message):
         log.write(log_entry)
 
 # ======= TELESCOPE POINTING ======= #
-def point_telescope(target_alt, target_az):
+def point_telescope(target_ra, target_dec):
     """Continuously adjust telescope pointing."""
     try:
         while not terminate_flag.is_set():
+            jd = julian_date()
+            target_alt, target_az = get_altaz(target_ra, target_dec, jd)
             ifm.point(alt=target_alt, az=target_az, wait=True, verbose=True)
             print(f"Telescope pointed to Alt: {target_alt}, Az: {target_az}")
             log_message(f"Telescope pointed to Alt: {ifm.get_pointing()[0]}, Az: {ifm.get_pointing()[1]}")
-            time.sleep(5)
+            time.sleep(10)
     except Exception as e:
         print(f"Telescope error: {e}")
 
@@ -95,14 +97,12 @@ try:
     else:
         ra, dec = precess(RA, DEC, jd)
         log_message(f"Observing RA: {RA}, DEC: {DEC}")
-    alt, az = get_altaz(ra, dec, jd)
-    log_message(f"Computed Alt: {alt:.2f}, Az: {az:.2f}")
 except Exception as e:
     print(f"Input error: {e}")
     exit()
 
 # ======= START THREADS ======= #
-telescope_thread = threading.Thread(target=point_telescope, args=(alt, az))
+telescope_thread = threading.Thread(target=point_telescope, args=(ra, dec))
 spectrometer_thread = threading.Thread(target=collect_spectrometer_data, args=(OBS_TIME,))
 save_thread = threading.Thread(target=save_data_periodically)
 
