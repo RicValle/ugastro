@@ -1,0 +1,2429 @@
+[Wed Mar 12 00:45:25 2025] Initializing observation setup...
+[Wed Mar 12 00:51:06 2025] Initializing observation setup...
+[Wed Mar 12 00:51:06 2025] Observing the Sun
+[Wed Mar 12 00:51:08 2025] Computed Alt: 15.00, Az: 253.51
+[Wed Mar 12 00:51:08 2025] Observation started.
+[Wed Mar 12 00:51:08 2025] Collected spectrometer data. Accumulator count: 345362
+[Wed Mar 12 00:51:09 2025] Collected spectrometer data. Accumulator count: 345363
+[Wed Mar 12 00:51:11 2025] Collected spectrometer data. Accumulator count: 345364
+[Wed Mar 12 00:51:12 2025] Collected spectrometer data. Accumulator count: 345365
+[Wed Mar 12 00:51:13 2025] Collected spectrometer data. Accumulator count: 345366
+[Wed Mar 12 00:51:14 2025] Collected spectrometer data. Accumulator count: 345367
+[Wed Mar 12 00:51:15 2025] Collected spectrometer data. Accumulator count: 345368
+[Wed Mar 12 00:51:16 2025] Collected spectrometer data. Accumulator count: 345369
+[Wed Mar 12 00:51:18 2025] Collected spectrometer data. Accumulator count: 345370
+[Wed Mar 12 00:51:18 2025] Data saved successfully.
+[Wed Mar 12 00:51:19 2025] Collected spectrometer data. Accumulator count: 345371
+[Wed Mar 12 00:51:20 2025] Collected spectrometer data. Accumulator count: 345372
+[Wed Mar 12 00:51:21 2025] Collected spectrometer data. Accumulator count: 345373
+[Wed Mar 12 00:51:23 2025] Collected spectrometer data. Accumulator count: 345374
+[Wed Mar 12 00:51:24 2025] Collected spectrometer data. Accumulator count: 345375
+[Wed Mar 12 00:51:25 2025] Collected spectrometer data. Accumulator count: 345376
+[Wed Mar 12 00:51:26 2025] Collected spectrometer data. Accumulator count: 345377
+[Wed Mar 12 00:51:28 2025] Collected spectrometer data. Accumulator count: 345378
+[Wed Mar 12 00:51:28 2025] Data saved successfully.
+[Wed Mar 12 00:51:29 2025] Collected spectrometer data. Accumulator count: 345379
+[Wed Mar 12 00:51:30 2025] Collected spectrometer data. Accumulator count: 345380
+[Wed Mar 12 00:51:31 2025] Collected spectrometer data. Accumulator count: 345381
+[Wed Mar 12 00:51:33 2025] Collected spectrometer data. Accumulator count: 345382
+[Wed Mar 12 00:51:34 2025] Collected spectrometer data. Accumulator count: 345383
+[Wed Mar 12 00:51:35 2025] Collected spectrometer data. Accumulator count: 345384
+[Wed Mar 12 00:51:36 2025] Collected spectrometer data. Accumulator count: 345385
+[Wed Mar 12 00:51:38 2025] Collected spectrometer data. Accumulator count: 345386
+[Wed Mar 12 00:51:38 2025] Data saved successfully.
+[Wed Mar 12 00:51:39 2025] Collected spectrometer data. Accumulator count: 345387
+[Wed Mar 12 00:51:40 2025] Collected spectrometer data. Accumulator count: 345388
+[Wed Mar 12 00:51:41 2025] Collected spectrometer data. Accumulator count: 345389
+[Wed Mar 12 00:51:43 2025] Collected spectrometer data. Accumulator count: 345390
+[Wed Mar 12 00:51:44 2025] Collected spectrometer data. Accumulator count: 345391
+[Wed Mar 12 00:51:45 2025] Collected spectrometer data. Accumulator count: 345392
+[Wed Mar 12 00:51:46 2025] Collected spectrometer data. Accumulator count: 345393
+[Wed Mar 12 00:51:48 2025] Collected spectrometer data. Accumulator count: 345394
+[Wed Mar 12 00:51:48 2025] Data saved successfully.
+[Wed Mar 12 00:51:49 2025] Collected spectrometer data. Accumulator count: 345395
+[Wed Mar 12 00:51:50 2025] Collected spectrometer data. Accumulator count: 345396
+[Wed Mar 12 00:51:51 2025] Collected spectrometer data. Accumulator count: 345397
+[Wed Mar 12 00:51:53 2025] Collected spectrometer data. Accumulator count: 345398
+[Wed Mar 12 00:51:54 2025] Collected spectrometer data. Accumulator count: 345399
+[Wed Mar 12 00:51:55 2025] Collected spectrometer data. Accumulator count: 345400
+[Wed Mar 12 00:51:56 2025] Collected spectrometer data. Accumulator count: 345401
+[Wed Mar 12 00:51:58 2025] Collected spectrometer data. Accumulator count: 345402
+[Wed Mar 12 00:51:58 2025] Data saved successfully.
+[Wed Mar 12 00:51:59 2025] Collected spectrometer data. Accumulator count: 345403
+[Wed Mar 12 00:52:00 2025] Collected spectrometer data. Accumulator count: 345404
+[Wed Mar 12 00:52:01 2025] Collected spectrometer data. Accumulator count: 345405
+[Wed Mar 12 00:52:03 2025] Collected spectrometer data. Accumulator count: 345406
+[Wed Mar 12 00:52:04 2025] Collected spectrometer data. Accumulator count: 345407
+[Wed Mar 12 00:52:05 2025] Collected spectrometer data. Accumulator count: 345408
+[Wed Mar 12 00:52:06 2025] Collected spectrometer data. Accumulator count: 345409
+[Wed Mar 12 00:52:08 2025] Collected spectrometer data. Accumulator count: 345410
+[Wed Mar 12 00:52:08 2025] Data saved successfully.
+[Wed Mar 12 00:52:09 2025] Collected spectrometer data. Accumulator count: 345411
+[Wed Mar 12 00:52:10 2025] Collected spectrometer data. Accumulator count: 345412
+[Wed Mar 12 00:52:11 2025] Collected spectrometer data. Accumulator count: 345413
+[Wed Mar 12 00:52:13 2025] Collected spectrometer data. Accumulator count: 345414
+[Wed Mar 12 00:52:14 2025] Collected spectrometer data. Accumulator count: 345415
+[Wed Mar 12 00:52:15 2025] Collected spectrometer data. Accumulator count: 345416
+[Wed Mar 12 00:52:16 2025] Collected spectrometer data. Accumulator count: 345417
+[Wed Mar 12 00:52:18 2025] Collected spectrometer data. Accumulator count: 345418
+[Wed Mar 12 00:52:18 2025] Data saved successfully.
+[Wed Mar 12 00:52:19 2025] Collected spectrometer data. Accumulator count: 345419
+[Wed Mar 12 00:52:20 2025] Collected spectrometer data. Accumulator count: 345420
+[Wed Mar 12 00:52:21 2025] Collected spectrometer data. Accumulator count: 345421
+[Wed Mar 12 00:52:23 2025] Collected spectrometer data. Accumulator count: 345422
+[Wed Mar 12 00:52:24 2025] Collected spectrometer data. Accumulator count: 345423
+[Wed Mar 12 00:52:25 2025] Collected spectrometer data. Accumulator count: 345424
+[Wed Mar 12 00:52:26 2025] Collected spectrometer data. Accumulator count: 345425
+[Wed Mar 12 00:52:28 2025] Collected spectrometer data. Accumulator count: 345426
+[Wed Mar 12 00:52:28 2025] Data saved successfully.
+[Wed Mar 12 00:52:29 2025] Collected spectrometer data. Accumulator count: 345427
+[Wed Mar 12 00:52:30 2025] Collected spectrometer data. Accumulator count: 345428
+[Wed Mar 12 00:52:31 2025] Collected spectrometer data. Accumulator count: 345429
+[Wed Mar 12 00:52:33 2025] Collected spectrometer data. Accumulator count: 345430
+[Wed Mar 12 00:52:34 2025] Collected spectrometer data. Accumulator count: 345431
+[Wed Mar 12 00:52:35 2025] Collected spectrometer data. Accumulator count: 345432
+[Wed Mar 12 00:52:36 2025] Collected spectrometer data. Accumulator count: 345433
+[Wed Mar 12 00:52:38 2025] Collected spectrometer data. Accumulator count: 345434
+[Wed Mar 12 00:52:38 2025] Data saved successfully.
+[Wed Mar 12 00:52:39 2025] Collected spectrometer data. Accumulator count: 345435
+[Wed Mar 12 00:52:40 2025] Collected spectrometer data. Accumulator count: 345436
+[Wed Mar 12 00:52:41 2025] Collected spectrometer data. Accumulator count: 345437
+[Wed Mar 12 00:52:43 2025] Collected spectrometer data. Accumulator count: 345438
+[Wed Mar 12 00:52:44 2025] Collected spectrometer data. Accumulator count: 345439
+[Wed Mar 12 00:52:45 2025] Collected spectrometer data. Accumulator count: 345440
+[Wed Mar 12 00:52:46 2025] Collected spectrometer data. Accumulator count: 345441
+[Wed Mar 12 00:52:48 2025] Collected spectrometer data. Accumulator count: 345442
+[Wed Mar 12 00:52:48 2025] Data saved successfully.
+[Wed Mar 12 00:52:49 2025] Collected spectrometer data. Accumulator count: 345443
+[Wed Mar 12 00:52:50 2025] Collected spectrometer data. Accumulator count: 345444
+[Wed Mar 12 00:52:51 2025] Collected spectrometer data. Accumulator count: 345445
+[Wed Mar 12 00:52:53 2025] Collected spectrometer data. Accumulator count: 345446
+[Wed Mar 12 00:52:54 2025] Collected spectrometer data. Accumulator count: 345447
+[Wed Mar 12 00:52:55 2025] Collected spectrometer data. Accumulator count: 345448
+[Wed Mar 12 00:52:56 2025] Collected spectrometer data. Accumulator count: 345449
+[Wed Mar 12 00:52:58 2025] Collected spectrometer data. Accumulator count: 345450
+[Wed Mar 12 00:52:58 2025] Data saved successfully.
+[Wed Mar 12 00:52:59 2025] Collected spectrometer data. Accumulator count: 345451
+[Wed Mar 12 00:53:00 2025] Collected spectrometer data. Accumulator count: 345452
+[Wed Mar 12 00:53:01 2025] Collected spectrometer data. Accumulator count: 345453
+[Wed Mar 12 00:53:03 2025] Collected spectrometer data. Accumulator count: 345454
+[Wed Mar 12 00:53:04 2025] Collected spectrometer data. Accumulator count: 345455
+[Wed Mar 12 00:53:05 2025] Collected spectrometer data. Accumulator count: 345456
+[Wed Mar 12 00:53:06 2025] Collected spectrometer data. Accumulator count: 345457
+[Wed Mar 12 00:53:08 2025] Collected spectrometer data. Accumulator count: 345458
+[Wed Mar 12 00:53:08 2025] Data saved successfully.
+[Wed Mar 12 00:53:09 2025] Collected spectrometer data. Accumulator count: 345459
+[Wed Mar 12 00:53:10 2025] Collected spectrometer data. Accumulator count: 345460
+[Wed Mar 12 00:53:11 2025] Collected spectrometer data. Accumulator count: 345461
+[Wed Mar 12 00:53:13 2025] Collected spectrometer data. Accumulator count: 345462
+[Wed Mar 12 00:53:14 2025] Collected spectrometer data. Accumulator count: 345463
+[Wed Mar 12 00:53:15 2025] Collected spectrometer data. Accumulator count: 345464
+[Wed Mar 12 00:53:16 2025] Collected spectrometer data. Accumulator count: 345465
+[Wed Mar 12 00:53:18 2025] Collected spectrometer data. Accumulator count: 345466
+[Wed Mar 12 00:53:18 2025] Data saved successfully.
+[Wed Mar 12 00:53:19 2025] Collected spectrometer data. Accumulator count: 345467
+[Wed Mar 12 00:53:20 2025] Collected spectrometer data. Accumulator count: 345468
+[Wed Mar 12 00:53:21 2025] Collected spectrometer data. Accumulator count: 345469
+[Wed Mar 12 00:53:23 2025] Collected spectrometer data. Accumulator count: 345470
+[Wed Mar 12 00:53:24 2025] Collected spectrometer data. Accumulator count: 345471
+[Wed Mar 12 00:53:25 2025] Collected spectrometer data. Accumulator count: 345472
+[Wed Mar 12 00:53:26 2025] Collected spectrometer data. Accumulator count: 345473
+[Wed Mar 12 00:53:28 2025] Collected spectrometer data. Accumulator count: 345474
+[Wed Mar 12 00:53:28 2025] Data saved successfully.
+[Wed Mar 12 00:53:29 2025] Collected spectrometer data. Accumulator count: 345475
+[Wed Mar 12 00:53:30 2025] Collected spectrometer data. Accumulator count: 345476
+[Wed Mar 12 00:53:31 2025] Collected spectrometer data. Accumulator count: 345477
+[Wed Mar 12 00:53:33 2025] Collected spectrometer data. Accumulator count: 345478
+[Wed Mar 12 00:53:34 2025] Collected spectrometer data. Accumulator count: 345479
+[Wed Mar 12 00:53:35 2025] Collected spectrometer data. Accumulator count: 345480
+[Wed Mar 12 00:53:36 2025] Collected spectrometer data. Accumulator count: 345481
+[Wed Mar 12 00:53:38 2025] Collected spectrometer data. Accumulator count: 345482
+[Wed Mar 12 00:53:38 2025] Data saved successfully.
+[Wed Mar 12 00:53:39 2025] Collected spectrometer data. Accumulator count: 345483
+[Wed Mar 12 00:53:40 2025] Collected spectrometer data. Accumulator count: 345484
+[Wed Mar 12 00:53:41 2025] Collected spectrometer data. Accumulator count: 345485
+[Wed Mar 12 00:53:43 2025] Collected spectrometer data. Accumulator count: 345486
+[Wed Mar 12 00:53:44 2025] Collected spectrometer data. Accumulator count: 345487
+[Wed Mar 12 00:53:45 2025] Collected spectrometer data. Accumulator count: 345488
+[Wed Mar 12 00:53:46 2025] Collected spectrometer data. Accumulator count: 345489
+[Wed Mar 12 00:53:48 2025] Collected spectrometer data. Accumulator count: 345490
+[Wed Mar 12 00:53:49 2025] Data saved successfully.
+[Wed Mar 12 00:53:49 2025] Collected spectrometer data. Accumulator count: 345491
+[Wed Mar 12 00:53:50 2025] Collected spectrometer data. Accumulator count: 345492
+[Wed Mar 12 00:53:51 2025] Collected spectrometer data. Accumulator count: 345493
+[Wed Mar 12 00:53:53 2025] Collected spectrometer data. Accumulator count: 345494
+[Wed Mar 12 00:53:54 2025] Collected spectrometer data. Accumulator count: 345495
+[Wed Mar 12 00:53:55 2025] Collected spectrometer data. Accumulator count: 345496
+[Wed Mar 12 00:53:56 2025] Collected spectrometer data. Accumulator count: 345497
+[Wed Mar 12 00:53:58 2025] Collected spectrometer data. Accumulator count: 345498
+[Wed Mar 12 00:53:59 2025] Data saved successfully.
+[Wed Mar 12 00:53:59 2025] Collected spectrometer data. Accumulator count: 345499
+[Wed Mar 12 00:54:00 2025] Collected spectrometer data. Accumulator count: 345500
+[Wed Mar 12 00:54:01 2025] Collected spectrometer data. Accumulator count: 345501
+[Wed Mar 12 00:54:03 2025] Collected spectrometer data. Accumulator count: 345502
+[Wed Mar 12 00:54:04 2025] Collected spectrometer data. Accumulator count: 345503
+[Wed Mar 12 00:54:05 2025] Collected spectrometer data. Accumulator count: 345504
+[Wed Mar 12 00:54:06 2025] Collected spectrometer data. Accumulator count: 345505
+[Wed Mar 12 00:54:08 2025] Collected spectrometer data. Accumulator count: 345506
+[Wed Mar 12 00:54:09 2025] Data saved successfully.
+[Wed Mar 12 00:54:09 2025] Collected spectrometer data. Accumulator count: 345507
+[Wed Mar 12 00:54:10 2025] Collected spectrometer data. Accumulator count: 345508
+[Wed Mar 12 00:54:11 2025] Collected spectrometer data. Accumulator count: 345509
+[Wed Mar 12 00:54:13 2025] Collected spectrometer data. Accumulator count: 345510
+[Wed Mar 12 00:54:14 2025] Collected spectrometer data. Accumulator count: 345511
+[Wed Mar 12 00:54:15 2025] Collected spectrometer data. Accumulator count: 345512
+[Wed Mar 12 00:54:16 2025] Collected spectrometer data. Accumulator count: 345513
+[Wed Mar 12 00:54:18 2025] Collected spectrometer data. Accumulator count: 345514
+[Wed Mar 12 00:54:19 2025] Data saved successfully.
+[Wed Mar 12 00:54:19 2025] Collected spectrometer data. Accumulator count: 345515
+[Wed Mar 12 00:54:20 2025] Collected spectrometer data. Accumulator count: 345516
+[Wed Mar 12 00:54:21 2025] Collected spectrometer data. Accumulator count: 345517
+[Wed Mar 12 00:54:23 2025] Collected spectrometer data. Accumulator count: 345518
+[Wed Mar 12 00:54:24 2025] Collected spectrometer data. Accumulator count: 345519
+[Wed Mar 12 00:54:25 2025] Collected spectrometer data. Accumulator count: 345520
+[Wed Mar 12 00:54:26 2025] Collected spectrometer data. Accumulator count: 345521
+[Wed Mar 12 00:54:28 2025] Collected spectrometer data. Accumulator count: 345522
+[Wed Mar 12 00:54:29 2025] Collected spectrometer data. Accumulator count: 345523
+[Wed Mar 12 00:54:29 2025] Data saved successfully.
+[Wed Mar 12 00:54:30 2025] Collected spectrometer data. Accumulator count: 345524
+[Wed Mar 12 00:54:31 2025] Collected spectrometer data. Accumulator count: 345525
+[Wed Mar 12 00:54:33 2025] Collected spectrometer data. Accumulator count: 345526
+[Wed Mar 12 00:54:34 2025] Collected spectrometer data. Accumulator count: 345527
+[Wed Mar 12 00:54:35 2025] Collected spectrometer data. Accumulator count: 345528
+[Wed Mar 12 00:54:36 2025] Collected spectrometer data. Accumulator count: 345529
+[Wed Mar 12 00:54:38 2025] Collected spectrometer data. Accumulator count: 345530
+[Wed Mar 12 00:54:39 2025] Collected spectrometer data. Accumulator count: 345531
+[Wed Mar 12 00:54:39 2025] Data saved successfully.
+[Wed Mar 12 00:54:40 2025] Collected spectrometer data. Accumulator count: 345532
+[Wed Mar 12 00:54:41 2025] Collected spectrometer data. Accumulator count: 345533
+[Wed Mar 12 00:54:43 2025] Collected spectrometer data. Accumulator count: 345534
+[Wed Mar 12 00:54:44 2025] Collected spectrometer data. Accumulator count: 345535
+[Wed Mar 12 00:54:45 2025] Collected spectrometer data. Accumulator count: 345536
+[Wed Mar 12 00:54:46 2025] Collected spectrometer data. Accumulator count: 345537
+[Wed Mar 12 00:54:48 2025] Collected spectrometer data. Accumulator count: 345538
+[Wed Mar 12 00:54:49 2025] Collected spectrometer data. Accumulator count: 345539
+[Wed Mar 12 00:54:49 2025] Data saved successfully.
+[Wed Mar 12 00:54:50 2025] Collected spectrometer data. Accumulator count: 345540
+[Wed Mar 12 00:54:51 2025] Collected spectrometer data. Accumulator count: 345541
+[Wed Mar 12 00:54:53 2025] Collected spectrometer data. Accumulator count: 345542
+[Wed Mar 12 00:54:54 2025] Collected spectrometer data. Accumulator count: 345543
+[Wed Mar 12 00:54:55 2025] Collected spectrometer data. Accumulator count: 345544
+[Wed Mar 12 00:54:56 2025] Collected spectrometer data. Accumulator count: 345545
+[Wed Mar 12 00:54:58 2025] Collected spectrometer data. Accumulator count: 345546
+[Wed Mar 12 00:54:59 2025] Collected spectrometer data. Accumulator count: 345547
+[Wed Mar 12 00:54:59 2025] Data saved successfully.
+[Wed Mar 12 00:55:00 2025] Collected spectrometer data. Accumulator count: 345548
+[Wed Mar 12 00:55:01 2025] Collected spectrometer data. Accumulator count: 345549
+[Wed Mar 12 00:55:03 2025] Collected spectrometer data. Accumulator count: 345550
+[Wed Mar 12 00:55:04 2025] Collected spectrometer data. Accumulator count: 345551
+[Wed Mar 12 00:55:05 2025] Collected spectrometer data. Accumulator count: 345552
+[Wed Mar 12 00:55:06 2025] Collected spectrometer data. Accumulator count: 345553
+[Wed Mar 12 00:55:08 2025] Collected spectrometer data. Accumulator count: 345554
+[Wed Mar 12 00:55:09 2025] Collected spectrometer data. Accumulator count: 345555
+[Wed Mar 12 00:55:09 2025] Data saved successfully.
+[Wed Mar 12 00:55:10 2025] Collected spectrometer data. Accumulator count: 345556
+[Wed Mar 12 00:55:11 2025] Collected spectrometer data. Accumulator count: 345557
+[Wed Mar 12 00:55:13 2025] Collected spectrometer data. Accumulator count: 345558
+[Wed Mar 12 00:55:14 2025] Collected spectrometer data. Accumulator count: 345559
+[Wed Mar 12 00:55:15 2025] Collected spectrometer data. Accumulator count: 345560
+[Wed Mar 12 00:55:16 2025] Collected spectrometer data. Accumulator count: 345561
+[Wed Mar 12 00:55:18 2025] Collected spectrometer data. Accumulator count: 345562
+[Wed Mar 12 00:55:19 2025] Collected spectrometer data. Accumulator count: 345563
+[Wed Mar 12 00:55:20 2025] Data saved successfully.
+[Wed Mar 12 00:55:20 2025] Collected spectrometer data. Accumulator count: 345564
+[Wed Mar 12 00:55:21 2025] Collected spectrometer data. Accumulator count: 345565
+[Wed Mar 12 00:55:23 2025] Collected spectrometer data. Accumulator count: 345566
+[Wed Mar 12 00:55:24 2025] Collected spectrometer data. Accumulator count: 345567
+[Wed Mar 12 00:55:25 2025] Collected spectrometer data. Accumulator count: 345568
+[Wed Mar 12 00:55:26 2025] Collected spectrometer data. Accumulator count: 345569
+[Wed Mar 12 00:55:28 2025] Collected spectrometer data. Accumulator count: 345570
+[Wed Mar 12 00:55:29 2025] Collected spectrometer data. Accumulator count: 345571
+[Wed Mar 12 00:55:30 2025] Data saved successfully.
+[Wed Mar 12 00:55:30 2025] Collected spectrometer data. Accumulator count: 345572
+[Wed Mar 12 00:55:31 2025] Collected spectrometer data. Accumulator count: 345573
+[Wed Mar 12 00:55:33 2025] Collected spectrometer data. Accumulator count: 345574
+[Wed Mar 12 00:55:34 2025] Collected spectrometer data. Accumulator count: 345575
+[Wed Mar 12 00:55:35 2025] Collected spectrometer data. Accumulator count: 345576
+[Wed Mar 12 00:55:36 2025] Collected spectrometer data. Accumulator count: 345577
+[Wed Mar 12 00:55:38 2025] Collected spectrometer data. Accumulator count: 345578
+[Wed Mar 12 00:55:39 2025] Collected spectrometer data. Accumulator count: 345579
+[Wed Mar 12 00:55:40 2025] Data saved successfully.
+[Wed Mar 12 00:55:40 2025] Collected spectrometer data. Accumulator count: 345580
+[Wed Mar 12 00:55:41 2025] Collected spectrometer data. Accumulator count: 345581
+[Wed Mar 12 00:55:43 2025] Collected spectrometer data. Accumulator count: 345582
+[Wed Mar 12 00:55:44 2025] Collected spectrometer data. Accumulator count: 345583
+[Wed Mar 12 00:55:45 2025] Collected spectrometer data. Accumulator count: 345584
+[Wed Mar 12 00:55:46 2025] Collected spectrometer data. Accumulator count: 345585
+[Wed Mar 12 00:55:48 2025] Collected spectrometer data. Accumulator count: 345586
+[Wed Mar 12 00:55:49 2025] Collected spectrometer data. Accumulator count: 345587
+[Wed Mar 12 00:55:50 2025] Collected spectrometer data. Accumulator count: 345588
+[Wed Mar 12 00:55:51 2025] Data saved successfully.
+[Wed Mar 12 00:55:51 2025] Collected spectrometer data. Accumulator count: 345589
+[Wed Mar 12 00:55:53 2025] Collected spectrometer data. Accumulator count: 345590
+[Wed Mar 12 00:55:54 2025] Collected spectrometer data. Accumulator count: 345591
+[Wed Mar 12 00:55:55 2025] Collected spectrometer data. Accumulator count: 345592
+[Wed Mar 12 00:55:56 2025] Collected spectrometer data. Accumulator count: 345593
+[Wed Mar 12 00:55:58 2025] Collected spectrometer data. Accumulator count: 345594
+[Wed Mar 12 00:55:59 2025] Collected spectrometer data. Accumulator count: 345595
+[Wed Mar 12 00:56:00 2025] Collected spectrometer data. Accumulator count: 345596
+[Wed Mar 12 00:56:01 2025] Data saved successfully.
+[Wed Mar 12 00:56:01 2025] Collected spectrometer data. Accumulator count: 345597
+[Wed Mar 12 00:56:03 2025] Collected spectrometer data. Accumulator count: 345598
+[Wed Mar 12 00:56:04 2025] Collected spectrometer data. Accumulator count: 345599
+[Wed Mar 12 00:56:05 2025] Collected spectrometer data. Accumulator count: 345600
+[Wed Mar 12 00:56:06 2025] Collected spectrometer data. Accumulator count: 345601
+[Wed Mar 12 00:56:08 2025] Collected spectrometer data. Accumulator count: 345602
+[Wed Mar 12 00:56:09 2025] Collected spectrometer data. Accumulator count: 345603
+[Wed Mar 12 00:56:10 2025] Collected spectrometer data. Accumulator count: 345604
+[Wed Mar 12 00:56:11 2025] Data saved successfully.
+[Wed Mar 12 00:56:11 2025] Collected spectrometer data. Accumulator count: 345605
+[Wed Mar 12 00:56:13 2025] Collected spectrometer data. Accumulator count: 345606
+[Wed Mar 12 00:56:14 2025] Collected spectrometer data. Accumulator count: 345607
+[Wed Mar 12 00:56:15 2025] Collected spectrometer data. Accumulator count: 345608
+[Wed Mar 12 00:56:16 2025] Collected spectrometer data. Accumulator count: 345609
+[Wed Mar 12 00:56:18 2025] Collected spectrometer data. Accumulator count: 345610
+[Wed Mar 12 00:56:19 2025] Collected spectrometer data. Accumulator count: 345611
+[Wed Mar 12 00:56:20 2025] Collected spectrometer data. Accumulator count: 345612
+[Wed Mar 12 00:56:21 2025] Data saved successfully.
+[Wed Mar 12 00:56:21 2025] Collected spectrometer data. Accumulator count: 345613
+[Wed Mar 12 00:56:23 2025] Collected spectrometer data. Accumulator count: 345614
+[Wed Mar 12 00:56:24 2025] Collected spectrometer data. Accumulator count: 345615
+[Wed Mar 12 00:56:25 2025] Collected spectrometer data. Accumulator count: 345616
+[Wed Mar 12 00:56:26 2025] Collected spectrometer data. Accumulator count: 345617
+[Wed Mar 12 00:56:28 2025] Collected spectrometer data. Accumulator count: 345618
+[Wed Mar 12 00:56:29 2025] Collected spectrometer data. Accumulator count: 345619
+[Wed Mar 12 00:56:30 2025] Collected spectrometer data. Accumulator count: 345620
+[Wed Mar 12 00:56:31 2025] Collected spectrometer data. Accumulator count: 345621
+[Wed Mar 12 00:56:32 2025] Data saved successfully.
+[Wed Mar 12 00:56:33 2025] Collected spectrometer data. Accumulator count: 345622
+[Wed Mar 12 00:56:34 2025] Collected spectrometer data. Accumulator count: 345623
+[Wed Mar 12 00:56:35 2025] Collected spectrometer data. Accumulator count: 345624
+[Wed Mar 12 00:56:36 2025] Collected spectrometer data. Accumulator count: 345625
+[Wed Mar 12 00:56:38 2025] Collected spectrometer data. Accumulator count: 345626
+[Wed Mar 12 00:56:39 2025] Collected spectrometer data. Accumulator count: 345627
+[Wed Mar 12 00:56:40 2025] Collected spectrometer data. Accumulator count: 345628
+[Wed Mar 12 00:56:41 2025] Collected spectrometer data. Accumulator count: 345629
+[Wed Mar 12 00:56:42 2025] Data saved successfully.
+[Wed Mar 12 00:56:43 2025] Collected spectrometer data. Accumulator count: 345630
+[Wed Mar 12 00:56:44 2025] Collected spectrometer data. Accumulator count: 345631
+[Wed Mar 12 00:56:45 2025] Collected spectrometer data. Accumulator count: 345632
+[Wed Mar 12 00:56:46 2025] Collected spectrometer data. Accumulator count: 345633
+[Wed Mar 12 00:56:48 2025] Collected spectrometer data. Accumulator count: 345634
+[Wed Mar 12 00:56:49 2025] Collected spectrometer data. Accumulator count: 345635
+[Wed Mar 12 00:56:50 2025] Collected spectrometer data. Accumulator count: 345636
+[Wed Mar 12 00:56:51 2025] Collected spectrometer data. Accumulator count: 345637
+[Wed Mar 12 00:56:53 2025] Data saved successfully.
+[Wed Mar 12 00:56:53 2025] Collected spectrometer data. Accumulator count: 345638
+[Wed Mar 12 00:56:54 2025] Collected spectrometer data. Accumulator count: 345639
+[Wed Mar 12 00:56:55 2025] Collected spectrometer data. Accumulator count: 345640
+[Wed Mar 12 00:56:56 2025] Collected spectrometer data. Accumulator count: 345641
+[Wed Mar 12 00:56:58 2025] Collected spectrometer data. Accumulator count: 345642
+[Wed Mar 12 00:56:59 2025] Collected spectrometer data. Accumulator count: 345643
+[Wed Mar 12 00:57:00 2025] Collected spectrometer data. Accumulator count: 345644
+[Wed Mar 12 00:57:01 2025] Collected spectrometer data. Accumulator count: 345645
+[Wed Mar 12 00:57:03 2025] Data saved successfully.
+[Wed Mar 12 00:57:03 2025] Collected spectrometer data. Accumulator count: 345646
+[Wed Mar 12 00:57:04 2025] Collected spectrometer data. Accumulator count: 345647
+[Wed Mar 12 00:57:05 2025] Collected spectrometer data. Accumulator count: 345648
+[Wed Mar 12 00:57:06 2025] Collected spectrometer data. Accumulator count: 345649
+[Wed Mar 12 00:57:08 2025] Collected spectrometer data. Accumulator count: 345650
+[Wed Mar 12 00:57:09 2025] Collected spectrometer data. Accumulator count: 345651
+[Wed Mar 12 00:57:10 2025] Collected spectrometer data. Accumulator count: 345652
+[Wed Mar 12 00:57:11 2025] Collected spectrometer data. Accumulator count: 345653
+[Wed Mar 12 00:57:13 2025] Collected spectrometer data. Accumulator count: 345654
+[Wed Mar 12 00:57:13 2025] Data saved successfully.
+[Wed Mar 12 00:57:14 2025] Collected spectrometer data. Accumulator count: 345655
+[Wed Mar 12 00:57:15 2025] Collected spectrometer data. Accumulator count: 345656
+[Wed Mar 12 00:57:16 2025] Collected spectrometer data. Accumulator count: 345657
+[Wed Mar 12 00:57:18 2025] Collected spectrometer data. Accumulator count: 345658
+[Wed Mar 12 00:57:19 2025] Collected spectrometer data. Accumulator count: 345659
+[Wed Mar 12 00:57:20 2025] Collected spectrometer data. Accumulator count: 345660
+[Wed Mar 12 00:57:21 2025] Collected spectrometer data. Accumulator count: 345661
+[Wed Mar 12 00:57:23 2025] Collected spectrometer data. Accumulator count: 345662
+[Wed Mar 12 00:57:23 2025] Data saved successfully.
+[Wed Mar 12 00:57:24 2025] Collected spectrometer data. Accumulator count: 345663
+[Wed Mar 12 00:57:25 2025] Collected spectrometer data. Accumulator count: 345664
+[Wed Mar 12 00:57:26 2025] Collected spectrometer data. Accumulator count: 345665
+[Wed Mar 12 00:57:28 2025] Collected spectrometer data. Accumulator count: 345666
+[Wed Mar 12 00:57:29 2025] Collected spectrometer data. Accumulator count: 345667
+[Wed Mar 12 00:57:30 2025] Collected spectrometer data. Accumulator count: 345668
+[Wed Mar 12 00:57:31 2025] Collected spectrometer data. Accumulator count: 345669
+[Wed Mar 12 00:57:33 2025] Collected spectrometer data. Accumulator count: 345670
+[Wed Mar 12 00:57:34 2025] Data saved successfully.
+[Wed Mar 12 00:57:34 2025] Collected spectrometer data. Accumulator count: 345671
+[Wed Mar 12 00:57:35 2025] Collected spectrometer data. Accumulator count: 345672
+[Wed Mar 12 00:57:36 2025] Collected spectrometer data. Accumulator count: 345673
+[Wed Mar 12 00:57:38 2025] Collected spectrometer data. Accumulator count: 345674
+[Wed Mar 12 00:57:39 2025] Collected spectrometer data. Accumulator count: 345675
+[Wed Mar 12 00:57:40 2025] Collected spectrometer data. Accumulator count: 345676
+[Wed Mar 12 00:57:41 2025] Collected spectrometer data. Accumulator count: 345677
+[Wed Mar 12 00:57:43 2025] Collected spectrometer data. Accumulator count: 345678
+[Wed Mar 12 00:57:44 2025] Data saved successfully.
+[Wed Mar 12 00:57:44 2025] Collected spectrometer data. Accumulator count: 345679
+[Wed Mar 12 00:57:45 2025] Collected spectrometer data. Accumulator count: 345680
+[Wed Mar 12 00:57:46 2025] Collected spectrometer data. Accumulator count: 345681
+[Wed Mar 12 00:57:48 2025] Collected spectrometer data. Accumulator count: 345682
+[Wed Mar 12 00:57:49 2025] Collected spectrometer data. Accumulator count: 345683
+[Wed Mar 12 00:57:50 2025] Collected spectrometer data. Accumulator count: 345684
+[Wed Mar 12 00:57:51 2025] Collected spectrometer data. Accumulator count: 345685
+[Wed Mar 12 00:57:53 2025] Collected spectrometer data. Accumulator count: 345686
+[Wed Mar 12 00:57:54 2025] Collected spectrometer data. Accumulator count: 345687
+[Wed Mar 12 00:57:54 2025] Data saved successfully.
+[Wed Mar 12 00:57:55 2025] Collected spectrometer data. Accumulator count: 345688
+[Wed Mar 12 00:57:56 2025] Collected spectrometer data. Accumulator count: 345689
+[Wed Mar 12 00:57:58 2025] Collected spectrometer data. Accumulator count: 345690
+[Wed Mar 12 00:57:59 2025] Collected spectrometer data. Accumulator count: 345691
+[Wed Mar 12 00:58:00 2025] Collected spectrometer data. Accumulator count: 345692
+[Wed Mar 12 00:58:01 2025] Collected spectrometer data. Accumulator count: 345693
+[Wed Mar 12 00:58:03 2025] Collected spectrometer data. Accumulator count: 345694
+[Wed Mar 12 00:58:04 2025] Collected spectrometer data. Accumulator count: 345695
+[Wed Mar 12 00:58:05 2025] Data saved successfully.
+[Wed Mar 12 00:58:05 2025] Collected spectrometer data. Accumulator count: 345696
+[Wed Mar 12 00:58:06 2025] Collected spectrometer data. Accumulator count: 345697
+[Wed Mar 12 00:58:08 2025] Collected spectrometer data. Accumulator count: 345698
+[Wed Mar 12 00:58:09 2025] Collected spectrometer data. Accumulator count: 345699
+[Wed Mar 12 00:58:10 2025] Collected spectrometer data. Accumulator count: 345700
+[Wed Mar 12 00:58:11 2025] Collected spectrometer data. Accumulator count: 345701
+[Wed Mar 12 00:58:13 2025] Collected spectrometer data. Accumulator count: 345702
+[Wed Mar 12 00:58:14 2025] Collected spectrometer data. Accumulator count: 345703
+[Wed Mar 12 00:58:15 2025] Data saved successfully.
+[Wed Mar 12 00:58:15 2025] Collected spectrometer data. Accumulator count: 345704
+[Wed Mar 12 00:58:17 2025] Collected spectrometer data. Accumulator count: 345705
+[Wed Mar 12 00:58:18 2025] Collected spectrometer data. Accumulator count: 345706
+[Wed Mar 12 00:58:19 2025] Collected spectrometer data. Accumulator count: 345707
+[Wed Mar 12 00:58:20 2025] Collected spectrometer data. Accumulator count: 345708
+[Wed Mar 12 00:58:21 2025] Collected spectrometer data. Accumulator count: 345709
+[Wed Mar 12 00:58:23 2025] Collected spectrometer data. Accumulator count: 345710
+[Wed Mar 12 00:58:24 2025] Collected spectrometer data. Accumulator count: 345711
+[Wed Mar 12 00:58:25 2025] Collected spectrometer data. Accumulator count: 345712
+[Wed Mar 12 00:58:26 2025] Data saved successfully.
+[Wed Mar 12 00:58:26 2025] Collected spectrometer data. Accumulator count: 345713
+[Wed Mar 12 00:58:28 2025] Collected spectrometer data. Accumulator count: 345714
+[Wed Mar 12 00:58:29 2025] Collected spectrometer data. Accumulator count: 345715
+[Wed Mar 12 00:58:30 2025] Collected spectrometer data. Accumulator count: 345716
+[Wed Mar 12 00:58:31 2025] Collected spectrometer data. Accumulator count: 345717
+[Wed Mar 12 00:58:33 2025] Collected spectrometer data. Accumulator count: 345718
+[Wed Mar 12 00:58:34 2025] Collected spectrometer data. Accumulator count: 345719
+[Wed Mar 12 00:58:35 2025] Collected spectrometer data. Accumulator count: 345720
+[Wed Mar 12 00:58:36 2025] Data saved successfully.
+[Wed Mar 12 00:58:36 2025] Collected spectrometer data. Accumulator count: 345721
+[Wed Mar 12 00:58:38 2025] Collected spectrometer data. Accumulator count: 345722
+[Wed Mar 12 00:58:39 2025] Collected spectrometer data. Accumulator count: 345723
+[Wed Mar 12 00:58:40 2025] Collected spectrometer data. Accumulator count: 345724
+[Wed Mar 12 00:58:41 2025] Collected spectrometer data. Accumulator count: 345725
+[Wed Mar 12 00:58:43 2025] Collected spectrometer data. Accumulator count: 345726
+[Wed Mar 12 00:58:44 2025] Collected spectrometer data. Accumulator count: 345727
+[Wed Mar 12 00:58:45 2025] Collected spectrometer data. Accumulator count: 345728
+[Wed Mar 12 00:58:46 2025] Data saved successfully.
+[Wed Mar 12 00:58:46 2025] Collected spectrometer data. Accumulator count: 345729
+[Wed Mar 12 00:58:48 2025] Collected spectrometer data. Accumulator count: 345730
+[Wed Mar 12 00:58:49 2025] Collected spectrometer data. Accumulator count: 345731
+[Wed Mar 12 00:58:50 2025] Collected spectrometer data. Accumulator count: 345732
+[Wed Mar 12 00:58:51 2025] Collected spectrometer data. Accumulator count: 345733
+[Wed Mar 12 00:58:53 2025] Collected spectrometer data. Accumulator count: 345734
+[Wed Mar 12 00:58:54 2025] Collected spectrometer data. Accumulator count: 345735
+[Wed Mar 12 00:58:55 2025] Collected spectrometer data. Accumulator count: 345736
+[Wed Mar 12 00:58:56 2025] Data saved successfully.
+[Wed Mar 12 00:58:56 2025] Collected spectrometer data. Accumulator count: 345737
+[Wed Mar 12 00:58:58 2025] Collected spectrometer data. Accumulator count: 345738
+[Wed Mar 12 00:58:59 2025] Collected spectrometer data. Accumulator count: 345739
+[Wed Mar 12 00:59:00 2025] Collected spectrometer data. Accumulator count: 345740
+[Wed Mar 12 00:59:01 2025] Collected spectrometer data. Accumulator count: 345741
+[Wed Mar 12 00:59:03 2025] Collected spectrometer data. Accumulator count: 345742
+[Wed Mar 12 00:59:04 2025] Collected spectrometer data. Accumulator count: 345743
+[Wed Mar 12 00:59:05 2025] Collected spectrometer data. Accumulator count: 345744
+[Wed Mar 12 00:59:07 2025] Data saved successfully.
+[Wed Mar 12 00:59:07 2025] Collected spectrometer data. Accumulator count: 345745
+[Wed Mar 12 00:59:08 2025] Collected spectrometer data. Accumulator count: 345746
+[Wed Mar 12 00:59:09 2025] Collected spectrometer data. Accumulator count: 345747
+[Wed Mar 12 00:59:10 2025] Collected spectrometer data. Accumulator count: 345748
+[Wed Mar 12 00:59:11 2025] Collected spectrometer data. Accumulator count: 345749
+[Wed Mar 12 00:59:13 2025] Collected spectrometer data. Accumulator count: 345750
+[Wed Mar 12 00:59:14 2025] Collected spectrometer data. Accumulator count: 345751
+[Wed Mar 12 00:59:15 2025] Collected spectrometer data. Accumulator count: 345752
+[Wed Mar 12 00:59:16 2025] Collected spectrometer data. Accumulator count: 345753
+[Wed Mar 12 00:59:17 2025] Data saved successfully.
+[Wed Mar 12 00:59:18 2025] Collected spectrometer data. Accumulator count: 345754
+[Wed Mar 12 00:59:19 2025] Collected spectrometer data. Accumulator count: 345755
+[Wed Mar 12 00:59:20 2025] Collected spectrometer data. Accumulator count: 345756
+[Wed Mar 12 00:59:21 2025] Collected spectrometer data. Accumulator count: 345757
+[Wed Mar 12 00:59:23 2025] Collected spectrometer data. Accumulator count: 345758
+[Wed Mar 12 00:59:24 2025] Collected spectrometer data. Accumulator count: 345759
+[Wed Mar 12 00:59:25 2025] Collected spectrometer data. Accumulator count: 345760
+[Wed Mar 12 00:59:26 2025] Collected spectrometer data. Accumulator count: 345761
+[Wed Mar 12 00:59:27 2025] Data saved successfully.
+[Wed Mar 12 00:59:28 2025] Collected spectrometer data. Accumulator count: 345762
+[Wed Mar 12 00:59:29 2025] Collected spectrometer data. Accumulator count: 345763
+[Wed Mar 12 00:59:30 2025] Collected spectrometer data. Accumulator count: 345764
+[Wed Mar 12 00:59:31 2025] Collected spectrometer data. Accumulator count: 345765
+[Wed Mar 12 00:59:33 2025] Collected spectrometer data. Accumulator count: 345766
+[Wed Mar 12 00:59:34 2025] Collected spectrometer data. Accumulator count: 345767
+[Wed Mar 12 00:59:35 2025] Collected spectrometer data. Accumulator count: 345768
+[Wed Mar 12 00:59:36 2025] Collected spectrometer data. Accumulator count: 345769
+[Wed Mar 12 00:59:37 2025] Data saved successfully.
+[Wed Mar 12 00:59:38 2025] Collected spectrometer data. Accumulator count: 345770
+[Wed Mar 12 00:59:39 2025] Collected spectrometer data. Accumulator count: 345771
+[Wed Mar 12 00:59:40 2025] Collected spectrometer data. Accumulator count: 345772
+[Wed Mar 12 00:59:41 2025] Collected spectrometer data. Accumulator count: 345773
+[Wed Mar 12 00:59:43 2025] Collected spectrometer data. Accumulator count: 345774
+[Wed Mar 12 00:59:44 2025] Collected spectrometer data. Accumulator count: 345775
+[Wed Mar 12 00:59:45 2025] Collected spectrometer data. Accumulator count: 345776
+[Wed Mar 12 00:59:46 2025] Collected spectrometer data. Accumulator count: 345777
+[Wed Mar 12 00:59:47 2025] Data saved successfully.
+[Wed Mar 12 00:59:48 2025] Collected spectrometer data. Accumulator count: 345778
+[Wed Mar 12 00:59:49 2025] Collected spectrometer data. Accumulator count: 345779
+[Wed Mar 12 00:59:50 2025] Collected spectrometer data. Accumulator count: 345780
+[Wed Mar 12 00:59:51 2025] Collected spectrometer data. Accumulator count: 345781
+[Wed Mar 12 00:59:53 2025] Collected spectrometer data. Accumulator count: 345782
+[Wed Mar 12 00:59:54 2025] Collected spectrometer data. Accumulator count: 345783
+[Wed Mar 12 00:59:55 2025] Collected spectrometer data. Accumulator count: 345784
+[Wed Mar 12 00:59:56 2025] Collected spectrometer data. Accumulator count: 345785
+[Wed Mar 12 00:59:58 2025] Data saved successfully.
+[Wed Mar 12 00:59:58 2025] Collected spectrometer data. Accumulator count: 345786
+[Wed Mar 12 00:59:59 2025] Collected spectrometer data. Accumulator count: 345787
+[Wed Mar 12 01:00:00 2025] Collected spectrometer data. Accumulator count: 345788
+[Wed Mar 12 01:00:01 2025] Collected spectrometer data. Accumulator count: 345789
+[Wed Mar 12 01:00:03 2025] Collected spectrometer data. Accumulator count: 345790
+[Wed Mar 12 01:00:04 2025] Collected spectrometer data. Accumulator count: 345791
+[Wed Mar 12 01:00:05 2025] Collected spectrometer data. Accumulator count: 345792
+[Wed Mar 12 01:00:06 2025] Collected spectrometer data. Accumulator count: 345793
+[Wed Mar 12 01:00:08 2025] Collected spectrometer data. Accumulator count: 345794
+[Wed Mar 12 01:00:08 2025] Data saved successfully.
+[Wed Mar 12 01:00:09 2025] Collected spectrometer data. Accumulator count: 345795
+[Wed Mar 12 01:00:10 2025] Collected spectrometer data. Accumulator count: 345796
+[Wed Mar 12 01:00:11 2025] Collected spectrometer data. Accumulator count: 345797
+[Wed Mar 12 01:00:13 2025] Collected spectrometer data. Accumulator count: 345798
+[Wed Mar 12 01:00:14 2025] Collected spectrometer data. Accumulator count: 345799
+[Wed Mar 12 01:00:15 2025] Collected spectrometer data. Accumulator count: 345800
+[Wed Mar 12 01:00:16 2025] Collected spectrometer data. Accumulator count: 345801
+[Wed Mar 12 01:00:18 2025] Collected spectrometer data. Accumulator count: 345802
+[Wed Mar 12 01:00:18 2025] Data saved successfully.
+[Wed Mar 12 01:00:19 2025] Collected spectrometer data. Accumulator count: 345803
+[Wed Mar 12 01:00:20 2025] Collected spectrometer data. Accumulator count: 345804
+[Wed Mar 12 01:00:21 2025] Collected spectrometer data. Accumulator count: 345805
+[Wed Mar 12 01:00:23 2025] Collected spectrometer data. Accumulator count: 345806
+[Wed Mar 12 01:00:24 2025] Collected spectrometer data. Accumulator count: 345807
+[Wed Mar 12 01:00:25 2025] Collected spectrometer data. Accumulator count: 345808
+[Wed Mar 12 01:00:26 2025] Collected spectrometer data. Accumulator count: 345809
+[Wed Mar 12 01:00:28 2025] Collected spectrometer data. Accumulator count: 345810
+[Wed Mar 12 01:00:28 2025] Data saved successfully.
+[Wed Mar 12 01:00:29 2025] Collected spectrometer data. Accumulator count: 345811
+[Wed Mar 12 01:00:30 2025] Collected spectrometer data. Accumulator count: 345812
+[Wed Mar 12 01:00:31 2025] Collected spectrometer data. Accumulator count: 345813
+[Wed Mar 12 01:00:33 2025] Collected spectrometer data. Accumulator count: 345814
+[Wed Mar 12 01:00:34 2025] Collected spectrometer data. Accumulator count: 345815
+[Wed Mar 12 01:00:35 2025] Collected spectrometer data. Accumulator count: 345816
+[Wed Mar 12 01:00:36 2025] Collected spectrometer data. Accumulator count: 345817
+[Wed Mar 12 01:00:38 2025] Collected spectrometer data. Accumulator count: 345818
+[Wed Mar 12 01:00:39 2025] Data saved successfully.
+[Wed Mar 12 01:00:39 2025] Collected spectrometer data. Accumulator count: 345819
+[Wed Mar 12 01:00:40 2025] Collected spectrometer data. Accumulator count: 345820
+[Wed Mar 12 01:00:41 2025] Collected spectrometer data. Accumulator count: 345821
+[Wed Mar 12 01:00:43 2025] Collected spectrometer data. Accumulator count: 345822
+[Wed Mar 12 01:00:44 2025] Collected spectrometer data. Accumulator count: 345823
+[Wed Mar 12 01:00:45 2025] Collected spectrometer data. Accumulator count: 345824
+[Wed Mar 12 01:00:46 2025] Collected spectrometer data. Accumulator count: 345825
+[Wed Mar 12 01:00:48 2025] Collected spectrometer data. Accumulator count: 345826
+[Wed Mar 12 01:00:49 2025] Data saved successfully.
+[Wed Mar 12 01:00:49 2025] Collected spectrometer data. Accumulator count: 345827
+[Wed Mar 12 01:00:50 2025] Collected spectrometer data. Accumulator count: 345828
+[Wed Mar 12 01:00:51 2025] Collected spectrometer data. Accumulator count: 345829
+[Wed Mar 12 01:00:53 2025] Collected spectrometer data. Accumulator count: 345830
+[Wed Mar 12 01:00:54 2025] Collected spectrometer data. Accumulator count: 345831
+[Wed Mar 12 01:00:55 2025] Collected spectrometer data. Accumulator count: 345832
+[Wed Mar 12 01:00:56 2025] Collected spectrometer data. Accumulator count: 345833
+[Wed Mar 12 01:00:58 2025] Collected spectrometer data. Accumulator count: 345834
+[Wed Mar 12 01:00:59 2025] Data saved successfully.
+[Wed Mar 12 01:00:59 2025] Collected spectrometer data. Accumulator count: 345835
+[Wed Mar 12 01:01:00 2025] Collected spectrometer data. Accumulator count: 345836
+[Wed Mar 12 01:01:01 2025] Collected spectrometer data. Accumulator count: 345837
+[Wed Mar 12 01:01:03 2025] Collected spectrometer data. Accumulator count: 345838
+[Wed Mar 12 01:01:04 2025] Collected spectrometer data. Accumulator count: 345839
+[Wed Mar 12 01:01:05 2025] Collected spectrometer data. Accumulator count: 345840
+[Wed Mar 12 01:01:06 2025] Collected spectrometer data. Accumulator count: 345841
+[Wed Mar 12 01:01:08 2025] Collected spectrometer data. Accumulator count: 345842
+[Wed Mar 12 01:01:09 2025] Collected spectrometer data. Accumulator count: 345843
+[Wed Mar 12 01:01:09 2025] Data saved successfully.
+[Wed Mar 12 01:01:10 2025] Collected spectrometer data. Accumulator count: 345844
+[Wed Mar 12 01:01:11 2025] Collected spectrometer data. Accumulator count: 345845
+[Wed Mar 12 01:01:13 2025] Collected spectrometer data. Accumulator count: 345846
+[Wed Mar 12 01:01:14 2025] Collected spectrometer data. Accumulator count: 345847
+[Wed Mar 12 01:01:15 2025] Collected spectrometer data. Accumulator count: 345848
+[Wed Mar 12 01:01:16 2025] Collected spectrometer data. Accumulator count: 345849
+[Wed Mar 12 01:01:18 2025] Collected spectrometer data. Accumulator count: 345850
+[Wed Mar 12 01:01:19 2025] Collected spectrometer data. Accumulator count: 345851
+[Wed Mar 12 01:01:20 2025] Data saved successfully.
+[Wed Mar 12 01:01:20 2025] Collected spectrometer data. Accumulator count: 345852
+[Wed Mar 12 01:01:21 2025] Collected spectrometer data. Accumulator count: 345853
+[Wed Mar 12 01:01:23 2025] Collected spectrometer data. Accumulator count: 345854
+[Wed Mar 12 01:01:24 2025] Collected spectrometer data. Accumulator count: 345855
+[Wed Mar 12 01:01:25 2025] Collected spectrometer data. Accumulator count: 345856
+[Wed Mar 12 01:01:26 2025] Collected spectrometer data. Accumulator count: 345857
+[Wed Mar 12 01:01:28 2025] Collected spectrometer data. Accumulator count: 345858
+[Wed Mar 12 01:01:29 2025] Collected spectrometer data. Accumulator count: 345859
+[Wed Mar 12 01:01:30 2025] Data saved successfully.
+[Wed Mar 12 01:01:30 2025] Collected spectrometer data. Accumulator count: 345860
+[Wed Mar 12 01:01:31 2025] Collected spectrometer data. Accumulator count: 345861
+[Wed Mar 12 01:01:33 2025] Collected spectrometer data. Accumulator count: 345862
+[Wed Mar 12 01:01:34 2025] Collected spectrometer data. Accumulator count: 345863
+[Wed Mar 12 01:01:35 2025] Collected spectrometer data. Accumulator count: 345864
+[Wed Mar 12 01:01:36 2025] Collected spectrometer data. Accumulator count: 345865
+[Wed Mar 12 01:01:38 2025] Collected spectrometer data. Accumulator count: 345866
+[Wed Mar 12 01:01:39 2025] Collected spectrometer data. Accumulator count: 345867
+[Wed Mar 12 01:01:40 2025] Data saved successfully.
+[Wed Mar 12 01:01:40 2025] Collected spectrometer data. Accumulator count: 345868
+[Wed Mar 12 01:01:41 2025] Collected spectrometer data. Accumulator count: 345869
+[Wed Mar 12 01:01:43 2025] Collected spectrometer data. Accumulator count: 345870
+[Wed Mar 12 01:01:44 2025] Collected spectrometer data. Accumulator count: 345871
+[Wed Mar 12 01:01:45 2025] Collected spectrometer data. Accumulator count: 345872
+[Wed Mar 12 01:01:46 2025] Collected spectrometer data. Accumulator count: 345873
+[Wed Mar 12 01:01:48 2025] Collected spectrometer data. Accumulator count: 345874
+[Wed Mar 12 01:01:49 2025] Collected spectrometer data. Accumulator count: 345875
+[Wed Mar 12 01:01:50 2025] Collected spectrometer data. Accumulator count: 345876
+[Wed Mar 12 01:01:50 2025] Data saved successfully.
+[Wed Mar 12 01:01:51 2025] Collected spectrometer data. Accumulator count: 345877
+[Wed Mar 12 01:01:53 2025] Collected spectrometer data. Accumulator count: 345878
+[Wed Mar 12 01:01:54 2025] Collected spectrometer data. Accumulator count: 345879
+[Wed Mar 12 01:01:55 2025] Collected spectrometer data. Accumulator count: 345880
+[Wed Mar 12 01:01:56 2025] Collected spectrometer data. Accumulator count: 345881
+[Wed Mar 12 01:01:58 2025] Collected spectrometer data. Accumulator count: 345882
+[Wed Mar 12 01:01:59 2025] Collected spectrometer data. Accumulator count: 345883
+[Wed Mar 12 01:02:00 2025] Collected spectrometer data. Accumulator count: 345884
+[Wed Mar 12 01:02:01 2025] Data saved successfully.
+[Wed Mar 12 01:02:01 2025] Collected spectrometer data. Accumulator count: 345885
+[Wed Mar 12 01:02:03 2025] Collected spectrometer data. Accumulator count: 345886
+[Wed Mar 12 01:02:04 2025] Collected spectrometer data. Accumulator count: 345887
+[Wed Mar 12 01:02:05 2025] Collected spectrometer data. Accumulator count: 345888
+[Wed Mar 12 01:02:06 2025] Collected spectrometer data. Accumulator count: 345889
+[Wed Mar 12 01:02:08 2025] Collected spectrometer data. Accumulator count: 345890
+[Wed Mar 12 01:02:09 2025] Collected spectrometer data. Accumulator count: 345891
+[Wed Mar 12 01:02:10 2025] Collected spectrometer data. Accumulator count: 345892
+[Wed Mar 12 01:02:11 2025] Data saved successfully.
+[Wed Mar 12 01:02:11 2025] Collected spectrometer data. Accumulator count: 345893
+[Wed Mar 12 01:02:13 2025] Collected spectrometer data. Accumulator count: 345894
+[Wed Mar 12 01:02:14 2025] Collected spectrometer data. Accumulator count: 345895
+[Wed Mar 12 01:02:15 2025] Collected spectrometer data. Accumulator count: 345896
+[Wed Mar 12 01:02:16 2025] Collected spectrometer data. Accumulator count: 345897
+[Wed Mar 12 01:02:18 2025] Collected spectrometer data. Accumulator count: 345898
+[Wed Mar 12 01:02:19 2025] Collected spectrometer data. Accumulator count: 345899
+[Wed Mar 12 01:02:20 2025] Collected spectrometer data. Accumulator count: 345900
+[Wed Mar 12 01:02:21 2025] Data saved successfully.
+[Wed Mar 12 01:02:21 2025] Collected spectrometer data. Accumulator count: 345901
+[Wed Mar 12 01:02:23 2025] Collected spectrometer data. Accumulator count: 345902
+[Wed Mar 12 01:02:24 2025] Collected spectrometer data. Accumulator count: 345903
+[Wed Mar 12 01:02:25 2025] Collected spectrometer data. Accumulator count: 345904
+[Wed Mar 12 01:02:26 2025] Collected spectrometer data. Accumulator count: 345905
+[Wed Mar 12 01:02:28 2025] Collected spectrometer data. Accumulator count: 345906
+[Wed Mar 12 01:02:29 2025] Collected spectrometer data. Accumulator count: 345907
+[Wed Mar 12 01:02:30 2025] Collected spectrometer data. Accumulator count: 345908
+[Wed Mar 12 01:02:31 2025] Collected spectrometer data. Accumulator count: 345909
+[Wed Mar 12 01:02:32 2025] Data saved successfully.
+[Wed Mar 12 01:02:33 2025] Collected spectrometer data. Accumulator count: 345910
+[Wed Mar 12 01:02:34 2025] Collected spectrometer data. Accumulator count: 345911
+[Wed Mar 12 01:02:35 2025] Collected spectrometer data. Accumulator count: 345912
+[Wed Mar 12 01:02:36 2025] Collected spectrometer data. Accumulator count: 345913
+[Wed Mar 12 01:02:38 2025] Collected spectrometer data. Accumulator count: 345914
+[Wed Mar 12 01:02:39 2025] Collected spectrometer data. Accumulator count: 345915
+[Wed Mar 12 01:02:40 2025] Collected spectrometer data. Accumulator count: 345916
+[Wed Mar 12 01:02:41 2025] Collected spectrometer data. Accumulator count: 345917
+[Wed Mar 12 01:02:42 2025] Data saved successfully.
+[Wed Mar 12 01:02:43 2025] Collected spectrometer data. Accumulator count: 345918
+[Wed Mar 12 01:02:44 2025] Collected spectrometer data. Accumulator count: 345919
+[Wed Mar 12 01:02:45 2025] Collected spectrometer data. Accumulator count: 345920
+[Wed Mar 12 01:02:46 2025] Collected spectrometer data. Accumulator count: 345921
+[Wed Mar 12 01:02:48 2025] Collected spectrometer data. Accumulator count: 345922
+[Wed Mar 12 01:02:49 2025] Collected spectrometer data. Accumulator count: 345923
+[Wed Mar 12 01:02:50 2025] Collected spectrometer data. Accumulator count: 345924
+[Wed Mar 12 01:02:51 2025] Collected spectrometer data. Accumulator count: 345925
+[Wed Mar 12 01:02:52 2025] Data saved successfully.
+[Wed Mar 12 01:02:53 2025] Collected spectrometer data. Accumulator count: 345926
+[Wed Mar 12 01:02:54 2025] Collected spectrometer data. Accumulator count: 345927
+[Wed Mar 12 01:02:55 2025] Collected spectrometer data. Accumulator count: 345928
+[Wed Mar 12 01:02:56 2025] Collected spectrometer data. Accumulator count: 345929
+[Wed Mar 12 01:02:58 2025] Collected spectrometer data. Accumulator count: 345930
+[Wed Mar 12 01:02:59 2025] Collected spectrometer data. Accumulator count: 345931
+[Wed Mar 12 01:03:00 2025] Collected spectrometer data. Accumulator count: 345932
+[Wed Mar 12 01:03:01 2025] Collected spectrometer data. Accumulator count: 345933
+[Wed Mar 12 01:03:03 2025] Data saved successfully.
+[Wed Mar 12 01:03:03 2025] Collected spectrometer data. Accumulator count: 345934
+[Wed Mar 12 01:03:04 2025] Collected spectrometer data. Accumulator count: 345935
+[Wed Mar 12 01:03:05 2025] Collected spectrometer data. Accumulator count: 345936
+[Wed Mar 12 01:03:07 2025] Collected spectrometer data. Accumulator count: 345937
+[Wed Mar 12 01:03:08 2025] Collected spectrometer data. Accumulator count: 345938
+[Wed Mar 12 01:03:09 2025] Collected spectrometer data. Accumulator count: 345939
+[Wed Mar 12 01:03:10 2025] Collected spectrometer data. Accumulator count: 345940
+[Wed Mar 12 01:03:11 2025] Collected spectrometer data. Accumulator count: 345941
+[Wed Mar 12 01:03:13 2025] Collected spectrometer data. Accumulator count: 345942
+[Wed Mar 12 01:03:14 2025] Data saved successfully.
+[Wed Mar 12 01:03:14 2025] Collected spectrometer data. Accumulator count: 345943
+[Wed Mar 12 01:03:15 2025] Collected spectrometer data. Accumulator count: 345944
+[Wed Mar 12 01:03:16 2025] Collected spectrometer data. Accumulator count: 345945
+[Wed Mar 12 01:03:18 2025] Collected spectrometer data. Accumulator count: 345946
+[Wed Mar 12 01:03:19 2025] Collected spectrometer data. Accumulator count: 345947
+[Wed Mar 12 01:03:20 2025] Collected spectrometer data. Accumulator count: 345948
+[Wed Mar 12 01:03:21 2025] Collected spectrometer data. Accumulator count: 345949
+[Wed Mar 12 01:03:23 2025] Collected spectrometer data. Accumulator count: 345950
+[Wed Mar 12 01:03:24 2025] Data saved successfully.
+[Wed Mar 12 01:03:24 2025] Collected spectrometer data. Accumulator count: 345951
+[Wed Mar 12 01:03:26 2025] Collected spectrometer data. Accumulator count: 345952
+[Wed Mar 12 01:03:27 2025] Collected spectrometer data. Accumulator count: 345953
+[Wed Mar 12 01:03:28 2025] Collected spectrometer data. Accumulator count: 345954
+[Wed Mar 12 01:03:29 2025] Collected spectrometer data. Accumulator count: 345955
+[Wed Mar 12 01:03:30 2025] Collected spectrometer data. Accumulator count: 345956
+[Wed Mar 12 01:03:31 2025] Collected spectrometer data. Accumulator count: 345957
+[Wed Mar 12 01:03:33 2025] Collected spectrometer data. Accumulator count: 345958
+[Wed Mar 12 01:03:34 2025] Collected spectrometer data. Accumulator count: 345959
+[Wed Mar 12 01:03:35 2025] Data saved successfully.
+[Wed Mar 12 01:03:35 2025] Collected spectrometer data. Accumulator count: 345960
+[Wed Mar 12 01:03:36 2025] Collected spectrometer data. Accumulator count: 345961
+[Wed Mar 12 01:03:38 2025] Collected spectrometer data. Accumulator count: 345962
+[Wed Mar 12 01:03:39 2025] Collected spectrometer data. Accumulator count: 345963
+[Wed Mar 12 01:03:40 2025] Collected spectrometer data. Accumulator count: 345964
+[Wed Mar 12 01:03:41 2025] Collected spectrometer data. Accumulator count: 345965
+[Wed Mar 12 01:03:43 2025] Collected spectrometer data. Accumulator count: 345966
+[Wed Mar 12 01:03:44 2025] Collected spectrometer data. Accumulator count: 345967
+[Wed Mar 12 01:03:45 2025] Collected spectrometer data. Accumulator count: 345968
+[Wed Mar 12 01:03:46 2025] Data saved successfully.
+[Wed Mar 12 01:03:46 2025] Collected spectrometer data. Accumulator count: 345969
+[Wed Mar 12 01:03:48 2025] Collected spectrometer data. Accumulator count: 345970
+[Wed Mar 12 01:03:49 2025] Collected spectrometer data. Accumulator count: 345971
+[Wed Mar 12 01:03:50 2025] Collected spectrometer data. Accumulator count: 345972
+[Wed Mar 12 01:03:51 2025] Collected spectrometer data. Accumulator count: 345973
+[Wed Mar 12 01:03:53 2025] Collected spectrometer data. Accumulator count: 345974
+[Wed Mar 12 01:03:54 2025] Collected spectrometer data. Accumulator count: 345975
+[Wed Mar 12 01:03:55 2025] Collected spectrometer data. Accumulator count: 345976
+[Wed Mar 12 01:03:56 2025] Data saved successfully.
+[Wed Mar 12 01:03:56 2025] Collected spectrometer data. Accumulator count: 345977
+[Wed Mar 12 01:03:58 2025] Collected spectrometer data. Accumulator count: 345978
+[Wed Mar 12 01:03:59 2025] Collected spectrometer data. Accumulator count: 345979
+[Wed Mar 12 01:04:00 2025] Collected spectrometer data. Accumulator count: 345980
+[Wed Mar 12 01:04:01 2025] Collected spectrometer data. Accumulator count: 345981
+[Wed Mar 12 01:04:03 2025] Collected spectrometer data. Accumulator count: 345982
+[Wed Mar 12 01:04:04 2025] Collected spectrometer data. Accumulator count: 345983
+[Wed Mar 12 01:04:05 2025] Collected spectrometer data. Accumulator count: 345984
+[Wed Mar 12 01:04:06 2025] Data saved successfully.
+[Wed Mar 12 01:04:06 2025] Collected spectrometer data. Accumulator count: 345985
+[Wed Mar 12 01:04:08 2025] Collected spectrometer data. Accumulator count: 345986
+[Wed Mar 12 01:04:09 2025] Collected spectrometer data. Accumulator count: 345987
+[Wed Mar 12 01:04:10 2025] Collected spectrometer data. Accumulator count: 345988
+[Wed Mar 12 01:04:11 2025] Collected spectrometer data. Accumulator count: 345989
+[Wed Mar 12 01:04:13 2025] Collected spectrometer data. Accumulator count: 345990
+[Wed Mar 12 01:04:14 2025] Collected spectrometer data. Accumulator count: 345991
+[Wed Mar 12 01:04:15 2025] Collected spectrometer data. Accumulator count: 345992
+[Wed Mar 12 01:04:17 2025] Data saved successfully.
+[Wed Mar 12 01:04:17 2025] Collected spectrometer data. Accumulator count: 345993
+[Wed Mar 12 01:04:18 2025] Collected spectrometer data. Accumulator count: 345994
+[Wed Mar 12 01:04:19 2025] Collected spectrometer data. Accumulator count: 345995
+[Wed Mar 12 01:04:20 2025] Collected spectrometer data. Accumulator count: 345996
+[Wed Mar 12 01:04:22 2025] Collected spectrometer data. Accumulator count: 345997
+[Wed Mar 12 01:04:23 2025] Collected spectrometer data. Accumulator count: 345998
+[Wed Mar 12 01:04:24 2025] Collected spectrometer data. Accumulator count: 345999
+[Wed Mar 12 01:04:25 2025] Collected spectrometer data. Accumulator count: 346000
+[Wed Mar 12 01:04:26 2025] Collected spectrometer data. Accumulator count: 346001
+[Wed Mar 12 01:04:27 2025] Data saved successfully.
+[Wed Mar 12 01:04:28 2025] Collected spectrometer data. Accumulator count: 346002
+[Wed Mar 12 01:04:29 2025] Collected spectrometer data. Accumulator count: 346003
+[Wed Mar 12 01:04:30 2025] Collected spectrometer data. Accumulator count: 346004
+[Wed Mar 12 01:04:31 2025] Collected spectrometer data. Accumulator count: 346005
+[Wed Mar 12 01:04:33 2025] Collected spectrometer data. Accumulator count: 346006
+[Wed Mar 12 01:04:34 2025] Collected spectrometer data. Accumulator count: 346007
+[Wed Mar 12 01:04:35 2025] Collected spectrometer data. Accumulator count: 346008
+[Wed Mar 12 01:04:36 2025] Collected spectrometer data. Accumulator count: 346009
+[Wed Mar 12 01:04:38 2025] Data saved successfully.
+[Wed Mar 12 01:04:38 2025] Collected spectrometer data. Accumulator count: 346010
+[Wed Mar 12 01:04:39 2025] Collected spectrometer data. Accumulator count: 346011
+[Wed Mar 12 01:04:40 2025] Collected spectrometer data. Accumulator count: 346012
+[Wed Mar 12 01:04:41 2025] Collected spectrometer data. Accumulator count: 346013
+[Wed Mar 12 01:04:43 2025] Collected spectrometer data. Accumulator count: 346014
+[Wed Mar 12 01:04:44 2025] Collected spectrometer data. Accumulator count: 346015
+[Wed Mar 12 01:04:45 2025] Collected spectrometer data. Accumulator count: 346016
+[Wed Mar 12 01:04:46 2025] Collected spectrometer data. Accumulator count: 346017
+[Wed Mar 12 01:04:48 2025] Data saved successfully.
+[Wed Mar 12 01:04:48 2025] Collected spectrometer data. Accumulator count: 346018
+[Wed Mar 12 01:04:49 2025] Collected spectrometer data. Accumulator count: 346019
+[Wed Mar 12 01:04:50 2025] Collected spectrometer data. Accumulator count: 346020
+[Wed Mar 12 01:04:51 2025] Collected spectrometer data. Accumulator count: 346021
+[Wed Mar 12 01:04:53 2025] Collected spectrometer data. Accumulator count: 346022
+[Wed Mar 12 01:04:54 2025] Collected spectrometer data. Accumulator count: 346023
+[Wed Mar 12 01:04:55 2025] Collected spectrometer data. Accumulator count: 346024
+[Wed Mar 12 01:04:56 2025] Collected spectrometer data. Accumulator count: 346025
+[Wed Mar 12 01:04:58 2025] Collected spectrometer data. Accumulator count: 346026
+[Wed Mar 12 01:04:58 2025] Data saved successfully.
+[Wed Mar 12 01:04:59 2025] Collected spectrometer data. Accumulator count: 346027
+[Wed Mar 12 01:05:00 2025] Collected spectrometer data. Accumulator count: 346028
+[Wed Mar 12 01:05:01 2025] Collected spectrometer data. Accumulator count: 346029
+[Wed Mar 12 01:05:03 2025] Collected spectrometer data. Accumulator count: 346030
+[Wed Mar 12 01:05:04 2025] Collected spectrometer data. Accumulator count: 346031
+[Wed Mar 12 01:05:05 2025] Collected spectrometer data. Accumulator count: 346032
+[Wed Mar 12 01:05:06 2025] Collected spectrometer data. Accumulator count: 346033
+[Wed Mar 12 01:05:08 2025] Collected spectrometer data. Accumulator count: 346034
+[Wed Mar 12 01:05:09 2025] Data saved successfully.
+[Wed Mar 12 01:05:09 2025] Collected spectrometer data. Accumulator count: 346035
+[Wed Mar 12 01:05:10 2025] Collected spectrometer data. Accumulator count: 346036
+[Wed Mar 12 01:05:11 2025] Collected spectrometer data. Accumulator count: 346037
+[Wed Mar 12 01:05:13 2025] Collected spectrometer data. Accumulator count: 346038
+[Wed Mar 12 01:05:14 2025] Collected spectrometer data. Accumulator count: 346039
+[Wed Mar 12 01:05:15 2025] Collected spectrometer data. Accumulator count: 346040
+[Wed Mar 12 01:05:16 2025] Collected spectrometer data. Accumulator count: 346041
+[Wed Mar 12 01:05:18 2025] Collected spectrometer data. Accumulator count: 346042
+[Wed Mar 12 01:05:19 2025] Data saved successfully.
+[Wed Mar 12 01:05:19 2025] Collected spectrometer data. Accumulator count: 346043
+[Wed Mar 12 01:05:20 2025] Collected spectrometer data. Accumulator count: 346044
+[Wed Mar 12 01:05:21 2025] Collected spectrometer data. Accumulator count: 346045
+[Wed Mar 12 01:05:23 2025] Collected spectrometer data. Accumulator count: 346046
+[Wed Mar 12 01:05:24 2025] Collected spectrometer data. Accumulator count: 346047
+[Wed Mar 12 01:05:25 2025] Collected spectrometer data. Accumulator count: 346048
+[Wed Mar 12 01:05:26 2025] Collected spectrometer data. Accumulator count: 346049
+[Wed Mar 12 01:05:28 2025] Collected spectrometer data. Accumulator count: 346050
+[Wed Mar 12 01:05:29 2025] Collected spectrometer data. Accumulator count: 346051
+[Wed Mar 12 01:05:29 2025] Data saved successfully.
+[Wed Mar 12 01:05:30 2025] Collected spectrometer data. Accumulator count: 346052
+[Wed Mar 12 01:05:31 2025] Collected spectrometer data. Accumulator count: 346053
+[Wed Mar 12 01:05:33 2025] Collected spectrometer data. Accumulator count: 346054
+[Wed Mar 12 01:05:34 2025] Collected spectrometer data. Accumulator count: 346055
+[Wed Mar 12 01:05:35 2025] Collected spectrometer data. Accumulator count: 346056
+[Wed Mar 12 01:05:36 2025] Collected spectrometer data. Accumulator count: 346057
+[Wed Mar 12 01:05:38 2025] Collected spectrometer data. Accumulator count: 346058
+[Wed Mar 12 01:05:39 2025] Collected spectrometer data. Accumulator count: 346059
+[Wed Mar 12 01:05:40 2025] Data saved successfully.
+[Wed Mar 12 01:05:40 2025] Collected spectrometer data. Accumulator count: 346060
+[Wed Mar 12 01:05:41 2025] Collected spectrometer data. Accumulator count: 346061
+[Wed Mar 12 01:05:43 2025] Collected spectrometer data. Accumulator count: 346062
+[Wed Mar 12 01:05:44 2025] Collected spectrometer data. Accumulator count: 346063
+[Wed Mar 12 01:05:45 2025] Collected spectrometer data. Accumulator count: 346064
+[Wed Mar 12 01:05:46 2025] Collected spectrometer data. Accumulator count: 346065
+[Wed Mar 12 01:05:48 2025] Collected spectrometer data. Accumulator count: 346066
+[Wed Mar 12 01:05:49 2025] Collected spectrometer data. Accumulator count: 346067
+[Wed Mar 12 01:05:50 2025] Data saved successfully.
+[Wed Mar 12 01:05:50 2025] Collected spectrometer data. Accumulator count: 346068
+[Wed Mar 12 01:05:51 2025] Collected spectrometer data. Accumulator count: 346069
+[Wed Mar 12 01:05:53 2025] Collected spectrometer data. Accumulator count: 346070
+[Wed Mar 12 01:05:54 2025] Collected spectrometer data. Accumulator count: 346071
+[Wed Mar 12 01:05:55 2025] Collected spectrometer data. Accumulator count: 346072
+[Wed Mar 12 01:05:56 2025] Collected spectrometer data. Accumulator count: 346073
+[Wed Mar 12 01:05:58 2025] Collected spectrometer data. Accumulator count: 346074
+[Wed Mar 12 01:05:59 2025] Collected spectrometer data. Accumulator count: 346075
+[Wed Mar 12 01:06:00 2025] Data saved successfully.
+[Wed Mar 12 01:06:00 2025] Collected spectrometer data. Accumulator count: 346076
+[Wed Mar 12 01:06:02 2025] Collected spectrometer data. Accumulator count: 346077
+[Wed Mar 12 01:06:03 2025] Collected spectrometer data. Accumulator count: 346078
+[Wed Mar 12 01:06:04 2025] Collected spectrometer data. Accumulator count: 346079
+[Wed Mar 12 01:06:05 2025] Collected spectrometer data. Accumulator count: 346080
+[Wed Mar 12 01:06:06 2025] Collected spectrometer data. Accumulator count: 346081
+[Wed Mar 12 01:06:08 2025] Collected spectrometer data. Accumulator count: 346082
+[Wed Mar 12 01:06:09 2025] Collected spectrometer data. Accumulator count: 346083
+[Wed Mar 12 01:06:10 2025] Collected spectrometer data. Accumulator count: 346084
+[Wed Mar 12 01:06:11 2025] Data saved successfully.
+[Wed Mar 12 01:06:11 2025] Collected spectrometer data. Accumulator count: 346085
+[Wed Mar 12 01:06:13 2025] Collected spectrometer data. Accumulator count: 346086
+[Wed Mar 12 01:06:14 2025] Collected spectrometer data. Accumulator count: 346087
+[Wed Mar 12 01:06:15 2025] Collected spectrometer data. Accumulator count: 346088
+[Wed Mar 12 01:06:16 2025] Collected spectrometer data. Accumulator count: 346089
+[Wed Mar 12 01:06:18 2025] Collected spectrometer data. Accumulator count: 346090
+[Wed Mar 12 01:06:19 2025] Collected spectrometer data. Accumulator count: 346091
+[Wed Mar 12 01:06:20 2025] Collected spectrometer data. Accumulator count: 346092
+[Wed Mar 12 01:06:21 2025] Data saved successfully.
+[Wed Mar 12 01:06:21 2025] Collected spectrometer data. Accumulator count: 346093
+[Wed Mar 12 01:06:23 2025] Collected spectrometer data. Accumulator count: 346094
+[Wed Mar 12 01:06:24 2025] Collected spectrometer data. Accumulator count: 346095
+[Wed Mar 12 01:06:25 2025] Collected spectrometer data. Accumulator count: 346096
+[Wed Mar 12 01:06:26 2025] Collected spectrometer data. Accumulator count: 346097
+[Wed Mar 12 01:06:28 2025] Collected spectrometer data. Accumulator count: 346098
+[Wed Mar 12 01:06:29 2025] Collected spectrometer data. Accumulator count: 346099
+[Wed Mar 12 01:06:30 2025] Collected spectrometer data. Accumulator count: 346100
+[Wed Mar 12 01:06:32 2025] Data saved successfully.
+[Wed Mar 12 01:06:32 2025] Collected spectrometer data. Accumulator count: 346101
+[Wed Mar 12 01:06:33 2025] Collected spectrometer data. Accumulator count: 346102
+[Wed Mar 12 01:06:34 2025] Collected spectrometer data. Accumulator count: 346103
+[Wed Mar 12 01:06:35 2025] Collected spectrometer data. Accumulator count: 346104
+[Wed Mar 12 01:06:36 2025] Collected spectrometer data. Accumulator count: 346105
+[Wed Mar 12 01:06:38 2025] Collected spectrometer data. Accumulator count: 346106
+[Wed Mar 12 01:06:39 2025] Collected spectrometer data. Accumulator count: 346107
+[Wed Mar 12 01:06:40 2025] Collected spectrometer data. Accumulator count: 346108
+[Wed Mar 12 01:06:41 2025] Collected spectrometer data. Accumulator count: 346109
+[Wed Mar 12 01:06:42 2025] Data saved successfully.
+[Wed Mar 12 01:06:43 2025] Collected spectrometer data. Accumulator count: 346110
+[Wed Mar 12 01:06:44 2025] Collected spectrometer data. Accumulator count: 346111
+[Wed Mar 12 01:06:45 2025] Collected spectrometer data. Accumulator count: 346112
+[Wed Mar 12 01:06:46 2025] Collected spectrometer data. Accumulator count: 346113
+[Wed Mar 12 01:06:48 2025] Collected spectrometer data. Accumulator count: 346114
+[Wed Mar 12 01:06:49 2025] Collected spectrometer data. Accumulator count: 346115
+[Wed Mar 12 01:06:50 2025] Collected spectrometer data. Accumulator count: 346116
+[Wed Mar 12 01:06:51 2025] Collected spectrometer data. Accumulator count: 346117
+[Wed Mar 12 01:06:53 2025] Data saved successfully.
+[Wed Mar 12 01:06:53 2025] Collected spectrometer data. Accumulator count: 346118
+[Wed Mar 12 01:06:54 2025] Collected spectrometer data. Accumulator count: 346119
+[Wed Mar 12 01:06:55 2025] Collected spectrometer data. Accumulator count: 346120
+[Wed Mar 12 01:06:56 2025] Collected spectrometer data. Accumulator count: 346121
+[Wed Mar 12 01:06:58 2025] Collected spectrometer data. Accumulator count: 346122
+[Wed Mar 12 01:06:59 2025] Collected spectrometer data. Accumulator count: 346123
+[Wed Mar 12 01:07:00 2025] Collected spectrometer data. Accumulator count: 346124
+[Wed Mar 12 01:07:01 2025] Collected spectrometer data. Accumulator count: 346125
+[Wed Mar 12 01:07:03 2025] Collected spectrometer data. Accumulator count: 346126
+[Wed Mar 12 01:07:03 2025] Data saved successfully.
+[Wed Mar 12 01:07:04 2025] Collected spectrometer data. Accumulator count: 346127
+[Wed Mar 12 01:07:05 2025] Collected spectrometer data. Accumulator count: 346128
+[Wed Mar 12 01:07:06 2025] Collected spectrometer data. Accumulator count: 346129
+[Wed Mar 12 01:07:08 2025] Collected spectrometer data. Accumulator count: 346130
+[Wed Mar 12 01:07:09 2025] Collected spectrometer data. Accumulator count: 346131
+[Wed Mar 12 01:07:10 2025] Collected spectrometer data. Accumulator count: 346132
+[Wed Mar 12 01:07:11 2025] Collected spectrometer data. Accumulator count: 346133
+[Wed Mar 12 01:07:13 2025] Collected spectrometer data. Accumulator count: 346134
+[Wed Mar 12 01:07:14 2025] Data saved successfully.
+[Wed Mar 12 01:07:14 2025] Collected spectrometer data. Accumulator count: 346135
+[Wed Mar 12 01:07:15 2025] Collected spectrometer data. Accumulator count: 346136
+[Wed Mar 12 01:07:16 2025] Collected spectrometer data. Accumulator count: 346137
+[Wed Mar 12 01:07:18 2025] Collected spectrometer data. Accumulator count: 346138
+[Wed Mar 12 01:07:19 2025] Collected spectrometer data. Accumulator count: 346139
+[Wed Mar 12 01:07:20 2025] Collected spectrometer data. Accumulator count: 346140
+[Wed Mar 12 01:07:21 2025] Collected spectrometer data. Accumulator count: 346141
+[Wed Mar 12 01:07:23 2025] Collected spectrometer data. Accumulator count: 346142
+[Wed Mar 12 01:07:24 2025] Data saved successfully.
+[Wed Mar 12 01:07:24 2025] Collected spectrometer data. Accumulator count: 346143
+[Wed Mar 12 01:07:25 2025] Collected spectrometer data. Accumulator count: 346144
+[Wed Mar 12 01:07:27 2025] Collected spectrometer data. Accumulator count: 346145
+[Wed Mar 12 01:07:28 2025] Collected spectrometer data. Accumulator count: 346146
+[Wed Mar 12 01:07:29 2025] Collected spectrometer data. Accumulator count: 346147
+[Wed Mar 12 01:07:30 2025] Collected spectrometer data. Accumulator count: 346148
+[Wed Mar 12 01:07:31 2025] Collected spectrometer data. Accumulator count: 346149
+[Wed Mar 12 01:07:33 2025] Collected spectrometer data. Accumulator count: 346150
+[Wed Mar 12 01:07:34 2025] Collected spectrometer data. Accumulator count: 346151
+[Wed Mar 12 01:07:35 2025] Data saved successfully.
+[Wed Mar 12 01:07:35 2025] Collected spectrometer data. Accumulator count: 346152
+[Wed Mar 12 01:07:36 2025] Collected spectrometer data. Accumulator count: 346153
+[Wed Mar 12 01:07:38 2025] Collected spectrometer data. Accumulator count: 346154
+[Wed Mar 12 01:07:39 2025] Collected spectrometer data. Accumulator count: 346155
+[Wed Mar 12 01:07:40 2025] Collected spectrometer data. Accumulator count: 346156
+[Wed Mar 12 01:07:41 2025] Collected spectrometer data. Accumulator count: 346157
+[Wed Mar 12 01:07:43 2025] Collected spectrometer data. Accumulator count: 346158
+[Wed Mar 12 01:07:44 2025] Collected spectrometer data. Accumulator count: 346159
+[Wed Mar 12 01:07:45 2025] Data saved successfully.
+[Wed Mar 12 01:07:45 2025] Collected spectrometer data. Accumulator count: 346160
+[Wed Mar 12 01:07:46 2025] Collected spectrometer data. Accumulator count: 346161
+[Wed Mar 12 01:07:48 2025] Collected spectrometer data. Accumulator count: 346162
+[Wed Mar 12 01:07:49 2025] Collected spectrometer data. Accumulator count: 346163
+[Wed Mar 12 01:07:50 2025] Collected spectrometer data. Accumulator count: 346164
+[Wed Mar 12 01:07:51 2025] Collected spectrometer data. Accumulator count: 346165
+[Wed Mar 12 01:07:53 2025] Collected spectrometer data. Accumulator count: 346166
+[Wed Mar 12 01:07:54 2025] Collected spectrometer data. Accumulator count: 346167
+[Wed Mar 12 01:07:55 2025] Data saved successfully.
+[Wed Mar 12 01:07:55 2025] Collected spectrometer data. Accumulator count: 346168
+[Wed Mar 12 01:07:57 2025] Collected spectrometer data. Accumulator count: 346169
+[Wed Mar 12 01:07:58 2025] Collected spectrometer data. Accumulator count: 346170
+[Wed Mar 12 01:07:59 2025] Collected spectrometer data. Accumulator count: 346171
+[Wed Mar 12 01:08:00 2025] Collected spectrometer data. Accumulator count: 346172
+[Wed Mar 12 01:08:01 2025] Collected spectrometer data. Accumulator count: 346173
+[Wed Mar 12 01:08:03 2025] Collected spectrometer data. Accumulator count: 346174
+[Wed Mar 12 01:08:04 2025] Collected spectrometer data. Accumulator count: 346175
+[Wed Mar 12 01:08:05 2025] Collected spectrometer data. Accumulator count: 346176
+[Wed Mar 12 01:08:06 2025] Data saved successfully.
+[Wed Mar 12 01:08:06 2025] Collected spectrometer data. Accumulator count: 346177
+[Wed Mar 12 01:08:08 2025] Collected spectrometer data. Accumulator count: 346178
+[Wed Mar 12 01:08:09 2025] Collected spectrometer data. Accumulator count: 346179
+[Wed Mar 12 01:08:10 2025] Collected spectrometer data. Accumulator count: 346180
+[Wed Mar 12 01:08:11 2025] Collected spectrometer data. Accumulator count: 346181
+[Wed Mar 12 01:08:13 2025] Collected spectrometer data. Accumulator count: 346182
+[Wed Mar 12 01:08:14 2025] Collected spectrometer data. Accumulator count: 346183
+[Wed Mar 12 01:08:15 2025] Collected spectrometer data. Accumulator count: 346184
+[Wed Mar 12 01:08:16 2025] Data saved successfully.
+[Wed Mar 12 01:08:16 2025] Collected spectrometer data. Accumulator count: 346185
+[Wed Mar 12 01:08:18 2025] Collected spectrometer data. Accumulator count: 346186
+[Wed Mar 12 01:08:19 2025] Collected spectrometer data. Accumulator count: 346187
+[Wed Mar 12 01:08:20 2025] Collected spectrometer data. Accumulator count: 346188
+[Wed Mar 12 01:08:21 2025] Collected spectrometer data. Accumulator count: 346189
+[Wed Mar 12 01:08:23 2025] Collected spectrometer data. Accumulator count: 346190
+[Wed Mar 12 01:08:24 2025] Collected spectrometer data. Accumulator count: 346191
+[Wed Mar 12 01:08:25 2025] Collected spectrometer data. Accumulator count: 346192
+[Wed Mar 12 01:08:27 2025] Data saved successfully.
+[Wed Mar 12 01:08:27 2025] Collected spectrometer data. Accumulator count: 346193
+[Wed Mar 12 01:08:28 2025] Collected spectrometer data. Accumulator count: 346194
+[Wed Mar 12 01:08:29 2025] Collected spectrometer data. Accumulator count: 346195
+[Wed Mar 12 01:08:30 2025] Collected spectrometer data. Accumulator count: 346196
+[Wed Mar 12 01:08:31 2025] Collected spectrometer data. Accumulator count: 346197
+[Wed Mar 12 01:08:33 2025] Collected spectrometer data. Accumulator count: 346198
+[Wed Mar 12 01:08:34 2025] Collected spectrometer data. Accumulator count: 346199
+[Wed Mar 12 01:08:35 2025] Collected spectrometer data. Accumulator count: 346200
+[Wed Mar 12 01:08:36 2025] Collected spectrometer data. Accumulator count: 346201
+[Wed Mar 12 01:08:37 2025] Data saved successfully.
+[Wed Mar 12 01:08:38 2025] Collected spectrometer data. Accumulator count: 346202
+[Wed Mar 12 01:08:39 2025] Collected spectrometer data. Accumulator count: 346203
+[Wed Mar 12 01:08:40 2025] Collected spectrometer data. Accumulator count: 346204
+[Wed Mar 12 01:08:41 2025] Collected spectrometer data. Accumulator count: 346205
+[Wed Mar 12 01:08:43 2025] Collected spectrometer data. Accumulator count: 346206
+[Wed Mar 12 01:08:44 2025] Collected spectrometer data. Accumulator count: 346207
+[Wed Mar 12 01:08:45 2025] Collected spectrometer data. Accumulator count: 346208
+[Wed Mar 12 01:08:46 2025] Collected spectrometer data. Accumulator count: 346209
+[Wed Mar 12 01:08:48 2025] Data saved successfully.
+[Wed Mar 12 01:08:48 2025] Collected spectrometer data. Accumulator count: 346210
+[Wed Mar 12 01:08:49 2025] Collected spectrometer data. Accumulator count: 346211
+[Wed Mar 12 01:08:50 2025] Collected spectrometer data. Accumulator count: 346212
+[Wed Mar 12 01:08:51 2025] Collected spectrometer data. Accumulator count: 346213
+[Wed Mar 12 01:08:53 2025] Collected spectrometer data. Accumulator count: 346214
+[Wed Mar 12 01:08:54 2025] Collected spectrometer data. Accumulator count: 346215
+[Wed Mar 12 01:08:55 2025] Collected spectrometer data. Accumulator count: 346216
+[Wed Mar 12 01:08:56 2025] Collected spectrometer data. Accumulator count: 346217
+[Wed Mar 12 01:08:58 2025] Data saved successfully.
+[Wed Mar 12 01:08:58 2025] Collected spectrometer data. Accumulator count: 346218
+[Wed Mar 12 01:08:59 2025] Collected spectrometer data. Accumulator count: 346219
+[Wed Mar 12 01:09:00 2025] Collected spectrometer data. Accumulator count: 346220
+[Wed Mar 12 01:09:02 2025] Collected spectrometer data. Accumulator count: 346221
+[Wed Mar 12 01:09:03 2025] Collected spectrometer data. Accumulator count: 346222
+[Wed Mar 12 01:09:04 2025] Collected spectrometer data. Accumulator count: 346223
+[Wed Mar 12 01:09:05 2025] Collected spectrometer data. Accumulator count: 346224
+[Wed Mar 12 01:09:06 2025] Collected spectrometer data. Accumulator count: 346225
+[Wed Mar 12 01:09:08 2025] Collected spectrometer data. Accumulator count: 346226
+[Wed Mar 12 01:09:09 2025] Data saved successfully.
+[Wed Mar 12 01:09:09 2025] Collected spectrometer data. Accumulator count: 346227
+[Wed Mar 12 01:09:10 2025] Collected spectrometer data. Accumulator count: 346228
+[Wed Mar 12 01:09:11 2025] Collected spectrometer data. Accumulator count: 346229
+[Wed Mar 12 01:09:13 2025] Collected spectrometer data. Accumulator count: 346230
+[Wed Mar 12 01:09:14 2025] Collected spectrometer data. Accumulator count: 346231
+[Wed Mar 12 01:09:15 2025] Collected spectrometer data. Accumulator count: 346232
+[Wed Mar 12 01:09:16 2025] Collected spectrometer data. Accumulator count: 346233
+[Wed Mar 12 01:09:18 2025] Collected spectrometer data. Accumulator count: 346234
+[Wed Mar 12 01:09:19 2025] Data saved successfully.
+[Wed Mar 12 01:09:19 2025] Collected spectrometer data. Accumulator count: 346235
+[Wed Mar 12 01:09:21 2025] Collected spectrometer data. Accumulator count: 346236
+[Wed Mar 12 01:09:22 2025] Collected spectrometer data. Accumulator count: 346237
+[Wed Mar 12 01:09:23 2025] Collected spectrometer data. Accumulator count: 346238
+[Wed Mar 12 01:09:24 2025] Collected spectrometer data. Accumulator count: 346239
+[Wed Mar 12 01:09:25 2025] Collected spectrometer data. Accumulator count: 346240
+[Wed Mar 12 01:09:26 2025] Collected spectrometer data. Accumulator count: 346241
+[Wed Mar 12 01:09:28 2025] Collected spectrometer data. Accumulator count: 346242
+[Wed Mar 12 01:09:29 2025] Collected spectrometer data. Accumulator count: 346243
+[Wed Mar 12 01:09:30 2025] Data saved successfully.
+[Wed Mar 12 01:09:30 2025] Collected spectrometer data. Accumulator count: 346244
+[Wed Mar 12 01:09:31 2025] Collected spectrometer data. Accumulator count: 346245
+[Wed Mar 12 01:09:33 2025] Collected spectrometer data. Accumulator count: 346246
+[Wed Mar 12 01:09:34 2025] Collected spectrometer data. Accumulator count: 346247
+[Wed Mar 12 01:09:35 2025] Collected spectrometer data. Accumulator count: 346248
+[Wed Mar 12 01:09:36 2025] Collected spectrometer data. Accumulator count: 346249
+[Wed Mar 12 01:09:38 2025] Collected spectrometer data. Accumulator count: 346250
+[Wed Mar 12 01:09:39 2025] Collected spectrometer data. Accumulator count: 346251
+[Wed Mar 12 01:09:40 2025] Data saved successfully.
+[Wed Mar 12 01:09:40 2025] Collected spectrometer data. Accumulator count: 346252
+[Wed Mar 12 01:09:41 2025] Collected spectrometer data. Accumulator count: 346253
+[Wed Mar 12 01:09:43 2025] Collected spectrometer data. Accumulator count: 346254
+[Wed Mar 12 01:09:44 2025] Collected spectrometer data. Accumulator count: 346255
+[Wed Mar 12 01:09:45 2025] Collected spectrometer data. Accumulator count: 346256
+[Wed Mar 12 01:09:46 2025] Collected spectrometer data. Accumulator count: 346257
+[Wed Mar 12 01:09:48 2025] Collected spectrometer data. Accumulator count: 346258
+[Wed Mar 12 01:09:49 2025] Collected spectrometer data. Accumulator count: 346259
+[Wed Mar 12 01:09:50 2025] Collected spectrometer data. Accumulator count: 346260
+[Wed Mar 12 01:09:51 2025] Data saved successfully.
+[Wed Mar 12 01:09:51 2025] Collected spectrometer data. Accumulator count: 346261
+[Wed Mar 12 01:09:53 2025] Collected spectrometer data. Accumulator count: 346262
+[Wed Mar 12 01:09:54 2025] Collected spectrometer data. Accumulator count: 346263
+[Wed Mar 12 01:09:55 2025] Collected spectrometer data. Accumulator count: 346264
+[Wed Mar 12 01:09:56 2025] Collected spectrometer data. Accumulator count: 346265
+[Wed Mar 12 01:09:58 2025] Collected spectrometer data. Accumulator count: 346266
+[Wed Mar 12 01:09:59 2025] Collected spectrometer data. Accumulator count: 346267
+[Wed Mar 12 01:10:00 2025] Collected spectrometer data. Accumulator count: 346268
+[Wed Mar 12 01:10:01 2025] Data saved successfully.
+[Wed Mar 12 01:10:01 2025] Collected spectrometer data. Accumulator count: 346269
+[Wed Mar 12 01:10:03 2025] Collected spectrometer data. Accumulator count: 346270
+[Wed Mar 12 01:10:04 2025] Collected spectrometer data. Accumulator count: 346271
+[Wed Mar 12 01:10:05 2025] Collected spectrometer data. Accumulator count: 346272
+[Wed Mar 12 01:10:06 2025] Collected spectrometer data. Accumulator count: 346273
+[Wed Mar 12 01:10:08 2025] Collected spectrometer data. Accumulator count: 346274
+[Wed Mar 12 01:10:09 2025] Collected spectrometer data. Accumulator count: 346275
+[Wed Mar 12 01:10:10 2025] Collected spectrometer data. Accumulator count: 346276
+[Wed Mar 12 01:10:11 2025] Data saved successfully.
+[Wed Mar 12 01:10:11 2025] Collected spectrometer data. Accumulator count: 346277
+[Wed Mar 12 01:10:13 2025] Collected spectrometer data. Accumulator count: 346278
+[Wed Mar 12 01:10:14 2025] Collected spectrometer data. Accumulator count: 346279
+[Wed Mar 12 01:10:15 2025] Collected spectrometer data. Accumulator count: 346280
+[Wed Mar 12 01:10:16 2025] Collected spectrometer data. Accumulator count: 346281
+[Wed Mar 12 01:10:18 2025] Collected spectrometer data. Accumulator count: 346282
+[Wed Mar 12 01:10:19 2025] Collected spectrometer data. Accumulator count: 346283
+[Wed Mar 12 01:10:20 2025] Collected spectrometer data. Accumulator count: 346284
+[Wed Mar 12 01:10:22 2025] Data saved successfully.
+[Wed Mar 12 01:10:22 2025] Collected spectrometer data. Accumulator count: 346285
+[Wed Mar 12 01:10:23 2025] Collected spectrometer data. Accumulator count: 346286
+[Wed Mar 12 01:10:24 2025] Collected spectrometer data. Accumulator count: 346287
+[Wed Mar 12 01:10:25 2025] Collected spectrometer data. Accumulator count: 346288
+[Wed Mar 12 01:10:26 2025] Collected spectrometer data. Accumulator count: 346289
+[Wed Mar 12 01:10:28 2025] Collected spectrometer data. Accumulator count: 346290
+[Wed Mar 12 01:10:29 2025] Collected spectrometer data. Accumulator count: 346291
+[Wed Mar 12 01:10:30 2025] Collected spectrometer data. Accumulator count: 346292
+[Wed Mar 12 01:10:31 2025] Collected spectrometer data. Accumulator count: 346293
+[Wed Mar 12 01:10:32 2025] Data saved successfully.
+[Wed Mar 12 01:10:33 2025] Collected spectrometer data. Accumulator count: 346294
+[Wed Mar 12 01:10:34 2025] Collected spectrometer data. Accumulator count: 346295
+[Wed Mar 12 01:10:35 2025] Collected spectrometer data. Accumulator count: 346296
+[Wed Mar 12 01:10:36 2025] Collected spectrometer data. Accumulator count: 346297
+[Wed Mar 12 01:10:38 2025] Collected spectrometer data. Accumulator count: 346298
+[Wed Mar 12 01:10:39 2025] Collected spectrometer data. Accumulator count: 346299
+[Wed Mar 12 01:10:40 2025] Collected spectrometer data. Accumulator count: 346300
+[Wed Mar 12 01:10:41 2025] Collected spectrometer data. Accumulator count: 346301
+[Wed Mar 12 01:10:43 2025] Data saved successfully.
+[Wed Mar 12 01:10:43 2025] Collected spectrometer data. Accumulator count: 346302
+[Wed Mar 12 01:10:44 2025] Collected spectrometer data. Accumulator count: 346303
+[Wed Mar 12 01:10:45 2025] Collected spectrometer data. Accumulator count: 346304
+[Wed Mar 12 01:10:46 2025] Collected spectrometer data. Accumulator count: 346305
+[Wed Mar 12 01:10:48 2025] Collected spectrometer data. Accumulator count: 346306
+[Wed Mar 12 01:10:49 2025] Collected spectrometer data. Accumulator count: 346307
+[Wed Mar 12 01:10:50 2025] Collected spectrometer data. Accumulator count: 346308
+[Wed Mar 12 01:10:51 2025] Collected spectrometer data. Accumulator count: 346309
+[Wed Mar 12 01:10:53 2025] Collected spectrometer data. Accumulator count: 346310
+[Wed Mar 12 01:10:53 2025] Data saved successfully.
+[Wed Mar 12 01:10:54 2025] Collected spectrometer data. Accumulator count: 346311
+[Wed Mar 12 01:10:55 2025] Collected spectrometer data. Accumulator count: 346312
+[Wed Mar 12 01:10:56 2025] Collected spectrometer data. Accumulator count: 346313
+[Wed Mar 12 01:10:58 2025] Collected spectrometer data. Accumulator count: 346314
+[Wed Mar 12 01:10:59 2025] Collected spectrometer data. Accumulator count: 346315
+[Wed Mar 12 01:11:00 2025] Collected spectrometer data. Accumulator count: 346316
+[Wed Mar 12 01:11:01 2025] Collected spectrometer data. Accumulator count: 346317
+[Wed Mar 12 01:11:03 2025] Collected spectrometer data. Accumulator count: 346318
+[Wed Mar 12 01:11:04 2025] Data saved successfully.
+[Wed Mar 12 01:11:04 2025] Collected spectrometer data. Accumulator count: 346319
+[Wed Mar 12 01:11:05 2025] Collected spectrometer data. Accumulator count: 346320
+[Wed Mar 12 01:11:06 2025] Collected spectrometer data. Accumulator count: 346321
+[Wed Mar 12 01:11:08 2025] Collected spectrometer data. Accumulator count: 346322
+[Wed Mar 12 01:11:09 2025] Collected spectrometer data. Accumulator count: 346323
+[Wed Mar 12 01:11:10 2025] Collected spectrometer data. Accumulator count: 346324
+[Wed Mar 12 01:11:11 2025] Collected spectrometer data. Accumulator count: 346325
+[Wed Mar 12 01:11:13 2025] Collected spectrometer data. Accumulator count: 346326
+[Wed Mar 12 01:11:14 2025] Data saved successfully.
+[Wed Mar 12 01:11:14 2025] Collected spectrometer data. Accumulator count: 346327
+[Wed Mar 12 01:11:15 2025] Collected spectrometer data. Accumulator count: 346328
+[Wed Mar 12 01:11:16 2025] Collected spectrometer data. Accumulator count: 346329
+[Wed Mar 12 01:11:18 2025] Collected spectrometer data. Accumulator count: 346330
+[Wed Mar 12 01:11:19 2025] Collected spectrometer data. Accumulator count: 346331
+[Wed Mar 12 01:11:20 2025] Collected spectrometer data. Accumulator count: 346332
+[Wed Mar 12 01:11:21 2025] Collected spectrometer data. Accumulator count: 346333
+[Wed Mar 12 01:11:23 2025] Collected spectrometer data. Accumulator count: 346334
+[Wed Mar 12 01:11:24 2025] Collected spectrometer data. Accumulator count: 346335
+[Wed Mar 12 01:11:25 2025] Data saved successfully.
+[Wed Mar 12 01:11:25 2025] Collected spectrometer data. Accumulator count: 346336
+[Wed Mar 12 01:11:26 2025] Collected spectrometer data. Accumulator count: 346337
+[Wed Mar 12 01:11:28 2025] Collected spectrometer data. Accumulator count: 346338
+[Wed Mar 12 01:11:29 2025] Collected spectrometer data. Accumulator count: 346339
+[Wed Mar 12 01:11:30 2025] Collected spectrometer data. Accumulator count: 346340
+[Wed Mar 12 01:11:31 2025] Collected spectrometer data. Accumulator count: 346341
+[Wed Mar 12 01:11:33 2025] Collected spectrometer data. Accumulator count: 346342
+[Wed Mar 12 01:11:34 2025] Collected spectrometer data. Accumulator count: 346343
+[Wed Mar 12 01:11:35 2025] Data saved successfully.
+[Wed Mar 12 01:11:35 2025] Collected spectrometer data. Accumulator count: 346344
+[Wed Mar 12 01:11:36 2025] Collected spectrometer data. Accumulator count: 346345
+[Wed Mar 12 01:11:38 2025] Collected spectrometer data. Accumulator count: 346346
+[Wed Mar 12 01:11:39 2025] Collected spectrometer data. Accumulator count: 346347
+[Wed Mar 12 01:11:40 2025] Collected spectrometer data. Accumulator count: 346348
+[Wed Mar 12 01:11:41 2025] Collected spectrometer data. Accumulator count: 346349
+[Wed Mar 12 01:11:43 2025] Collected spectrometer data. Accumulator count: 346350
+[Wed Mar 12 01:11:44 2025] Collected spectrometer data. Accumulator count: 346351
+[Wed Mar 12 01:11:46 2025] Data saved successfully.
+[Wed Mar 12 01:11:46 2025] Collected spectrometer data. Accumulator count: 346352
+[Wed Mar 12 01:11:47 2025] Collected spectrometer data. Accumulator count: 346353
+[Wed Mar 12 01:11:48 2025] Collected spectrometer data. Accumulator count: 346354
+[Wed Mar 12 01:11:49 2025] Collected spectrometer data. Accumulator count: 346355
+[Wed Mar 12 01:11:50 2025] Collected spectrometer data. Accumulator count: 346356
+[Wed Mar 12 01:11:51 2025] Collected spectrometer data. Accumulator count: 346357
+[Wed Mar 12 01:11:53 2025] Collected spectrometer data. Accumulator count: 346358
+[Wed Mar 12 01:11:54 2025] Collected spectrometer data. Accumulator count: 346359
+[Wed Mar 12 01:11:55 2025] Collected spectrometer data. Accumulator count: 346360
+[Wed Mar 12 01:11:56 2025] Data saved successfully.
+[Wed Mar 12 01:11:56 2025] Collected spectrometer data. Accumulator count: 346361
+[Wed Mar 12 01:11:58 2025] Collected spectrometer data. Accumulator count: 346362
+[Wed Mar 12 01:11:59 2025] Collected spectrometer data. Accumulator count: 346363
+[Wed Mar 12 01:12:00 2025] Collected spectrometer data. Accumulator count: 346364
+[Wed Mar 12 01:12:01 2025] Collected spectrometer data. Accumulator count: 346365
+[Wed Mar 12 01:12:03 2025] Collected spectrometer data. Accumulator count: 346366
+[Wed Mar 12 01:12:04 2025] Collected spectrometer data. Accumulator count: 346367
+[Wed Mar 12 01:12:05 2025] Collected spectrometer data. Accumulator count: 346368
+[Wed Mar 12 01:12:07 2025] Data saved successfully.
+[Wed Mar 12 01:12:07 2025] Collected spectrometer data. Accumulator count: 346369
+[Wed Mar 12 01:12:08 2025] Collected spectrometer data. Accumulator count: 346370
+[Wed Mar 12 01:12:09 2025] Collected spectrometer data. Accumulator count: 346371
+[Wed Mar 12 01:12:10 2025] Collected spectrometer data. Accumulator count: 346372
+[Wed Mar 12 01:12:11 2025] Collected spectrometer data. Accumulator count: 346373
+[Wed Mar 12 01:12:13 2025] Collected spectrometer data. Accumulator count: 346374
+[Wed Mar 12 01:12:14 2025] Collected spectrometer data. Accumulator count: 346375
+[Wed Mar 12 01:12:15 2025] Collected spectrometer data. Accumulator count: 346376
+[Wed Mar 12 01:12:16 2025] Collected spectrometer data. Accumulator count: 346377
+[Wed Mar 12 01:12:17 2025] Data saved successfully.
+[Wed Mar 12 01:12:18 2025] Collected spectrometer data. Accumulator count: 346378
+[Wed Mar 12 01:12:19 2025] Collected spectrometer data. Accumulator count: 346379
+[Wed Mar 12 01:12:20 2025] Collected spectrometer data. Accumulator count: 346380
+[Wed Mar 12 01:12:21 2025] Collected spectrometer data. Accumulator count: 346381
+[Wed Mar 12 01:12:23 2025] Collected spectrometer data. Accumulator count: 346382
+[Wed Mar 12 01:12:24 2025] Collected spectrometer data. Accumulator count: 346383
+[Wed Mar 12 01:12:25 2025] Collected spectrometer data. Accumulator count: 346384
+[Wed Mar 12 01:12:26 2025] Collected spectrometer data. Accumulator count: 346385
+[Wed Mar 12 01:12:28 2025] Data saved successfully.
+[Wed Mar 12 01:12:28 2025] Collected spectrometer data. Accumulator count: 346386
+[Wed Mar 12 01:12:29 2025] Collected spectrometer data. Accumulator count: 346387
+[Wed Mar 12 01:12:30 2025] Collected spectrometer data. Accumulator count: 346388
+[Wed Mar 12 01:12:31 2025] Collected spectrometer data. Accumulator count: 346389
+[Wed Mar 12 01:12:33 2025] Collected spectrometer data. Accumulator count: 346390
+[Wed Mar 12 01:12:34 2025] Collected spectrometer data. Accumulator count: 346391
+[Wed Mar 12 01:12:35 2025] Collected spectrometer data. Accumulator count: 346392
+[Wed Mar 12 01:12:36 2025] Collected spectrometer data. Accumulator count: 346393
+[Wed Mar 12 01:12:38 2025] Collected spectrometer data. Accumulator count: 346394
+[Wed Mar 12 01:12:38 2025] Data saved successfully.
+[Wed Mar 12 01:12:39 2025] Collected spectrometer data. Accumulator count: 346395
+[Wed Mar 12 01:12:40 2025] Collected spectrometer data. Accumulator count: 346396
+[Wed Mar 12 01:12:41 2025] Collected spectrometer data. Accumulator count: 346397
+[Wed Mar 12 01:12:43 2025] Collected spectrometer data. Accumulator count: 346398
+[Wed Mar 12 01:12:44 2025] Collected spectrometer data. Accumulator count: 346399
+[Wed Mar 12 01:12:45 2025] Collected spectrometer data. Accumulator count: 346400
+[Wed Mar 12 01:12:46 2025] Collected spectrometer data. Accumulator count: 346401
+[Wed Mar 12 01:12:48 2025] Collected spectrometer data. Accumulator count: 346402
+[Wed Mar 12 01:12:49 2025] Data saved successfully.
+[Wed Mar 12 01:12:49 2025] Collected spectrometer data. Accumulator count: 346403
+[Wed Mar 12 01:12:50 2025] Collected spectrometer data. Accumulator count: 346404
+[Wed Mar 12 01:12:51 2025] Collected spectrometer data. Accumulator count: 346405
+[Wed Mar 12 01:12:53 2025] Collected spectrometer data. Accumulator count: 346406
+[Wed Mar 12 01:12:54 2025] Collected spectrometer data. Accumulator count: 346407
+[Wed Mar 12 01:12:55 2025] Collected spectrometer data. Accumulator count: 346408
+[Wed Mar 12 01:12:56 2025] Collected spectrometer data. Accumulator count: 346409
+[Wed Mar 12 01:12:58 2025] Collected spectrometer data. Accumulator count: 346410
+[Wed Mar 12 01:12:59 2025] Data saved successfully.
+[Wed Mar 12 01:12:59 2025] Collected spectrometer data. Accumulator count: 346411
+[Wed Mar 12 01:13:00 2025] Collected spectrometer data. Accumulator count: 346412
+[Wed Mar 12 01:13:02 2025] Collected spectrometer data. Accumulator count: 346413
+[Wed Mar 12 01:13:03 2025] Collected spectrometer data. Accumulator count: 346414
+[Wed Mar 12 01:13:04 2025] Collected spectrometer data. Accumulator count: 346415
+[Wed Mar 12 01:13:05 2025] Collected spectrometer data. Accumulator count: 346416
+[Wed Mar 12 01:13:06 2025] Collected spectrometer data. Accumulator count: 346417
+[Wed Mar 12 01:13:08 2025] Collected spectrometer data. Accumulator count: 346418
+[Wed Mar 12 01:13:09 2025] Collected spectrometer data. Accumulator count: 346419
+[Wed Mar 12 01:13:10 2025] Data saved successfully.
+[Wed Mar 12 01:13:10 2025] Collected spectrometer data. Accumulator count: 346420
+[Wed Mar 12 01:13:11 2025] Collected spectrometer data. Accumulator count: 346421
+[Wed Mar 12 01:13:13 2025] Collected spectrometer data. Accumulator count: 346422
+[Wed Mar 12 01:13:14 2025] Collected spectrometer data. Accumulator count: 346423
+[Wed Mar 12 01:13:15 2025] Collected spectrometer data. Accumulator count: 346424
+[Wed Mar 12 01:13:16 2025] Collected spectrometer data. Accumulator count: 346425
+[Wed Mar 12 01:13:18 2025] Collected spectrometer data. Accumulator count: 346426
+[Wed Mar 12 01:13:19 2025] Collected spectrometer data. Accumulator count: 346427
+[Wed Mar 12 01:13:21 2025] Data saved successfully.
+[Wed Mar 12 01:13:21 2025] Collected spectrometer data. Accumulator count: 346428
+[Wed Mar 12 01:13:22 2025] Collected spectrometer data. Accumulator count: 346429
+[Wed Mar 12 01:13:23 2025] Collected spectrometer data. Accumulator count: 346430
+[Wed Mar 12 01:13:24 2025] Collected spectrometer data. Accumulator count: 346431
+[Wed Mar 12 01:13:25 2025] Collected spectrometer data. Accumulator count: 346432
+[Wed Mar 12 01:13:26 2025] Collected spectrometer data. Accumulator count: 346433
+[Wed Mar 12 01:13:28 2025] Collected spectrometer data. Accumulator count: 346434
+[Wed Mar 12 01:13:29 2025] Collected spectrometer data. Accumulator count: 346435
+[Wed Mar 12 01:13:30 2025] Collected spectrometer data. Accumulator count: 346436
+[Wed Mar 12 01:13:31 2025] Data saved successfully.
+[Wed Mar 12 01:13:31 2025] Collected spectrometer data. Accumulator count: 346437
+[Wed Mar 12 01:13:33 2025] Collected spectrometer data. Accumulator count: 346438
+[Wed Mar 12 01:13:34 2025] Collected spectrometer data. Accumulator count: 346439
+[Wed Mar 12 01:13:35 2025] Collected spectrometer data. Accumulator count: 346440
+[Wed Mar 12 01:13:36 2025] Collected spectrometer data. Accumulator count: 346441
+[Wed Mar 12 01:13:38 2025] Collected spectrometer data. Accumulator count: 346442
+[Wed Mar 12 01:13:39 2025] Collected spectrometer data. Accumulator count: 346443
+[Wed Mar 12 01:13:40 2025] Collected spectrometer data. Accumulator count: 346444
+[Wed Mar 12 01:13:42 2025] Data saved successfully.
+[Wed Mar 12 01:13:42 2025] Collected spectrometer data. Accumulator count: 346445
+[Wed Mar 12 01:13:43 2025] Collected spectrometer data. Accumulator count: 346446
+[Wed Mar 12 01:13:44 2025] Collected spectrometer data. Accumulator count: 346447
+[Wed Mar 12 01:13:45 2025] Collected spectrometer data. Accumulator count: 346448
+[Wed Mar 12 01:13:46 2025] Collected spectrometer data. Accumulator count: 346449
+[Wed Mar 12 01:13:48 2025] Collected spectrometer data. Accumulator count: 346450
+[Wed Mar 12 01:13:49 2025] Collected spectrometer data. Accumulator count: 346451
+[Wed Mar 12 01:13:50 2025] Collected spectrometer data. Accumulator count: 346452
+[Wed Mar 12 01:13:51 2025] Collected spectrometer data. Accumulator count: 346453
+[Wed Mar 12 01:13:52 2025] Data saved successfully.
+[Wed Mar 12 01:13:53 2025] Collected spectrometer data. Accumulator count: 346454
+[Wed Mar 12 01:13:54 2025] Collected spectrometer data. Accumulator count: 346455
+[Wed Mar 12 01:13:55 2025] Collected spectrometer data. Accumulator count: 346456
+[Wed Mar 12 01:13:56 2025] Collected spectrometer data. Accumulator count: 346457
+[Wed Mar 12 01:13:58 2025] Collected spectrometer data. Accumulator count: 346458
+[Wed Mar 12 01:13:59 2025] Collected spectrometer data. Accumulator count: 346459
+[Wed Mar 12 01:14:00 2025] Collected spectrometer data. Accumulator count: 346460
+[Wed Mar 12 01:14:01 2025] Collected spectrometer data. Accumulator count: 346461
+[Wed Mar 12 01:14:04 2025] Data saved successfully.
+[Wed Mar 12 01:14:04 2025] Collected spectrometer data. Accumulator count: 346462
+[Wed Mar 12 01:14:05 2025] Collected spectrometer data. Accumulator count: 346463
+[Wed Mar 12 01:14:06 2025] Collected spectrometer data. Accumulator count: 346464
+[Wed Mar 12 01:14:07 2025] Collected spectrometer data. Accumulator count: 346465
+[Wed Mar 12 01:14:08 2025] Collected spectrometer data. Accumulator count: 346466
+[Wed Mar 12 01:14:09 2025] Collected spectrometer data. Accumulator count: 346467
+[Wed Mar 12 01:14:11 2025] Collected spectrometer data. Accumulator count: 346468
+[Wed Mar 12 01:14:12 2025] Collected spectrometer data. Accumulator count: 346469
+[Wed Mar 12 01:14:13 2025] Collected spectrometer data. Accumulator count: 346470
+[Wed Mar 12 01:14:15 2025] Data saved successfully.
+[Wed Mar 12 01:14:15 2025] Collected spectrometer data. Accumulator count: 346471
+[Wed Mar 12 01:14:16 2025] Collected spectrometer data. Accumulator count: 346472
+[Wed Mar 12 01:14:17 2025] Collected spectrometer data. Accumulator count: 346473
+[Wed Mar 12 01:14:18 2025] Collected spectrometer data. Accumulator count: 346474
+[Wed Mar 12 01:14:19 2025] Collected spectrometer data. Accumulator count: 346475
+[Wed Mar 12 01:14:20 2025] Collected spectrometer data. Accumulator count: 346476
+[Wed Mar 12 01:14:21 2025] Collected spectrometer data. Accumulator count: 346477
+[Wed Mar 12 01:14:23 2025] Collected spectrometer data. Accumulator count: 346478
+[Wed Mar 12 01:14:24 2025] Collected spectrometer data. Accumulator count: 346479
+[Wed Mar 12 01:14:25 2025] Data saved successfully.
+[Wed Mar 12 01:14:25 2025] Collected spectrometer data. Accumulator count: 346480
+[Wed Mar 12 01:14:26 2025] Collected spectrometer data. Accumulator count: 346481
+[Wed Mar 12 01:14:28 2025] Collected spectrometer data. Accumulator count: 346482
+[Wed Mar 12 01:14:29 2025] Collected spectrometer data. Accumulator count: 346483
+[Wed Mar 12 01:14:30 2025] Collected spectrometer data. Accumulator count: 346484
+[Wed Mar 12 01:14:31 2025] Collected spectrometer data. Accumulator count: 346485
+[Wed Mar 12 01:14:33 2025] Collected spectrometer data. Accumulator count: 346486
+[Wed Mar 12 01:14:34 2025] Collected spectrometer data. Accumulator count: 346487
+[Wed Mar 12 01:14:36 2025] Data saved successfully.
+[Wed Mar 12 01:14:36 2025] Collected spectrometer data. Accumulator count: 346488
+[Wed Mar 12 01:14:37 2025] Collected spectrometer data. Accumulator count: 346489
+[Wed Mar 12 01:14:38 2025] Collected spectrometer data. Accumulator count: 346490
+[Wed Mar 12 01:14:39 2025] Collected spectrometer data. Accumulator count: 346491
+[Wed Mar 12 01:14:40 2025] Collected spectrometer data. Accumulator count: 346492
+[Wed Mar 12 01:14:42 2025] Collected spectrometer data. Accumulator count: 346493
+[Wed Mar 12 01:14:43 2025] Collected spectrometer data. Accumulator count: 346494
+[Wed Mar 12 01:14:44 2025] Collected spectrometer data. Accumulator count: 346495
+[Wed Mar 12 01:14:45 2025] Collected spectrometer data. Accumulator count: 346496
+[Wed Mar 12 01:14:46 2025] Data saved successfully.
+[Wed Mar 12 01:14:46 2025] Collected spectrometer data. Accumulator count: 346497
+[Wed Mar 12 01:14:48 2025] Collected spectrometer data. Accumulator count: 346498
+[Wed Mar 12 01:14:49 2025] Collected spectrometer data. Accumulator count: 346499
+[Wed Mar 12 01:14:50 2025] Collected spectrometer data. Accumulator count: 346500
+[Wed Mar 12 01:14:51 2025] Collected spectrometer data. Accumulator count: 346501
+[Wed Mar 12 01:14:53 2025] Collected spectrometer data. Accumulator count: 346502
+[Wed Mar 12 01:14:54 2025] Collected spectrometer data. Accumulator count: 346503
+[Wed Mar 12 01:14:55 2025] Collected spectrometer data. Accumulator count: 346504
+[Wed Mar 12 01:14:57 2025] Data saved successfully.
+[Wed Mar 12 01:14:57 2025] Collected spectrometer data. Accumulator count: 346505
+[Wed Mar 12 01:14:58 2025] Collected spectrometer data. Accumulator count: 346506
+[Wed Mar 12 01:14:59 2025] Collected spectrometer data. Accumulator count: 346507
+[Wed Mar 12 01:15:00 2025] Collected spectrometer data. Accumulator count: 346508
+[Wed Mar 12 01:15:02 2025] Collected spectrometer data. Accumulator count: 346509
+[Wed Mar 12 01:15:03 2025] Collected spectrometer data. Accumulator count: 346510
+[Wed Mar 12 01:15:04 2025] Collected spectrometer data. Accumulator count: 346511
+[Wed Mar 12 01:15:05 2025] Collected spectrometer data. Accumulator count: 346512
+[Wed Mar 12 01:15:06 2025] Collected spectrometer data. Accumulator count: 346513
+[Wed Mar 12 01:15:08 2025] Data saved successfully.
+[Wed Mar 12 01:15:08 2025] Collected spectrometer data. Accumulator count: 346514
+[Wed Mar 12 01:15:09 2025] Collected spectrometer data. Accumulator count: 346515
+[Wed Mar 12 01:15:10 2025] Collected spectrometer data. Accumulator count: 346516
+[Wed Mar 12 01:15:11 2025] Collected spectrometer data. Accumulator count: 346517
+[Wed Mar 12 01:15:13 2025] Collected spectrometer data. Accumulator count: 346518
+[Wed Mar 12 01:15:14 2025] Collected spectrometer data. Accumulator count: 346519
+[Wed Mar 12 01:15:15 2025] Collected spectrometer data. Accumulator count: 346520
+[Wed Mar 12 01:15:16 2025] Collected spectrometer data. Accumulator count: 346521
+[Wed Mar 12 01:15:18 2025] Data saved successfully.
+[Wed Mar 12 01:15:18 2025] Collected spectrometer data. Accumulator count: 346522
+[Wed Mar 12 01:15:19 2025] Collected spectrometer data. Accumulator count: 346523
+[Wed Mar 12 01:15:21 2025] Collected spectrometer data. Accumulator count: 346524
+[Wed Mar 12 01:15:22 2025] Collected spectrometer data. Accumulator count: 346525
+[Wed Mar 12 01:15:23 2025] Collected spectrometer data. Accumulator count: 346526
+[Wed Mar 12 01:15:24 2025] Collected spectrometer data. Accumulator count: 346527
+[Wed Mar 12 01:15:25 2025] Collected spectrometer data. Accumulator count: 346528
+[Wed Mar 12 01:15:26 2025] Collected spectrometer data. Accumulator count: 346529
+[Wed Mar 12 01:15:28 2025] Collected spectrometer data. Accumulator count: 346530
+[Wed Mar 12 01:15:29 2025] Data saved successfully.
+[Wed Mar 12 01:15:29 2025] Collected spectrometer data. Accumulator count: 346531
+[Wed Mar 12 01:15:30 2025] Collected spectrometer data. Accumulator count: 346532
+[Wed Mar 12 01:15:31 2025] Collected spectrometer data. Accumulator count: 346533
+[Wed Mar 12 01:15:33 2025] Collected spectrometer data. Accumulator count: 346534
+[Wed Mar 12 01:15:34 2025] Collected spectrometer data. Accumulator count: 346535
+[Wed Mar 12 01:15:35 2025] Collected spectrometer data. Accumulator count: 346536
+[Wed Mar 12 01:15:36 2025] Collected spectrometer data. Accumulator count: 346537
+[Wed Mar 12 01:15:38 2025] Collected spectrometer data. Accumulator count: 346538
+[Wed Mar 12 01:15:40 2025] Data saved successfully.
+[Wed Mar 12 01:15:40 2025] Collected spectrometer data. Accumulator count: 346539
+[Wed Mar 12 01:15:41 2025] Collected spectrometer data. Accumulator count: 346540
+[Wed Mar 12 01:15:42 2025] Collected spectrometer data. Accumulator count: 346541
+[Wed Mar 12 01:15:43 2025] Collected spectrometer data. Accumulator count: 346542
+[Wed Mar 12 01:15:44 2025] Collected spectrometer data. Accumulator count: 346543
+[Wed Mar 12 01:15:45 2025] Collected spectrometer data. Accumulator count: 346544
+[Wed Mar 12 01:15:47 2025] Collected spectrometer data. Accumulator count: 346545
+[Wed Mar 12 01:15:48 2025] Collected spectrometer data. Accumulator count: 346546
+[Wed Mar 12 01:15:49 2025] Collected spectrometer data. Accumulator count: 346547
+[Wed Mar 12 01:15:50 2025] Data saved successfully.
+[Wed Mar 12 01:15:50 2025] Collected spectrometer data. Accumulator count: 346548
+[Wed Mar 12 01:15:51 2025] Collected spectrometer data. Accumulator count: 346549
+[Wed Mar 12 01:15:53 2025] Collected spectrometer data. Accumulator count: 346550
+[Wed Mar 12 01:15:54 2025] Collected spectrometer data. Accumulator count: 346551
+[Wed Mar 12 01:15:55 2025] Collected spectrometer data. Accumulator count: 346552
+[Wed Mar 12 01:15:56 2025] Collected spectrometer data. Accumulator count: 346553
+[Wed Mar 12 01:15:58 2025] Collected spectrometer data. Accumulator count: 346554
+[Wed Mar 12 01:15:59 2025] Collected spectrometer data. Accumulator count: 346555
+[Wed Mar 12 01:16:01 2025] Data saved successfully.
+[Wed Mar 12 01:16:01 2025] Collected spectrometer data. Accumulator count: 346556
+[Wed Mar 12 01:16:02 2025] Collected spectrometer data. Accumulator count: 346557
+[Wed Mar 12 01:16:03 2025] Collected spectrometer data. Accumulator count: 346558
+[Wed Mar 12 01:16:04 2025] Collected spectrometer data. Accumulator count: 346559
+[Wed Mar 12 01:16:06 2025] Collected spectrometer data. Accumulator count: 346560
+[Wed Mar 12 01:16:07 2025] Collected spectrometer data. Accumulator count: 346561
+[Wed Mar 12 01:16:08 2025] Collected spectrometer data. Accumulator count: 346562
+[Wed Mar 12 01:16:09 2025] Collected spectrometer data. Accumulator count: 346563
+[Wed Mar 12 01:16:10 2025] Collected spectrometer data. Accumulator count: 346564
+[Wed Mar 12 01:16:12 2025] Data saved successfully.
+[Wed Mar 12 01:16:12 2025] Collected spectrometer data. Accumulator count: 346565
+[Wed Mar 12 01:16:13 2025] Collected spectrometer data. Accumulator count: 346566
+[Wed Mar 12 01:16:14 2025] Collected spectrometer data. Accumulator count: 346567
+[Wed Mar 12 01:16:15 2025] Collected spectrometer data. Accumulator count: 346568
+[Wed Mar 12 01:16:16 2025] Collected spectrometer data. Accumulator count: 346569
+[Wed Mar 12 01:16:18 2025] Collected spectrometer data. Accumulator count: 346570
+[Wed Mar 12 01:16:19 2025] Collected spectrometer data. Accumulator count: 346571
+[Wed Mar 12 01:16:20 2025] Collected spectrometer data. Accumulator count: 346572
+[Wed Mar 12 01:16:21 2025] Collected spectrometer data. Accumulator count: 346573
+[Wed Mar 12 01:16:22 2025] Data saved successfully.
+[Wed Mar 12 01:16:23 2025] Collected spectrometer data. Accumulator count: 346574
+[Wed Mar 12 01:16:24 2025] Collected spectrometer data. Accumulator count: 346575
+[Wed Mar 12 01:16:25 2025] Collected spectrometer data. Accumulator count: 346576
+[Wed Mar 12 01:16:26 2025] Collected spectrometer data. Accumulator count: 346577
+[Wed Mar 12 01:16:28 2025] Collected spectrometer data. Accumulator count: 346578
+[Wed Mar 12 01:16:29 2025] Collected spectrometer data. Accumulator count: 346579
+[Wed Mar 12 01:16:30 2025] Collected spectrometer data. Accumulator count: 346580
+[Wed Mar 12 01:16:31 2025] Collected spectrometer data. Accumulator count: 346581
+[Wed Mar 12 01:16:33 2025] Data saved successfully.
+[Wed Mar 12 01:16:33 2025] Collected spectrometer data. Accumulator count: 346582
+[Wed Mar 12 01:16:34 2025] Collected spectrometer data. Accumulator count: 346583
+[Wed Mar 12 01:16:35 2025] Collected spectrometer data. Accumulator count: 346584
+[Wed Mar 12 01:16:37 2025] Collected spectrometer data. Accumulator count: 346585
+[Wed Mar 12 01:16:38 2025] Collected spectrometer data. Accumulator count: 346586
+[Wed Mar 12 01:16:39 2025] Collected spectrometer data. Accumulator count: 346587
+[Wed Mar 12 01:16:40 2025] Collected spectrometer data. Accumulator count: 346588
+[Wed Mar 12 01:16:41 2025] Collected spectrometer data. Accumulator count: 346589
+[Wed Mar 12 01:16:43 2025] Collected spectrometer data. Accumulator count: 346590
+[Wed Mar 12 01:16:44 2025] Data saved successfully.
+[Wed Mar 12 01:16:44 2025] Collected spectrometer data. Accumulator count: 346591
+[Wed Mar 12 01:16:45 2025] Collected spectrometer data. Accumulator count: 346592
+[Wed Mar 12 01:16:46 2025] Collected spectrometer data. Accumulator count: 346593
+[Wed Mar 12 01:16:48 2025] Collected spectrometer data. Accumulator count: 346594
+[Wed Mar 12 01:16:49 2025] Collected spectrometer data. Accumulator count: 346595
+[Wed Mar 12 01:16:50 2025] Collected spectrometer data. Accumulator count: 346596
+[Wed Mar 12 01:16:51 2025] Collected spectrometer data. Accumulator count: 346597
+[Wed Mar 12 01:16:53 2025] Collected spectrometer data. Accumulator count: 346598
+[Wed Mar 12 01:16:54 2025] Data saved successfully.
+[Wed Mar 12 01:16:54 2025] Collected spectrometer data. Accumulator count: 346599
+[Wed Mar 12 01:16:55 2025] Collected spectrometer data. Accumulator count: 346600
+[Wed Mar 12 01:16:57 2025] Collected spectrometer data. Accumulator count: 346601
+[Wed Mar 12 01:16:58 2025] Collected spectrometer data. Accumulator count: 346602
+[Wed Mar 12 01:16:59 2025] Collected spectrometer data. Accumulator count: 346603
+[Wed Mar 12 01:17:00 2025] Collected spectrometer data. Accumulator count: 346604
+[Wed Mar 12 01:17:01 2025] Collected spectrometer data. Accumulator count: 346605
+[Wed Mar 12 01:17:03 2025] Collected spectrometer data. Accumulator count: 346606
+[Wed Mar 12 01:17:04 2025] Collected spectrometer data. Accumulator count: 346607
+[Wed Mar 12 01:17:05 2025] Data saved successfully.
+[Wed Mar 12 01:17:05 2025] Collected spectrometer data. Accumulator count: 346608
+[Wed Mar 12 01:17:06 2025] Collected spectrometer data. Accumulator count: 346609
+[Wed Mar 12 01:17:08 2025] Collected spectrometer data. Accumulator count: 346610
+[Wed Mar 12 01:17:09 2025] Collected spectrometer data. Accumulator count: 346611
+[Wed Mar 12 01:17:10 2025] Collected spectrometer data. Accumulator count: 346612
+[Wed Mar 12 01:17:11 2025] Collected spectrometer data. Accumulator count: 346613
+[Wed Mar 12 01:17:13 2025] Collected spectrometer data. Accumulator count: 346614
+[Wed Mar 12 01:17:14 2025] Collected spectrometer data. Accumulator count: 346615
+[Wed Mar 12 01:17:15 2025] Data saved successfully.
+[Wed Mar 12 01:17:15 2025] Collected spectrometer data. Accumulator count: 346616
+[Wed Mar 12 01:17:17 2025] Collected spectrometer data. Accumulator count: 346617
+[Wed Mar 12 01:17:18 2025] Collected spectrometer data. Accumulator count: 346618
+[Wed Mar 12 01:17:19 2025] Collected spectrometer data. Accumulator count: 346619
+[Wed Mar 12 01:17:20 2025] Collected spectrometer data. Accumulator count: 346620
+[Wed Mar 12 01:17:21 2025] Collected spectrometer data. Accumulator count: 346621
+[Wed Mar 12 01:17:23 2025] Collected spectrometer data. Accumulator count: 346622
+[Wed Mar 12 01:17:24 2025] Collected spectrometer data. Accumulator count: 346623
+[Wed Mar 12 01:17:25 2025] Collected spectrometer data. Accumulator count: 346624
+[Wed Mar 12 01:17:26 2025] Data saved successfully.
+[Wed Mar 12 01:17:26 2025] Collected spectrometer data. Accumulator count: 346625
+[Wed Mar 12 01:17:28 2025] Collected spectrometer data. Accumulator count: 346626
+[Wed Mar 12 01:17:29 2025] Collected spectrometer data. Accumulator count: 346627
+[Wed Mar 12 01:17:30 2025] Collected spectrometer data. Accumulator count: 346628
+[Wed Mar 12 01:17:31 2025] Collected spectrometer data. Accumulator count: 346629
+[Wed Mar 12 01:17:33 2025] Collected spectrometer data. Accumulator count: 346630
+[Wed Mar 12 01:17:34 2025] Collected spectrometer data. Accumulator count: 346631
+[Wed Mar 12 01:17:35 2025] Collected spectrometer data. Accumulator count: 346632
+[Wed Mar 12 01:17:37 2025] Data saved successfully.
+[Wed Mar 12 01:17:37 2025] Collected spectrometer data. Accumulator count: 346633
+[Wed Mar 12 01:17:38 2025] Collected spectrometer data. Accumulator count: 346634
+[Wed Mar 12 01:17:39 2025] Collected spectrometer data. Accumulator count: 346635
+[Wed Mar 12 01:17:40 2025] Collected spectrometer data. Accumulator count: 346636
+[Wed Mar 12 01:17:42 2025] Collected spectrometer data. Accumulator count: 346637
+[Wed Mar 12 01:17:43 2025] Collected spectrometer data. Accumulator count: 346638
+[Wed Mar 12 01:17:44 2025] Collected spectrometer data. Accumulator count: 346639
+[Wed Mar 12 01:17:45 2025] Collected spectrometer data. Accumulator count: 346640
+[Wed Mar 12 01:17:46 2025] Collected spectrometer data. Accumulator count: 346641
+[Wed Mar 12 01:17:48 2025] Data saved successfully.
+[Wed Mar 12 01:17:48 2025] Collected spectrometer data. Accumulator count: 346642
+[Wed Mar 12 01:17:49 2025] Collected spectrometer data. Accumulator count: 346643
+[Wed Mar 12 01:17:50 2025] Collected spectrometer data. Accumulator count: 346644
+[Wed Mar 12 01:17:51 2025] Collected spectrometer data. Accumulator count: 346645
+[Wed Mar 12 01:17:53 2025] Collected spectrometer data. Accumulator count: 346646
+[Wed Mar 12 01:17:54 2025] Collected spectrometer data. Accumulator count: 346647
+[Wed Mar 12 01:17:55 2025] Collected spectrometer data. Accumulator count: 346648
+[Wed Mar 12 01:17:56 2025] Collected spectrometer data. Accumulator count: 346649
+[Wed Mar 12 01:17:58 2025] Collected spectrometer data. Accumulator count: 346650
+[Wed Mar 12 01:17:59 2025] Data saved successfully.
+[Wed Mar 12 01:17:59 2025] Collected spectrometer data. Accumulator count: 346651
+[Wed Mar 12 01:18:00 2025] Collected spectrometer data. Accumulator count: 346652
+[Wed Mar 12 01:18:01 2025] Collected spectrometer data. Accumulator count: 346653
+[Wed Mar 12 01:18:03 2025] Collected spectrometer data. Accumulator count: 346654
+[Wed Mar 12 01:18:04 2025] Collected spectrometer data. Accumulator count: 346655
+[Wed Mar 12 01:18:05 2025] Collected spectrometer data. Accumulator count: 346656
+[Wed Mar 12 01:18:06 2025] Collected spectrometer data. Accumulator count: 346657
+[Wed Mar 12 01:18:08 2025] Collected spectrometer data. Accumulator count: 346658
+[Wed Mar 12 01:18:09 2025] Data saved successfully.
+[Wed Mar 12 01:18:09 2025] Collected spectrometer data. Accumulator count: 346659
+[Wed Mar 12 01:18:10 2025] Collected spectrometer data. Accumulator count: 346660
+[Wed Mar 12 01:18:12 2025] Collected spectrometer data. Accumulator count: 346661
+[Wed Mar 12 01:18:13 2025] Collected spectrometer data. Accumulator count: 346662
+[Wed Mar 12 01:18:14 2025] Collected spectrometer data. Accumulator count: 346663
+[Wed Mar 12 01:18:15 2025] Collected spectrometer data. Accumulator count: 346664
+[Wed Mar 12 01:18:16 2025] Collected spectrometer data. Accumulator count: 346665
+[Wed Mar 12 01:18:18 2025] Collected spectrometer data. Accumulator count: 346666
+[Wed Mar 12 01:18:19 2025] Collected spectrometer data. Accumulator count: 346667
+[Wed Mar 12 01:18:20 2025] Data saved successfully.
+[Wed Mar 12 01:18:20 2025] Collected spectrometer data. Accumulator count: 346668
+[Wed Mar 12 01:18:21 2025] Collected spectrometer data. Accumulator count: 346669
+[Wed Mar 12 01:18:23 2025] Collected spectrometer data. Accumulator count: 346670
+[Wed Mar 12 01:18:24 2025] Collected spectrometer data. Accumulator count: 346671
+[Wed Mar 12 01:18:25 2025] Collected spectrometer data. Accumulator count: 346672
+[Wed Mar 12 01:18:26 2025] Collected spectrometer data. Accumulator count: 346673
+[Wed Mar 12 01:18:28 2025] Collected spectrometer data. Accumulator count: 346674
+[Wed Mar 12 01:18:29 2025] Collected spectrometer data. Accumulator count: 346675
+[Wed Mar 12 01:18:30 2025] Data saved successfully.
+[Wed Mar 12 01:18:30 2025] Collected spectrometer data. Accumulator count: 346676
+[Wed Mar 12 01:18:32 2025] Collected spectrometer data. Accumulator count: 346677
+[Wed Mar 12 01:18:33 2025] Collected spectrometer data. Accumulator count: 346678
+[Wed Mar 12 01:18:34 2025] Collected spectrometer data. Accumulator count: 346679
+[Wed Mar 12 01:18:35 2025] Collected spectrometer data. Accumulator count: 346680
+[Wed Mar 12 01:18:36 2025] Collected spectrometer data. Accumulator count: 346681
+[Wed Mar 12 01:18:38 2025] Collected spectrometer data. Accumulator count: 346682
+[Wed Mar 12 01:18:39 2025] Collected spectrometer data. Accumulator count: 346683
+[Wed Mar 12 01:18:40 2025] Collected spectrometer data. Accumulator count: 346684
+[Wed Mar 12 01:18:41 2025] Data saved successfully.
+[Wed Mar 12 01:18:41 2025] Collected spectrometer data. Accumulator count: 346685
+[Wed Mar 12 01:18:43 2025] Collected spectrometer data. Accumulator count: 346686
+[Wed Mar 12 01:18:44 2025] Collected spectrometer data. Accumulator count: 346687
+[Wed Mar 12 01:18:45 2025] Collected spectrometer data. Accumulator count: 346688
+[Wed Mar 12 01:18:46 2025] Collected spectrometer data. Accumulator count: 346689
+[Wed Mar 12 01:18:48 2025] Collected spectrometer data. Accumulator count: 346690
+[Wed Mar 12 01:18:49 2025] Collected spectrometer data. Accumulator count: 346691
+[Wed Mar 12 01:18:50 2025] Collected spectrometer data. Accumulator count: 346692
+[Wed Mar 12 01:18:52 2025] Data saved successfully.
+[Wed Mar 12 01:18:52 2025] Collected spectrometer data. Accumulator count: 346693
+[Wed Mar 12 01:18:53 2025] Collected spectrometer data. Accumulator count: 346694
+[Wed Mar 12 01:18:54 2025] Collected spectrometer data. Accumulator count: 346695
+[Wed Mar 12 01:18:55 2025] Collected spectrometer data. Accumulator count: 346696
+[Wed Mar 12 01:18:56 2025] Collected spectrometer data. Accumulator count: 346697
+[Wed Mar 12 01:18:58 2025] Collected spectrometer data. Accumulator count: 346698
+[Wed Mar 12 01:18:59 2025] Collected spectrometer data. Accumulator count: 346699
+[Wed Mar 12 01:19:00 2025] Collected spectrometer data. Accumulator count: 346700
+[Wed Mar 12 01:19:01 2025] Collected spectrometer data. Accumulator count: 346701
+[Wed Mar 12 01:19:02 2025] Data saved successfully.
+[Wed Mar 12 01:19:03 2025] Collected spectrometer data. Accumulator count: 346702
+[Wed Mar 12 01:19:04 2025] Collected spectrometer data. Accumulator count: 346703
+[Wed Mar 12 01:19:05 2025] Collected spectrometer data. Accumulator count: 346704
+[Wed Mar 12 01:19:06 2025] Collected spectrometer data. Accumulator count: 346705
+[Wed Mar 12 01:19:08 2025] Collected spectrometer data. Accumulator count: 346706
+[Wed Mar 12 01:19:09 2025] Collected spectrometer data. Accumulator count: 346707
+[Wed Mar 12 01:19:10 2025] Collected spectrometer data. Accumulator count: 346708
+[Wed Mar 12 01:19:11 2025] Collected spectrometer data. Accumulator count: 346709
+[Wed Mar 12 01:19:13 2025] Data saved successfully.
+[Wed Mar 12 01:19:13 2025] Collected spectrometer data. Accumulator count: 346710
+[Wed Mar 12 01:19:14 2025] Collected spectrometer data. Accumulator count: 346711
+[Wed Mar 12 01:19:15 2025] Collected spectrometer data. Accumulator count: 346712
+[Wed Mar 12 01:19:17 2025] Collected spectrometer data. Accumulator count: 346713
+[Wed Mar 12 01:19:18 2025] Collected spectrometer data. Accumulator count: 346714
+[Wed Mar 12 01:19:19 2025] Collected spectrometer data. Accumulator count: 346715
+[Wed Mar 12 01:19:20 2025] Collected spectrometer data. Accumulator count: 346716
+[Wed Mar 12 01:19:22 2025] Collected spectrometer data. Accumulator count: 346717
+[Wed Mar 12 01:19:23 2025] Collected spectrometer data. Accumulator count: 346718
+[Wed Mar 12 01:19:24 2025] Data saved successfully.
+[Wed Mar 12 01:19:24 2025] Collected spectrometer data. Accumulator count: 346719
+[Wed Mar 12 01:19:25 2025] Collected spectrometer data. Accumulator count: 346720
+[Wed Mar 12 01:19:26 2025] Collected spectrometer data. Accumulator count: 346721
+[Wed Mar 12 01:19:28 2025] Collected spectrometer data. Accumulator count: 346722
+[Wed Mar 12 01:19:29 2025] Collected spectrometer data. Accumulator count: 346723
+[Wed Mar 12 01:19:30 2025] Collected spectrometer data. Accumulator count: 346724
+[Wed Mar 12 01:19:31 2025] Collected spectrometer data. Accumulator count: 346725
+[Wed Mar 12 01:19:33 2025] Collected spectrometer data. Accumulator count: 346726
+[Wed Mar 12 01:19:34 2025] Data saved successfully.
+[Wed Mar 12 01:19:34 2025] Collected spectrometer data. Accumulator count: 346727
+[Wed Mar 12 01:19:36 2025] Collected spectrometer data. Accumulator count: 346728
+[Wed Mar 12 01:19:37 2025] Collected spectrometer data. Accumulator count: 346729
+[Wed Mar 12 01:19:38 2025] Collected spectrometer data. Accumulator count: 346730
+[Wed Mar 12 01:19:39 2025] Collected spectrometer data. Accumulator count: 346731
+[Wed Mar 12 01:19:40 2025] Collected spectrometer data. Accumulator count: 346732
+[Wed Mar 12 01:19:42 2025] Collected spectrometer data. Accumulator count: 346733
+[Wed Mar 12 01:19:43 2025] Collected spectrometer data. Accumulator count: 346734
+[Wed Mar 12 01:19:44 2025] Collected spectrometer data. Accumulator count: 346735
+[Wed Mar 12 01:19:45 2025] Data saved successfully.
+[Wed Mar 12 01:19:45 2025] Collected spectrometer data. Accumulator count: 346736
+[Wed Mar 12 01:19:46 2025] Collected spectrometer data. Accumulator count: 346737
+[Wed Mar 12 01:19:48 2025] Collected spectrometer data. Accumulator count: 346738
+[Wed Mar 12 01:19:49 2025] Collected spectrometer data. Accumulator count: 346739
+[Wed Mar 12 01:19:50 2025] Collected spectrometer data. Accumulator count: 346740
+[Wed Mar 12 01:19:51 2025] Collected spectrometer data. Accumulator count: 346741
+[Wed Mar 12 01:19:53 2025] Collected spectrometer data. Accumulator count: 346742
+[Wed Mar 12 01:19:54 2025] Collected spectrometer data. Accumulator count: 346743
+[Wed Mar 12 01:19:55 2025] Collected spectrometer data. Accumulator count: 346744
+[Wed Mar 12 01:19:56 2025] Data saved successfully.
+[Wed Mar 12 01:19:56 2025] Collected spectrometer data. Accumulator count: 346745
+[Wed Mar 12 01:19:58 2025] Collected spectrometer data. Accumulator count: 346746
+[Wed Mar 12 01:19:59 2025] Collected spectrometer data. Accumulator count: 346747
+[Wed Mar 12 01:20:00 2025] Collected spectrometer data. Accumulator count: 346748
+[Wed Mar 12 01:20:01 2025] Collected spectrometer data. Accumulator count: 346749
+[Wed Mar 12 01:20:03 2025] Collected spectrometer data. Accumulator count: 346750
+[Wed Mar 12 01:20:04 2025] Collected spectrometer data. Accumulator count: 346751
+[Wed Mar 12 01:20:05 2025] Collected spectrometer data. Accumulator count: 346752
+[Wed Mar 12 01:20:07 2025] Data saved successfully.
+[Wed Mar 12 01:20:07 2025] Collected spectrometer data. Accumulator count: 346753
+[Wed Mar 12 01:20:08 2025] Collected spectrometer data. Accumulator count: 346754
+[Wed Mar 12 01:20:09 2025] Collected spectrometer data. Accumulator count: 346755
+[Wed Mar 12 01:20:10 2025] Collected spectrometer data. Accumulator count: 346756
+[Wed Mar 12 01:20:11 2025] Collected spectrometer data. Accumulator count: 346757
+[Wed Mar 12 01:20:13 2025] Collected spectrometer data. Accumulator count: 346758
+[Wed Mar 12 01:20:14 2025] Collected spectrometer data. Accumulator count: 346759
+[Wed Mar 12 01:20:15 2025] Collected spectrometer data. Accumulator count: 346760
+[Wed Mar 12 01:20:17 2025] Collected spectrometer data. Accumulator count: 346761
+[Wed Mar 12 01:20:17 2025] Data saved successfully.
+[Wed Mar 12 01:20:18 2025] Collected spectrometer data. Accumulator count: 346762
+[Wed Mar 12 01:20:19 2025] Collected spectrometer data. Accumulator count: 346763
+[Wed Mar 12 01:20:20 2025] Collected spectrometer data. Accumulator count: 346764
+[Wed Mar 12 01:20:21 2025] Collected spectrometer data. Accumulator count: 346765
+[Wed Mar 12 01:20:23 2025] Collected spectrometer data. Accumulator count: 346766
+[Wed Mar 12 01:20:24 2025] Collected spectrometer data. Accumulator count: 346767
+[Wed Mar 12 01:20:25 2025] Collected spectrometer data. Accumulator count: 346768
+[Wed Mar 12 01:20:26 2025] Collected spectrometer data. Accumulator count: 346769
+[Wed Mar 12 01:20:28 2025] Data saved successfully.
+[Wed Mar 12 01:20:28 2025] Collected spectrometer data. Accumulator count: 346770
+[Wed Mar 12 01:20:29 2025] Collected spectrometer data. Accumulator count: 346771
+[Wed Mar 12 01:20:30 2025] Collected spectrometer data. Accumulator count: 346772
+[Wed Mar 12 01:20:31 2025] Collected spectrometer data. Accumulator count: 346773
+[Wed Mar 12 01:20:33 2025] Collected spectrometer data. Accumulator count: 346774
+[Wed Mar 12 01:20:34 2025] Collected spectrometer data. Accumulator count: 346775
+[Wed Mar 12 01:20:35 2025] Collected spectrometer data. Accumulator count: 346776
+[Wed Mar 12 01:20:36 2025] Collected spectrometer data. Accumulator count: 346777
+[Wed Mar 12 01:20:38 2025] Collected spectrometer data. Accumulator count: 346778
+[Wed Mar 12 01:20:39 2025] Data saved successfully.
+[Wed Mar 12 01:20:39 2025] Collected spectrometer data. Accumulator count: 346779
+[Wed Mar 12 01:20:40 2025] Collected spectrometer data. Accumulator count: 346780
+[Wed Mar 12 01:20:42 2025] Collected spectrometer data. Accumulator count: 346781
+[Wed Mar 12 01:20:43 2025] Collected spectrometer data. Accumulator count: 346782
+[Wed Mar 12 01:20:44 2025] Collected spectrometer data. Accumulator count: 346783
+[Wed Mar 12 01:20:45 2025] Collected spectrometer data. Accumulator count: 346784
+[Wed Mar 12 01:20:46 2025] Collected spectrometer data. Accumulator count: 346785
+[Wed Mar 12 01:20:48 2025] Collected spectrometer data. Accumulator count: 346786
+[Wed Mar 12 01:20:49 2025] Data saved successfully.
+[Wed Mar 12 01:20:49 2025] Collected spectrometer data. Accumulator count: 346787
+[Wed Mar 12 01:20:51 2025] Collected spectrometer data. Accumulator count: 346788
+[Wed Mar 12 01:20:52 2025] Collected spectrometer data. Accumulator count: 346789
+[Wed Mar 12 01:20:53 2025] Collected spectrometer data. Accumulator count: 346790
+[Wed Mar 12 01:20:54 2025] Collected spectrometer data. Accumulator count: 346791
+[Wed Mar 12 01:20:55 2025] Collected spectrometer data. Accumulator count: 346792
+[Wed Mar 12 01:20:56 2025] Collected spectrometer data. Accumulator count: 346793
+[Wed Mar 12 01:20:58 2025] Collected spectrometer data. Accumulator count: 346794
+[Wed Mar 12 01:20:59 2025] Collected spectrometer data. Accumulator count: 346795
+[Wed Mar 12 01:21:01 2025] Data saved successfully.
+[Wed Mar 12 01:21:01 2025] Collected spectrometer data. Accumulator count: 346796
+[Wed Mar 12 01:21:02 2025] Collected spectrometer data. Accumulator count: 346797
+[Wed Mar 12 01:21:03 2025] Collected spectrometer data. Accumulator count: 346798
+[Wed Mar 12 01:21:04 2025] Collected spectrometer data. Accumulator count: 346799
+[Wed Mar 12 01:21:05 2025] Collected spectrometer data. Accumulator count: 346800
+[Wed Mar 12 01:21:06 2025] Collected spectrometer data. Accumulator count: 346801
+[Wed Mar 12 01:21:08 2025] Collected spectrometer data. Accumulator count: 346802
+[Wed Mar 12 01:21:09 2025] Collected spectrometer data. Accumulator count: 346803
+[Wed Mar 12 01:21:10 2025] Collected spectrometer data. Accumulator count: 346804
+[Wed Mar 12 01:21:11 2025] Data saved successfully.
+[Wed Mar 12 01:21:11 2025] Collected spectrometer data. Accumulator count: 346805
+[Wed Mar 12 01:21:13 2025] Collected spectrometer data. Accumulator count: 346806
+[Wed Mar 12 01:21:14 2025] Collected spectrometer data. Accumulator count: 346807
+[Wed Mar 12 01:21:15 2025] Collected spectrometer data. Accumulator count: 346808
+[Wed Mar 12 01:21:16 2025] Collected spectrometer data. Accumulator count: 346809
+[Wed Mar 12 01:21:18 2025] Collected spectrometer data. Accumulator count: 346810
+[Wed Mar 12 01:21:19 2025] Collected spectrometer data. Accumulator count: 346811
+[Wed Mar 12 01:21:20 2025] Collected spectrometer data. Accumulator count: 346812
+[Wed Mar 12 01:21:22 2025] Data saved successfully.
+[Wed Mar 12 01:21:22 2025] Collected spectrometer data. Accumulator count: 346813
+[Wed Mar 12 01:21:23 2025] Collected spectrometer data. Accumulator count: 346814
+[Wed Mar 12 01:21:24 2025] Collected spectrometer data. Accumulator count: 346815
+[Wed Mar 12 01:21:26 2025] Collected spectrometer data. Accumulator count: 346816
+[Wed Mar 12 01:21:27 2025] Collected spectrometer data. Accumulator count: 346817
+[Wed Mar 12 01:21:28 2025] Collected spectrometer data. Accumulator count: 346818
+[Wed Mar 12 01:21:29 2025] Collected spectrometer data. Accumulator count: 346819
+[Wed Mar 12 01:21:30 2025] Collected spectrometer data. Accumulator count: 346820
+[Wed Mar 12 01:21:31 2025] Collected spectrometer data. Accumulator count: 346821
+[Wed Mar 12 01:21:33 2025] Data saved successfully.
+[Wed Mar 12 01:21:33 2025] Collected spectrometer data. Accumulator count: 346822
+[Wed Mar 12 01:21:34 2025] Collected spectrometer data. Accumulator count: 346823
+[Wed Mar 12 01:21:35 2025] Collected spectrometer data. Accumulator count: 346824
+[Wed Mar 12 01:21:36 2025] Collected spectrometer data. Accumulator count: 346825
+[Wed Mar 12 01:21:38 2025] Collected spectrometer data. Accumulator count: 346826
+[Wed Mar 12 01:21:39 2025] Collected spectrometer data. Accumulator count: 346827
+[Wed Mar 12 01:21:40 2025] Collected spectrometer data. Accumulator count: 346828
+[Wed Mar 12 01:21:41 2025] Collected spectrometer data. Accumulator count: 346829
+[Wed Mar 12 01:21:43 2025] Collected spectrometer data. Accumulator count: 346830
+[Wed Mar 12 01:21:44 2025] Data saved successfully.
+[Wed Mar 12 01:21:44 2025] Collected spectrometer data. Accumulator count: 346831
+[Wed Mar 12 01:21:45 2025] Collected spectrometer data. Accumulator count: 346832
+[Wed Mar 12 01:21:46 2025] Collected spectrometer data. Accumulator count: 346833
+[Wed Mar 12 01:21:48 2025] Collected spectrometer data. Accumulator count: 346834
+[Wed Mar 12 01:21:49 2025] Collected spectrometer data. Accumulator count: 346835
+[Wed Mar 12 01:21:50 2025] Collected spectrometer data. Accumulator count: 346836
+[Wed Mar 12 01:21:51 2025] Collected spectrometer data. Accumulator count: 346837
+[Wed Mar 12 01:21:53 2025] Collected spectrometer data. Accumulator count: 346838
+[Wed Mar 12 01:21:54 2025] Data saved successfully.
+[Wed Mar 12 01:21:54 2025] Collected spectrometer data. Accumulator count: 346839
+[Wed Mar 12 01:21:55 2025] Collected spectrometer data. Accumulator count: 346840
+[Wed Mar 12 01:21:57 2025] Collected spectrometer data. Accumulator count: 346841
+[Wed Mar 12 01:21:58 2025] Collected spectrometer data. Accumulator count: 346842
+[Wed Mar 12 01:21:59 2025] Collected spectrometer data. Accumulator count: 346843
+[Wed Mar 12 01:22:00 2025] Collected spectrometer data. Accumulator count: 346844
+[Wed Mar 12 01:22:01 2025] Collected spectrometer data. Accumulator count: 346845
+[Wed Mar 12 01:22:03 2025] Collected spectrometer data. Accumulator count: 346846
+[Wed Mar 12 01:22:04 2025] Collected spectrometer data. Accumulator count: 346847
+[Wed Mar 12 01:22:05 2025] Data saved successfully.
+[Wed Mar 12 01:22:05 2025] Collected spectrometer data. Accumulator count: 346848
+[Wed Mar 12 01:22:06 2025] Collected spectrometer data. Accumulator count: 346849
+[Wed Mar 12 01:22:08 2025] Collected spectrometer data. Accumulator count: 346850
+[Wed Mar 12 01:22:09 2025] Collected spectrometer data. Accumulator count: 346851
+[Wed Mar 12 01:22:10 2025] Collected spectrometer data. Accumulator count: 346852
+[Wed Mar 12 01:22:11 2025] Collected spectrometer data. Accumulator count: 346853
+[Wed Mar 12 01:22:13 2025] Collected spectrometer data. Accumulator count: 346854
+[Wed Mar 12 01:22:14 2025] Collected spectrometer data. Accumulator count: 346855
+[Wed Mar 12 01:22:16 2025] Data saved successfully.
+[Wed Mar 12 01:22:16 2025] Collected spectrometer data. Accumulator count: 346856
+[Wed Mar 12 01:22:17 2025] Collected spectrometer data. Accumulator count: 346857
+[Wed Mar 12 01:22:18 2025] Collected spectrometer data. Accumulator count: 346858
+[Wed Mar 12 01:22:19 2025] Collected spectrometer data. Accumulator count: 346859
+[Wed Mar 12 01:22:20 2025] Collected spectrometer data. Accumulator count: 346860
+[Wed Mar 12 01:22:22 2025] Collected spectrometer data. Accumulator count: 346861
+[Wed Mar 12 01:22:23 2025] Collected spectrometer data. Accumulator count: 346862
+[Wed Mar 12 01:22:24 2025] Collected spectrometer data. Accumulator count: 346863
+[Wed Mar 12 01:22:25 2025] Collected spectrometer data. Accumulator count: 346864
+[Wed Mar 12 01:22:26 2025] Data saved successfully.
+[Wed Mar 12 01:22:27 2025] Collected spectrometer data. Accumulator count: 346865
+[Wed Mar 12 01:22:28 2025] Collected spectrometer data. Accumulator count: 346866
+[Wed Mar 12 01:22:29 2025] Collected spectrometer data. Accumulator count: 346867
+[Wed Mar 12 01:22:30 2025] Collected spectrometer data. Accumulator count: 346868
+[Wed Mar 12 01:22:31 2025] Collected spectrometer data. Accumulator count: 346869
+[Wed Mar 12 01:22:33 2025] Collected spectrometer data. Accumulator count: 346870
+[Wed Mar 12 01:22:34 2025] Collected spectrometer data. Accumulator count: 346871
+[Wed Mar 12 01:22:35 2025] Collected spectrometer data. Accumulator count: 346872
+[Wed Mar 12 01:22:36 2025] Collected spectrometer data. Accumulator count: 346873
+[Wed Mar 12 01:22:37 2025] Data saved successfully.
+[Wed Mar 12 01:22:38 2025] Collected spectrometer data. Accumulator count: 346874
+[Wed Mar 12 01:22:39 2025] Collected spectrometer data. Accumulator count: 346875
+[Wed Mar 12 01:22:40 2025] Collected spectrometer data. Accumulator count: 346876
+[Wed Mar 12 01:22:41 2025] Collected spectrometer data. Accumulator count: 346877
+[Wed Mar 12 01:22:43 2025] Collected spectrometer data. Accumulator count: 346878
+[Wed Mar 12 01:22:44 2025] Collected spectrometer data. Accumulator count: 346879
+[Wed Mar 12 01:22:45 2025] Collected spectrometer data. Accumulator count: 346880
+[Wed Mar 12 01:22:46 2025] Collected spectrometer data. Accumulator count: 346881
+[Wed Mar 12 01:22:48 2025] Data saved successfully.
+[Wed Mar 12 01:22:48 2025] Collected spectrometer data. Accumulator count: 346882
+[Wed Mar 12 01:22:49 2025] Collected spectrometer data. Accumulator count: 346883
+[Wed Mar 12 01:22:50 2025] Collected spectrometer data. Accumulator count: 346884
+[Wed Mar 12 01:22:52 2025] Collected spectrometer data. Accumulator count: 346885
+[Wed Mar 12 01:22:53 2025] Collected spectrometer data. Accumulator count: 346886
+[Wed Mar 12 01:22:54 2025] Collected spectrometer data. Accumulator count: 346887
+[Wed Mar 12 01:22:55 2025] Collected spectrometer data. Accumulator count: 346888
+[Wed Mar 12 01:22:56 2025] Collected spectrometer data. Accumulator count: 346889
+[Wed Mar 12 01:22:58 2025] Collected spectrometer data. Accumulator count: 346890
+[Wed Mar 12 01:22:59 2025] Data saved successfully.
+[Wed Mar 12 01:22:59 2025] Collected spectrometer data. Accumulator count: 346891
+[Wed Mar 12 01:23:00 2025] Collected spectrometer data. Accumulator count: 346892
+[Wed Mar 12 01:23:02 2025] Collected spectrometer data. Accumulator count: 346893
+[Wed Mar 12 01:23:03 2025] Collected spectrometer data. Accumulator count: 346894
+[Wed Mar 12 01:23:04 2025] Collected spectrometer data. Accumulator count: 346895
+[Wed Mar 12 01:23:05 2025] Collected spectrometer data. Accumulator count: 346896
+[Wed Mar 12 01:23:06 2025] Collected spectrometer data. Accumulator count: 346897
+[Wed Mar 12 01:23:08 2025] Collected spectrometer data. Accumulator count: 346898
+[Wed Mar 12 01:23:09 2025] Collected spectrometer data. Accumulator count: 346899
+[Wed Mar 12 01:23:10 2025] Data saved successfully.
+[Wed Mar 12 01:23:10 2025] Collected spectrometer data. Accumulator count: 346900
+[Wed Mar 12 01:23:12 2025] Collected spectrometer data. Accumulator count: 346901
+[Wed Mar 12 01:23:13 2025] Collected spectrometer data. Accumulator count: 346902
+[Wed Mar 12 01:23:14 2025] Collected spectrometer data. Accumulator count: 346903
+[Wed Mar 12 01:23:15 2025] Collected spectrometer data. Accumulator count: 346904
+[Wed Mar 12 01:23:16 2025] Collected spectrometer data. Accumulator count: 346905
+[Wed Mar 12 01:23:18 2025] Collected spectrometer data. Accumulator count: 346906
+[Wed Mar 12 01:23:19 2025] Collected spectrometer data. Accumulator count: 346907
+[Wed Mar 12 01:23:21 2025] Data saved successfully.
+[Wed Mar 12 01:23:21 2025] Collected spectrometer data. Accumulator count: 346908
+[Wed Mar 12 01:23:22 2025] Collected spectrometer data. Accumulator count: 346909
+[Wed Mar 12 01:23:23 2025] Collected spectrometer data. Accumulator count: 346910
+[Wed Mar 12 01:23:24 2025] Collected spectrometer data. Accumulator count: 346911
+[Wed Mar 12 01:23:25 2025] Collected spectrometer data. Accumulator count: 346912
+[Wed Mar 12 01:23:27 2025] Collected spectrometer data. Accumulator count: 346913
+[Wed Mar 12 01:23:28 2025] Collected spectrometer data. Accumulator count: 346914
+[Wed Mar 12 01:23:29 2025] Collected spectrometer data. Accumulator count: 346915
+[Wed Mar 12 01:23:30 2025] Collected spectrometer data. Accumulator count: 346916
+[Wed Mar 12 01:23:32 2025] Data saved successfully.
+[Wed Mar 12 01:23:32 2025] Collected spectrometer data. Accumulator count: 346917
+[Wed Mar 12 01:23:33 2025] Collected spectrometer data. Accumulator count: 346918
+[Wed Mar 12 01:23:34 2025] Collected spectrometer data. Accumulator count: 346919
+[Wed Mar 12 01:23:35 2025] Collected spectrometer data. Accumulator count: 346920
+[Wed Mar 12 01:23:36 2025] Collected spectrometer data. Accumulator count: 346921
+[Wed Mar 12 01:23:38 2025] Collected spectrometer data. Accumulator count: 346922
+[Wed Mar 12 01:23:39 2025] Collected spectrometer data. Accumulator count: 346923
+[Wed Mar 12 01:23:40 2025] Collected spectrometer data. Accumulator count: 346924
+[Wed Mar 12 01:23:41 2025] Collected spectrometer data. Accumulator count: 346925
+[Wed Mar 12 01:23:43 2025] Data saved successfully.
+[Wed Mar 12 01:23:43 2025] Collected spectrometer data. Accumulator count: 346926
+[Wed Mar 12 01:23:44 2025] Collected spectrometer data. Accumulator count: 346927
+[Wed Mar 12 01:23:45 2025] Collected spectrometer data. Accumulator count: 346928
+[Wed Mar 12 01:23:46 2025] Collected spectrometer data. Accumulator count: 346929
+[Wed Mar 12 01:23:48 2025] Collected spectrometer data. Accumulator count: 346930
+[Wed Mar 12 01:23:49 2025] Collected spectrometer data. Accumulator count: 346931
+[Wed Mar 12 01:23:50 2025] Collected spectrometer data. Accumulator count: 346932
+[Wed Mar 12 01:23:51 2025] Collected spectrometer data. Accumulator count: 346933
+[Wed Mar 12 01:23:53 2025] Collected spectrometer data. Accumulator count: 346934
+[Wed Mar 12 01:23:54 2025] Data saved successfully.
+[Wed Mar 12 01:23:54 2025] Collected spectrometer data. Accumulator count: 346935
+[Wed Mar 12 01:23:55 2025] Collected spectrometer data. Accumulator count: 346936
+[Wed Mar 12 01:23:57 2025] Collected spectrometer data. Accumulator count: 346937
+[Wed Mar 12 01:23:58 2025] Collected spectrometer data. Accumulator count: 346938
+[Wed Mar 12 01:23:59 2025] Collected spectrometer data. Accumulator count: 346939
+[Wed Mar 12 01:24:00 2025] Collected spectrometer data. Accumulator count: 346940
+[Wed Mar 12 01:24:01 2025] Collected spectrometer data. Accumulator count: 346941
+[Wed Mar 12 01:24:03 2025] Collected spectrometer data. Accumulator count: 346942
+[Wed Mar 12 01:24:04 2025] Collected spectrometer data. Accumulator count: 346943
+[Wed Mar 12 01:24:05 2025] Data saved successfully.
+[Wed Mar 12 01:24:05 2025] Collected spectrometer data. Accumulator count: 346944
+[Wed Mar 12 01:24:07 2025] Collected spectrometer data. Accumulator count: 346945
+[Wed Mar 12 01:24:08 2025] Collected spectrometer data. Accumulator count: 346946
+[Wed Mar 12 01:24:09 2025] Collected spectrometer data. Accumulator count: 346947
+[Wed Mar 12 01:24:10 2025] Collected spectrometer data. Accumulator count: 346948
+[Wed Mar 12 01:24:12 2025] Collected spectrometer data. Accumulator count: 346949
+[Wed Mar 12 01:24:13 2025] Collected spectrometer data. Accumulator count: 346950
+[Wed Mar 12 01:24:14 2025] Collected spectrometer data. Accumulator count: 346951
+[Wed Mar 12 01:24:15 2025] Collected spectrometer data. Accumulator count: 346952
+[Wed Mar 12 01:24:17 2025] Data saved successfully.
+[Wed Mar 12 01:24:17 2025] Collected spectrometer data. Accumulator count: 346953
+[Wed Mar 12 01:24:18 2025] Collected spectrometer data. Accumulator count: 346954
+[Wed Mar 12 01:24:19 2025] Collected spectrometer data. Accumulator count: 346955
+[Wed Mar 12 01:24:20 2025] Collected spectrometer data. Accumulator count: 346956
+[Wed Mar 12 01:24:22 2025] Collected spectrometer data. Accumulator count: 346957
+[Wed Mar 12 01:24:23 2025] Collected spectrometer data. Accumulator count: 346958
+[Wed Mar 12 01:24:24 2025] Collected spectrometer data. Accumulator count: 346959
+[Wed Mar 12 01:24:25 2025] Collected spectrometer data. Accumulator count: 346960
+[Wed Mar 12 01:24:26 2025] Collected spectrometer data. Accumulator count: 346961
+[Wed Mar 12 01:24:28 2025] Data saved successfully.
+[Wed Mar 12 01:24:28 2025] Collected spectrometer data. Accumulator count: 346962
+[Wed Mar 12 01:24:29 2025] Collected spectrometer data. Accumulator count: 346963
+[Wed Mar 12 01:24:31 2025] Collected spectrometer data. Accumulator count: 346964
+[Wed Mar 12 01:24:32 2025] Collected spectrometer data. Accumulator count: 346965
+[Wed Mar 12 01:24:33 2025] Collected spectrometer data. Accumulator count: 346966
+[Wed Mar 12 01:24:34 2025] Collected spectrometer data. Accumulator count: 346967
+[Wed Mar 12 01:24:35 2025] Collected spectrometer data. Accumulator count: 346968
+[Wed Mar 12 01:24:36 2025] Collected spectrometer data. Accumulator count: 346969
+[Wed Mar 12 01:24:38 2025] Collected spectrometer data. Accumulator count: 346970
+[Wed Mar 12 01:24:39 2025] Data saved successfully.
+[Wed Mar 12 01:24:39 2025] Collected spectrometer data. Accumulator count: 346971
+[Wed Mar 12 01:24:40 2025] Collected spectrometer data. Accumulator count: 346972
+[Wed Mar 12 01:24:42 2025] Collected spectrometer data. Accumulator count: 346973
+[Wed Mar 12 01:24:43 2025] Collected spectrometer data. Accumulator count: 346974
+[Wed Mar 12 01:24:44 2025] Collected spectrometer data. Accumulator count: 346975
+[Wed Mar 12 01:24:45 2025] Collected spectrometer data. Accumulator count: 346976
+[Wed Mar 12 01:24:46 2025] Collected spectrometer data. Accumulator count: 346977
+[Wed Mar 12 01:24:48 2025] Collected spectrometer data. Accumulator count: 346978
+[Wed Mar 12 01:24:49 2025] Collected spectrometer data. Accumulator count: 346979
+[Wed Mar 12 01:24:50 2025] Data saved successfully.
+[Wed Mar 12 01:24:50 2025] Collected spectrometer data. Accumulator count: 346980
+[Wed Mar 12 01:24:52 2025] Collected spectrometer data. Accumulator count: 346981
+[Wed Mar 12 01:24:53 2025] Collected spectrometer data. Accumulator count: 346982
+[Wed Mar 12 01:24:54 2025] Collected spectrometer data. Accumulator count: 346983
+[Wed Mar 12 01:24:55 2025] Collected spectrometer data. Accumulator count: 346984
+[Wed Mar 12 01:24:56 2025] Collected spectrometer data. Accumulator count: 346985
+[Wed Mar 12 01:24:58 2025] Collected spectrometer data. Accumulator count: 346986
+[Wed Mar 12 01:24:59 2025] Collected spectrometer data. Accumulator count: 346987
+[Wed Mar 12 01:25:01 2025] Data saved successfully.
+[Wed Mar 12 01:25:01 2025] Collected spectrometer data. Accumulator count: 346988
+[Wed Mar 12 01:25:02 2025] Collected spectrometer data. Accumulator count: 346989
+[Wed Mar 12 01:25:03 2025] Collected spectrometer data. Accumulator count: 346990
+[Wed Mar 12 01:25:04 2025] Collected spectrometer data. Accumulator count: 346991
+[Wed Mar 12 01:25:06 2025] Collected spectrometer data. Accumulator count: 346992
+[Wed Mar 12 01:25:07 2025] Collected spectrometer data. Accumulator count: 346993
+[Wed Mar 12 01:25:08 2025] Collected spectrometer data. Accumulator count: 346994
+[Wed Mar 12 01:25:09 2025] Collected spectrometer data. Accumulator count: 346995
+[Wed Mar 12 01:25:10 2025] Collected spectrometer data. Accumulator count: 346996
+[Wed Mar 12 01:25:12 2025] Data saved successfully.
+[Wed Mar 12 01:25:12 2025] Collected spectrometer data. Accumulator count: 346997
+[Wed Mar 12 01:25:13 2025] Collected spectrometer data. Accumulator count: 346998
+[Wed Mar 12 01:25:14 2025] Collected spectrometer data. Accumulator count: 346999
+[Wed Mar 12 01:25:15 2025] Collected spectrometer data. Accumulator count: 347000
+[Wed Mar 12 01:25:16 2025] Collected spectrometer data. Accumulator count: 347001
+[Wed Mar 12 01:25:18 2025] Collected spectrometer data. Accumulator count: 347002
+[Wed Mar 12 01:25:19 2025] Collected spectrometer data. Accumulator count: 347003
+[Wed Mar 12 01:25:20 2025] Collected spectrometer data. Accumulator count: 347004
+[Wed Mar 12 01:25:21 2025] Collected spectrometer data. Accumulator count: 347005
+[Wed Mar 12 01:25:23 2025] Data saved successfully.
+[Wed Mar 12 01:25:23 2025] Collected spectrometer data. Accumulator count: 347006
+[Wed Mar 12 01:25:25 2025] Collected spectrometer data. Accumulator count: 347007
+[Wed Mar 12 01:25:26 2025] Collected spectrometer data. Accumulator count: 347008
+[Wed Mar 12 01:25:27 2025] Collected spectrometer data. Accumulator count: 347009
+[Wed Mar 12 01:25:28 2025] Collected spectrometer data. Accumulator count: 347010
+[Wed Mar 12 01:25:29 2025] Collected spectrometer data. Accumulator count: 347011
+[Wed Mar 12 01:25:30 2025] Collected spectrometer data. Accumulator count: 347012
+[Wed Mar 12 01:25:32 2025] Collected spectrometer data. Accumulator count: 347013
+[Wed Mar 12 01:25:33 2025] Collected spectrometer data. Accumulator count: 347014
+[Wed Mar 12 01:25:34 2025] Data saved successfully.
+[Wed Mar 12 01:25:34 2025] Collected spectrometer data. Accumulator count: 347015
+[Wed Mar 12 01:25:35 2025] Collected spectrometer data. Accumulator count: 347016
+[Wed Mar 12 01:25:37 2025] Collected spectrometer data. Accumulator count: 347017
+[Wed Mar 12 01:25:38 2025] Collected spectrometer data. Accumulator count: 347018
+[Wed Mar 12 01:25:39 2025] Collected spectrometer data. Accumulator count: 347019
+[Wed Mar 12 01:25:40 2025] Collected spectrometer data. Accumulator count: 347020
+[Wed Mar 12 01:25:41 2025] Collected spectrometer data. Accumulator count: 347021
+[Wed Mar 12 01:25:43 2025] Collected spectrometer data. Accumulator count: 347022
+[Wed Mar 12 01:25:44 2025] Collected spectrometer data. Accumulator count: 347023
+[Wed Mar 12 01:25:45 2025] Data saved successfully.
+[Wed Mar 12 01:25:45 2025] Collected spectrometer data. Accumulator count: 347024
+[Wed Mar 12 01:25:46 2025] Collected spectrometer data. Accumulator count: 347025
+[Wed Mar 12 01:25:48 2025] Collected spectrometer data. Accumulator count: 347026
+[Wed Mar 12 01:25:49 2025] Collected spectrometer data. Accumulator count: 347027
+[Wed Mar 12 01:25:50 2025] Collected spectrometer data. Accumulator count: 347028
+[Wed Mar 12 01:25:52 2025] Collected spectrometer data. Accumulator count: 347029
+[Wed Mar 12 01:25:53 2025] Collected spectrometer data. Accumulator count: 347030
+[Wed Mar 12 01:25:54 2025] Collected spectrometer data. Accumulator count: 347031
+[Wed Mar 12 01:25:56 2025] Data saved successfully.
+[Wed Mar 12 01:25:56 2025] Collected spectrometer data. Accumulator count: 347032
+[Wed Mar 12 01:25:57 2025] Collected spectrometer data. Accumulator count: 347033
+[Wed Mar 12 01:25:59 2025] Collected spectrometer data. Accumulator count: 347034
+[Wed Mar 12 01:26:00 2025] Collected spectrometer data. Accumulator count: 347035
+[Wed Mar 12 01:26:01 2025] Collected spectrometer data. Accumulator count: 347036
+[Wed Mar 12 01:26:02 2025] Collected spectrometer data. Accumulator count: 347037
+[Wed Mar 12 01:26:03 2025] Collected spectrometer data. Accumulator count: 347038
+[Wed Mar 12 01:26:04 2025] Collected spectrometer data. Accumulator count: 347039
+[Wed Mar 12 01:26:06 2025] Collected spectrometer data. Accumulator count: 347040
+[Wed Mar 12 01:26:07 2025] Data saved successfully.
+[Wed Mar 12 01:26:07 2025] Collected spectrometer data. Accumulator count: 347041
+[Wed Mar 12 01:26:08 2025] Collected spectrometer data. Accumulator count: 347042
+[Wed Mar 12 01:26:10 2025] Collected spectrometer data. Accumulator count: 347043
+[Wed Mar 12 01:26:11 2025] Collected spectrometer data. Accumulator count: 347044
+[Wed Mar 12 01:26:12 2025] Collected spectrometer data. Accumulator count: 347045
+[Wed Mar 12 01:26:13 2025] Collected spectrometer data. Accumulator count: 347046
+[Wed Mar 12 01:26:14 2025] Collected spectrometer data. Accumulator count: 347047
+[Wed Mar 12 01:26:15 2025] Collected spectrometer data. Accumulator count: 347048
+[Wed Mar 12 01:26:17 2025] Collected spectrometer data. Accumulator count: 347049
+[Wed Mar 12 01:26:18 2025] Data saved successfully.
+[Wed Mar 12 01:26:18 2025] Collected spectrometer data. Accumulator count: 347050
+[Wed Mar 12 01:26:19 2025] Collected spectrometer data. Accumulator count: 347051
+[Wed Mar 12 01:26:20 2025] Collected spectrometer data. Accumulator count: 347052
+[Wed Mar 12 01:26:22 2025] Collected spectrometer data. Accumulator count: 347053
+[Wed Mar 12 01:26:23 2025] Collected spectrometer data. Accumulator count: 347054
+[Wed Mar 12 01:26:24 2025] Collected spectrometer data. Accumulator count: 347055
+[Wed Mar 12 01:26:25 2025] Collected spectrometer data. Accumulator count: 347056
+[Wed Mar 12 01:26:26 2025] Collected spectrometer data. Accumulator count: 347057
+[Wed Mar 12 01:26:28 2025] Collected spectrometer data. Accumulator count: 347058
+[Wed Mar 12 01:26:29 2025] Data saved successfully.
+[Wed Mar 12 01:26:29 2025] Collected spectrometer data. Accumulator count: 347059
+[Wed Mar 12 01:26:30 2025] Collected spectrometer data. Accumulator count: 347060
+[Wed Mar 12 01:26:32 2025] Collected spectrometer data. Accumulator count: 347061
+[Wed Mar 12 01:26:33 2025] Collected spectrometer data. Accumulator count: 347062
+[Wed Mar 12 01:26:34 2025] Collected spectrometer data. Accumulator count: 347063
+[Wed Mar 12 01:26:35 2025] Collected spectrometer data. Accumulator count: 347064
+[Wed Mar 12 01:26:37 2025] Collected spectrometer data. Accumulator count: 347065
+[Wed Mar 12 01:26:38 2025] Collected spectrometer data. Accumulator count: 347066
+[Wed Mar 12 01:26:40 2025] Data saved successfully.
+[Wed Mar 12 01:26:40 2025] Collected spectrometer data. Accumulator count: 347067
+[Wed Mar 12 01:26:41 2025] Collected spectrometer data. Accumulator count: 347068
+[Wed Mar 12 01:26:42 2025] Collected spectrometer data. Accumulator count: 347069
+[Wed Mar 12 01:26:43 2025] Collected spectrometer data. Accumulator count: 347070
+[Wed Mar 12 01:26:44 2025] Collected spectrometer data. Accumulator count: 347071
+[Wed Mar 12 01:26:45 2025] Collected spectrometer data. Accumulator count: 347072
+[Wed Mar 12 01:26:47 2025] Collected spectrometer data. Accumulator count: 347073
+[Wed Mar 12 01:26:48 2025] Collected spectrometer data. Accumulator count: 347074
+[Wed Mar 12 01:26:49 2025] Collected spectrometer data. Accumulator count: 347075
+[Wed Mar 12 01:26:50 2025] Data saved successfully.
+[Wed Mar 12 01:26:50 2025] Collected spectrometer data. Accumulator count: 347076
+[Wed Mar 12 01:26:52 2025] Collected spectrometer data. Accumulator count: 347077
+[Wed Mar 12 01:26:53 2025] Collected spectrometer data. Accumulator count: 347078
+[Wed Mar 12 01:26:54 2025] Collected spectrometer data. Accumulator count: 347079
+[Wed Mar 12 01:26:55 2025] Collected spectrometer data. Accumulator count: 347080
+[Wed Mar 12 01:26:56 2025] Collected spectrometer data. Accumulator count: 347081
+[Wed Mar 12 01:26:58 2025] Collected spectrometer data. Accumulator count: 347082
+[Wed Mar 12 01:26:59 2025] Collected spectrometer data. Accumulator count: 347083
+[Wed Mar 12 01:27:00 2025] Collected spectrometer data. Accumulator count: 347084
+[Wed Mar 12 01:27:01 2025] Data saved successfully.
+[Wed Mar 12 01:27:01 2025] Collected spectrometer data. Accumulator count: 347085
+[Wed Mar 12 01:27:03 2025] Collected spectrometer data. Accumulator count: 347086
+[Wed Mar 12 01:27:04 2025] Collected spectrometer data. Accumulator count: 347087
+[Wed Mar 12 01:27:05 2025] Collected spectrometer data. Accumulator count: 347088
+[Wed Mar 12 01:27:06 2025] Collected spectrometer data. Accumulator count: 347089
+[Wed Mar 12 01:27:08 2025] Collected spectrometer data. Accumulator count: 347090
+[Wed Mar 12 01:27:09 2025] Collected spectrometer data. Accumulator count: 347091
+[Wed Mar 12 01:27:10 2025] Collected spectrometer data. Accumulator count: 347092
+[Wed Mar 12 01:27:12 2025] Data saved successfully.
+[Wed Mar 12 01:27:12 2025] Collected spectrometer data. Accumulator count: 347093
+[Wed Mar 12 01:27:13 2025] Collected spectrometer data. Accumulator count: 347094
+[Wed Mar 12 01:27:15 2025] Collected spectrometer data. Accumulator count: 347095
+[Wed Mar 12 01:27:16 2025] Collected spectrometer data. Accumulator count: 347096
+[Wed Mar 12 01:27:17 2025] Collected spectrometer data. Accumulator count: 347097
+[Wed Mar 12 01:27:18 2025] Collected spectrometer data. Accumulator count: 347098
+[Wed Mar 12 01:27:19 2025] Collected spectrometer data. Accumulator count: 347099
+[Wed Mar 12 01:27:20 2025] Collected spectrometer data. Accumulator count: 347100
+[Wed Mar 12 01:27:22 2025] Collected spectrometer data. Accumulator count: 347101
+[Wed Mar 12 01:27:23 2025] Data saved successfully.
+[Wed Mar 12 01:27:23 2025] Collected spectrometer data. Accumulator count: 347102
+[Wed Mar 12 01:27:25 2025] Collected spectrometer data. Accumulator count: 347103
+[Wed Mar 12 01:27:26 2025] Collected spectrometer data. Accumulator count: 347104
+[Wed Mar 12 01:27:27 2025] Collected spectrometer data. Accumulator count: 347105
+[Wed Mar 12 01:27:28 2025] Collected spectrometer data. Accumulator count: 347106
+[Wed Mar 12 01:27:29 2025] Collected spectrometer data. Accumulator count: 347107
+[Wed Mar 12 01:27:30 2025] Collected spectrometer data. Accumulator count: 347108
+[Wed Mar 12 01:27:32 2025] Collected spectrometer data. Accumulator count: 347109
+[Wed Mar 12 01:27:33 2025] Collected spectrometer data. Accumulator count: 347110
+[Wed Mar 12 01:27:34 2025] Data saved successfully.
+[Wed Mar 12 01:27:34 2025] Collected spectrometer data. Accumulator count: 347111
+[Wed Mar 12 01:27:36 2025] Collected spectrometer data. Accumulator count: 347112
+[Wed Mar 12 01:27:37 2025] Collected spectrometer data. Accumulator count: 347113
+[Wed Mar 12 01:27:38 2025] Collected spectrometer data. Accumulator count: 347114
+[Wed Mar 12 01:27:39 2025] Collected spectrometer data. Accumulator count: 347115
+[Wed Mar 12 01:27:40 2025] Collected spectrometer data. Accumulator count: 347116
+[Wed Mar 12 01:27:41 2025] Collected spectrometer data. Accumulator count: 347117
+[Wed Mar 12 01:27:43 2025] Collected spectrometer data. Accumulator count: 347118
+[Wed Mar 12 01:27:44 2025] Collected spectrometer data. Accumulator count: 347119
+[Wed Mar 12 01:27:45 2025] Data saved successfully.
+[Wed Mar 12 01:27:45 2025] Collected spectrometer data. Accumulator count: 347120
+[Wed Mar 12 01:27:47 2025] Collected spectrometer data. Accumulator count: 347121
+[Wed Mar 12 01:27:48 2025] Collected spectrometer data. Accumulator count: 347122
+[Wed Mar 12 01:27:49 2025] Collected spectrometer data. Accumulator count: 347123
+[Wed Mar 12 01:27:50 2025] Collected spectrometer data. Accumulator count: 347124
+[Wed Mar 12 01:27:51 2025] Collected spectrometer data. Accumulator count: 347125
+[Wed Mar 12 01:27:53 2025] Collected spectrometer data. Accumulator count: 347126
+[Wed Mar 12 01:27:54 2025] Collected spectrometer data. Accumulator count: 347127
+[Wed Mar 12 01:27:55 2025] Collected spectrometer data. Accumulator count: 347128
+[Wed Mar 12 01:27:56 2025] Data saved successfully.
+[Wed Mar 12 01:27:57 2025] Collected spectrometer data. Accumulator count: 347129
+[Wed Mar 12 01:27:58 2025] Collected spectrometer data. Accumulator count: 347130
+[Wed Mar 12 01:27:59 2025] Collected spectrometer data. Accumulator count: 347131
+[Wed Mar 12 01:28:00 2025] Collected spectrometer data. Accumulator count: 347132
+[Wed Mar 12 01:28:01 2025] Collected spectrometer data. Accumulator count: 347133
+[Wed Mar 12 01:28:03 2025] Collected spectrometer data. Accumulator count: 347134
+[Wed Mar 12 01:28:04 2025] Collected spectrometer data. Accumulator count: 347135
+[Wed Mar 12 01:28:05 2025] Collected spectrometer data. Accumulator count: 347136
+[Wed Mar 12 01:28:07 2025] Data saved successfully.
+[Wed Mar 12 01:28:07 2025] Collected spectrometer data. Accumulator count: 347137
+[Wed Mar 12 01:28:08 2025] Collected spectrometer data. Accumulator count: 347138
+[Wed Mar 12 01:28:10 2025] Collected spectrometer data. Accumulator count: 347139
+[Wed Mar 12 01:28:11 2025] Collected spectrometer data. Accumulator count: 347140
+[Wed Mar 12 01:28:12 2025] Collected spectrometer data. Accumulator count: 347141
+[Wed Mar 12 01:28:13 2025] Collected spectrometer data. Accumulator count: 347142
+[Wed Mar 12 01:28:14 2025] Collected spectrometer data. Accumulator count: 347143
+[Wed Mar 12 01:28:15 2025] Collected spectrometer data. Accumulator count: 347144
+[Wed Mar 12 01:28:17 2025] Collected spectrometer data. Accumulator count: 347145
+[Wed Mar 12 01:28:18 2025] Data saved successfully.
+[Wed Mar 12 01:28:18 2025] Collected spectrometer data. Accumulator count: 347146
+[Wed Mar 12 01:28:19 2025] Collected spectrometer data. Accumulator count: 347147
+[Wed Mar 12 01:28:21 2025] Collected spectrometer data. Accumulator count: 347148
+[Wed Mar 12 01:28:22 2025] Collected spectrometer data. Accumulator count: 347149
+[Wed Mar 12 01:28:23 2025] Collected spectrometer data. Accumulator count: 347150
+[Wed Mar 12 01:28:24 2025] Collected spectrometer data. Accumulator count: 347151
+[Wed Mar 12 01:28:25 2025] Collected spectrometer data. Accumulator count: 347152
+[Wed Mar 12 01:28:26 2025] Collected spectrometer data. Accumulator count: 347153
+[Wed Mar 12 01:28:28 2025] Collected spectrometer data. Accumulator count: 347154
+[Wed Mar 12 01:28:29 2025] Data saved successfully.
+[Wed Mar 12 01:28:29 2025] Collected spectrometer data. Accumulator count: 347155
+[Wed Mar 12 01:28:30 2025] Collected spectrometer data. Accumulator count: 347156
+[Wed Mar 12 01:28:32 2025] Collected spectrometer data. Accumulator count: 347157
+[Wed Mar 12 01:28:33 2025] Collected spectrometer data. Accumulator count: 347158
+[Wed Mar 12 01:28:34 2025] Collected spectrometer data. Accumulator count: 347159
+[Wed Mar 12 01:28:35 2025] Collected spectrometer data. Accumulator count: 347160
+[Wed Mar 12 01:28:37 2025] Collected spectrometer data. Accumulator count: 347161
+[Wed Mar 12 01:28:38 2025] Collected spectrometer data. Accumulator count: 347162
+[Wed Mar 12 01:28:39 2025] Collected spectrometer data. Accumulator count: 347163
+[Wed Mar 12 01:28:41 2025] Data saved successfully.
+[Wed Mar 12 01:28:41 2025] Collected spectrometer data. Accumulator count: 347164
+[Wed Mar 12 01:28:42 2025] Collected spectrometer data. Accumulator count: 347165
+[Wed Mar 12 01:28:43 2025] Collected spectrometer data. Accumulator count: 347166
+[Wed Mar 12 01:28:44 2025] Collected spectrometer data. Accumulator count: 347167
+[Wed Mar 12 01:28:45 2025] Collected spectrometer data. Accumulator count: 347168
+[Wed Mar 12 01:28:46 2025] Collected spectrometer data. Accumulator count: 347169
+[Wed Mar 12 01:28:48 2025] Collected spectrometer data. Accumulator count: 347170
+[Wed Mar 12 01:28:49 2025] Collected spectrometer data. Accumulator count: 347171
+[Wed Mar 12 01:28:50 2025] Collected spectrometer data. Accumulator count: 347172
+[Wed Mar 12 01:28:51 2025] Data saved successfully.
+[Wed Mar 12 01:28:52 2025] Collected spectrometer data. Accumulator count: 347173
+[Wed Mar 12 01:28:53 2025] Collected spectrometer data. Accumulator count: 347174
+[Wed Mar 12 01:28:54 2025] Collected spectrometer data. Accumulator count: 347175
+[Wed Mar 12 01:28:55 2025] Collected spectrometer data. Accumulator count: 347176
+[Wed Mar 12 01:28:57 2025] Collected spectrometer data. Accumulator count: 347177
+[Wed Mar 12 01:28:58 2025] Collected spectrometer data. Accumulator count: 347178
+[Wed Mar 12 01:28:59 2025] Collected spectrometer data. Accumulator count: 347179
+[Wed Mar 12 01:29:00 2025] Collected spectrometer data. Accumulator count: 347180
+[Wed Mar 12 01:29:02 2025] Data saved successfully.
+[Wed Mar 12 01:29:02 2025] Collected spectrometer data. Accumulator count: 347181
+[Wed Mar 12 01:29:04 2025] Collected spectrometer data. Accumulator count: 347182
+[Wed Mar 12 01:29:05 2025] Collected spectrometer data. Accumulator count: 347183
+[Wed Mar 12 01:29:06 2025] Collected spectrometer data. Accumulator count: 347184
+[Wed Mar 12 01:29:07 2025] Collected spectrometer data. Accumulator count: 347185
+[Wed Mar 12 01:29:08 2025] Collected spectrometer data. Accumulator count: 347186
+[Wed Mar 12 01:29:09 2025] Collected spectrometer data. Accumulator count: 347187
+[Wed Mar 12 01:29:10 2025] Collected spectrometer data. Accumulator count: 347188
+[Wed Mar 12 01:29:12 2025] Collected spectrometer data. Accumulator count: 347189
+[Wed Mar 12 01:29:13 2025] Data saved successfully.
+[Wed Mar 12 01:29:13 2025] Collected spectrometer data. Accumulator count: 347190
+[Wed Mar 12 01:29:14 2025] Collected spectrometer data. Accumulator count: 347191
+[Wed Mar 12 01:29:16 2025] Collected spectrometer data. Accumulator count: 347192
+[Wed Mar 12 01:29:17 2025] Collected spectrometer data. Accumulator count: 347193
+[Wed Mar 12 01:29:18 2025] Collected spectrometer data. Accumulator count: 347194
+[Wed Mar 12 01:29:19 2025] Collected spectrometer data. Accumulator count: 347195
+[Wed Mar 12 01:29:20 2025] Collected spectrometer data. Accumulator count: 347196
+[Wed Mar 12 01:29:21 2025] Collected spectrometer data. Accumulator count: 347197
+[Wed Mar 12 01:29:23 2025] Collected spectrometer data. Accumulator count: 347198
+[Wed Mar 12 01:29:24 2025] Data saved successfully.
+[Wed Mar 12 01:29:24 2025] Collected spectrometer data. Accumulator count: 347199
+[Wed Mar 12 01:29:25 2025] Collected spectrometer data. Accumulator count: 347200
+[Wed Mar 12 01:29:27 2025] Collected spectrometer data. Accumulator count: 347201
+[Wed Mar 12 01:29:28 2025] Collected spectrometer data. Accumulator count: 347202
+[Wed Mar 12 01:29:29 2025] Collected spectrometer data. Accumulator count: 347203
+[Wed Mar 12 01:29:30 2025] Collected spectrometer data. Accumulator count: 347204
+[Wed Mar 12 01:29:31 2025] Collected spectrometer data. Accumulator count: 347205
+[Wed Mar 12 01:29:33 2025] Collected spectrometer data. Accumulator count: 347206
+[Wed Mar 12 01:29:34 2025] Collected spectrometer data. Accumulator count: 347207
+[Wed Mar 12 01:29:35 2025] Data saved successfully.
+[Wed Mar 12 01:29:35 2025] Collected spectrometer data. Accumulator count: 347208
+[Wed Mar 12 01:29:36 2025] Collected spectrometer data. Accumulator count: 347209
+[Wed Mar 12 01:29:38 2025] Collected spectrometer data. Accumulator count: 347210
+[Wed Mar 12 01:29:39 2025] Collected spectrometer data. Accumulator count: 347211
+[Wed Mar 12 01:29:40 2025] Collected spectrometer data. Accumulator count: 347212
+[Wed Mar 12 01:29:41 2025] Collected spectrometer data. Accumulator count: 347213
+[Wed Mar 12 01:29:43 2025] Collected spectrometer data. Accumulator count: 347214
+[Wed Mar 12 01:29:44 2025] Collected spectrometer data. Accumulator count: 347215
+[Wed Mar 12 01:29:46 2025] Data saved successfully.
+[Wed Mar 12 01:29:46 2025] Collected spectrometer data. Accumulator count: 347216
+[Wed Mar 12 01:29:47 2025] Collected spectrometer data. Accumulator count: 347217
+[Wed Mar 12 01:29:48 2025] Collected spectrometer data. Accumulator count: 347218
+[Wed Mar 12 01:29:50 2025] Collected spectrometer data. Accumulator count: 347219
+[Wed Mar 12 01:29:51 2025] Collected spectrometer data. Accumulator count: 347220
+[Wed Mar 12 01:29:52 2025] Collected spectrometer data. Accumulator count: 347221
+[Wed Mar 12 01:29:53 2025] Collected spectrometer data. Accumulator count: 347222
+[Wed Mar 12 01:29:54 2025] Collected spectrometer data. Accumulator count: 347223
+[Wed Mar 12 01:29:55 2025] Collected spectrometer data. Accumulator count: 347224
+[Wed Mar 12 01:29:57 2025] Data saved successfully.
+[Wed Mar 12 01:29:57 2025] Collected spectrometer data. Accumulator count: 347225
+[Wed Mar 12 01:29:58 2025] Collected spectrometer data. Accumulator count: 347226
+[Wed Mar 12 01:29:59 2025] Collected spectrometer data. Accumulator count: 347227
+[Wed Mar 12 01:30:01 2025] Collected spectrometer data. Accumulator count: 347228
+[Wed Mar 12 01:30:02 2025] Collected spectrometer data. Accumulator count: 347229
+[Wed Mar 12 01:30:03 2025] Collected spectrometer data. Accumulator count: 347230
+[Wed Mar 12 01:30:04 2025] Collected spectrometer data. Accumulator count: 347231
+[Wed Mar 12 01:30:05 2025] Collected spectrometer data. Accumulator count: 347232
+[Wed Mar 12 01:30:06 2025] Collected spectrometer data. Accumulator count: 347233
+[Wed Mar 12 01:30:08 2025] Data saved successfully.
+[Wed Mar 12 01:30:08 2025] Collected spectrometer data. Accumulator count: 347234
+[Wed Mar 12 01:30:09 2025] Collected spectrometer data. Accumulator count: 347235
+[Wed Mar 12 01:30:10 2025] Collected spectrometer data. Accumulator count: 347236
+[Wed Mar 12 01:30:12 2025] Collected spectrometer data. Accumulator count: 347237
+[Wed Mar 12 01:30:13 2025] Collected spectrometer data. Accumulator count: 347238
+[Wed Mar 12 01:30:14 2025] Collected spectrometer data. Accumulator count: 347239
+[Wed Mar 12 01:30:15 2025] Collected spectrometer data. Accumulator count: 347240
+[Wed Mar 12 01:30:16 2025] Collected spectrometer data. Accumulator count: 347241
+[Wed Mar 12 01:30:18 2025] Collected spectrometer data. Accumulator count: 347242
+[Wed Mar 12 01:30:19 2025] Data saved successfully.
+[Wed Mar 12 01:30:19 2025] Collected spectrometer data. Accumulator count: 347243
+[Wed Mar 12 01:30:20 2025] Collected spectrometer data. Accumulator count: 347244
+[Wed Mar 12 01:30:21 2025] Collected spectrometer data. Accumulator count: 347245
+[Wed Mar 12 01:30:23 2025] Collected spectrometer data. Accumulator count: 347246
+[Wed Mar 12 01:30:24 2025] Collected spectrometer data. Accumulator count: 347247
+[Wed Mar 12 01:30:25 2025] Collected spectrometer data. Accumulator count: 347248
+[Wed Mar 12 01:30:26 2025] Collected spectrometer data. Accumulator count: 347249
+[Wed Mar 12 01:30:28 2025] Collected spectrometer data. Accumulator count: 347250
+[Wed Mar 12 01:30:29 2025] Collected spectrometer data. Accumulator count: 347251
+[Wed Mar 12 01:30:30 2025] Data saved successfully.
+[Wed Mar 12 01:30:30 2025] Collected spectrometer data. Accumulator count: 347252
+[Wed Mar 12 01:30:32 2025] Collected spectrometer data. Accumulator count: 347253
+[Wed Mar 12 01:30:33 2025] Collected spectrometer data. Accumulator count: 347254
+[Wed Mar 12 01:30:34 2025] Collected spectrometer data. Accumulator count: 347255
+[Wed Mar 12 01:30:35 2025] Collected spectrometer data. Accumulator count: 347256
+[Wed Mar 12 01:30:36 2025] Collected spectrometer data. Accumulator count: 347257
+[Wed Mar 12 01:30:38 2025] Collected spectrometer data. Accumulator count: 347258
+[Wed Mar 12 01:30:39 2025] Collected spectrometer data. Accumulator count: 347259
+[Wed Mar 12 01:30:41 2025] Data saved successfully.
+[Wed Mar 12 01:30:41 2025] Collected spectrometer data. Accumulator count: 347260
+[Wed Mar 12 01:30:42 2025] Collected spectrometer data. Accumulator count: 347261
+[Wed Mar 12 01:30:43 2025] Collected spectrometer data. Accumulator count: 347262
+[Wed Mar 12 01:30:44 2025] Collected spectrometer data. Accumulator count: 347263
+[Wed Mar 12 01:30:45 2025] Collected spectrometer data. Accumulator count: 347264
+[Wed Mar 12 01:30:47 2025] Collected spectrometer data. Accumulator count: 347265
+[Wed Mar 12 01:30:48 2025] Collected spectrometer data. Accumulator count: 347266
+[Wed Mar 12 01:30:49 2025] Collected spectrometer data. Accumulator count: 347267
+[Wed Mar 12 01:30:50 2025] Collected spectrometer data. Accumulator count: 347268
+[Wed Mar 12 01:30:52 2025] Data saved successfully.
+[Wed Mar 12 01:30:52 2025] Collected spectrometer data. Accumulator count: 347269
+[Wed Mar 12 01:30:53 2025] Collected spectrometer data. Accumulator count: 347270
+[Wed Mar 12 01:30:54 2025] Collected spectrometer data. Accumulator count: 347271
+[Wed Mar 12 01:30:55 2025] Collected spectrometer data. Accumulator count: 347272
+[Wed Mar 12 01:30:56 2025] Collected spectrometer data. Accumulator count: 347273
+[Wed Mar 12 01:30:58 2025] Collected spectrometer data. Accumulator count: 347274
+[Wed Mar 12 01:30:59 2025] Collected spectrometer data. Accumulator count: 347275
+[Wed Mar 12 01:31:00 2025] Collected spectrometer data. Accumulator count: 347276
+[Wed Mar 12 01:31:01 2025] Collected spectrometer data. Accumulator count: 347277
+[Wed Mar 12 01:31:03 2025] Data saved successfully.
+[Wed Mar 12 01:31:03 2025] Collected spectrometer data. Accumulator count: 347278
+[Wed Mar 12 01:31:04 2025] Collected spectrometer data. Accumulator count: 347279
+[Wed Mar 12 01:31:05 2025] Collected spectrometer data. Accumulator count: 347280
+[Wed Mar 12 01:31:06 2025] Collected spectrometer data. Accumulator count: 347281
+[Wed Mar 12 01:31:08 2025] Collected spectrometer data. Accumulator count: 347282
+[Wed Mar 12 01:31:09 2025] Collected spectrometer data. Accumulator count: 347283
+[Wed Mar 12 01:31:10 2025] Collected spectrometer data. Accumulator count: 347284
+[Wed Mar 12 01:31:12 2025] Collected spectrometer data. Accumulator count: 347285
+[Wed Mar 12 01:31:14 2025] Data saved successfully.
+[Wed Mar 12 01:31:14 2025] Collected spectrometer data. Accumulator count: 347286
+[Wed Mar 12 01:31:15 2025] Collected spectrometer data. Accumulator count: 347287
+[Wed Mar 12 01:31:16 2025] Collected spectrometer data. Accumulator count: 347288
+[Wed Mar 12 01:31:17 2025] Collected spectrometer data. Accumulator count: 347289
+[Wed Mar 12 01:31:18 2025] Collected spectrometer data. Accumulator count: 347290
+[Wed Mar 12 01:31:19 2025] Collected spectrometer data. Accumulator count: 347291
+[Wed Mar 12 01:31:21 2025] Collected spectrometer data. Accumulator count: 347292
+[Wed Mar 12 01:31:22 2025] Collected spectrometer data. Accumulator count: 347293
+[Wed Mar 12 01:31:23 2025] Collected spectrometer data. Accumulator count: 347294
+[Wed Mar 12 01:31:25 2025] Data saved successfully.
+[Wed Mar 12 01:31:25 2025] Collected spectrometer data. Accumulator count: 347295
+[Wed Mar 12 01:31:26 2025] Collected spectrometer data. Accumulator count: 347296
+[Wed Mar 12 01:31:27 2025] Collected spectrometer data. Accumulator count: 347297
+[Wed Mar 12 01:31:28 2025] Collected spectrometer data. Accumulator count: 347298
+[Wed Mar 12 01:31:29 2025] Collected spectrometer data. Accumulator count: 347299
+[Wed Mar 12 01:31:30 2025] Collected spectrometer data. Accumulator count: 347300
+[Wed Mar 12 01:31:32 2025] Collected spectrometer data. Accumulator count: 347301
+[Wed Mar 12 01:31:33 2025] Collected spectrometer data. Accumulator count: 347302
+[Wed Mar 12 01:31:34 2025] Collected spectrometer data. Accumulator count: 347303
+[Wed Mar 12 01:31:36 2025] Data saved successfully.
+[Wed Mar 12 01:31:36 2025] Collected spectrometer data. Accumulator count: 347304
+[Wed Mar 12 01:31:37 2025] Collected spectrometer data. Accumulator count: 347305
+[Wed Mar 12 01:31:38 2025] Collected spectrometer data. Accumulator count: 347306
+[Wed Mar 12 01:31:39 2025] Collected spectrometer data. Accumulator count: 347307
+[Wed Mar 12 01:31:41 2025] Collected spectrometer data. Accumulator count: 347308
+[Wed Mar 12 01:31:42 2025] Collected spectrometer data. Accumulator count: 347309
+[Wed Mar 12 01:31:43 2025] Collected spectrometer data. Accumulator count: 347310
+[Wed Mar 12 01:31:44 2025] Collected spectrometer data. Accumulator count: 347311
+[Wed Mar 12 01:31:45 2025] Collected spectrometer data. Accumulator count: 347312
+[Wed Mar 12 01:31:47 2025] Data saved successfully.
+[Wed Mar 12 01:31:47 2025] Collected spectrometer data. Accumulator count: 347313
+[Wed Mar 12 01:31:48 2025] Collected spectrometer data. Accumulator count: 347314
+[Wed Mar 12 01:31:49 2025] Collected spectrometer data. Accumulator count: 347315
+[Wed Mar 12 01:31:50 2025] Collected spectrometer data. Accumulator count: 347316
+[Wed Mar 12 01:31:52 2025] Collected spectrometer data. Accumulator count: 347317
+[Wed Mar 12 01:31:53 2025] Collected spectrometer data. Accumulator count: 347318
+[Wed Mar 12 01:31:54 2025] Collected spectrometer data. Accumulator count: 347319
+[Wed Mar 12 01:31:55 2025] Collected spectrometer data. Accumulator count: 347320
+[Wed Mar 12 01:31:56 2025] Collected spectrometer data. Accumulator count: 347321
+[Wed Mar 12 01:31:58 2025] Data saved successfully.
+[Wed Mar 12 01:31:58 2025] Collected spectrometer data. Accumulator count: 347322
+[Wed Mar 12 01:31:59 2025] Collected spectrometer data. Accumulator count: 347323
+[Wed Mar 12 01:32:01 2025] Collected spectrometer data. Accumulator count: 347324
+[Wed Mar 12 01:32:02 2025] Collected spectrometer data. Accumulator count: 347325
+[Wed Mar 12 01:32:03 2025] Collected spectrometer data. Accumulator count: 347326
+[Wed Mar 12 01:32:04 2025] Collected spectrometer data. Accumulator count: 347327
+[Wed Mar 12 01:32:05 2025] Collected spectrometer data. Accumulator count: 347328
+[Wed Mar 12 01:32:06 2025] Collected spectrometer data. Accumulator count: 347329
+[Wed Mar 12 01:32:08 2025] Collected spectrometer data. Accumulator count: 347330
+[Wed Mar 12 01:32:09 2025] Data saved successfully.
+[Wed Mar 12 01:32:09 2025] Collected spectrometer data. Accumulator count: 347331
+[Wed Mar 12 01:32:11 2025] Collected spectrometer data. Accumulator count: 347332
+[Wed Mar 12 01:32:12 2025] Collected spectrometer data. Accumulator count: 347333
+[Wed Mar 12 01:32:13 2025] Collected spectrometer data. Accumulator count: 347334
+[Wed Mar 12 01:32:14 2025] Collected spectrometer data. Accumulator count: 347335
+[Wed Mar 12 01:32:15 2025] Collected spectrometer data. Accumulator count: 347336
+[Wed Mar 12 01:32:16 2025] Collected spectrometer data. Accumulator count: 347337
+[Wed Mar 12 01:32:18 2025] Collected spectrometer data. Accumulator count: 347338
+[Wed Mar 12 01:32:19 2025] Collected spectrometer data. Accumulator count: 347339
+[Wed Mar 12 01:32:20 2025] Data saved successfully.
+[Wed Mar 12 01:32:20 2025] Collected spectrometer data. Accumulator count: 347340
+[Wed Mar 12 01:32:22 2025] Collected spectrometer data. Accumulator count: 347341
+[Wed Mar 12 01:32:23 2025] Collected spectrometer data. Accumulator count: 347342
+[Wed Mar 12 01:32:24 2025] Collected spectrometer data. Accumulator count: 347343
+[Wed Mar 12 01:32:25 2025] Collected spectrometer data. Accumulator count: 347344
+[Wed Mar 12 01:32:26 2025] Collected spectrometer data. Accumulator count: 347345
+[Wed Mar 12 01:32:28 2025] Collected spectrometer data. Accumulator count: 347346
+[Wed Mar 12 01:32:29 2025] Collected spectrometer data. Accumulator count: 347347
+[Wed Mar 12 01:32:30 2025] Collected spectrometer data. Accumulator count: 347348
+[Wed Mar 12 01:32:31 2025] Data saved successfully.
+[Wed Mar 12 01:32:32 2025] Collected spectrometer data. Accumulator count: 347349
+[Wed Mar 12 01:32:33 2025] Collected spectrometer data. Accumulator count: 347350
+[Wed Mar 12 01:32:34 2025] Collected spectrometer data. Accumulator count: 347351
+[Wed Mar 12 01:32:35 2025] Collected spectrometer data. Accumulator count: 347352
+[Wed Mar 12 01:32:36 2025] Collected spectrometer data. Accumulator count: 347353
+[Wed Mar 12 01:32:38 2025] Collected spectrometer data. Accumulator count: 347354
+[Wed Mar 12 01:32:39 2025] Collected spectrometer data. Accumulator count: 347355
+[Wed Mar 12 01:32:40 2025] Collected spectrometer data. Accumulator count: 347356
+[Wed Mar 12 01:32:42 2025] Data saved successfully.
+[Wed Mar 12 01:32:42 2025] Collected spectrometer data. Accumulator count: 347357
+[Wed Mar 12 01:32:44 2025] Collected spectrometer data. Accumulator count: 347358
+[Wed Mar 12 01:32:45 2025] Collected spectrometer data. Accumulator count: 347359
+[Wed Mar 12 01:32:46 2025] Collected spectrometer data. Accumulator count: 347360
+[Wed Mar 12 01:32:47 2025] Collected spectrometer data. Accumulator count: 347361
+[Wed Mar 12 01:32:48 2025] Collected spectrometer data. Accumulator count: 347362
+[Wed Mar 12 01:32:49 2025] Collected spectrometer data. Accumulator count: 347363
+[Wed Mar 12 01:32:51 2025] Collected spectrometer data. Accumulator count: 347364
+[Wed Mar 12 01:32:52 2025] Collected spectrometer data. Accumulator count: 347365
+[Wed Mar 12 01:32:53 2025] Data saved successfully.
+[Wed Mar 12 01:32:53 2025] Collected spectrometer data. Accumulator count: 347366
+[Wed Mar 12 01:32:54 2025] Collected spectrometer data. Accumulator count: 347367
+[Wed Mar 12 01:32:56 2025] Collected spectrometer data. Accumulator count: 347368
+[Wed Mar 12 01:32:57 2025] Collected spectrometer data. Accumulator count: 347369
+[Wed Mar 12 01:32:58 2025] Collected spectrometer data. Accumulator count: 347370
+[Wed Mar 12 01:32:59 2025] Collected spectrometer data. Accumulator count: 347371
+[Wed Mar 12 01:33:00 2025] Collected spectrometer data. Accumulator count: 347372
+[Wed Mar 12 01:33:02 2025] Collected spectrometer data. Accumulator count: 347373
+[Wed Mar 12 01:33:03 2025] Collected spectrometer data. Accumulator count: 347374
+[Wed Mar 12 01:33:04 2025] Data saved successfully.
+[Wed Mar 12 01:33:04 2025] Collected spectrometer data. Accumulator count: 347375
+[Wed Mar 12 01:33:06 2025] Collected spectrometer data. Accumulator count: 347376
+[Wed Mar 12 01:33:07 2025] Collected spectrometer data. Accumulator count: 347377
+[Wed Mar 12 01:33:08 2025] Collected spectrometer data. Accumulator count: 347378
+[Wed Mar 12 01:33:09 2025] Collected spectrometer data. Accumulator count: 347379
+[Wed Mar 12 01:33:10 2025] Collected spectrometer data. Accumulator count: 347380
+[Wed Mar 12 01:33:11 2025] Collected spectrometer data. Accumulator count: 347381
+[Wed Mar 12 01:33:13 2025] Collected spectrometer data. Accumulator count: 347382
+[Wed Mar 12 01:33:14 2025] Collected spectrometer data. Accumulator count: 347383
+[Wed Mar 12 01:33:15 2025] Data saved successfully.
+[Wed Mar 12 01:33:15 2025] Collected spectrometer data. Accumulator count: 347384
+[Wed Mar 12 01:33:17 2025] Collected spectrometer data. Accumulator count: 347385
+[Wed Mar 12 01:33:18 2025] Collected spectrometer data. Accumulator count: 347386
+[Wed Mar 12 01:33:19 2025] Collected spectrometer data. Accumulator count: 347387
+[Wed Mar 12 01:33:20 2025] Collected spectrometer data. Accumulator count: 347388
+[Wed Mar 12 01:33:22 2025] Collected spectrometer data. Accumulator count: 347389
+[Wed Mar 12 01:33:23 2025] Collected spectrometer data. Accumulator count: 347390
+[Wed Mar 12 01:33:24 2025] Collected spectrometer data. Accumulator count: 347391
+[Wed Mar 12 01:33:25 2025] Collected spectrometer data. Accumulator count: 347392
+[Wed Mar 12 01:33:26 2025] Data saved successfully.
+[Wed Mar 12 01:33:26 2025] Collected spectrometer data. Accumulator count: 347393
+[Wed Mar 12 01:33:28 2025] Collected spectrometer data. Accumulator count: 347394
+[Wed Mar 12 01:33:29 2025] Collected spectrometer data. Accumulator count: 347395
+[Wed Mar 12 01:33:30 2025] Collected spectrometer data. Accumulator count: 347396
+[Wed Mar 12 01:33:32 2025] Collected spectrometer data. Accumulator count: 347397
+[Wed Mar 12 01:33:33 2025] Collected spectrometer data. Accumulator count: 347398
+[Wed Mar 12 01:33:34 2025] Collected spectrometer data. Accumulator count: 347399
+[Wed Mar 12 01:33:35 2025] Collected spectrometer data. Accumulator count: 347400
+[Wed Mar 12 01:33:38 2025] Data saved successfully.
+[Wed Mar 12 01:33:38 2025] Collected spectrometer data. Accumulator count: 347401
+[Wed Mar 12 01:33:39 2025] Collected spectrometer data. Accumulator count: 347402
+[Wed Mar 12 01:33:40 2025] Collected spectrometer data. Accumulator count: 347403
+[Wed Mar 12 01:33:41 2025] Collected spectrometer data. Accumulator count: 347404
+[Wed Mar 12 01:33:42 2025] Collected spectrometer data. Accumulator count: 347405
+[Wed Mar 12 01:33:43 2025] Collected spectrometer data. Accumulator count: 347406
+[Wed Mar 12 01:33:44 2025] Collected spectrometer data. Accumulator count: 347407
+[Wed Mar 12 01:33:46 2025] Collected spectrometer data. Accumulator count: 347408
+[Wed Mar 12 01:33:47 2025] Collected spectrometer data. Accumulator count: 347409
+[Wed Mar 12 01:33:49 2025] Data saved successfully.
+[Wed Mar 12 01:33:49 2025] Collected spectrometer data. Accumulator count: 347410
+[Wed Mar 12 01:33:50 2025] Collected spectrometer data. Accumulator count: 347411
+[Wed Mar 12 01:33:51 2025] Collected spectrometer data. Accumulator count: 347412
+[Wed Mar 12 01:33:52 2025] Collected spectrometer data. Accumulator count: 347413
+[Wed Mar 12 01:33:53 2025] Collected spectrometer data. Accumulator count: 347414
+[Wed Mar 12 01:33:54 2025] Collected spectrometer data. Accumulator count: 347415
+[Wed Mar 12 01:33:56 2025] Collected spectrometer data. Accumulator count: 347416
+[Wed Mar 12 01:33:57 2025] Collected spectrometer data. Accumulator count: 347417
+[Wed Mar 12 01:33:58 2025] Collected spectrometer data. Accumulator count: 347418
+[Wed Mar 12 01:34:00 2025] Data saved successfully.
+[Wed Mar 12 01:34:00 2025] Collected spectrometer data. Accumulator count: 347419
+[Wed Mar 12 01:34:01 2025] Collected spectrometer data. Accumulator count: 347420
+[Wed Mar 12 01:34:02 2025] Collected spectrometer data. Accumulator count: 347421
+[Wed Mar 12 01:34:03 2025] Collected spectrometer data. Accumulator count: 347422
+[Wed Mar 12 01:34:05 2025] Collected spectrometer data. Accumulator count: 347423
+[Wed Mar 12 01:34:06 2025] Collected spectrometer data. Accumulator count: 347424
+[Wed Mar 12 01:34:07 2025] Collected spectrometer data. Accumulator count: 347425
+[Wed Mar 12 01:34:08 2025] Collected spectrometer data. Accumulator count: 347426
+[Wed Mar 12 01:34:09 2025] Collected spectrometer data. Accumulator count: 347427
+[Wed Mar 12 01:34:10 2025] Data saved successfully.
+[Wed Mar 12 01:34:10 2025] Collected spectrometer data. Accumulator count: 347428
+[Wed Mar 12 01:34:11 2025] Collected spectrometer data. Accumulator count: 347429
+[Wed Mar 12 01:34:13 2025] Collected spectrometer data. Accumulator count: 347430
+[Wed Mar 12 01:34:14 2025] Collected spectrometer data. Accumulator count: 347431
+[Wed Mar 12 01:34:15 2025] Collected spectrometer data. Accumulator count: 347432
+[Wed Mar 12 01:34:17 2025] Collected spectrometer data. Accumulator count: 347433
+[Wed Mar 12 01:34:18 2025] Collected spectrometer data. Accumulator count: 347434
+[Wed Mar 12 01:34:19 2025] Collected spectrometer data. Accumulator count: 347435
+[Wed Mar 12 01:34:21 2025] Data saved successfully.
+[Wed Mar 12 01:34:21 2025] Collected spectrometer data. Accumulator count: 347436
+[Wed Mar 12 01:34:23 2025] Collected spectrometer data. Accumulator count: 347437
+[Wed Mar 12 01:34:24 2025] Collected spectrometer data. Accumulator count: 347438
+[Wed Mar 12 01:34:25 2025] Collected spectrometer data. Accumulator count: 347439
+[Wed Mar 12 01:34:26 2025] Collected spectrometer data. Accumulator count: 347440
+[Wed Mar 12 01:34:27 2025] Collected spectrometer data. Accumulator count: 347441
+[Wed Mar 12 01:34:28 2025] Collected spectrometer data. Accumulator count: 347442
+[Wed Mar 12 01:34:30 2025] Collected spectrometer data. Accumulator count: 347443
+[Wed Mar 12 01:34:31 2025] Collected spectrometer data. Accumulator count: 347444
+[Wed Mar 12 01:34:33 2025] Data saved successfully.
+[Wed Mar 12 01:34:33 2025] Collected spectrometer data. Accumulator count: 347445
+[Wed Mar 12 01:34:45 2025] Data saved successfully.
+[Wed Mar 12 01:34:56 2025] Data saved successfully.
+[Wed Mar 12 01:35:07 2025] Data saved successfully.
+[Wed Mar 12 01:35:19 2025] Data saved successfully.
+[Wed Mar 12 01:35:30 2025] Data saved successfully.
+[Wed Mar 12 01:35:41 2025] Data saved successfully.
+[Wed Mar 12 01:35:52 2025] Data saved successfully.
+[Wed Mar 12 01:36:03 2025] Data saved successfully.
+[Wed Mar 12 01:36:15 2025] Data saved successfully.
+[Wed Mar 12 01:36:26 2025] Data saved successfully.
+[Wed Mar 12 01:36:37 2025] Data saved successfully.
+[Wed Mar 12 01:36:48 2025] Data saved successfully.
+[Wed Mar 12 01:36:59 2025] Data saved successfully.
+[Wed Mar 12 01:37:10 2025] Data saved successfully.
+[Wed Mar 12 01:37:21 2025] Data saved successfully.
+[Wed Mar 12 01:37:32 2025] Data saved successfully.
+[Wed Mar 12 01:37:43 2025] Data saved successfully.
+[Wed Mar 12 01:37:54 2025] Data saved successfully.
+[Wed Mar 12 01:38:05 2025] Data saved successfully.
+[Wed Mar 12 01:38:16 2025] Data saved successfully.
+[Wed Mar 12 01:38:27 2025] Data saved successfully.
+[Wed Mar 12 01:38:38 2025] Data saved successfully.
+[Wed Mar 12 01:38:49 2025] Data saved successfully.
+[Wed Mar 12 01:39:00 2025] Data saved successfully.
+[Wed Mar 12 01:39:11 2025] Data saved successfully.
+[Wed Mar 12 01:39:23 2025] Data saved successfully.
+[Wed Mar 12 01:39:33 2025] Data saved successfully.
+[Wed Mar 12 01:39:44 2025] Data saved successfully.
+[Wed Mar 12 01:39:55 2025] Data saved successfully.
+[Wed Mar 12 01:40:07 2025] Data saved successfully.
+[Wed Mar 12 01:40:18 2025] Data saved successfully.
+[Wed Mar 12 01:40:29 2025] Data saved successfully.
+[Wed Mar 12 01:40:40 2025] Data saved successfully.
+[Wed Mar 12 01:40:51 2025] Data saved successfully.
+[Wed Mar 12 01:41:02 2025] Data saved successfully.
+[Wed Mar 12 01:41:13 2025] Data saved successfully.
+[Wed Mar 12 01:41:24 2025] Data saved successfully.
+[Wed Mar 12 01:41:35 2025] Data saved successfully.
+[Wed Mar 12 01:41:46 2025] Data saved successfully.
+[Wed Mar 12 01:41:57 2025] Data saved successfully.
+[Wed Mar 12 01:42:08 2025] Data saved successfully.
+[Wed Mar 12 01:42:19 2025] Data saved successfully.
+[Wed Mar 12 01:42:30 2025] Data saved successfully.
+[Wed Mar 12 01:42:41 2025] Data saved successfully.
+[Wed Mar 12 01:42:52 2025] Data saved successfully.
+[Wed Mar 12 01:43:03 2025] Data saved successfully.
+[Wed Mar 12 01:43:14 2025] Data saved successfully.
+[Wed Mar 12 01:43:25 2025] Data saved successfully.
+[Wed Mar 12 01:43:36 2025] Data saved successfully.
+[Wed Mar 12 01:43:47 2025] Data saved successfully.
+[Wed Mar 12 01:43:58 2025] Data saved successfully.
+[Wed Mar 12 01:44:10 2025] Data saved successfully.
+[Wed Mar 12 01:44:20 2025] Data saved successfully.
+[Wed Mar 12 01:44:31 2025] Data saved successfully.
+[Wed Mar 12 01:44:42 2025] Data saved successfully.
+[Wed Mar 12 01:44:54 2025] Data saved successfully.
+[Wed Mar 12 01:45:05 2025] Data saved successfully.
+[Wed Mar 12 01:45:16 2025] Data saved successfully.
+[Wed Mar 12 01:45:27 2025] Data saved successfully.
+[Wed Mar 12 01:45:38 2025] Data saved successfully.
+[Wed Mar 12 01:45:49 2025] Data saved successfully.
+[Wed Mar 12 01:46:00 2025] Data saved successfully.
+[Wed Mar 12 01:46:11 2025] Data saved successfully.
+[Wed Mar 12 01:46:22 2025] Data saved successfully.
+[Wed Mar 12 01:46:33 2025] Data saved successfully.
+[Wed Mar 12 01:46:44 2025] Data saved successfully.
+[Wed Mar 12 01:46:55 2025] Data saved successfully.
+[Wed Mar 12 01:47:06 2025] Data saved successfully.
+[Wed Mar 12 01:47:18 2025] Data saved successfully.
+[Wed Mar 12 01:47:29 2025] Data saved successfully.
+[Wed Mar 12 01:47:40 2025] Data saved successfully.
+[Wed Mar 12 01:47:50 2025] Data saved successfully.
+[Wed Mar 12 01:48:01 2025] Data saved successfully.
+[Wed Mar 12 01:48:12 2025] Data saved successfully.
+[Wed Mar 12 01:48:23 2025] Data saved successfully.
+[Wed Mar 12 01:48:34 2025] Data saved successfully.
+[Wed Mar 12 01:48:45 2025] Data saved successfully.
+[Wed Mar 12 01:48:56 2025] Data saved successfully.
+[Wed Mar 12 01:49:08 2025] Data saved successfully.
+[Wed Mar 12 01:49:19 2025] Data saved successfully.
+[Wed Mar 12 01:49:30 2025] Data saved successfully.
+[Wed Mar 12 01:49:41 2025] Data saved successfully.
+[Wed Mar 12 01:49:52 2025] Data saved successfully.
+[Wed Mar 12 01:50:03 2025] Data saved successfully.
+[Wed Mar 12 01:50:14 2025] Data saved successfully.
+[Wed Mar 12 01:50:25 2025] Data saved successfully.
+[Wed Mar 12 01:50:36 2025] Data saved successfully.
+[Wed Mar 12 01:50:47 2025] Data saved successfully.
+[Wed Mar 12 01:50:58 2025] Data saved successfully.
+[Wed Mar 12 01:51:08 2025] Time duration reached, waiting for last block to complete...
+[Wed Mar 12 01:51:08 2025] Saving final dataset...
+[Wed Mar 12 01:51:09 2025] Data saved successfully.
+[Wed Mar 12 01:51:10 2025] Final data saved successfully.
+[Wed Mar 12 01:51:10 2025] Data collection completed.
