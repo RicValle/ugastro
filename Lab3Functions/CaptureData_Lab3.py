@@ -26,9 +26,11 @@ RA = 180 # degrees
 DEC = 45 # degrees
 OBS_SUN = True  # Bool to measure sun instead of specific coords
 
-DATA_FILE = os.path.join(FOLDER, f"{OBS_NAME}_data.npz")
-LOG_FILE = os.path.join(FOLDER, f"{OBS_NAME}_log.json")
-BACKUP_FILE = os.path.join(FOLDER, f"{OBS_NAME}_backup.npz")
+date = local_time()
+DATE_TIME = date[4:8]+"_"+date[8:10]+"_"+date[11:13]+"-"+date[14:16]
+DATA_FILE = os.path.join(FOLDER, f"{OBS_NAME}_data_{DATE_TIME}.npz")
+LOG_FILE = os.path.join(FOLDER, f"{OBS_NAME}_log_{DATE_TIME}.json")
+BACKUP_FILE = os.path.join(FOLDER, f"{OBS_NAME}_backup_{DATE_TIME}.npz")
 
 # ======= CONFIG ======= 
 def log_message(message):
