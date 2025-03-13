@@ -39,15 +39,18 @@ def log_message(message):
         log.write(log_entry)
 
 # ======= TELESCOPE POINTING ======= #
-def point_telescope(target_ra, target_dec):
+def point_telescope():
     """Continuously adjust telescope pointing."""
     try:
         while not terminate_flag.is_set():
             jd = julian_date()
-            target_alt, target_az = get_altaz(target_ra, target_dec, jd)
-            ifm.point(alt=target_alt, az=target_az, wait=True)
-            print(f"Telescope commanded to point to Alt: {target_alt}, Az: {target_az}")
-            log_message(f"Telescope commanded to point to Alt: {target_alt}, Az: {target_az}")
+            ra, dec = sunpos(jd)
+            alt, az = get_altaz(ra, dec, jd)
+
+            ifm.point(alt=alt, az=az, wait=True)
+            print(f"Telescope commanded to point to Alt: {alt}, Az: {az}")
+            log_message(f"Telescope commanded to point to Alt: {alt}, Az: {az}")
+            
             actual_alt, actual_az = ifm.get_pointing()
             print(f"Telescope actually pointing to Alt: {actual_alt}, Az: {actual_az}")
             log_message(f"Telescope actually pointing to Alt: {actual_alt}, Az: {actual_az}")
@@ -90,23 +93,8 @@ def save_data_periodically():
         print(f"Error saving data: {e}")
         log_message(f"Error saving data: {e}")
 
-
-# ======= SETUP ======= #
-try:
-    log_message("Initializing observation setup...")
-    jd = julian_date()
-    if OBS_SUN:
-        ra, dec = sunpos(jd)
-        log_message("Observing the Sun")
-    else:
-        ra, dec = precess(RA, DEC, jd)
-        log_message(f"Observing RA: {RA}, DEC: {DEC}")
-except Exception as e:
-    print(f"Input error: {e}")
-    exit()
-
 # ======= START THREADS ======= #
-telescope_thread = threading.Thread(target=point_telescope, args=(ra, dec))
+telescope_thread = threading.Thread(target=point_telescope)
 spectrometer_thread = threading.Thread(target=collect_spectrometer_data, args=(OBS_TIME,))
 save_thread = threading.Thread(target=save_data_periodically)
 
