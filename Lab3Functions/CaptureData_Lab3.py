@@ -32,7 +32,7 @@ DATA_FILE = os.path.join(FOLDER, f"{OBS_NAME}_data_{DATE_TIME}.npz")
 LOG_FILE = os.path.join(FOLDER, f"{OBS_NAME}_log_{DATE_TIME}.json")
 BACKUP_FILE = os.path.join(FOLDER, f"{OBS_NAME}_backup_{DATE_TIME}.npz")
 
-# ======= CONFIG ======= 
+# ======= LOGGING ======= 
 def log_message(message):
     """Write log messages to the log file."""
     timestamp = utc()
