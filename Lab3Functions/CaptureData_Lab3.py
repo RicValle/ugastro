@@ -28,7 +28,6 @@ OBS_SUN = True  # Bool to measure sun instead of specific coords
 
 date = local_time()
 DATE_TIME = date[4:8]+"_"+date[8:10]+"_"+date[11:13]+"-"+date[14:16]
-DATA_FILE = os.path.join(FOLDER, f"{OBS_NAME}_data_{DATE_TIME}.npz")
 LOG_FILE = os.path.join(FOLDER, f"{OBS_NAME}_log_{DATE_TIME}.json")
 BACKUP_FILE = os.path.join(FOLDER, f"{OBS_NAME}_backup_{DATE_TIME}.npz")
 
@@ -87,6 +86,9 @@ def save_data_periodically():
         while not terminate_flag.is_set():
             with data_lock:
                 if data_buffer:
+                    date = local_time()
+                    DATE_TIME = date[4:8]+"_"+date[8:10]+"_"+date[11:13]+"-"+date[14:16]
+                    DATA_FILE = os.path.join(FOLDER, f"{OBS_NAME}_data_{DATE_TIME}.npz")
                     np.savez(DATA_FILE, data_buffer)
                     log_message("Data saved successfully.")
             time.sleep(10)
@@ -127,7 +129,10 @@ finally:
 
 log_message("Saving final dataset...")
 with data_lock:
-    if data_buffer:
+    if data_buffer: 
+        date = local_time()
+        DATE_TIME = date[4:8]+"_"+date[8:10]+"_"+date[11:13]+"-"+date[14:16]
+        DATA_FILE = os.path.join(FOLDER, f"{OBS_NAME}_data_{DATE_TIME}.npz")
         np.savez(DATA_FILE, data_buffer)
         log_message("Final data saved successfully.")
 
