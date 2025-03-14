@@ -53,9 +53,8 @@ def point_telescope():
             print(f"Telescope commanded to point to Alt: {alt}, Az: {az}")
             log_message(f"Telescope commanded to point to Alt: {alt}, Az: {az}")
             
-            actual_alt, actual_az = ifm.get_pointing()
-            print(f"Telescope actually pointing to Alt: {actual_alt}, Az: {actual_az}")
-            log_message(f"Telescope actually pointing to Alt: {actual_alt}, Az: {actual_az}")
+            print(f"Telescope actually pointing to {ifm.get_pointing()}")
+            log_message(f"Telescope actually pointing to: {ifm.get_pointing()}")
             time.sleep(5)
     except Exception as e:
         print(f"Telescope error: {e}")
