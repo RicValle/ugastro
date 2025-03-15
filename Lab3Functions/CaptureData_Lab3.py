@@ -67,12 +67,16 @@ def collect_spectrometer_data(duration):
     start_time = time.time()
     try:
         while time.time() - start_time < duration and not terminate_flag.is_set():
-            data = snap.read_data(prev_cnt)
-            if "acc_cnt" in data:
-                prev_cnt = data["acc_cnt"]
-                with data_lock:
-                    data_buffer.append(data)
-                log_message(f"Collected spectrometer data. Accumulator count: {prev_cnt}")
+            try:
+                data = snap.read_data(prev_cnt)
+                if "acc_cnt" in data:
+                    prev_cnt = data["acc_cnt"]
+                    with data_lock:
+                        data_buffer.append(data)
+                    log_message(f"Collected spectrometer data. Accumulator count: {prev_cnt}")
+                time.sleep(1)
+            except Exception as e:
+                log_message(f"Spectrometer data read error: {e}")
             time.sleep(1)
         print("Spectrometer finished collecting.")
         log_message("Spectrometer finished collecting.")
