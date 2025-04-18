@@ -18,9 +18,9 @@ import astropy.units as u
 # ===============================
 # Configuration Parameters
 # ===============================
-NSAMPLES = 2048
-NBLOCKS = 8
-CAL_INTERVAL = 4
+NSAMPLES = 2048 	# Number of samples per FFT block
+NBLOCKS = 8			# Number of FFT blocks to average per observation point
+CAL_INTERVAL = 4	# Repeat every N point with calibration diode on 
 SAVE_BASE_PATH = "./data"
 POLARIZATION_LABELS = {0: "pol0", 1: "pol1"}  # Map device_index to folder/polarization
 
@@ -68,6 +68,7 @@ def average_power_spectrum(raw_data_blocks: np.ndarray, direct=True) -> np.ndarr
     return np.mean(power_spectra, axis=0)
 
 def precompute_observation_plan(mode="grid", track_duration=3600):
+    # Creates list of observation point objects
     plan = []
     id_counter = 0
 
@@ -195,6 +196,7 @@ def log_thread(log_queue, terminate_flag):
 
 # ===============================
 # Run Script
+# Example run command in terminal: "python3 sdr_data_collection.py --mode track --duration 2000"
 # ===============================
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="SDR HI Mapping Script")
