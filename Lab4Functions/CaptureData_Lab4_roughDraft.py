@@ -17,8 +17,8 @@ import astropy.units as u
 # ===============================
 # Configuration Parameters
 # ===============================
-NSAMPLES = 2048 	# Number of samples per FFT block
-NBLOCKS = 8			# Number of FFT blocks to average per observation point
+NSAMPLES = 512 	# Number of samples per FFT block
+NBLOCKS = 1			# Number of FFT blocks to average per observation point
 CAL_INTERVAL = 4	# Repeat every N point with calibration diode on 
 SAVE_BASE_PATH = "./Lab4Data"
 POLARIZATION_LABELS = {0: "pol0", 1: "pol1"}  # Map device_index to folder/polarization
@@ -168,8 +168,8 @@ def save_thread(save_queue, log_queue, terminate_flag):
     while not terminate_flag.is_set():
         try:
             result = save_queue.get(timeout=2)
-            pol_label = POLARIZATION_LABELS.get(result.device_index, f"dev{result.device_index}_{time.time()}")
-            folder = os.path.join(SAVE_BASE_PATH, pol_label)
+            pol_label = POLARIZATION_LABELS.get(result.device_index, f"dev{result.device_index}")
+            folder = os.path.join(SAVE_BASE_PATH, pol_label+f"_{time.time()}")
             os.makedirs(folder, exist_ok=True)
             fname = os.path.join(folder, f"obs_{result.pointing.id}_{result.mode}.npy")
             np.save(fname, result.spectrum)
