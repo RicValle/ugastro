@@ -21,6 +21,7 @@ NSAMPLES = 512 	# Number of samples per FFT block
 NBLOCKS = 1			# Number of FFT blocks to average per observation point
 CAL_INTERVAL = 4	# Repeat every N point with calibration diode on 
 SAVE_BASE_PATH = "./Lab4Data"
+DURATION = 60		# Number of seconds of observation per point
 POLARIZATION_LABELS = {0: "pol0", 1: "pol1"}  # Map device_index to folder/polarization
 
 # ===============================
@@ -72,8 +73,8 @@ def precompute_observation_plan(mode="grid", track_duration=3600):
     id_counter = 0
 
     if mode == "grid":
-        for b in np.arange(15, 52, 2):
-            delta_l = 2 / np.cos(np.radians(b))
+        for b in np.arange(15, 52, 2.4):
+            delta_l = 2.4 / np.cos(np.radians(b))
             for l in np.arange(105, 162, delta_l):
                 ra, dec = galactic_to_equatorial(l, b)
                 point = ObservationPoint(
@@ -240,7 +241,7 @@ if __name__ == "__main__":
                 data_queue.put(DataTask("cal_on", 2, point))
                 data_queue.put(DataTask("cal_off", 2, point))
 
-            data_queue.put(DataTask("science", 60, point))
+            data_queue.put(DataTask("science", DURATION, point))
             time.sleep(65)
     except KeyboardInterrupt:
         print("\nInterrupted. Stopping observation...")
