@@ -94,7 +94,7 @@ def precompute_observation_plan(mode="grid", track_duration=3600):
         return with_cal
 
     elif mode == "track":
-        l, b = 130, 40
+        l, b = 120, 0
         ra, dec = galactic_to_equatorial(l, b)
         start_time = time.time()
         while time.time() - start_time < track_duration:
