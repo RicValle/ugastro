@@ -21,7 +21,7 @@ import astropy.units as u
 NSAMPLES = 2048 	# Number of samples per FFT block
 NBLOCKS = 8			# Number of FFT blocks to average per observation point
 CAL_INTERVAL = 4	# Repeat every N point with calibration diode on 
-SAVE_BASE_PATH = "./data"
+SAVE_BASE_PATH = "./Lab4Data"
 POLARIZATION_LABELS = {0: "pol0", 1: "pol1"}  # Map device_index to folder/polarization
 
 # ===============================
@@ -221,6 +221,13 @@ if __name__ == "__main__":
     threading.Thread(target=data_thread, args=(sdr_list, noise_diode, data_queue, save_queue, log_queue, terminate_flag), daemon=True).start()
     threading.Thread(target=save_thread, args=(save_queue, log_queue, terminate_flag), daemon=True).start()
     threading.Thread(target=log_thread, args=(log_queue, terminate_flag), daemon=True).start()
+    
+	# Ensure noise diode is OFF before starting
+    dummy_point = ObservationPoint(
+        id=-1, gal_l=0, gal_b=0, ra=0, dec=0,
+        is_calibration=False, mode="init"
+    )
+    data_queue.put(DataTask("cal_off", 2, dummy_point))
 
     try:
         for point in plan:
