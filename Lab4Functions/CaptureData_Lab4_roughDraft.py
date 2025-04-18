@@ -169,7 +169,7 @@ def save_thread(save_queue, log_queue, terminate_flag):
     while not terminate_flag.is_set():
         try:
             result = save_queue.get(timeout=2)
-            pol_label = POLARIZATION_LABELS.get(result.device_index, f"dev{result.device_index}")
+            pol_label = POLARIZATION_LABELS.get(result.device_index, f"dev{result.device_index}_{time.time()}")
             folder = os.path.join(SAVE_BASE_PATH, pol_label)
             os.makedirs(folder, exist_ok=True)
             fname = os.path.join(folder, f"obs_{result.pointing.id}_{result.mode}.npy")
