@@ -9,9 +9,8 @@ from queue import Queue, Empty
 from datetime import datetime
 from dataclasses import dataclass
 from typing import Literal, List
-from ugradio import timing, coord, leo
-from sdr import SDR
-from leusch import LeuschTelescope, LeuschNoise
+from ugradio import timing, coord, leo, sdr
+from ugradio.leusch import LeuschTelescope, LeuschNoise
 from astropy.coordinates import SkyCoord
 import astropy.units as u
 
@@ -127,7 +126,7 @@ def pointing_thread(telescope, pointing_queue, pointing_done, log_queue, termina
         except Empty:
             continue
 
-def data_thread(sdr_list: List[SDR], noise_diode, data_queue, save_queue, log_queue, terminate_flag):
+def data_thread(sdr_list: List[sdr.SDR], noise_diode, data_queue, save_queue, log_queue, terminate_flag):
     while not terminate_flag.is_set():
         try:
             task = data_queue.get(timeout=2)
@@ -198,7 +197,7 @@ def log_thread(log_queue, terminate_flag):
 
 # ===============================
 # Run Script
-# Example run command in terminal: "python3 sdr_data_collection.py --mode track --duration 2000"
+# Example run command in terminal: "python3 CaptureData_Lab4_roughDraft.py --mode track --duration 2000"
 # ===============================
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="SDR HI Mapping Script")
@@ -208,7 +207,7 @@ if __name__ == "__main__":
 
     telescope = LeuschTelescope()
     noise_diode = LeuschNoise()
-    sdr_list = [SDR(device_index=0), SDR(device_index=1)]
+    sdr_list = [sdr.SDR(device_index=0), sdr.SDR(device_index=1)]
 
     pointing_queue = Queue()
     data_queue = Queue()
