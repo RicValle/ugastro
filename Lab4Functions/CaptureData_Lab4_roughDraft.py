@@ -123,7 +123,7 @@ def pointing_thread(telescope, pointing_queue, pointing_done, log_queue, termina
                 continue
             telescope.point(alt, az)
             pointing_done.set()
-            log_queue.put({"event": "pointed", "id": point.id, "alt": alt, "az": az, "time": datetime.utcnow().isoformat()})
+            log_queue.put({"event": "pointed", "id": point.id, "l": point.gal_l, "b": point.gal_b, "alt": alt, "az": az, "time": datetime.utcnow().isoformat()})
         except Empty:
             continue
 
@@ -155,6 +155,8 @@ def data_thread(sdr_list: List[SDR], noise_diode, data_queue, save_queue, log_qu
                     "event": "data_collected",
                     "mode": task.mode,
                     "pointing_id": task.pointing.id,
+                    "l": task.pointing.gal_l,
+                    "b": task.pointing.gal_b,
                     "device_index": sdr.device_index,
                     "is_calibration": task.pointing.is_calibration,
                     "timestamp": result.timestamp
