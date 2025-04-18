@@ -126,7 +126,7 @@ def pointing_thread(telescope, pointing_queue, pointing_done, log_queue, termina
         except Empty:
             continue
 
-def data_thread(sdr_list: List[SDR], noise_diode, data_queue, save_queue, log_queue, terminate_flag):
+def data_thread(sdr_list: List[sdr.SDR], noise_diode, data_queue, save_queue, log_queue, terminate_flag):
     while not terminate_flag.is_set():
         try:
             task = data_queue.get(timeout=2)
