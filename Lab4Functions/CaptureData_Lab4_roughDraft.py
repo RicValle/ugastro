@@ -21,6 +21,7 @@ NSAMPLES = 512 	# Number of samples per FFT block
 NBLOCKS = 1			# Number of FFT blocks to average per observation point
 CAL_INTERVAL = 4	# Repeat every N point with calibration diode on 
 SAVE_BASE_PATH = "./Lab4Data"
+INIT_TIME = time.time()
 DURATION = 60		# Number of seconds of observation per point
 POLARIZATION_LABELS = {0: "pol0", 1: "pol1"}  # Map device_index to folder/polarization
 
@@ -82,16 +83,22 @@ def precompute_observation_plan(mode="grid", track_duration=3600):
                     is_calibration=False, mode="grid"
                 )
                 plan.append(point)
+                if id_counter % CAL_INTERVAL == 0:
+                    cal_point = ObservationPoint(
+                    id=id_counter, gal_l=l, gal_b=b, ra=ra, dec=dec,
+                    is_calibration=True, mode="grid"
+                    )
+                    plan.append(cal_point)
                 id_counter += 1
 
-        with_cal = []
-        for i, p in enumerate(plan):
-            with_cal.append(p)
-            if (i + 1) % CAL_INTERVAL == 0:
-                cal_p = ObservationPoint(**{**p.__dict__, "id": id_counter, "is_calibration": True})
-                with_cal.append(cal_p)
-                id_counter += 1
-        return with_cal
+        #with_cal = []   # TODO: Move into previous loop by adding a second point if calibration
+        #for i, p in enumerate(plan):
+        #    with_cal.append(p)
+        #    if (i + 1) % CAL_INTERVAL == 0:
+        #        cal_p = ObservationPoint(**{**p.__dict__, "id": id_counter, "is_calibration": True})
+        #        with_cal.append(cal_p)
+        #        id_counter += 1
+        #return with_cal
 
     elif mode == "track":
         l, b = 120, 0
@@ -100,13 +107,18 @@ def precompute_observation_plan(mode="grid", track_duration=3600):
         while time.time() - start_time < track_duration:
             point = ObservationPoint(
                 id=id_counter, gal_l=l, gal_b=b, ra=ra, dec=dec,
-                is_calibration=(id_counter % CAL_INTERVAL == 0),
-                mode="track"
+                is_calibration=False, mode="track"
             )
             plan.append(point)
+            if id_counter % CAL_INTERVAL == 0:
+                cal_point = ObservationPoint(
+                id=id_counter, gal_l=l, gal_b=b, ra=ra, dec=dec,
+                is_calibration=True, mode="grid"
+                )
+                plan.append(cal_point)
             id_counter += 1
             time.sleep(60)
-        return plan
+    return plan
 
 # ===============================
 # Threads
@@ -162,7 +174,7 @@ def data_thread(sdr_list: List[sdr.SDR], noise_diode, data_queue, save_queue, lo
                     "timestamp": result.timestamp
                 })
             except Exception as e:
-                log_queue.put({"event": "error", "message": str(e), "id": task.pointing.id})
+                log_queue.put({"event": "data error", "message": str(e), "id": task.pointing.id})
 
 
 def save_thread(save_queue, log_queue, terminate_flag):
@@ -170,7 +182,7 @@ def save_thread(save_queue, log_queue, terminate_flag):
         try:
             result = save_queue.get(timeout=2)
             pol_label = POLARIZATION_LABELS.get(result.device_index, f"dev{result.device_index}")
-            folder = os.path.join(SAVE_BASE_PATH, pol_label+f"_{time.time()}")
+            folder = os.path.join(SAVE_BASE_PATH, pol_label+f"_{INIT_TIME}")
             os.makedirs(folder, exist_ok=True)
             fname = os.path.join(folder, f"obs_{result.pointing.id}_{result.mode}.npy")
             np.save(fname, result.spectrum)
