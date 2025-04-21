@@ -22,7 +22,6 @@ NBLOCKS = 1			# Number of FFT blocks to average per observation point
 CAL_INTERVAL = 4	# Repeat every N point with calibration diode on 
 SAVE_BASE_PATH = "./Lab4Data"
 INIT_TIME = time.time()
-DURATION = 60		# Number of seconds of observation per point
 POLARIZATION_LABELS = {0: "pol0", 1: "pol1"}  # Map device_index to folder/polarization
 
 # ===============================
@@ -41,7 +40,6 @@ class ObservationPoint:
 @dataclass
 class DataTask:
     mode: Literal["science", "cal_on", "cal_off"]
-    duration: float
     pointing: ObservationPoint
 
 @dataclass
@@ -68,7 +66,7 @@ def average_power_spectrum(raw_data_blocks: np.ndarray, direct=True) -> np.ndarr
     power_spectra = np.abs(fft_blocks) ** 2
     return np.mean(power_spectra, axis=0)
 
-def precompute_observation_plan(mode="grid", track_duration=3600):
+def precompute_observation_plan(mode="grid"):
     # Creates list of observation point objects
     plan = []
     id_counter = 0
@@ -162,17 +160,18 @@ def data_thread(sdr_list: List[sdr.SDR], noise_diode, data_queue, save_queue, lo
                     pointing=task.pointing,
                     timestamp=datetime.utcnow().isoformat()
                 )
-                save_queue.put(result)
-                log_queue.put({
-                    "event": "data_collected",
-                    "mode": task.mode,
-                    "pointing_id": task.pointing.id,
-                    "l": task.pointing.gal_l,
-                    "b": task.pointing.gal_b,
-                    "device_index": sdr.device_index,
-                    "is_calibration": task.pointing.is_calibration,
-                    "timestamp": result.timestamp
-                })
+                if task.mode != "cal_off":
+                    save_queue.put(result)
+                    log_queue.put({
+                        "event": "data_collected",
+                        "mode": task.mode,
+                        "pointing_id": task.pointing.id,
+                        "l": task.pointing.gal_l,
+                        "b": task.pointing.gal_b,
+                        "device_index": sdr.device_index,
+                        "is_calibration": task.pointing.is_calibration,
+                        "timestamp": result.timestamp
+                    })
             except Exception as e:
                 log_queue.put({"event": "data error", "message": str(e), "id": task.pointing.id})
 
@@ -215,7 +214,6 @@ def log_thread(log_queue, terminate_flag):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="SDR HI Mapping Script")
     parser.add_argument("--mode", choices=["grid", "track"], default="grid", help="Observation mode")
-    parser.add_argument("--duration", type=int, default=3600, help="Duration in seconds (track mode)")
     args = parser.parse_args()
 
     telescope = LeuschTelescope()
@@ -229,7 +227,7 @@ if __name__ == "__main__":
     terminate_flag = threading.Event()
     pointing_done = threading.Event()
 
-    plan = precompute_observation_plan(mode=args.mode, track_duration=args.duration)
+    plan = precompute_observation_plan(mode=args.mode)
 
     threading.Thread(target=pointing_thread, args=(telescope, pointing_queue, pointing_done, log_queue, terminate_flag), daemon=True).start()
     threading.Thread(target=data_thread, args=(sdr_list, noise_diode, data_queue, save_queue, log_queue, terminate_flag), daemon=True).start()
@@ -241,7 +239,7 @@ if __name__ == "__main__":
         id=-1, gal_l=0, gal_b=0, ra=0, dec=0,
         is_calibration=False, mode="init"
     )
-    data_queue.put(DataTask("cal_off", 2, dummy_point))
+    data_queue.put(DataTask("cal_off", dummy_point))
 
     try:
         for point in plan:
@@ -250,10 +248,10 @@ if __name__ == "__main__":
             pointing_done.wait(timeout=30)
 
             if point.is_calibration:
-                data_queue.put(DataTask("cal_on", 2, point))
-                data_queue.put(DataTask("cal_off", 2, point))
+                data_queue.put(DataTask("cal_on", point))
+                data_queue.put(DataTask("cal_off", point))
 
-            data_queue.put(DataTask("science", DURATION, point))
+            data_queue.put(DataTask("science", point))
             time.sleep(65)
     except KeyboardInterrupt:
         print("\nInterrupted. Stopping observation...")
