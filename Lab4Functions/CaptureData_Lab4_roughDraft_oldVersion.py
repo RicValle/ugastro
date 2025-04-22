@@ -248,14 +248,17 @@ if __name__ == "__main__":
         for point in plan:
             pointing_done.clear()
             pointing_queue.put(point)
-            pointing_done.wait(timeout=30)
+            pointing_done.wait(timeout=40)
 
             if point.is_calibration:
+                time.sleep(2)
                 data_queue.put(DataTask("cal_on", point))
+                time.sleep(2)
                 data_queue.put(DataTask("cal_off", point))
+                time.sleep(2)
 
             data_queue.put(DataTask("science", point))
-            time.sleep(20)
+            time.sleep(24)
     except KeyboardInterrupt:
         print("\nInterrupted. Stopping observation...")
     finally:
