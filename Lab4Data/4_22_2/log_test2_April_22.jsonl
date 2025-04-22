@@ -1,0 +1,421 @@
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": -1, "time": "2025-04-22T19:28:09.289794"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 0, "time": "2025-04-22T19:28:51.268923"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 0, "time": "2025-04-22T19:28:53.270889"}
+{"event": "data_collected", "mode": "science", "pointing_id": 0, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T19:29:01.645762", "time": "2025-04-22T19:29:01.646296"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_0_science.npy", "mode": "science", "device_index": 0, "pointing_id": 0, "timestamp": "2025-04-22T19:29:01.645762", "time": "2025-04-22T19:29:01.649092"}
+{"event": "data_collected", "mode": "science", "pointing_id": 0, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T19:29:07.899052", "time": "2025-04-22T19:29:07.899434"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_0_science.npy", "mode": "science", "device_index": 1, "pointing_id": 0, "timestamp": "2025-04-22T19:29:07.899052", "time": "2025-04-22T19:29:07.900271"}
+{"event": "pointed", "id": 0, "l": 120, "b": 0, "alt": 63.578161666108485, "az": 345.5433544964713, "time": "2025-04-22T19:29:49.790810"}
+{"event": "pointed", "id": 1, "l": 120, "b": 0, "alt": 63.494313695224164, "az": 345.1568540629192, "time": "2025-04-22T19:29:53.110001"}
+{"event": "data_collected", "mode": "science", "pointing_id": 1, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:29:56.093140", "time": "2025-04-22T19:29:56.093720"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_1_science.npy", "mode": "science", "device_index": 0, "pointing_id": 1, "timestamp": "2025-04-22T19:29:56.093140", "time": "2025-04-22T19:29:56.094583"}
+{"event": "data_collected", "mode": "science", "pointing_id": 1, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:30:02.370965", "time": "2025-04-22T19:30:02.371400"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_1_science.npy", "mode": "science", "device_index": 1, "pointing_id": 1, "timestamp": "2025-04-22T19:30:02.370965", "time": "2025-04-22T19:30:02.372221"}
+{"event": "pointed", "id": 2, "l": 120, "b": 0, "alt": 63.473966825964524, "az": 345.0650559574438, "time": "2025-04-22T19:30:15.991115"}
+{"event": "data_collected", "mode": "science", "pointing_id": 2, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:30:22.254083", "time": "2025-04-22T19:30:22.254636"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_2_science.npy", "mode": "science", "device_index": 0, "pointing_id": 2, "timestamp": "2025-04-22T19:30:22.254083", "time": "2025-04-22T19:30:22.256722"}
+{"event": "data_collected", "mode": "science", "pointing_id": 2, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:30:28.520021", "time": "2025-04-22T19:30:28.520452"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_2_science.npy", "mode": "science", "device_index": 1, "pointing_id": 2, "timestamp": "2025-04-22T19:30:28.520021", "time": "2025-04-22T19:30:28.521271"}
+{"event": "pointed", "id": 3, "l": 120, "b": 0, "alt": 63.45160780341566, "az": 344.96504153539155, "time": "2025-04-22T19:30:42.225239"}
+{"event": "data_collected", "mode": "science", "pointing_id": 3, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:30:48.488144", "time": "2025-04-22T19:30:48.488667"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_3_science.npy", "mode": "science", "device_index": 0, "pointing_id": 3, "timestamp": "2025-04-22T19:30:48.488144", "time": "2025-04-22T19:30:48.491304"}
+{"event": "data_collected", "mode": "science", "pointing_id": 3, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:30:54.736692", "time": "2025-04-22T19:30:54.737085"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_3_science.npy", "mode": "science", "device_index": 1, "pointing_id": 3, "timestamp": "2025-04-22T19:30:54.736692", "time": "2025-04-22T19:30:54.737900"}
+{"event": "pointed", "id": 4, "l": 120, "b": 0, "alt": 63.42909036131105, "az": 344.8652124793451, "time": "2025-04-22T19:31:08.443954"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 4, "time": "2025-04-22T19:31:10.447123"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 4, "time": "2025-04-22T19:31:12.449190"}
+{"event": "data_collected", "mode": "science", "pointing_id": 4, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T19:31:20.727287", "time": "2025-04-22T19:31:20.727780"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_4_science.npy", "mode": "science", "device_index": 0, "pointing_id": 4, "timestamp": "2025-04-22T19:31:20.727287", "time": "2025-04-22T19:31:20.730389"}
+{"event": "data_collected", "mode": "science", "pointing_id": 4, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T19:31:26.984193", "time": "2025-04-22T19:31:26.984579"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_4_science.npy", "mode": "science", "device_index": 1, "pointing_id": 4, "timestamp": "2025-04-22T19:31:26.984193", "time": "2025-04-22T19:31:26.985443"}
+{"event": "pointed", "id": 5, "l": 120, "b": 0, "alt": 63.40123150000015, "az": 344.7429173761899, "time": "2025-04-22T19:31:40.672674"}
+{"event": "data_collected", "mode": "science", "pointing_id": 5, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:31:46.951508", "time": "2025-04-22T19:31:46.952021"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_5_science.npy", "mode": "science", "device_index": 0, "pointing_id": 5, "timestamp": "2025-04-22T19:31:46.951508", "time": "2025-04-22T19:31:46.954888"}
+{"event": "data_collected", "mode": "science", "pointing_id": 5, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:31:53.213198", "time": "2025-04-22T19:31:53.214290"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_5_science.npy", "mode": "science", "device_index": 1, "pointing_id": 5, "timestamp": "2025-04-22T19:31:53.213198", "time": "2025-04-22T19:31:53.214379"}
+{"event": "pointed", "id": 6, "l": 120, "b": 0, "alt": 63.37840140297295, "az": 344.6436776080006, "time": "2025-04-22T19:32:06.906590"}
+{"event": "data_collected", "mode": "science", "pointing_id": 6, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:32:13.163965", "time": "2025-04-22T19:32:13.166387"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_6_science.npy", "mode": "science", "device_index": 0, "pointing_id": 6, "timestamp": "2025-04-22T19:32:13.163965", "time": "2025-04-22T19:32:13.166583"}
+{"event": "data_collected", "mode": "science", "pointing_id": 6, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:32:19.411523", "time": "2025-04-22T19:32:19.412554"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_6_science.npy", "mode": "science", "device_index": 1, "pointing_id": 6, "timestamp": "2025-04-22T19:32:19.411523", "time": "2025-04-22T19:32:19.412642"}
+{"event": "pointed", "id": 7, "l": 120, "b": 0, "alt": 63.35541650386751, "az": 344.54463768942975, "time": "2025-04-22T19:32:33.127351"}
+{"event": "data_collected", "mode": "science", "pointing_id": 7, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:32:39.388983", "time": "2025-04-22T19:32:39.391405"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_7_science.npy", "mode": "science", "device_index": 0, "pointing_id": 7, "timestamp": "2025-04-22T19:32:39.388983", "time": "2025-04-22T19:32:39.391600"}
+{"event": "data_collected", "mode": "science", "pointing_id": 7, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:32:45.651871", "time": "2025-04-22T19:32:45.652287"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_7_science.npy", "mode": "science", "device_index": 1, "pointing_id": 7, "timestamp": "2025-04-22T19:32:45.651871", "time": "2025-04-22T19:32:45.653105"}
+{"event": "pointed", "id": 8, "l": 120, "b": 0, "alt": 63.33229937648135, "az": 344.44589390861705, "time": "2025-04-22T19:32:59.360595"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 8, "time": "2025-04-22T19:33:01.362180"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 8, "time": "2025-04-22T19:33:03.363710"}
+{"event": "data_collected", "mode": "science", "pointing_id": 8, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T19:33:11.649819", "time": "2025-04-22T19:33:11.650331"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_8_science.npy", "mode": "science", "device_index": 0, "pointing_id": 8, "timestamp": "2025-04-22T19:33:11.649819", "time": "2025-04-22T19:33:11.653639"}
+{"event": "data_collected", "mode": "science", "pointing_id": 8, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T19:33:17.896457", "time": "2025-04-22T19:33:17.896826"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_8_science.npy", "mode": "science", "device_index": 1, "pointing_id": 8, "timestamp": "2025-04-22T19:33:17.896457", "time": "2025-04-22T19:33:17.897617"}
+{"event": "pointed", "id": 9, "l": 120, "b": 0, "alt": 63.303681209579615, "az": 344.3248303733438, "time": "2025-04-22T19:33:32.687369"}
+{"event": "data_collected", "mode": "science", "pointing_id": 9, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:33:38.922195", "time": "2025-04-22T19:33:38.922711"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_9_science.npy", "mode": "science", "device_index": 0, "pointing_id": 9, "timestamp": "2025-04-22T19:33:38.922195", "time": "2025-04-22T19:33:38.926043"}
+{"event": "data_collected", "mode": "science", "pointing_id": 9, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:33:45.172530", "time": "2025-04-22T19:33:45.172961"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_9_science.npy", "mode": "science", "device_index": 1, "pointing_id": 9, "timestamp": "2025-04-22T19:33:45.172530", "time": "2025-04-22T19:33:45.173788"}
+{"event": "pointed", "id": 10, "l": 120, "b": 0, "alt": 63.2792568480609, "az": 344.22251669941727, "time": "2025-04-22T19:33:58.908912"}
+{"event": "data_collected", "mode": "science", "pointing_id": 10, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:34:05.161352", "time": "2025-04-22T19:34:05.161900"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_10_science.npy", "mode": "science", "device_index": 0, "pointing_id": 10, "timestamp": "2025-04-22T19:34:05.161352", "time": "2025-04-22T19:34:05.165267"}
+{"event": "data_collected", "mode": "science", "pointing_id": 10, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:34:11.403123", "time": "2025-04-22T19:34:11.404258"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_10_science.npy", "mode": "science", "device_index": 1, "pointing_id": 10, "timestamp": "2025-04-22T19:34:11.403123", "time": "2025-04-22T19:34:11.404348"}
+{"event": "pointed", "id": 11, "l": 120, "b": 0, "alt": 63.255671355324765, "az": 344.1245803418524, "time": "2025-04-22T19:34:25.143894"}
+{"event": "data_collected", "mode": "science", "pointing_id": 11, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:34:31.409412", "time": "2025-04-22T19:34:31.411151"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_11_science.npy", "mode": "science", "device_index": 0, "pointing_id": 11, "timestamp": "2025-04-22T19:34:31.409412", "time": "2025-04-22T19:34:31.412692"}
+{"event": "data_collected", "mode": "science", "pointing_id": 11, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:34:37.656494", "time": "2025-04-22T19:34:37.657590"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_11_science.npy", "mode": "science", "device_index": 1, "pointing_id": 11, "timestamp": "2025-04-22T19:34:37.656494", "time": "2025-04-22T19:34:37.657680"}
+{"event": "pointed", "id": 12, "l": 120, "b": 0, "alt": 63.23193173754009, "az": 344.0268440211338, "time": "2025-04-22T19:34:51.367738"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 12, "time": "2025-04-22T19:34:53.370844"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 12, "time": "2025-04-22T19:34:55.373093"}
+{"event": "data_collected", "mode": "science", "pointing_id": 12, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T19:35:03.647708", "time": "2025-04-22T19:35:03.649463"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_12_science.npy", "mode": "science", "device_index": 0, "pointing_id": 12, "timestamp": "2025-04-22T19:35:03.647708", "time": "2025-04-22T19:35:03.651101"}
+{"event": "data_collected", "mode": "science", "pointing_id": 12, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T19:35:09.894194", "time": "2025-04-22T19:35:09.895342"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_12_science.npy", "mode": "science", "device_index": 1, "pointing_id": 12, "timestamp": "2025-04-22T19:35:09.894194", "time": "2025-04-22T19:35:09.895439"}
+{"event": "pointed", "id": 13, "l": 120, "b": 0, "alt": 63.20259341613393, "az": 343.90719847980705, "time": "2025-04-22T19:35:23.572748"}
+{"event": "data_collected", "mode": "science", "pointing_id": 13, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:35:29.848883", "time": "2025-04-22T19:35:29.851240"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_13_science.npy", "mode": "science", "device_index": 0, "pointing_id": 13, "timestamp": "2025-04-22T19:35:29.848883", "time": "2025-04-22T19:35:29.851570"}
+{"event": "data_collected", "mode": "science", "pointing_id": 13, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:35:36.110832", "time": "2025-04-22T19:35:36.111996"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_13_science.npy", "mode": "science", "device_index": 1, "pointing_id": 13, "timestamp": "2025-04-22T19:35:36.110832", "time": "2025-04-22T19:35:36.112088"}
+{"event": "pointed", "id": 14, "l": 120, "b": 0, "alt": 63.17855131479294, "az": 343.8100728291469, "time": "2025-04-22T19:35:49.792866"}
+{"event": "data_collected", "mode": "science", "pointing_id": 14, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:35:56.066043", "time": "2025-04-22T19:35:56.067792"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_14_science.npy", "mode": "science", "device_index": 0, "pointing_id": 14, "timestamp": "2025-04-22T19:35:56.066043", "time": "2025-04-22T19:35:56.069752"}
+{"event": "data_collected", "mode": "science", "pointing_id": 14, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:36:02.325013", "time": "2025-04-22T19:36:02.325460"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_14_science.npy", "mode": "science", "device_index": 1, "pointing_id": 14, "timestamp": "2025-04-22T19:36:02.325013", "time": "2025-04-22T19:36:02.328060"}
+{"event": "pointed", "id": 15, "l": 120, "b": 0, "alt": 63.15436958177316, "az": 343.7132034444655, "time": "2025-04-22T19:36:16.020438"}
+{"event": "data_collected", "mode": "science", "pointing_id": 15, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:36:22.272744", "time": "2025-04-22T19:36:22.274067"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_15_science.npy", "mode": "science", "device_index": 0, "pointing_id": 15, "timestamp": "2025-04-22T19:36:22.272744", "time": "2025-04-22T19:36:22.274157"}
+{"event": "data_collected", "mode": "science", "pointing_id": 15, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:36:28.522495", "time": "2025-04-22T19:36:28.523706"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_15_science.npy", "mode": "science", "device_index": 1, "pointing_id": 15, "timestamp": "2025-04-22T19:36:28.522495", "time": "2025-04-22T19:36:28.523795"}
+{"event": "pointed", "id": 16, "l": 120, "b": 0, "alt": 63.13004915586221, "az": 343.6165930204271, "time": "2025-04-22T19:36:43.348567"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 16, "time": "2025-04-22T19:36:45.351642"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 16, "time": "2025-04-22T19:36:47.353711"}
+{"event": "data_collected", "mode": "science", "pointing_id": 16, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T19:36:55.617363", "time": "2025-04-22T19:36:55.618623"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_16_science.npy", "mode": "science", "device_index": 0, "pointing_id": 16, "timestamp": "2025-04-22T19:36:55.617363", "time": "2025-04-22T19:36:55.618711"}
+{"event": "data_collected", "mode": "science", "pointing_id": 16, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T19:37:01.877512", "time": "2025-04-22T19:37:01.878554"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_16_science.npy", "mode": "science", "device_index": 1, "pointing_id": 16, "timestamp": "2025-04-22T19:37:01.877512", "time": "2025-04-22T19:37:01.878644"}
+{"event": "pointed", "id": 17, "l": 120, "b": 0, "alt": 63.09891796554313, "az": 343.4940958698029, "time": "2025-04-22T19:37:15.572539"}
+{"event": "data_collected", "mode": "science", "pointing_id": 17, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:37:21.861735", "time": "2025-04-22T19:37:21.864087"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_17_science.npy", "mode": "science", "device_index": 0, "pointing_id": 17, "timestamp": "2025-04-22T19:37:21.861735", "time": "2025-04-22T19:37:21.864330"}
+{"event": "data_collected", "mode": "science", "pointing_id": 17, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:37:28.110290", "time": "2025-04-22T19:37:28.110711"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_17_science.npy", "mode": "science", "device_index": 1, "pointing_id": 17, "timestamp": "2025-04-22T19:37:28.110290", "time": "2025-04-22T19:37:28.111526"}
+{"event": "pointed", "id": 18, "l": 120, "b": 0, "alt": 63.07428892297492, "az": 343.39809494727086, "time": "2025-04-22T19:37:41.800821"}
+{"event": "data_collected", "mode": "science", "pointing_id": 18, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:37:48.062898", "time": "2025-04-22T19:37:48.064202"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_18_science.npy", "mode": "science", "device_index": 0, "pointing_id": 18, "timestamp": "2025-04-22T19:37:48.062898", "time": "2025-04-22T19:37:48.064293"}
+{"event": "data_collected", "mode": "science", "pointing_id": 18, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:37:54.318073", "time": "2025-04-22T19:37:54.318494"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_18_science.npy", "mode": "science", "device_index": 1, "pointing_id": 18, "timestamp": "2025-04-22T19:37:54.318073", "time": "2025-04-22T19:37:54.319336"}
+{"event": "pointed", "id": 19, "l": 120, "b": 0, "alt": 63.0494967521757, "az": 343.30225515799765, "time": "2025-04-22T19:38:08.021859"}
+{"event": "data_collected", "mode": "science", "pointing_id": 19, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:38:14.300324", "time": "2025-04-22T19:38:14.302966"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_19_science.npy", "mode": "science", "device_index": 0, "pointing_id": 19, "timestamp": "2025-04-22T19:38:14.300324", "time": "2025-04-22T19:38:14.303054"}
+{"event": "data_collected", "mode": "science", "pointing_id": 19, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:38:20.567667", "time": "2025-04-22T19:38:20.568061"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_19_science.npy", "mode": "science", "device_index": 1, "pointing_id": 19, "timestamp": "2025-04-22T19:38:20.567667", "time": "2025-04-22T19:38:20.568920"}
+{"event": "pointed", "id": 20, "l": 120, "b": 0, "alt": 63.024580664185315, "az": 343.20672760482086, "time": "2025-04-22T19:38:34.246513"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 20, "time": "2025-04-22T19:38:36.249697"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 20, "time": "2025-04-22T19:38:38.251759"}
+{"event": "data_collected", "mode": "science", "pointing_id": 20, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T19:38:46.499271", "time": "2025-04-22T19:38:46.499776"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_20_science.npy", "mode": "science", "device_index": 0, "pointing_id": 20, "timestamp": "2025-04-22T19:38:46.499271", "time": "2025-04-22T19:38:46.500631"}
+{"event": "data_collected", "mode": "science", "pointing_id": 20, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T19:38:52.764665", "time": "2025-04-22T19:38:52.765075"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_20_science.npy", "mode": "science", "device_index": 1, "pointing_id": 20, "timestamp": "2025-04-22T19:38:52.764665", "time": "2025-04-22T19:38:52.765918"}
+{"event": "pointed", "id": 21, "l": 120, "b": 0, "alt": 62.99376397580768, "az": 343.0896537148401, "time": "2025-04-22T19:39:06.488309"}
+{"event": "data_collected", "mode": "science", "pointing_id": 21, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:39:12.755189", "time": "2025-04-22T19:39:12.755825"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_21_science.npy", "mode": "science", "device_index": 0, "pointing_id": 21, "timestamp": "2025-04-22T19:39:12.755189", "time": "2025-04-22T19:39:12.756697"}
+{"event": "data_collected", "mode": "science", "pointing_id": 21, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:39:19.001321", "time": "2025-04-22T19:39:19.001760"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_21_science.npy", "mode": "science", "device_index": 1, "pointing_id": 21, "timestamp": "2025-04-22T19:39:19.001321", "time": "2025-04-22T19:39:19.002588"}
+{"event": "pointed", "id": 22, "l": 120, "b": 0, "alt": 62.96852734710389, "az": 342.9946485300142, "time": "2025-04-22T19:39:32.706423"}
+{"event": "data_collected", "mode": "science", "pointing_id": 22, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:39:38.967876", "time": "2025-04-22T19:39:38.969176"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_22_science.npy", "mode": "science", "device_index": 0, "pointing_id": 22, "timestamp": "2025-04-22T19:39:38.967876", "time": "2025-04-22T19:39:38.969266"}
+{"event": "data_collected", "mode": "science", "pointing_id": 22, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:39:45.212625", "time": "2025-04-22T19:39:45.213840"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_22_science.npy", "mode": "science", "device_index": 1, "pointing_id": 22, "timestamp": "2025-04-22T19:39:45.212625", "time": "2025-04-22T19:39:45.213929"}
+{"event": "pointed", "id": 23, "l": 120, "b": 0, "alt": 62.943169626802764, "az": 342.89996159325415, "time": "2025-04-22T19:39:58.940199"}
+{"event": "data_collected", "mode": "science", "pointing_id": 23, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:40:05.216508", "time": "2025-04-22T19:40:05.218868"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_23_science.npy", "mode": "science", "device_index": 0, "pointing_id": 23, "timestamp": "2025-04-22T19:40:05.216508", "time": "2025-04-22T19:40:05.219062"}
+{"event": "data_collected", "mode": "science", "pointing_id": 23, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:40:11.468529", "time": "2025-04-22T19:40:11.469620"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_23_science.npy", "mode": "science", "device_index": 1, "pointing_id": 23, "timestamp": "2025-04-22T19:40:11.468529", "time": "2025-04-22T19:40:11.469709"}
+{"event": "pointed", "id": 24, "l": 120, "b": 0, "alt": 62.917660604566436, "az": 342.80547907738264, "time": "2025-04-22T19:40:25.159603"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 24, "time": "2025-04-22T19:40:27.161282"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 24, "time": "2025-04-22T19:40:29.162722"}
+{"event": "data_collected", "mode": "science", "pointing_id": 24, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T19:40:37.428936", "time": "2025-04-22T19:40:37.430138"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_24_science.npy", "mode": "science", "device_index": 0, "pointing_id": 24, "timestamp": "2025-04-22T19:40:37.428936", "time": "2025-04-22T19:40:37.430232"}
+{"event": "data_collected", "mode": "science", "pointing_id": 24, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T19:40:43.705293", "time": "2025-04-22T19:40:43.706436"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_24_science.npy", "mode": "science", "device_index": 1, "pointing_id": 24, "timestamp": "2025-04-22T19:40:43.705293", "time": "2025-04-22T19:40:43.706526"}
+{"event": "pointed", "id": 25, "l": 120, "b": 0, "alt": 62.88614185157549, "az": 342.68978334481744, "time": "2025-04-22T19:40:57.397469"}
+{"event": "data_collected", "mode": "science", "pointing_id": 25, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:41:03.669595", "time": "2025-04-22T19:41:03.672066"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_25_science.npy", "mode": "science", "device_index": 0, "pointing_id": 25, "timestamp": "2025-04-22T19:41:03.669595", "time": "2025-04-22T19:41:03.672261"}
+{"event": "data_collected", "mode": "science", "pointing_id": 25, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:41:09.923748", "time": "2025-04-22T19:41:09.924835"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_25_science.npy", "mode": "science", "device_index": 1, "pointing_id": 25, "timestamp": "2025-04-22T19:41:09.923748", "time": "2025-04-22T19:41:09.924920"}
+{"event": "pointed", "id": 26, "l": 120, "b": 0, "alt": 62.86034546480574, "az": 342.59593745030037, "time": "2025-04-22T19:41:23.603632"}
+{"event": "data_collected", "mode": "science", "pointing_id": 26, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:41:29.875189", "time": "2025-04-22T19:41:29.878348"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_26_science.npy", "mode": "science", "device_index": 0, "pointing_id": 26, "timestamp": "2025-04-22T19:41:29.875189", "time": "2025-04-22T19:41:29.878444"}
+{"event": "data_collected", "mode": "science", "pointing_id": 26, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:41:36.120766", "time": "2025-04-22T19:41:36.121857"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_26_science.npy", "mode": "science", "device_index": 1, "pointing_id": 26, "timestamp": "2025-04-22T19:41:36.120766", "time": "2025-04-22T19:41:36.121946"}
+{"event": "pointed", "id": 27, "l": 120, "b": 0, "alt": 62.834410649521445, "az": 342.50234060348157, "time": "2025-04-22T19:41:49.830402"}
+{"event": "data_collected", "mode": "science", "pointing_id": 27, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:41:56.106480", "time": "2025-04-22T19:41:56.108853"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_27_science.npy", "mode": "science", "device_index": 0, "pointing_id": 27, "timestamp": "2025-04-22T19:41:56.106480", "time": "2025-04-22T19:41:56.109049"}
+{"event": "data_collected", "mode": "science", "pointing_id": 27, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:42:02.374244", "time": "2025-04-22T19:42:02.375362"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_27_science.npy", "mode": "science", "device_index": 1, "pointing_id": 27, "timestamp": "2025-04-22T19:42:02.374244", "time": "2025-04-22T19:42:02.375455"}
+{"event": "pointed", "id": 28, "l": 120, "b": 0, "alt": 62.80833643460908, "az": 342.4089886762928, "time": "2025-04-22T19:42:16.063642"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 28, "time": "2025-04-22T19:42:18.065380"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 28, "time": "2025-04-22T19:42:20.066795"}
+{"event": "data_collected", "mode": "science", "pointing_id": 28, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T19:42:28.339558", "time": "2025-04-22T19:42:28.340839"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_28_science.npy", "mode": "science", "device_index": 0, "pointing_id": 28, "timestamp": "2025-04-22T19:42:28.339558", "time": "2025-04-22T19:42:28.340928"}
+{"event": "data_collected", "mode": "science", "pointing_id": 28, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T19:42:34.580197", "time": "2025-04-22T19:42:34.581282"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_28_science.npy", "mode": "science", "device_index": 1, "pointing_id": 28, "timestamp": "2025-04-22T19:42:34.580197", "time": "2025-04-22T19:42:34.581371"}
+{"event": "pointed", "id": 29, "l": 120, "b": 0, "alt": 62.77610283299457, "az": 342.2946028080213, "time": "2025-04-22T19:42:48.286852"}
+{"event": "data_collected", "mode": "science", "pointing_id": 29, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:42:54.551421", "time": "2025-04-22T19:42:54.553652"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_29_science.npy", "mode": "science", "device_index": 0, "pointing_id": 29, "timestamp": "2025-04-22T19:42:54.551421", "time": "2025-04-22T19:42:54.555222"}
+{"event": "data_collected", "mode": "science", "pointing_id": 29, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:43:00.790883", "time": "2025-04-22T19:43:00.792016"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_29_science.npy", "mode": "science", "device_index": 1, "pointing_id": 29, "timestamp": "2025-04-22T19:43:00.790883", "time": "2025-04-22T19:43:00.792106"}
+{"event": "pointed", "id": 30, "l": 120, "b": 0, "alt": 62.749737772163684, "az": 342.20186441347016, "time": "2025-04-22T19:43:14.522019"}
+{"event": "data_collected", "mode": "science", "pointing_id": 30, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:43:20.786392", "time": "2025-04-22T19:43:20.787639"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_30_science.npy", "mode": "science", "device_index": 0, "pointing_id": 30, "timestamp": "2025-04-22T19:43:20.786392", "time": "2025-04-22T19:43:20.787730"}
+{"event": "data_collected", "mode": "science", "pointing_id": 30, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:43:27.036888", "time": "2025-04-22T19:43:27.037987"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_30_science.npy", "mode": "science", "device_index": 1, "pointing_id": 30, "timestamp": "2025-04-22T19:43:27.036888", "time": "2025-04-22T19:43:27.038078"}
+{"event": "pointed", "id": 31, "l": 120, "b": 0, "alt": 62.72322337242494, "az": 342.1093335942869, "time": "2025-04-22T19:43:40.741679"}
+{"event": "data_collected", "mode": "science", "pointing_id": 31, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:43:46.999834", "time": "2025-04-22T19:43:47.001094"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_31_science.npy", "mode": "science", "device_index": 0, "pointing_id": 31, "timestamp": "2025-04-22T19:43:46.999834", "time": "2025-04-22T19:43:47.001184"}
+{"event": "data_collected", "mode": "science", "pointing_id": 31, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:43:53.269784", "time": "2025-04-22T19:43:53.270930"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_31_science.npy", "mode": "science", "device_index": 1, "pointing_id": 31, "timestamp": "2025-04-22T19:43:53.269784", "time": "2025-04-22T19:43:53.271021"}
+{"event": "pointed", "id": 32, "l": 120, "b": 0, "alt": 62.696591957038855, "az": 342.01712218389315, "time": "2025-04-22T19:44:06.962264"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 32, "time": "2025-04-22T19:44:08.963796"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 32, "time": "2025-04-22T19:44:10.965228"}
+{"event": "data_collected", "mode": "science", "pointing_id": 32, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T19:44:19.229296", "time": "2025-04-22T19:44:19.230560"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_32_science.npy", "mode": "science", "device_index": 0, "pointing_id": 32, "timestamp": "2025-04-22T19:44:19.229296", "time": "2025-04-22T19:44:19.230651"}
+{"event": "data_collected", "mode": "science", "pointing_id": 32, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T19:44:25.488954", "time": "2025-04-22T19:44:25.490087"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_32_science.npy", "mode": "science", "device_index": 1, "pointing_id": 32, "timestamp": "2025-04-22T19:44:25.488954", "time": "2025-04-22T19:44:25.490177"}
+{"event": "pointed", "id": 33, "l": 120, "b": 0, "alt": 62.66368498831888, "az": 341.90417156981636, "time": "2025-04-22T19:44:39.196548"}
+{"event": "data_collected", "mode": "science", "pointing_id": 33, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:44:45.463648", "time": "2025-04-22T19:44:45.466115"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_33_science.npy", "mode": "science", "device_index": 0, "pointing_id": 33, "timestamp": "2025-04-22T19:44:45.463648", "time": "2025-04-22T19:44:45.466314"}
+{"event": "data_collected", "mode": "science", "pointing_id": 33, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:44:51.708051", "time": "2025-04-22T19:44:51.708411"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_33_science.npy", "mode": "science", "device_index": 1, "pointing_id": 33, "timestamp": "2025-04-22T19:44:51.708051", "time": "2025-04-22T19:44:51.709237"}
+{"event": "pointed", "id": 34, "l": 120, "b": 0, "alt": 62.63674421095374, "az": 341.812500052892, "time": "2025-04-22T19:45:05.417495"}
+{"event": "data_collected", "mode": "science", "pointing_id": 34, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:45:11.686512", "time": "2025-04-22T19:45:11.687065"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_34_science.npy", "mode": "science", "device_index": 0, "pointing_id": 34, "timestamp": "2025-04-22T19:45:11.686512", "time": "2025-04-22T19:45:11.690158"}
+{"event": "data_collected", "mode": "science", "pointing_id": 34, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:45:17.948185", "time": "2025-04-22T19:45:17.949250"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_34_science.npy", "mode": "science", "device_index": 1, "pointing_id": 34, "timestamp": "2025-04-22T19:45:17.948185", "time": "2025-04-22T19:45:17.949338"}
+{"event": "pointed", "id": 35, "l": 120, "b": 0, "alt": 62.60968625671199, "az": 341.72114289616155, "time": "2025-04-22T19:45:31.651628"}
+{"event": "data_collected", "mode": "science", "pointing_id": 35, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:45:37.917933", "time": "2025-04-22T19:45:37.920975"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_35_science.npy", "mode": "science", "device_index": 0, "pointing_id": 35, "timestamp": "2025-04-22T19:45:37.917933", "time": "2025-04-22T19:45:37.921071"}
+{"event": "data_collected", "mode": "science", "pointing_id": 35, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:45:44.169275", "time": "2025-04-22T19:45:44.170340"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_35_science.npy", "mode": "science", "device_index": 1, "pointing_id": 35, "timestamp": "2025-04-22T19:45:44.169275", "time": "2025-04-22T19:45:44.170426"}
+{"event": "pointed", "id": 36, "l": 120, "b": 0, "alt": 62.582483512750294, "az": 341.63000585850375, "time": "2025-04-22T19:45:57.874606"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 36, "time": "2025-04-22T19:45:59.877788"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 36, "time": "2025-04-22T19:46:01.879308"}
+{"event": "data_collected", "mode": "science", "pointing_id": 36, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T19:46:10.146472", "time": "2025-04-22T19:46:10.148779"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_36_science.npy", "mode": "science", "device_index": 0, "pointing_id": 36, "timestamp": "2025-04-22T19:46:10.146472", "time": "2025-04-22T19:46:10.149185"}
+{"event": "data_collected", "mode": "science", "pointing_id": 36, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T19:46:16.412775", "time": "2025-04-22T19:46:16.413873"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_36_science.npy", "mode": "science", "device_index": 1, "pointing_id": 36, "timestamp": "2025-04-22T19:46:16.412775", "time": "2025-04-22T19:46:16.413963"}
+{"event": "pointed", "id": 37, "l": 120, "b": 0, "alt": 62.548892356862204, "az": 341.5184301254827, "time": "2025-04-22T19:46:31.213651"}
+{"event": "data_collected", "mode": "science", "pointing_id": 37, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:46:37.471927", "time": "2025-04-22T19:46:37.474318"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_37_science.npy", "mode": "science", "device_index": 0, "pointing_id": 37, "timestamp": "2025-04-22T19:46:37.471927", "time": "2025-04-22T19:46:37.474510"}
+{"event": "data_collected", "mode": "science", "pointing_id": 37, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:46:43.732966", "time": "2025-04-22T19:46:43.734065"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_37_science.npy", "mode": "science", "device_index": 1, "pointing_id": 37, "timestamp": "2025-04-22T19:46:43.732966", "time": "2025-04-22T19:46:43.734155"}
+{"event": "pointed", "id": 38, "l": 120, "b": 0, "alt": 62.520240083220294, "az": 341.42408713752036, "time": "2025-04-22T19:46:57.435415"}
+{"event": "data_collected", "mode": "science", "pointing_id": 38, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:47:03.669297", "time": "2025-04-22T19:47:03.672081"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_38_science.npy", "mode": "science", "device_index": 0, "pointing_id": 38, "timestamp": "2025-04-22T19:47:03.669297", "time": "2025-04-22T19:47:03.672282"}
+{"event": "data_collected", "mode": "science", "pointing_id": 38, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:47:10.062195", "time": "2025-04-22T19:47:10.063309"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_38_science.npy", "mode": "science", "device_index": 1, "pointing_id": 38, "timestamp": "2025-04-22T19:47:10.062195", "time": "2025-04-22T19:47:10.063398"}
+{"event": "pointed", "id": 39, "l": 120, "b": 0, "alt": 62.49262553436009, "az": 341.3338701445066, "time": "2025-04-22T19:47:23.670734"}
+{"event": "data_collected", "mode": "science", "pointing_id": 39, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:47:29.943067", "time": "2025-04-22T19:47:29.944371"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_39_science.npy", "mode": "science", "device_index": 0, "pointing_id": 39, "timestamp": "2025-04-22T19:47:29.943067", "time": "2025-04-22T19:47:29.944459"}
+{"event": "data_collected", "mode": "science", "pointing_id": 39, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:47:36.198139", "time": "2025-04-22T19:47:36.199248"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_39_science.npy", "mode": "science", "device_index": 1, "pointing_id": 39, "timestamp": "2025-04-22T19:47:36.198139", "time": "2025-04-22T19:47:36.199336"}
+{"event": "pointed", "id": 40, "l": 120, "b": 0, "alt": 62.4648682159578, "az": 341.2438772098772, "time": "2025-04-22T19:47:49.892175"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 40, "time": "2025-04-22T19:47:51.894050"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 40, "time": "2025-04-22T19:47:53.895374"}
+{"event": "data_collected", "mode": "science", "pointing_id": 40, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T19:48:02.173430", "time": "2025-04-22T19:48:02.173995"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_40_science.npy", "mode": "science", "device_index": 0, "pointing_id": 40, "timestamp": "2025-04-22T19:48:02.173430", "time": "2025-04-22T19:48:02.174877"}
+{"event": "data_collected", "mode": "science", "pointing_id": 40, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T19:48:08.421143", "time": "2025-04-22T19:48:08.421577"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_40_science.npy", "mode": "science", "device_index": 1, "pointing_id": 40, "timestamp": "2025-04-22T19:48:08.421143", "time": "2025-04-22T19:48:08.422446"}
+{"event": "pointed", "id": 41, "l": 120, "b": 0, "alt": 62.43059811883888, "az": 341.1337082654675, "time": "2025-04-22T19:48:23.217926"}
+{"event": "data_collected", "mode": "science", "pointing_id": 41, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:48:29.494346", "time": "2025-04-22T19:48:29.494911"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_41_science.npy", "mode": "science", "device_index": 0, "pointing_id": 41, "timestamp": "2025-04-22T19:48:29.494346", "time": "2025-04-22T19:48:29.495842"}
+{"event": "data_collected", "mode": "science", "pointing_id": 41, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:48:35.756476", "time": "2025-04-22T19:48:35.756887"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_41_science.npy", "mode": "science", "device_index": 1, "pointing_id": 41, "timestamp": "2025-04-22T19:48:35.756476", "time": "2025-04-22T19:48:35.757705"}
+{"event": "pointed", "id": 42, "l": 120, "b": 0, "alt": 62.40139077424376, "az": 341.04062039110056, "time": "2025-04-22T19:48:49.453503"}
+{"event": "data_collected", "mode": "science", "pointing_id": 42, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:48:55.734625", "time": "2025-04-22T19:48:55.735220"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_42_science.npy", "mode": "science", "device_index": 0, "pointing_id": 42, "timestamp": "2025-04-22T19:48:55.734625", "time": "2025-04-22T19:48:55.737953"}
+{"event": "data_collected", "mode": "science", "pointing_id": 42, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:49:01.982044", "time": "2025-04-22T19:49:01.983139"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_42_science.npy", "mode": "science", "device_index": 1, "pointing_id": 42, "timestamp": "2025-04-22T19:49:01.982044", "time": "2025-04-22T19:49:01.983225"}
+{"event": "pointed", "id": 43, "l": 120, "b": 0, "alt": 62.37321478998318, "az": 340.9515107222919, "time": "2025-04-22T19:49:15.671139"}
+{"event": "data_collected", "mode": "science", "pointing_id": 43, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:49:21.944070", "time": "2025-04-22T19:49:21.946488"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_43_science.npy", "mode": "science", "device_index": 0, "pointing_id": 43, "timestamp": "2025-04-22T19:49:21.944070", "time": "2025-04-22T19:49:21.946688"}
+{"event": "data_collected", "mode": "science", "pointing_id": 43, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:49:28.216158", "time": "2025-04-22T19:49:28.216548"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_43_science.npy", "mode": "science", "device_index": 1, "pointing_id": 43, "timestamp": "2025-04-22T19:49:28.216158", "time": "2025-04-22T19:49:28.217396"}
+{"event": "pointed", "id": 44, "l": 120, "b": 0, "alt": 62.34493507082805, "az": 340.86274508522, "time": "2025-04-22T19:49:41.901781"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 44, "time": "2025-04-22T19:49:43.904117"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 44, "time": "2025-04-22T19:49:45.906250"}
+{"event": "data_collected", "mode": "science", "pointing_id": 44, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T19:49:54.180297", "time": "2025-04-22T19:49:54.180909"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_44_science.npy", "mode": "science", "device_index": 0, "pointing_id": 44, "timestamp": "2025-04-22T19:49:54.180297", "time": "2025-04-22T19:49:54.181799"}
+{"event": "data_collected", "mode": "science", "pointing_id": 44, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T19:50:00.438360", "time": "2025-04-22T19:50:00.438777"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_44_science.npy", "mode": "science", "device_index": 1, "pointing_id": 44, "timestamp": "2025-04-22T19:50:00.438360", "time": "2025-04-22T19:50:00.439632"}
+{"event": "pointed", "id": 45, "l": 120, "b": 0, "alt": 62.30998076044947, "az": 340.7539445602378, "time": "2025-04-22T19:50:14.131692"}
+{"event": "data_collected", "mode": "science", "pointing_id": 45, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:50:20.379547", "time": "2025-04-22T19:50:20.380055"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_45_science.npy", "mode": "science", "device_index": 0, "pointing_id": 45, "timestamp": "2025-04-22T19:50:20.379547", "time": "2025-04-22T19:50:20.382606"}
+{"event": "data_collected", "mode": "science", "pointing_id": 45, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:50:26.633146", "time": "2025-04-22T19:50:26.634187"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_45_science.npy", "mode": "science", "device_index": 1, "pointing_id": 45, "timestamp": "2025-04-22T19:50:26.633146", "time": "2025-04-22T19:50:26.634279"}
+{"event": "pointed", "id": 46, "l": 120, "b": 0, "alt": 62.28140881344433, "az": 340.66575005942383, "time": "2025-04-22T19:50:40.353184"}
+{"event": "data_collected", "mode": "science", "pointing_id": 46, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:50:46.625461", "time": "2025-04-22T19:50:46.627876"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_46_science.npy", "mode": "science", "device_index": 0, "pointing_id": 46, "timestamp": "2025-04-22T19:50:46.625461", "time": "2025-04-22T19:50:46.628072"}
+{"event": "data_collected", "mode": "science", "pointing_id": 46, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:50:52.889921", "time": "2025-04-22T19:50:52.891030"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_46_science.npy", "mode": "science", "device_index": 1, "pointing_id": 46, "timestamp": "2025-04-22T19:50:52.889921", "time": "2025-04-22T19:50:52.891118"}
+{"event": "pointed", "id": 47, "l": 120, "b": 0, "alt": 62.25271474729368, "az": 340.5778379430991, "time": "2025-04-22T19:51:07.689152"}
+{"event": "data_collected", "mode": "science", "pointing_id": 47, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:51:13.962443", "time": "2025-04-22T19:51:13.964744"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_47_science.npy", "mode": "science", "device_index": 0, "pointing_id": 47, "timestamp": "2025-04-22T19:51:13.962443", "time": "2025-04-22T19:51:13.965186"}
+{"event": "data_collected", "mode": "science", "pointing_id": 47, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:51:20.209043", "time": "2025-04-22T19:51:20.210137"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_47_science.npy", "mode": "science", "device_index": 1, "pointing_id": 47, "timestamp": "2025-04-22T19:51:20.209043", "time": "2025-04-22T19:51:20.210225"}
+{"event": "pointed", "id": 48, "l": 120, "b": 0, "alt": 62.22268671828897, "az": 340.4865359622461, "time": "2025-04-22T19:51:33.890473"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 48, "time": "2025-04-22T19:51:35.891713"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 48, "time": "2025-04-22T19:51:37.892504"}
+{"event": "data_collected", "mode": "science", "pointing_id": 48, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T19:51:46.171922", "time": "2025-04-22T19:51:46.173241"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_48_science.npy", "mode": "science", "device_index": 0, "pointing_id": 48, "timestamp": "2025-04-22T19:51:46.171922", "time": "2025-04-22T19:51:46.173329"}
+{"event": "data_collected", "mode": "science", "pointing_id": 48, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T19:51:52.428132", "time": "2025-04-22T19:51:52.429235"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_48_science.npy", "mode": "science", "device_index": 1, "pointing_id": 48, "timestamp": "2025-04-22T19:51:52.428132", "time": "2025-04-22T19:51:52.429325"}
+{"event": "pointed", "id": 49, "l": 120, "b": 0, "alt": 62.18712107019463, "az": 340.37930427544575, "time": "2025-04-22T19:52:06.096712"}
+{"event": "data_collected", "mode": "science", "pointing_id": 49, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:52:12.380545", "time": "2025-04-22T19:52:12.382974"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_49_science.npy", "mode": "science", "device_index": 0, "pointing_id": 49, "timestamp": "2025-04-22T19:52:12.380545", "time": "2025-04-22T19:52:12.383169"}
+{"event": "data_collected", "mode": "science", "pointing_id": 49, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:52:18.634352", "time": "2025-04-22T19:52:18.634809"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_49_science.npy", "mode": "science", "device_index": 1, "pointing_id": 49, "timestamp": "2025-04-22T19:52:18.634352", "time": "2025-04-22T19:52:18.635687"}
+{"event": "pointed", "id": 50, "l": 120, "b": 0, "alt": 62.15803008229423, "az": 340.29231436254213, "time": "2025-04-22T19:52:32.309683"}
+{"event": "data_collected", "mode": "science", "pointing_id": 50, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:52:38.552661", "time": "2025-04-22T19:52:38.553214"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_50_science.npy", "mode": "science", "device_index": 0, "pointing_id": 50, "timestamp": "2025-04-22T19:52:38.552661", "time": "2025-04-22T19:52:38.554111"}
+{"event": "data_collected", "mode": "science", "pointing_id": 50, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:52:44.800713", "time": "2025-04-22T19:52:44.801137"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_50_science.npy", "mode": "science", "device_index": 1, "pointing_id": 50, "timestamp": "2025-04-22T19:52:44.800713", "time": "2025-04-22T19:52:44.801960"}
+{"event": "pointed", "id": 51, "l": 120, "b": 0, "alt": 62.12879959253637, "az": 340.20555025711354, "time": "2025-04-22T19:52:58.543359"}
+{"event": "data_collected", "mode": "science", "pointing_id": 51, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:53:04.804632", "time": "2025-04-22T19:53:04.805075"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_51_science.npy", "mode": "science", "device_index": 0, "pointing_id": 51, "timestamp": "2025-04-22T19:53:04.804632", "time": "2025-04-22T19:53:04.808132"}
+{"event": "data_collected", "mode": "science", "pointing_id": 51, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:53:11.078739", "time": "2025-04-22T19:53:11.079156"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_51_science.npy", "mode": "science", "device_index": 1, "pointing_id": 51, "timestamp": "2025-04-22T19:53:11.078739", "time": "2025-04-22T19:53:11.079958"}
+{"event": "pointed", "id": 52, "l": 120, "b": 0, "alt": 62.09946243314925, "az": 340.1191083720398, "time": "2025-04-22T19:53:24.741021"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 52, "time": "2025-04-22T19:53:26.744096"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 52, "time": "2025-04-22T19:53:28.746189"}
+{"event": "data_collected", "mode": "science", "pointing_id": 52, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T19:53:37.034203", "time": "2025-04-22T19:53:37.034807"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_52_science.npy", "mode": "science", "device_index": 0, "pointing_id": 52, "timestamp": "2025-04-22T19:53:37.034203", "time": "2025-04-22T19:53:37.037457"}
+{"event": "data_collected", "mode": "science", "pointing_id": 52, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T19:53:43.289677", "time": "2025-04-22T19:53:43.290784"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_52_science.npy", "mode": "science", "device_index": 1, "pointing_id": 52, "timestamp": "2025-04-22T19:53:43.289677", "time": "2025-04-22T19:53:43.290872"}
+{"event": "pointed", "id": 53, "l": 120, "b": 0, "alt": 62.06322638213454, "az": 340.0132089971264, "time": "2025-04-22T19:53:56.983337"}
+{"event": "data_collected", "mode": "science", "pointing_id": 53, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:54:03.260072", "time": "2025-04-22T19:54:03.261827"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_53_science.npy", "mode": "science", "device_index": 0, "pointing_id": 53, "timestamp": "2025-04-22T19:54:03.260072", "time": "2025-04-22T19:54:03.263494"}
+{"event": "data_collected", "mode": "science", "pointing_id": 53, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:54:09.519969", "time": "2025-04-22T19:54:09.521128"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_53_science.npy", "mode": "science", "device_index": 1, "pointing_id": 53, "timestamp": "2025-04-22T19:54:09.519969", "time": "2025-04-22T19:54:09.521218"}
+{"event": "pointed", "id": 54, "l": 120, "b": 0, "alt": 62.03359033162189, "az": 339.9273021271225, "time": "2025-04-22T19:54:24.315617"}
+{"event": "data_collected", "mode": "science", "pointing_id": 54, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:54:30.586321", "time": "2025-04-22T19:54:30.588937"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_54_science.npy", "mode": "science", "device_index": 0, "pointing_id": 54, "timestamp": "2025-04-22T19:54:30.586321", "time": "2025-04-22T19:54:30.589027"}
+{"event": "data_collected", "mode": "science", "pointing_id": 54, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:54:36.846972", "time": "2025-04-22T19:54:36.848064"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_54_science.npy", "mode": "science", "device_index": 1, "pointing_id": 54, "timestamp": "2025-04-22T19:54:36.846972", "time": "2025-04-22T19:54:36.848154"}
+{"event": "pointed", "id": 55, "l": 120, "b": 0, "alt": 62.002585980785256, "az": 339.83809675086087, "time": "2025-04-22T19:54:50.549313"}
+{"event": "data_collected", "mode": "science", "pointing_id": 55, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:54:56.818955", "time": "2025-04-22T19:54:56.821460"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_55_science.npy", "mode": "science", "device_index": 0, "pointing_id": 55, "timestamp": "2025-04-22T19:54:56.818955", "time": "2025-04-22T19:54:56.822254"}
+{"event": "data_collected", "mode": "science", "pointing_id": 55, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:55:03.075420", "time": "2025-04-22T19:55:03.076504"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_55_science.npy", "mode": "science", "device_index": 1, "pointing_id": 55, "timestamp": "2025-04-22T19:55:03.075420", "time": "2025-04-22T19:55:03.076593"}
+{"event": "pointed", "id": 56, "l": 120, "b": 0, "alt": 61.97270398977726, "az": 339.7527578238142, "time": "2025-04-22T19:55:16.769817"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 56, "time": "2025-04-22T19:55:18.772982"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 56, "time": "2025-04-22T19:55:20.774453"}
+{"event": "data_collected", "mode": "science", "pointing_id": 56, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T19:55:29.020520", "time": "2025-04-22T19:55:29.022962"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_56_science.npy", "mode": "science", "device_index": 0, "pointing_id": 56, "timestamp": "2025-04-22T19:55:29.020520", "time": "2025-04-22T19:55:29.023292"}
+{"event": "data_collected", "mode": "science", "pointing_id": 56, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T19:55:35.266806", "time": "2025-04-22T19:55:35.267164"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_56_science.npy", "mode": "science", "device_index": 1, "pointing_id": 56, "timestamp": "2025-04-22T19:55:35.266806", "time": "2025-04-22T19:55:35.267969"}
+{"event": "pointed", "id": 57, "l": 120, "b": 0, "alt": 61.93583024733127, "az": 339.64830060688837, "time": "2025-04-22T19:55:49.010087"}
+{"event": "data_collected", "mode": "science", "pointing_id": 57, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:55:55.287378", "time": "2025-04-22T19:55:55.289658"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_57_science.npy", "mode": "science", "device_index": 0, "pointing_id": 57, "timestamp": "2025-04-22T19:55:55.287378", "time": "2025-04-22T19:55:55.290063"}
+{"event": "data_collected", "mode": "science", "pointing_id": 57, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:56:01.539608", "time": "2025-04-22T19:56:01.539962"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_57_science.npy", "mode": "science", "device_index": 1, "pointing_id": 57, "timestamp": "2025-04-22T19:56:01.539608", "time": "2025-04-22T19:56:01.540781"}
+{"event": "pointed", "id": 58, "l": 120, "b": 0, "alt": 61.90567910067606, "az": 339.563574348087, "time": "2025-04-22T19:56:15.231373"}
+{"event": "data_collected", "mode": "science", "pointing_id": 58, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:56:21.505640", "time": "2025-04-22T19:56:21.506107"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_58_science.npy", "mode": "science", "device_index": 0, "pointing_id": 58, "timestamp": "2025-04-22T19:56:21.505640", "time": "2025-04-22T19:56:21.508820"}
+{"event": "data_collected", "mode": "science", "pointing_id": 58, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:56:27.777616", "time": "2025-04-22T19:56:27.778739"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_58_science.npy", "mode": "science", "device_index": 1, "pointing_id": 58, "timestamp": "2025-04-22T19:56:27.777616", "time": "2025-04-22T19:56:27.778830"}
+{"event": "pointed", "id": 59, "l": 120, "b": 0, "alt": 61.87542397926814, "az": 339.4791681123638, "time": "2025-04-22T19:56:41.466566"}
+{"event": "data_collected", "mode": "science", "pointing_id": 59, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:56:47.751464", "time": "2025-04-22T19:56:47.753871"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_59_science.npy", "mode": "science", "device_index": 0, "pointing_id": 59, "timestamp": "2025-04-22T19:56:47.751464", "time": "2025-04-22T19:56:47.754067"}
+{"event": "data_collected", "mode": "science", "pointing_id": 59, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:56:54.007397", "time": "2025-04-22T19:56:54.008525"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_59_science.npy", "mode": "science", "device_index": 1, "pointing_id": 59, "timestamp": "2025-04-22T19:56:54.007397", "time": "2025-04-22T19:56:54.008613"}
+{"event": "pointed", "id": 60, "l": 120, "b": 0, "alt": 61.84503311699001, "az": 339.3949922529154, "time": "2025-04-22T19:57:07.688319"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 60, "time": "2025-04-22T19:57:09.689959"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 60, "time": "2025-04-22T19:57:11.691388"}
+{"event": "data_collected", "mode": "science", "pointing_id": 60, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T19:57:19.976979", "time": "2025-04-22T19:57:19.979357"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_60_science.npy", "mode": "science", "device_index": 0, "pointing_id": 60, "timestamp": "2025-04-22T19:57:19.976979", "time": "2025-04-22T19:57:19.979557"}
+{"event": "data_collected", "mode": "science", "pointing_id": 60, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T19:57:26.222315", "time": "2025-04-22T19:57:26.223455"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_60_science.npy", "mode": "science", "device_index": 1, "pointing_id": 60, "timestamp": "2025-04-22T19:57:26.222315", "time": "2025-04-22T19:57:26.223546"}
+{"event": "pointed", "id": 61, "l": 120, "b": 0, "alt": 61.80754025530342, "az": 339.29197441708016, "time": "2025-04-22T19:57:39.909636"}
+{"event": "data_collected", "mode": "science", "pointing_id": 61, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:57:46.184293", "time": "2025-04-22T19:57:46.186583"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_61_science.npy", "mode": "science", "device_index": 0, "pointing_id": 61, "timestamp": "2025-04-22T19:57:46.184293", "time": "2025-04-22T19:57:46.187620"}
+{"event": "data_collected", "mode": "science", "pointing_id": 61, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:57:52.441609", "time": "2025-04-22T19:57:52.442467"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_61_science.npy", "mode": "science", "device_index": 1, "pointing_id": 61, "timestamp": "2025-04-22T19:57:52.441609", "time": "2025-04-22T19:57:52.444972"}
+{"event": "pointed", "id": 62, "l": 120, "b": 0, "alt": 61.776905614146, "az": 339.2084707120805, "time": "2025-04-22T19:58:06.136710"}
+{"event": "data_collected", "mode": "science", "pointing_id": 62, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:58:12.410622", "time": "2025-04-22T19:58:12.413629"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_62_science.npy", "mode": "science", "device_index": 0, "pointing_id": 62, "timestamp": "2025-04-22T19:58:12.410622", "time": "2025-04-22T19:58:12.413823"}
+{"event": "data_collected", "mode": "science", "pointing_id": 62, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:58:18.669150", "time": "2025-04-22T19:58:18.670247"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_62_science.npy", "mode": "science", "device_index": 1, "pointing_id": 62, "timestamp": "2025-04-22T19:58:18.669150", "time": "2025-04-22T19:58:18.670338"}
+{"event": "pointed", "id": 63, "l": 120, "b": 0, "alt": 61.74614295383203, "az": 339.1252157975604, "time": "2025-04-22T19:58:32.357887"}
+{"event": "data_collected", "mode": "science", "pointing_id": 63, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:58:38.602461", "time": "2025-04-22T19:58:38.604853"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_63_science.npy", "mode": "science", "device_index": 0, "pointing_id": 63, "timestamp": "2025-04-22T19:58:38.602461", "time": "2025-04-22T19:58:38.605188"}
+{"event": "data_collected", "mode": "science", "pointing_id": 63, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:58:44.854079", "time": "2025-04-22T19:58:44.855209"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_63_science.npy", "mode": "science", "device_index": 1, "pointing_id": 63, "timestamp": "2025-04-22T19:58:44.854079", "time": "2025-04-22T19:58:44.855299"}
+{"event": "pointed", "id": 64, "l": 120, "b": 0, "alt": 61.715269507558766, "az": 339.0422553735205, "time": "2025-04-22T19:58:58.583450"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 64, "time": "2025-04-22T19:59:00.586632"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 64, "time": "2025-04-22T19:59:02.588196"}
+{"event": "data_collected", "mode": "science", "pointing_id": 64, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T19:59:10.872250", "time": "2025-04-22T19:59:10.872769"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_64_science.npy", "mode": "science", "device_index": 0, "pointing_id": 64, "timestamp": "2025-04-22T19:59:10.872250", "time": "2025-04-22T19:59:10.875298"}
+{"event": "data_collected", "mode": "science", "pointing_id": 64, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T19:59:17.139954", "time": "2025-04-22T19:59:17.141072"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_64_science.npy", "mode": "science", "device_index": 1, "pointing_id": 64, "timestamp": "2025-04-22T19:59:17.139954", "time": "2025-04-22T19:59:17.141164"}
+{"event": "pointed", "id": 65, "l": 120, "b": 0, "alt": 61.67716840600565, "az": 338.9406826709075, "time": "2025-04-22T19:59:31.920768"}
+{"event": "data_collected", "mode": "science", "pointing_id": 65, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T19:59:38.196401", "time": "2025-04-22T19:59:38.198659"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_65_science.npy", "mode": "science", "device_index": 0, "pointing_id": 65, "timestamp": "2025-04-22T19:59:38.196401", "time": "2025-04-22T19:59:38.199676"}
+{"event": "data_collected", "mode": "science", "pointing_id": 65, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T19:59:44.440713", "time": "2025-04-22T19:59:44.441871"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_65_science.npy", "mode": "science", "device_index": 1, "pointing_id": 65, "timestamp": "2025-04-22T19:59:44.440713", "time": "2025-04-22T19:59:44.441963"}
+{"event": "pointed", "id": 66, "l": 120, "b": 0, "alt": 61.64470567281862, "az": 338.8548365399888, "time": "2025-04-22T19:59:58.142559"}
+{"event": "data_collected", "mode": "science", "pointing_id": 66, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T20:00:04.388090", "time": "2025-04-22T20:00:04.391151"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_66_science.npy", "mode": "science", "device_index": 0, "pointing_id": 66, "timestamp": "2025-04-22T20:00:04.388090", "time": "2025-04-22T20:00:04.391346"}
+{"event": "data_collected", "mode": "science", "pointing_id": 66, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T20:00:10.638606", "time": "2025-04-22T20:00:10.639777"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_66_science.npy", "mode": "science", "device_index": 1, "pointing_id": 66, "timestamp": "2025-04-22T20:00:10.638606", "time": "2025-04-22T20:00:10.639867"}
+{"event": "pointed", "id": 67, "l": 120, "b": 0, "alt": 61.61345080780887, "az": 338.7727806210241, "time": "2025-04-22T20:00:25.479967"}
+{"event": "data_collected", "mode": "science", "pointing_id": 67, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T20:00:31.753222", "time": "2025-04-22T20:00:31.755583"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_67_science.npy", "mode": "science", "device_index": 0, "pointing_id": 67, "timestamp": "2025-04-22T20:00:31.753222", "time": "2025-04-22T20:00:31.755989"}
+{"event": "data_collected", "mode": "science", "pointing_id": 67, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T20:00:38.004642", "time": "2025-04-22T20:00:38.005024"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_67_science.npy", "mode": "science", "device_index": 1, "pointing_id": 67, "timestamp": "2025-04-22T20:00:38.004642", "time": "2025-04-22T20:00:38.005911"}
+{"event": "pointed", "id": 68, "l": 120, "b": 0, "alt": 61.58074397590604, "az": 338.6875306229962, "time": "2025-04-22T20:00:51.701824"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 68, "time": "2025-04-22T20:00:53.704959"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 68, "time": "2025-04-22T20:00:55.706671"}
+{"event": "data_collected", "mode": "science", "pointing_id": 68, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T20:01:03.949370", "time": "2025-04-22T20:01:03.949876"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_68_science.npy", "mode": "science", "device_index": 0, "pointing_id": 68, "timestamp": "2025-04-22T20:01:03.949370", "time": "2025-04-22T20:01:03.952439"}
+{"event": "data_collected", "mode": "science", "pointing_id": 68, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T20:01:10.191128", "time": "2025-04-22T20:01:10.191523"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_68_science.npy", "mode": "science", "device_index": 1, "pointing_id": 68, "timestamp": "2025-04-22T20:01:10.191128", "time": "2025-04-22T20:01:10.192345"}
+{"event": "pointed", "id": 69, "l": 120, "b": 0, "alt": 61.54202662849387, "az": 338.5874197083466, "time": "2025-04-22T20:01:25.029666"}
+{"event": "data_collected", "mode": "science", "pointing_id": 69, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T20:01:31.300691", "time": "2025-04-22T20:01:31.301236"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_69_science.npy", "mode": "science", "device_index": 0, "pointing_id": 69, "timestamp": "2025-04-22T20:01:31.300691", "time": "2025-04-22T20:01:31.302089"}
+{"event": "data_collected", "mode": "science", "pointing_id": 69, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T20:01:37.560678", "time": "2025-04-22T20:01:37.561113"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_69_science.npy", "mode": "science", "device_index": 1, "pointing_id": 69, "timestamp": "2025-04-22T20:01:37.560678", "time": "2025-04-22T20:01:37.561956"}
+{"event": "pointed", "id": 70, "l": 120, "b": 0, "alt": 61.50907674252397, "az": 338.5028998014337, "time": "2025-04-22T20:01:51.255806"}
+{"event": "data_collected", "mode": "science", "pointing_id": 70, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T20:01:57.521590", "time": "2025-04-22T20:01:57.524660"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_70_science.npy", "mode": "science", "device_index": 0, "pointing_id": 70, "timestamp": "2025-04-22T20:01:57.521590", "time": "2025-04-22T20:01:57.524949"}
+{"event": "data_collected", "mode": "science", "pointing_id": 70, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T20:02:03.768069", "time": "2025-04-22T20:02:03.769223"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_70_science.npy", "mode": "science", "device_index": 1, "pointing_id": 70, "timestamp": "2025-04-22T20:02:03.768069", "time": "2025-04-22T20:02:03.769316"}
+{"event": "pointed", "id": 71, "l": 120, "b": 0, "alt": 61.47734000897482, "az": 338.42207323713626, "time": "2025-04-22T20:02:17.454643"}
+{"event": "data_collected", "mode": "science", "pointing_id": 71, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T20:02:23.736178", "time": "2025-04-22T20:02:23.738576"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_71_science.npy", "mode": "science", "device_index": 0, "pointing_id": 71, "timestamp": "2025-04-22T20:02:23.736178", "time": "2025-04-22T20:02:23.738772"}
+{"event": "data_collected", "mode": "science", "pointing_id": 71, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T20:02:29.999448", "time": "2025-04-22T20:02:30.000667"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_71_science.npy", "mode": "science", "device_index": 1, "pointing_id": 71, "timestamp": "2025-04-22T20:02:29.999448", "time": "2025-04-22T20:02:30.000759"}
+{"event": "pointed", "id": 72, "l": 120, "b": 0, "alt": 61.44548036726803, "az": 338.3415002618004, "time": "2025-04-22T20:02:43.687881"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 72, "time": "2025-04-22T20:02:45.689302"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 72, "time": "2025-04-22T20:02:47.689749"}
+{"event": "data_collected", "mode": "science", "pointing_id": 72, "l": 120, "b": 0, "device_index": 0, "is_calibration": true, "timestamp": "2025-04-22T20:02:55.966078", "time": "2025-04-22T20:02:55.966600"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_72_science.npy", "mode": "science", "device_index": 0, "pointing_id": 72, "timestamp": "2025-04-22T20:02:55.966078", "time": "2025-04-22T20:02:55.967483"}
+{"event": "data_collected", "mode": "science", "pointing_id": 72, "l": 120, "b": 0, "device_index": 1, "is_calibration": true, "timestamp": "2025-04-22T20:03:02.231117", "time": "2025-04-22T20:03:02.231555"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_72_science.npy", "mode": "science", "device_index": 1, "pointing_id": 72, "timestamp": "2025-04-22T20:03:02.231117", "time": "2025-04-22T20:03:02.232425"}
+{"event": "pointed", "id": 73, "l": 120, "b": 0, "alt": 61.40615759195797, "az": 338.24282531130575, "time": "2025-04-22T20:03:15.922495"}
+{"event": "data_collected", "mode": "science", "pointing_id": 73, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T20:03:22.159072", "time": "2025-04-22T20:03:22.159577"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_73_science.npy", "mode": "science", "device_index": 0, "pointing_id": 73, "timestamp": "2025-04-22T20:03:22.159072", "time": "2025-04-22T20:03:22.162272"}
+{"event": "data_collected", "mode": "science", "pointing_id": 73, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T20:03:28.408987", "time": "2025-04-22T20:03:28.409901"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_73_science.npy", "mode": "science", "device_index": 1, "pointing_id": 73, "timestamp": "2025-04-22T20:03:28.408987", "time": "2025-04-22T20:03:28.413117"}
+{"event": "pointed", "id": 74, "l": 120, "b": 0, "alt": 61.37405823904558, "az": 338.16290063267115, "time": "2025-04-22T20:03:43.235764"}
+{"event": "data_collected", "mode": "science", "pointing_id": 74, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T20:03:49.517986", "time": "2025-04-22T20:03:49.518454"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_74_science.npy", "mode": "science", "device_index": 0, "pointing_id": 74, "timestamp": "2025-04-22T20:03:49.517986", "time": "2025-04-22T20:03:49.521217"}
+{"event": "data_collected", "mode": "science", "pointing_id": 74, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T20:03:55.778898", "time": "2025-04-22T20:03:55.780003"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_74_science.npy", "mode": "science", "device_index": 1, "pointing_id": 74, "timestamp": "2025-04-22T20:03:55.778898", "time": "2025-04-22T20:03:55.780093"}
+{"event": "pointed", "id": 75, "l": 120, "b": 0, "alt": 61.34048937558341, "az": 338.0799090549535, "time": "2025-04-22T20:04:09.439653"}
+{"event": "data_collected", "mode": "science", "pointing_id": 75, "l": 120, "b": 0, "device_index": 0, "is_calibration": false, "timestamp": "2025-04-22T20:04:15.710496", "time": "2025-04-22T20:04:15.712881"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol0/obs_75_science.npy", "mode": "science", "device_index": 0, "pointing_id": 75, "timestamp": "2025-04-22T20:04:15.710496", "time": "2025-04-22T20:04:15.713075"}
+{"event": "data_collected", "mode": "science", "pointing_id": 75, "l": 120, "b": 0, "device_index": 1, "is_calibration": false, "timestamp": "2025-04-22T20:04:21.976978", "time": "2025-04-22T20:04:21.978141"}
+{"event": "saved", "file": "./Lab4Data//4_22_2/pol1/obs_75_science.npy", "mode": "science", "device_index": 1, "pointing_id": 75, "timestamp": "2025-04-22T20:04:21.976978", "time": "2025-04-22T20:04:21.978230"}
+{"event": "pointed", "id": 76, "l": 120, "b": 0, "alt": 61.308172114827684, "az": 338.0005765722798, "time": "2025-04-22T20:04:35.650754"}
+{"event": "data error 2", "message": "[Errno 111] Connection refused", "id": 76, "time": "2025-04-22T20:04:37.652037"}
