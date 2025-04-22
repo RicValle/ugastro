@@ -17,9 +17,9 @@ import astropy.units as u
 # ===============================
 # Configuration Parameters
 # ===============================
-NSAMPLES = 512 	        # Number of samples per FFT block
-NBLOCKS = 1			    # Number of FFT blocks to average per observation point
-CENTER_FREQ = 1.420e9   # Center frequency (Hz) of SDRs
+NSAMPLES = 2048	        # Number of samples per FFT block
+NBLOCKS = 4300		    # Number of FFT blocks to average per observation point
+CENTER_FREQ = 1420e6    # Center frequency (Hz) of SDRs
 SAMPLE_RATE = 2.2e6     # Sample Rate of SDRs
 GAIN = 0                # Gain setting of SDRs
 CAL_INTERVAL = 4	    # Repeat every N point with calibration diode on 
@@ -111,7 +111,7 @@ def precompute_observation_plan(mode="grid"):
                 )
                 plan.append(cal_point)
             id_counter += 1
-            time.sleep(15)
+            #time.sleep(15)
     return plan
 
 # ===============================
