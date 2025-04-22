@@ -137,36 +137,39 @@ def data_thread(sdr_list: List[sdr.SDR], noise_diode, data_queue, save_queue, lo
         except Empty:
             continue
 
-        if task.mode == "cal_on":
-            noise_diode.on()
-        elif task.mode == "cal_off":
-            noise_diode.off()
+        try:
+            if task.mode == "cal_on":
+                noise_diode.on()
+            elif task.mode == "cal_off":
+                noise_diode.off()
 
-        for sdr in sdr_list:
-            try:
-                raw = sdr.capture_data(nsamples=NSAMPLES, nblocks=NBLOCKS)
-                avg = average_power_spectrum(raw, direct=sdr.direct)
-                result = DataResult(
-                    device_index=sdr.device_index,
-                    spectrum=avg,
-                    mode=task.mode,
-                    pointing=task.pointing,
-                    timestamp=datetime.utcnow().isoformat()
-                )
-                if task.mode != "cal_off":
-                    save_queue.put(result)
-                    log_queue.put({
-                        "event": "data_collected",
-                        "mode": task.mode,
-                        "pointing_id": task.pointing.id,
-                        "l": task.pointing.gal_l,
-                        "b": task.pointing.gal_b,
-                        "device_index": sdr.device_index,
-                        "is_calibration": task.pointing.is_calibration,
-                        "timestamp": result.timestamp
-                    })
-            except Exception as e:
-                log_queue.put({"event": "error", "message": str(e), "id": task.pointing.id})
+            for sdr in sdr_list:
+                try:
+                    raw = sdr.capture_data(nsamples=NSAMPLES, nblocks=NBLOCKS)
+                    avg = average_power_spectrum(raw, direct=sdr.direct)
+                    result = DataResult(
+                        device_index=sdr.device_index,
+                        spectrum=avg,
+                        mode=task.mode,
+                        pointing=task.pointing,
+                        timestamp=datetime.utcnow().isoformat()
+                    )
+                    if task.mode != "cal_off":
+                        save_queue.put(result)
+                        log_queue.put({
+                            "event": "data_collected",
+                            "mode": task.mode,
+                            "pointing_id": task.pointing.id,
+                            "l": task.pointing.gal_l,
+                            "b": task.pointing.gal_b,
+                            "device_index": sdr.device_index,
+                            "is_calibration": task.pointing.is_calibration,
+                            "timestamp": result.timestamp
+                        })
+                except Exception as e:
+                    log_queue.put({"event": "data error 1", "message": str(e), "id": task.pointing.id})
+        except Exception as e:
+            log_queue.put({"event": "data error 2", "message": str(e), "id": task.pointing.id})
 
 
 def save_thread(save_queue, log_queue, terminate_flag):
