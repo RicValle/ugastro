@@ -253,7 +253,8 @@ if __name__ == "__main__":
                 data_queue.put(DataTask("cal_off", point))
 
             data_queue.put(DataTask("science", point))
-            time.sleep(65)
+            #time.sleep(60)
+            time.sleep(20)
     except KeyboardInterrupt:
         print("\nInterrupted. Stopping observation...")
     finally:
