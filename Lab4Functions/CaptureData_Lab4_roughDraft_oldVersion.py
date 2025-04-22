@@ -42,7 +42,6 @@ class ObservationPoint:
 @dataclass
 class DataTask:
     mode: Literal["science", "cal_on", "cal_off"]
-    duration: float
     pointing: ObservationPoint
 
 @dataclass
@@ -69,7 +68,7 @@ def average_power_spectrum(raw_data_blocks: np.ndarray, direct=True) -> np.ndarr
     power_spectra = np.abs(fft_blocks) ** 2
     return np.mean(power_spectra, axis=0)
 
-def precompute_observation_plan(mode="grid", track_duration=3600):
+def precompute_observation_plan(mode="grid", num_points=300):
     # Creates list of observation point objects
     plan = []
     id_counter = 0
@@ -99,7 +98,7 @@ def precompute_observation_plan(mode="grid", track_duration=3600):
         l, b = 120, 0
         ra, dec = galactic_to_equatorial(l, b)
         start_time = time.time()
-        while time.time() - start_time < track_duration:
+        while id_counter < num_points:
             point = ObservationPoint(
                 id=id_counter, gal_l=l, gal_b=b, ra=ra, dec=dec,
                 is_calibration=(id_counter % CAL_INTERVAL == 0),
@@ -107,7 +106,7 @@ def precompute_observation_plan(mode="grid", track_duration=3600):
             )
             plan.append(point)
             id_counter += 1
-            time.sleep(60)
+            #time.sleep(60)
         return plan
 
 # ===============================
@@ -122,6 +121,7 @@ def pointing_thread(telescope, pointing_queue, pointing_done, log_queue, termina
             is_valid = 14 < alt < 85
             if not is_valid:
                 log_queue.put({"event": "skip", "id": point.id, "reason": "invalid alt/az"})
+                failed_queue({"event": "skip", "id": point.id, "reason": "invalid alt/az", "alt": alt, "az": az})
                 continue
             telescope.point(alt, az)
             pointing_done.set()
@@ -152,17 +152,18 @@ def data_thread(sdr_list: List[sdr.SDR], noise_diode, data_queue, save_queue, lo
                     pointing=task.pointing,
                     timestamp=datetime.utcnow().isoformat()
                 )
-                save_queue.put(result)
-                log_queue.put({
-                    "event": "data_collected",
-                    "mode": task.mode,
-                    "pointing_id": task.pointing.id,
-                    "l": task.pointing.gal_l,
-                    "b": task.pointing.gal_b,
-                    "device_index": sdr.device_index,
-                    "is_calibration": task.pointing.is_calibration,
-                    "timestamp": result.timestamp
-                })
+                if task.mode != "cal_off":
+                    save_queue.put(result)
+                    log_queue.put({
+                        "event": "data_collected",
+                        "mode": task.mode,
+                        "pointing_id": task.pointing.id,
+                        "l": task.pointing.gal_l,
+                        "b": task.pointing.gal_b,
+                        "device_index": sdr.device_index,
+                        "is_calibration": task.pointing.is_calibration,
+                        "timestamp": result.timestamp
+                    })
             except Exception as e:
                 log_queue.put({"event": "error", "message": str(e), "id": task.pointing.id})
 
@@ -205,17 +206,21 @@ def log_thread(log_queue, terminate_flag):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="SDR HI Mapping Script")
     parser.add_argument("--mode", choices=["grid", "track"], default="grid", help="Observation mode")
-    parser.add_argument("--duration", type=int, default=3600, help="Duration in seconds (track mode)")
+    parser.add_argument("--num_points", type=int, default=300, help="Number of observation points (not including calibration points)")
     args = parser.parse_args()
 
     telescope = LeuschTelescope()
     noise_diode = LeuschNoise()
-    sdr_list = [sdr.SDR(device_index=0, direct = False, center_freq = CENTER_FREQ, sample_rate = SAMPLE_RATE, gain = GAIN), sdr.SDR(device_index=1, direct = False, center_freq = CENTER_FREQ, sample_rate = SAMPLE_RATE, gain = GAIN)]
+    sdr_list = [
+        sdr.SDR(device_index=0, direct = False, center_freq = CENTER_FREQ, sample_rate = SAMPLE_RATE, gain = GAIN), 
+        sdr.SDR(device_index=1, direct = False, center_freq = CENTER_FREQ, sample_rate = SAMPLE_RATE, gain = GAIN)
+    ]
 
     pointing_queue = Queue()
     data_queue = Queue()
     save_queue = Queue()
     log_queue = Queue()
+    failed_queue = Queue()
     terminate_flag = threading.Event()
     pointing_done = threading.Event()
 
@@ -231,7 +236,7 @@ if __name__ == "__main__":
         id=-1, gal_l=0, gal_b=0, ra=0, dec=0,
         is_calibration=False, mode="init"
     )
-    data_queue.put(DataTask("cal_off", 2, dummy_point))
+    data_queue.put(DataTask("cal_off", dummy_point))
 
     try:
         for point in plan:
@@ -240,14 +245,30 @@ if __name__ == "__main__":
             pointing_done.wait(timeout=30)
 
             if point.is_calibration:
-                data_queue.put(DataTask("cal_on", 2, point))
-                data_queue.put(DataTask("cal_off", 2, point))
+                data_queue.put(DataTask("cal_on", point))
+                data_queue.put(DataTask("cal_off", point))
 
-            data_queue.put(DataTask("science", 60, point))
-            time.sleep(65)
+            data_queue.put(DataTask("science", point))
+            time.sleep(20)
     except KeyboardInterrupt:
         print("\nInterrupted. Stopping observation...")
     finally:
         terminate_flag.set()
         telescope.stow()
         log_queue.put({"event": "shutdown"})
+        with open(os.path.join(SAVE_BASE_PATH, "log.jsonl"), "a") as log_file:
+            while not log_queue.empty():
+                try:
+                    entry = log_queue.get(timeout=2)
+                    entry["time"] = datetime.utcnow().isoformat()
+                    log_file.write(json.dumps(entry) + "\n")
+                except Empty:
+                    continue
+            log_queue.put({"Failed Pointings:"})
+            while not failed_queue.empty():
+                try:
+                    entry = failed_queue.get(timeout=2)
+                    entry["time"] = datetime.utcnow().isoformat()
+                    log_file.write(json.dumps(entry) + "\n")
+                except Empty:
+                    continue    
