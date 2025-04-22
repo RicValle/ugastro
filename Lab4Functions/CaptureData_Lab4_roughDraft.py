@@ -17,10 +17,15 @@ import astropy.units as u
 # ===============================
 # Configuration Parameters
 # ===============================
-NSAMPLES = 512 	# Number of samples per FFT block
-NBLOCKS = 1			# Number of FFT blocks to average per observation point
-CAL_INTERVAL = 4	# Repeat every N point with calibration diode on 
-SAVE_BASE_PATH = "./Lab4Data"
+NSAMPLES = 512 	        # Number of samples per FFT block
+NBLOCKS = 1			    # Number of FFT blocks to average per observation point
+CENTER_FREQ = 1.420e9   # Center frequency (Hz) of SDRs
+SAMPLE_RATE = 2.2e6     # Sample Rate of SDRs
+GAIN = 0                # Gain setting of SDRs
+CAL_INTERVAL = 4	    # Repeat every N point with calibration diode on 
+POINT_DURATION = 3600   # Seconds for observation plan of point (l b) = (120, 0)
+FOLDER_NAME = "4_22_1"  # Month_Day_Attempt
+SAVE_BASE_PATH = "./Lab4Data//" + FOLDER_NAME
 INIT_TIME = time.time()
 POLARIZATION_LABELS = {0: "pol0", 1: "pol1"}  # Map device_index to folder/polarization
 
@@ -89,20 +94,11 @@ def precompute_observation_plan(mode="grid"):
                     plan.append(cal_point)
                 id_counter += 1
 
-        #with_cal = []   # TODO: Move into previous loop by adding a second point if calibration
-        #for i, p in enumerate(plan):
-        #    with_cal.append(p)
-        #    if (i + 1) % CAL_INTERVAL == 0:
-        #        cal_p = ObservationPoint(**{**p.__dict__, "id": id_counter, "is_calibration": True})
-        #        with_cal.append(cal_p)
-        #        id_counter += 1
-        #return with_cal
-
     elif mode == "track":
         l, b = 120, 0
         ra, dec = galactic_to_equatorial(l, b)
         start_time = time.time()
-        while time.time() - start_time < track_duration:
+        while time.time() - start_time < POINT_DURATION:
             point = ObservationPoint(
                 id=id_counter, gal_l=l, gal_b=b, ra=ra, dec=dec,
                 is_calibration=False, mode="track"
@@ -115,7 +111,7 @@ def precompute_observation_plan(mode="grid"):
                 )
                 plan.append(cal_point)
             id_counter += 1
-            time.sleep(60)
+            time.sleep(15)
     return plan
 
 # ===============================
@@ -129,7 +125,8 @@ def pointing_thread(telescope, pointing_queue, pointing_done, log_queue, termina
             alt, az = coord.get_altaz(point.ra, point.dec, jd)
             is_valid = 14 < alt < 85
             if not is_valid:
-                log_queue.put({"event": "skip", "id": point.id, "reason": "invalid alt/az"})
+                log_queue.put({"event": "skip", "id": point.id, "reason": "invalid alt/az", "az": az, "alt": alt})
+                failed_queue.put({"event": "skip", "id": point.id, "reason": "invalid alt/az"})
                 continue
             telescope.point(alt, az)
             pointing_done.set()
@@ -193,8 +190,8 @@ def save_thread(save_queue, log_queue, terminate_flag):
                 "pointing_id": result.pointing.id,
                 "timestamp": result.timestamp
             })
-        except Empty:
-            continue
+        except Exception as e:
+            log_queue.put({"event": "failed to save data", "message": str(e), "id": result.pointing.id})
 
 def log_thread(log_queue, terminate_flag):
     os.makedirs(SAVE_BASE_PATH, exist_ok=True)
@@ -218,12 +215,16 @@ if __name__ == "__main__":
 
     telescope = LeuschTelescope()
     noise_diode = LeuschNoise()
-    sdr_list = [sdr.SDR(device_index=0), sdr.SDR(device_index=1)]
+    sdr_list = [
+        sdr.SDR(device_index=0, direct=False, center_freq=CENTER_FREQ, sample_rate=SAMPLE_RATE, gain=GAIN), 
+        sdr.SDR(device_index=1, direct=False, center_freq=CENTER_FREQ, sample_rate=SAMPLE_RATE, gain=GAIN)
+    ]
 
     pointing_queue = Queue()
     data_queue = Queue()
     save_queue = Queue()
     log_queue = Queue()
+    failed_queue = Queue()
     terminate_flag = threading.Event()
     pointing_done = threading.Event()
 
@@ -259,3 +260,18 @@ if __name__ == "__main__":
         terminate_flag.set()
         telescope.stow()
         log_queue.put({"event": "shutdown"})
+        with open(os.path.join(SAVE_BASE_PATH, "log.jsonl"), "a") as log_file:
+            while not log_queue.empty():
+                try:
+                    entry = log_queue.get(timeout=2)
+                    entry["time"] = datetime.utcnow().isoformat()
+                    log_file.write(json.dumps(entry) + "\n")
+                except Empty:
+                    continue
+            while not failed_queue.empty():
+                try:
+                    entry = failed_queue.get(timeout=2)
+                    entry["time"] = datetime.utcnow().isoformat()
+                    log_file.write(json.dumps(entry) + "\n")
+                except Empty:
+                    continue
