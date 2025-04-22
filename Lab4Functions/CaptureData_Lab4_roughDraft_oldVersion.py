@@ -17,13 +17,14 @@ import astropy.units as u
 # ===============================
 # Configuration Parameters
 # ===============================
-NSAMPLES = 2048 	# Number of samples per FFT block
+NSAMPLES = 2048 	    # Number of samples per FFT block
 NBLOCKS = 4300			# Number of FFT blocks to average per observation point
-CAL_INTERVAL = 4	# Repeat every N point with calibration diode on 
+CAL_INTERVAL = 4	    # Repeat every N point with calibration diode on 
 SAMPLE_RATE = 2.2e6
 CENTER_FREQ = 1420e6
 GAIN = 0
-SAVE_BASE_PATH = "./Lab4Data"
+DATE = "4_22_1"         # month_day_attempt
+SAVE_BASE_PATH = "./Lab4Data//" + DATE
 POLARIZATION_LABELS = {0: "pol0", 1: "pol1"}  # Map device_index to folder/polarization
 
 # ===============================
