@@ -202,7 +202,9 @@ def log_thread(log_queue, terminate_flag):
 
 # ===============================
 # Run Script
-# Example run command in terminal: "python3 CaptureData_Lab4_roughDraft.py --mode track --duration 2000"
+# Example run commands in terminal: 
+# - "python3 CaptureData_Lab4_roughDraft.py --mode grid"
+# - "python3 CaptureData_Lab4_roughDraft.py --mode track --num_points 300"
 # ===============================
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="SDR HI Mapping Script")
@@ -213,8 +215,8 @@ if __name__ == "__main__":
     telescope = LeuschTelescope()
     noise_diode = LeuschNoise()
     sdr_list = [
-        sdr.SDR(device_index=0, direct = False, center_freq = CENTER_FREQ, sample_rate = SAMPLE_RATE, gain = GAIN), 
-        sdr.SDR(device_index=1, direct = False, center_freq = CENTER_FREQ, sample_rate = SAMPLE_RATE, gain = GAIN)
+        sdr.SDR(device_index=0, direct=False, center_freq=CENTER_FREQ, sample_rate=SAMPLE_RATE, gain=GAIN), 
+        sdr.SDR(device_index=1, direct=False, center_freq=CENTER_FREQ, sample_rate=SAMPLE_RATE, gain=GAIN)
     ]
 
     pointing_queue = Queue()
@@ -225,7 +227,7 @@ if __name__ == "__main__":
     terminate_flag = threading.Event()
     pointing_done = threading.Event()
 
-    plan = precompute_observation_plan(mode=args.mode, track_duration=args.duration)
+    plan = precompute_observation_plan(mode=args.mode, num_points=args.num_points)
 
     threading.Thread(target=pointing_thread, args=(telescope, pointing_queue, pointing_done, log_queue, terminate_flag), daemon=True).start()
     threading.Thread(target=data_thread, args=(sdr_list, noise_diode, data_queue, save_queue, log_queue, terminate_flag), daemon=True).start()
