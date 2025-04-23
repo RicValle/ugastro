@@ -22,6 +22,7 @@ NBLOCKS = 4300			# Number of FFT blocks to average per observation point
 CAL_INTERVAL = 4	    # Repeat every N point with calibration diode on 
 SAMPLE_RATE = 2.2e6     # Sample rate of SDRs
 CENTER_FREQ = 1420e6    # Center frequency of SDRs
+OFFLINE_FREQ = 1420.81150357e6
 GAIN = 0                # Internal gain of SDRs
 DATE = "4_22_1"         # month_day_attempt
 SAVE_BASE_PATH = "./Lab4Data//" + DATE
@@ -42,14 +43,14 @@ class ObservationPoint:
 
 @dataclass
 class DataTask:
-    mode: Literal["science", "cal_on", "cal_off"]
+    mode: Literal["online", "offline", "cal_on", "init"]
     pointing: ObservationPoint
 
 @dataclass
 class DataResult:
     device_index: int
     spectrum: np.ndarray
-    mode: str
+    mode: Literal["online", "offline", "cal_on", "init"]
     pointing: ObservationPoint
     timestamp: str
 
@@ -87,13 +88,15 @@ def precompute_observation_plan(mode="grid", num_points=300):
                 raw_points.append(point)
                 id_counter += 1
 
+        sorted_counter = 0
         with_cal = []
         for i, p in enumerate(raw_points):
+            p.id = sorted_counter
             with_cal.append(p)
             if (i + 1) % CAL_INTERVAL == 0:
-                cal_p = ObservationPoint(**{**p.__dict__, "id": id_counter, "is_calibration": True})
+                cal_p = ObservationPoint(**{**p.__dict__, "id": sorted_counter, "is_calibration": True})
                 with_cal.append(cal_p)
-                id_counter += 1
+                sorted_counter += 1
         
         plan = sorted(with_cal, key=lambda p:(p.ra, p.dec))
         log_queue.put({"event": "Observation Plan", "plan": plan})
@@ -111,6 +114,8 @@ def precompute_observation_plan(mode="grid", num_points=300):
             )
             plan.append(point)
             id_counter += 1
+        
+        log_queue.put({"event": "Observation Plan", "plan": plan})
 
         return plan
 
@@ -146,11 +151,17 @@ def data_thread(sdr_list: List[sdr.SDR], noise_diode, data_queue, save_queue, lo
         try:
             if task.mode == "cal_on":
                 noise_diode.on()
-            elif task.mode == "cal_off":
+            else:
                 noise_diode.off()
+
 
             for sdr in sdr_list:
                 try:
+                    if task.mode == "offline":
+                        sdr.set_center_freq(OFFLINE_FREQ)
+                    else:
+                        sdr.set_center_freq(CENTER_FREQ)
+
                     raw = sdr.capture_data(nsamples=NSAMPLES, nblocks=NBLOCKS)
                     avg = average_power_spectrum(raw, direct=sdr.direct)
                     result = DataResult(
@@ -164,12 +175,12 @@ def data_thread(sdr_list: List[sdr.SDR], noise_diode, data_queue, save_queue, lo
                         save_queue.put(result)
                         log_queue.put({
                             "event": "data_collected",
-                            "mode": task.mode,
-                            "pointing_id": task.pointing.id,
-                            "l": task.pointing.gal_l,
-                            "b": task.pointing.gal_b,
+                            "mode": result.mode,
+                            "pointing_id": result.pointing.id,
+                            "l": result.pointing.gal_l,
+                            "b": result.pointing.gal_b,
                             "device_index": sdr.device_index,
-                            "is_calibration": task.pointing.is_calibration,
+                            "is_calibration": result.pointing.is_calibration,
                             "timestamp": result.timestamp
                         })
                 except Exception as e:
@@ -181,7 +192,7 @@ def save_thread(save_queue, log_queue, terminate_flag):
     while not terminate_flag.is_set():
         try:
             result = save_queue.get(timeout=2)
-            pol_label = POLARIZATION_LABELS.get(result.device_index, f"dev{result.device_index}_{time.time()}")
+            pol_label = POLARIZATION_LABELS.get(result.device_index, f"dev{result.device_index}")
             folder = os.path.join(SAVE_BASE_PATH, pol_label)
             os.makedirs(folder, exist_ok=True)
             fname = os.path.join(folder, f"obs_{result.pointing.id}_{result.mode}.npy")
@@ -244,25 +255,23 @@ if __name__ == "__main__":
     
 	# Ensure noise diode is OFF before starting
     dummy_point = ObservationPoint(
-        id=-1, gal_l=0, gal_b=0, ra=0, dec=0,
+        id=-1, gal_l=plan[0].gal_l, gal_b=plan[0].gal_b, ra=plan[0].ra, dec=plan[0].dec,
         is_calibration=False, mode="init"
     )
-    data_queue.put(DataTask("cal_off", dummy_point))
+    data_queue.put(DataTask("init", dummy_point))
 
     try:
         for point in plan:
             pointing_done.clear()
             pointing_queue.put(point)
-            pointing_done.wait(timeout=40)
+            pointing_done.wait(timeout=60)
 
             if point.is_calibration:
-                time.sleep(2)
                 data_queue.put(DataTask("cal_on", point))
-                time.sleep(2)
-                data_queue.put(DataTask("cal_off", point))
-                time.sleep(2)
 
-            data_queue.put(DataTask("science", point))
+            data_queue.put(DataTask("online", point))
+            data_queue.put(DataTask("offline", point))
+
             time.sleep(24)
     except KeyboardInterrupt:
         print("\nInterrupted. Stopping observation...")
