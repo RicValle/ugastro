@@ -111,6 +111,7 @@ def precompute_observation_plan(mode="grid", num_points=300):
             )
             plan.append(point)
             id_counter += 1
+
         return plan
 
 # ===============================
@@ -122,11 +123,13 @@ def pointing_thread(telescope, pointing_queue, pointing_done, log_queue, termina
             point = pointing_queue.get(timeout=2)
             jd = timing.julian_date()
             alt, az = coord.get_altaz(point.ra, point.dec, jd)
+
             is_valid = 14 < alt < 85
             if not is_valid:
                 log_queue.put({"event": "skip", "id": point.id, "reason": "invalid alt/az"})
                 failed_queue.put({"event": "skip", "id": point.id, "reason": "invalid alt/az", "alt": alt, "az": az})
                 continue
+            
             telescope.point(alt, az)
             pointing_done.set()
             log_queue.put({"event": "pointed", "id": point.id, "l": point.gal_l, "b": point.gal_b, "ra":point.ra, "dec":point.dec, "alt": alt, "az": az, "time": datetime.utcnow().isoformat()})
