@@ -20,9 +20,9 @@ import astropy.units as u
 NSAMPLES = 2048 	    # Number of samples per FFT block
 NBLOCKS = 4300			# Number of FFT blocks to average per observation point
 CAL_INTERVAL = 4	    # Repeat every N point with calibration diode on 
-SAMPLE_RATE = 2.2e6
-CENTER_FREQ = 1420e6
-GAIN = 0
+SAMPLE_RATE = 2.2e6     # Sample rate of SDRs
+CENTER_FREQ = 1420e6    # Center frequency of SDRs
+GAIN = 0                # Internal gain of SDRs
 DATE = "4_22_1"         # month_day_attempt
 SAVE_BASE_PATH = "./Lab4Data//" + DATE
 POLARIZATION_LABELS = {0: "pol0", 1: "pol1"}  # Map device_index to folder/polarization
@@ -75,6 +75,7 @@ def precompute_observation_plan(mode="grid", num_points=300):
     id_counter = 0
 
     if mode == "grid":
+        raw_points = []
         for b in np.arange(15, 52, 2):
             delta_l = 2 / np.cos(np.radians(b))
             for l in np.arange(105, 162, delta_l):
@@ -83,22 +84,25 @@ def precompute_observation_plan(mode="grid", num_points=300):
                     id=id_counter, gal_l=l, gal_b=b, ra=ra, dec=dec,
                     is_calibration=False, mode="grid"
                 )
-                plan.append(point)
+                raw_points.append(point)
                 id_counter += 1
 
         with_cal = []
-        for i, p in enumerate(plan):
+        for i, p in enumerate(raw_points):
             with_cal.append(p)
             if (i + 1) % CAL_INTERVAL == 0:
                 cal_p = ObservationPoint(**{**p.__dict__, "id": id_counter, "is_calibration": True})
                 with_cal.append(cal_p)
                 id_counter += 1
-        return with_cal
+        
+        plan = sorted(with_cal, key=lambda p:(p.ra, p.dec))
+        log_queue.put({"event": "Observation Plan", "plan": plan})
+
+        return plan
 
     elif mode == "track":
         l, b = 120, 0
         ra, dec = galactic_to_equatorial(l, b)
-        start_time = time.time()
         while id_counter < num_points:
             point = ObservationPoint(
                 id=id_counter, gal_l=l, gal_b=b, ra=ra, dec=dec,
@@ -107,7 +111,6 @@ def precompute_observation_plan(mode="grid", num_points=300):
             )
             plan.append(point)
             id_counter += 1
-            #time.sleep(60)
         return plan
 
 # ===============================
@@ -122,11 +125,11 @@ def pointing_thread(telescope, pointing_queue, pointing_done, log_queue, termina
             is_valid = 14 < alt < 85
             if not is_valid:
                 log_queue.put({"event": "skip", "id": point.id, "reason": "invalid alt/az"})
-                failed_queue({"event": "skip", "id": point.id, "reason": "invalid alt/az", "alt": alt, "az": az})
+                failed_queue.put({"event": "skip", "id": point.id, "reason": "invalid alt/az", "alt": alt, "az": az})
                 continue
             telescope.point(alt, az)
             pointing_done.set()
-            log_queue.put({"event": "pointed", "id": point.id, "l": point.gal_l, "b": point.gal_b, "alt": alt, "az": az, "time": datetime.utcnow().isoformat()})
+            log_queue.put({"event": "pointed", "id": point.id, "l": point.gal_l, "b": point.gal_b, "ra":point.ra, "dec":point.dec, "alt": alt, "az": az, "time": datetime.utcnow().isoformat()})
         except Empty:
             continue
 
@@ -167,10 +170,9 @@ def data_thread(sdr_list: List[sdr.SDR], noise_diode, data_queue, save_queue, lo
                             "timestamp": result.timestamp
                         })
                 except Exception as e:
-                    log_queue.put({"event": "data error 1", "message": str(e), "id": task.pointing.id})
+                    log_queue.put({"event": "error collecting data", "message": str(e), "id": task.pointing.id})
         except Exception as e:
-            log_queue.put({"event": "data error 2", "message": str(e), "id": task.pointing.id})
-
+            log_queue.put({"event": "error interacting with telescope", "message": str(e), "id": task.pointing.id})
 
 def save_thread(save_queue, log_queue, terminate_flag):
     while not terminate_flag.is_set():
