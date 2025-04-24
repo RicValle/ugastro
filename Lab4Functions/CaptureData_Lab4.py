@@ -59,6 +59,7 @@ class DataResult:
 # ===============================
 def galactic_to_equatorial(l, b):
     c = SkyCoord(l=l*u.deg, b=b*u.deg, frame='galactic')
+    
     return c.icrs.ra.deg, c.icrs.dec.deg
 
 def average_power_spectrum(raw_data_blocks: np.ndarray, direct=True) -> np.ndarray:
@@ -68,6 +69,7 @@ def average_power_spectrum(raw_data_blocks: np.ndarray, direct=True) -> np.ndarr
         complex_blocks = raw_data_blocks[..., 0] + 1j * raw_data_blocks[..., 1]
         fft_blocks = np.fft.fft(complex_blocks, axis=1)
     power_spectra = np.abs(fft_blocks) ** 2
+
     return np.mean(power_spectra, axis=0)
 
 def precompute_observation_plan(mode="grid", num_points=300):
@@ -138,6 +140,7 @@ def pointing_thread(telescope, pointing_queue, pointing_done, log_queue, termina
             telescope.point(alt, az)
             pointing_done.set()
             log_queue.put({"event": "pointed", "id": point.id, "l": point.gal_l, "b": point.gal_b, "ra":point.ra, "dec":point.dec, "alt": alt, "az": az, "time": datetime.utcnow().isoformat()})
+            time.sleep(60)
         except Empty:
             continue
 
@@ -150,9 +153,15 @@ def data_thread(sdr_list: List[sdr.SDR], noise_diode, data_queue, save_queue, lo
 
         try:
             if task.mode == "cal_on":
-                noise_diode.on()
+                try:
+                    noise_diode.on()
+                except Exception as e:
+                    log_queue.put({"event": "cal_on_error", "message": str(e), "point_id": task.pointing.id})
             else:
-                noise_diode.off()
+                try:
+                    noise_diode.off()
+                except Exception as e:
+                    log_queue.put({"event": "cal_off_error", "message": str(e), "point_id": task.pointing.id})
 
 
             for sdr in sdr_list:
@@ -195,6 +204,7 @@ def save_thread(save_queue, log_queue, terminate_flag):
             pol_label = POLARIZATION_LABELS.get(result.device_index, f"dev{result.device_index}")
             folder = os.path.join(SAVE_BASE_PATH, pol_label)
             os.makedirs(folder, exist_ok=True)
+
             fname = os.path.join(folder, f"obs_{result.pointing.id}_{result.mode}.npy")
             np.save(fname, result.spectrum)
             log_queue.put({
