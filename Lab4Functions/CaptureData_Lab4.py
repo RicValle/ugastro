@@ -21,8 +21,8 @@ NSAMPLES = 2048 	    # Number of samples per FFT block
 NBLOCKS = 4300			# Number of FFT blocks to average per observation point
 CAL_INTERVAL = 4	    # Repeat every N point with calibration diode on 
 SAMPLE_RATE = 2.2e6     # Sample rate of SDRs
-CENTER_FREQ = 1420e6    # Center frequency of SDRs
-OFFLINE_FREQ = 1420.81150357e6
+USB_FREQ = 1420e6    # Center frequency of SDRs
+LSB_FREQ = 1420.81150357e6
 GAIN = 0                # Internal gain of SDRs
 DATE = "4_22_1"         # month_day_attempt
 SAVE_BASE_PATH = "./Lab4Data//" + DATE
@@ -43,14 +43,14 @@ class ObservationPoint:
 
 @dataclass
 class DataTask:
-    mode: Literal["online", "offline", "cal_on", "init"]
+    mode: Literal["LSB", "USB", "cal_on", "init"]
     pointing: ObservationPoint
 
 @dataclass
 class DataResult:
     device_index: int
     spectrum: np.ndarray
-    mode: Literal["online", "offline", "cal_on", "init"]
+    mode: Literal["LSB", "USB", "cal_on", "init"]
     pointing: ObservationPoint
     timestamp: str
 
@@ -166,10 +166,10 @@ def data_thread(sdr_list: List[sdr.SDR], noise_diode, data_queue, save_queue, lo
 
             for sdr in sdr_list:
                 try:
-                    if task.mode == "offline":
-                        sdr.set_center_freq(OFFLINE_FREQ)
+                    if task.mode == "LSB":
+                        sdr.set_center_freq(LSB_FREQ)
                     else:
-                        sdr.set_center_freq(CENTER_FREQ)
+                        sdr.set_center_freq(USB_FREQ)
 
                     raw = sdr.capture_data(nsamples=NSAMPLES, nblocks=NBLOCKS)
                     avg = average_power_spectrum(raw, direct=sdr.direct)
@@ -244,8 +244,8 @@ if __name__ == "__main__":
     telescope = LeuschTelescope()
     noise_diode = LeuschNoise()
     sdr_list = [
-        sdr.SDR(device_index=0, direct=False, center_freq=CENTER_FREQ, sample_rate=SAMPLE_RATE, gain=GAIN), 
-        sdr.SDR(device_index=1, direct=False, center_freq=CENTER_FREQ, sample_rate=SAMPLE_RATE, gain=GAIN)
+        sdr.SDR(device_index=0, direct=False, center_freq=USB_FREQ, sample_rate=SAMPLE_RATE, gain=GAIN), 
+        sdr.SDR(device_index=1, direct=False, center_freq=USB_FREQ, sample_rate=SAMPLE_RATE, gain=GAIN)
     ]
 
     pointing_queue = Queue()
@@ -279,8 +279,8 @@ if __name__ == "__main__":
             if point.is_calibration:
                 data_queue.put(DataTask("cal_on", point))
 
-            data_queue.put(DataTask("online", point))
-            data_queue.put(DataTask("offline", point))
+            data_queue.put(DataTask("LSB", point))
+            data_queue.put(DataTask("USB", point))
 
             time.sleep(24)
     except KeyboardInterrupt:
