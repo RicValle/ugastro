@@ -205,7 +205,7 @@ def save_thread(save_queue, log_queue, terminate_flag):
             folder = os.path.join(SAVE_BASE_PATH, pol_label)
             os.makedirs(folder, exist_ok=True)
 
-            fname = os.path.join(folder, f"obs_{result.pointing.id}_{result.mode}.npy")
+            fname = os.path.join(folder, f"obs_{result.pointing.id}_{result.mode}.npz")
             np.savez_compressed(
                 fname,
                 spectrum=result.spectrum,
