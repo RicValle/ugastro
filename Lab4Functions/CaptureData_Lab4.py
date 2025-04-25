@@ -21,7 +21,7 @@ NSAMPLES = 2048 	    # Number of samples per FFT block
 NBLOCKS = 4300			# Number of FFT blocks to average per observation point
 CAL_INTERVAL = 4	    # Repeat every N point with calibration diode on 
 SAMPLE_RATE = 2.2e6     # Sample rate of SDRs
-USB_FREQ = 1420e6    # Center frequency of SDRs
+USB_FREQ = 1420e6       # Center frequency of SDRs
 LSB_FREQ = 1420.81150357e6
 GAIN = 0                # Internal gain of SDRs
 DATE = "4_22_1"         # month_day_attempt
@@ -180,7 +180,7 @@ def data_thread(sdr_list: List[sdr.SDR], noise_diode, data_queue, save_queue, lo
                         pointing=task.pointing,
                         timestamp=datetime.utcnow().isoformat()
                     )
-                    if task.mode != "cal_off":
+                    if task.mode not in ("cal_off", "init"):
                         save_queue.put(result)
                         log_queue.put({
                             "event": "data_collected",
