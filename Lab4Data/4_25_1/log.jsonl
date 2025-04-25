@@ -1,0 +1,4 @@
+{"event": "cal_off_error", "message": "[Errno 111] Connection refused", "point_id": -1, "time": "2025-04-25T20:18:14.875223"}
+{"event": "shutdown", "time": "2025-04-25T20:18:14.875440"}
+{"event": "cal_off_error", "message": "[Errno 111] Connection refused", "point_id": -1, "time": "2025-04-25T21:43:42.525886"}
+{"event": "cal_off_error", "message": "[Errno 111] Connection refused", "point_id": 29, "time": "2025-04-25T21:43:42.525970"}
