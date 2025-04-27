@@ -139,9 +139,9 @@ def pointing_thread(telescope, pointing_queue, pointing_done, log_queue, termina
                 continue
             
             telescope.point(alt, az)
+            time.sleep(5)
             pointing_done.set()
             log_queue.put({"event": "pointed", "id": point.id, "l": point.gal_l, "b": point.gal_b, "ra":point.ra, "dec":point.dec, "alt": alt, "az": az, "time": datetime.utcnow().isoformat()})
-            time.sleep(60)
         except Empty:
             continue
 
@@ -307,6 +307,7 @@ if __name__ == "__main__":
             print(f"Error stowing telescope: {e}")
         log_queue.put({"event": "shutdown"})
         print("Waiting for log thread to finish...")
+        time.sleep(3)
 
         for thread in threading.enumerate():
             if thread is not threading.current_thread():
