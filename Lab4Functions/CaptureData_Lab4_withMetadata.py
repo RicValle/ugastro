@@ -132,7 +132,7 @@ def pointing_thread(telescope, pointing_queue, pointing_done, log_queue, termina
             jd = timing.julian_date()
             alt, az = coord.get_altaz(point.ra, point.dec, jd)
 
-            is_valid = 14 < alt < 85
+            is_valid = (14 < alt < 85) and (5 < az < 350)
             if not is_valid:
                 log_queue.put({"event": "skip", "id": point.id, "reason": "invalid alt/az"})
                 failed_queue.put({"event": "skip", "id": point.id, "reason": "invalid alt/az", "alt": alt, "az": az})
@@ -313,3 +313,4 @@ if __name__ == "__main__":
                         fail_log.write(json.dumps(entry) + "\n")
                     except Empty:
                         continue   
+        print("Done")
