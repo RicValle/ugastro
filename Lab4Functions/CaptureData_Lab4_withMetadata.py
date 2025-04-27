@@ -97,9 +97,12 @@ def precompute_observation_plan(mode="grid", num_points=300):
             p.id = sorted_counter
             with_cal.append(p)
             if (i + 1) % CAL_INTERVAL == 0:
-                cal_p = ObservationPoint(**{**p.__dict__, "id": sorted_counter, "is_calibration": True})
+                cal_p = ObservationPoint(
+                    id=p.id, gal_l=p.gal_l, gal_b=p.gal_b, ra=p.ra, dec=p.dec,
+                    is_calibration=True, mode="grid"
+                )
                 with_cal.append(cal_p)
-                sorted_counter += 1
+            sorted_counter += 1
         
         plan = sorted(with_cal, key=lambda p:(p.ra, p.dec))
 
@@ -289,9 +292,9 @@ if __name__ == "__main__":
 
             if point.is_calibration:
                 data_queue.put(DataTask("cal_on", point))
-
-            data_queue.put(DataTask("LSB", point))
-            data_queue.put(DataTask("USB", point))
+            else:
+                data_queue.put(DataTask("LSB", point))
+                data_queue.put(DataTask("USB", point))
 
             time.sleep(24)
     except KeyboardInterrupt:
