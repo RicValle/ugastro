@@ -130,6 +130,9 @@ def pointing_thread(telescope, pointing_queue, pointing_done, log_queue, termina
     while not terminate_flag.is_set():
         try:
             point = pointing_queue.get(timeout=2)
+            if point is None:
+                break
+
             jd = timing.julian_date()
             alt, az = coord.get_altaz(point.ra, point.dec, jd)
 
@@ -150,6 +153,8 @@ def data_thread(sdr_list: List[sdr.SDR], noise_diode, data_queue, save_queue, lo
     while not terminate_flag.is_set():
         try:
             task = data_queue.get(timeout=2)
+            if task is None:
+                break
         except Empty:
             continue
 
@@ -203,6 +208,9 @@ def save_thread(save_queue, log_queue, terminate_flag):
     while not terminate_flag.is_set():
         try:
             result = save_queue.get(timeout=2)
+            if result is None:
+                break
+
             pol_label = POLARIZATION_LABELS.get(result.device_index, f"dev{result.device_index}")
             folder = os.path.join(SAVE_BASE_PATH, pol_label)
             os.makedirs(folder, exist_ok=True)
@@ -239,6 +247,9 @@ def log_thread(log_queue, terminate_flag):
         while not terminate_flag.is_set():
             try:
                 entry = log_queue.get(timeout=2)
+                if entry is None:
+                    break
+
                 entry["time"] = datetime.utcnow().isoformat()
                 log_file.write(json.dumps(entry) + "\n")
             except Empty:
@@ -302,6 +313,10 @@ if __name__ == "__main__":
         print("\nInterrupted. Stopping observation...")
     finally:
         terminate_flag.set()
+        pointing_queue.put(None)
+        data_queue.put(None)
+        save_queue.put(None)
+        log_queue.put(None)
         try:
             telescope.stow()
         except Exception as e:
