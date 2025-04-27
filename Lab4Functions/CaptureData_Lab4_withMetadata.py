@@ -7,7 +7,7 @@ import sys
 import os
 from queue import Queue, Empty
 from datetime import datetime
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict
 from typing import Literal, List
 from ugradio import timing, coord, leo, sdr
 from ugradio.leusch import LeuschTelescope, LeuschNoise
@@ -88,7 +88,6 @@ def precompute_observation_plan(mode="grid", num_points=300):
                     is_calibration=False, mode="grid"
                 )
                 raw_points.append(point)
-                log_queue.put({"event": "Plan Precomputation", "point": point})
                 id_counter += 1
 
         sorted_counter = 0
@@ -105,6 +104,8 @@ def precompute_observation_plan(mode="grid", num_points=300):
             sorted_counter += 1
         
         plan = sorted(with_cal, key=lambda p:(p.ra, p.dec))
+        plan_serializable = [asdict(p) for p in plan]
+        log_queue.put({"event": "Plan Precomputation", "plan": plan_serializable})
 
         return plan
 
