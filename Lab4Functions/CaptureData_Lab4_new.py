@@ -72,7 +72,7 @@ def average_power_spectrum(raw_data_blocks: np.ndarray, direct=True) -> np.ndarr
 
     return np.mean(power_spectra, axis=0)
 
-def precompute_observation_plan(mode="grid", num_points=50):
+def precompute_observation_plan(mode="grid", num_points=300):
     # Creates list of observation point objects
     plan = []
     id_counter = 0
@@ -84,12 +84,12 @@ def precompute_observation_plan(mode="grid", num_points=50):
             for l in np.arange(105, 162, delta_l):
                 if id_counter > num_points:
                     continue
-
                 ra, dec = galactic_to_equatorial(l, b)
                 point = ObservationPoint(
                     id=id_counter, gal_l=l, gal_b=b, ra=ra, dec=dec,
                     is_calibration=False, mode="grid"
                 )
+                raw_points.append(point)
                 id_counter += 1
 
         sorted_counter = 0
@@ -286,7 +286,7 @@ def log_thread(log_queue, terminate_flag):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="SDR HI Mapping Script")
     parser.add_argument("--mode", choices=["grid", "track"], default="grid", help="Observation mode")
-    parser.add_argument("--num_points", type=int, default=300, help="Number of observation points (not including calibration points)")
+    parser.add_argument("--num_points", type=int, default=400, help="Number of observation points (not including calibration points)")
     args = parser.parse_args()
 
     telescope = LeuschTelescope()
