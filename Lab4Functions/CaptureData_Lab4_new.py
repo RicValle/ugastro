@@ -104,9 +104,8 @@ def precompute_observation_plan(mode="grid", num_points=300):
             sorted_counter += 1
         
         plan = sorted(with_cal, key=lambda p:(p.ra, p.dec))
-        plan_serializable = [asdict(p) for p in plan]
-        log_queue.put({"event": "Plan Precomputation", "plan": plan_serializable})
         print("Done Precomputing Plan")
+        print(plan)
 
         return plan
 
@@ -271,18 +270,6 @@ def log_thread(log_queue, terminate_flag):
                 if entry is None:
                     break
 
-                def clean(obj):
-                    if isinstance(obj, np.generic):
-                        return obj.item()
-                    elif isinstance(obj, dict):
-                        return {k: clean(v) for k, v in obj.items()}
-                    elif isinstance(obj, list):
-                        return [clean(x) for x in obj]
-                    else:
-                        return obj
-                    
-                entry = clean(entry)
-
                 entry["time"] = datetime.utcnow().isoformat()
                 log_file.write(json.dumps(entry) + "\n")
             except Empty:
@@ -318,12 +305,12 @@ if __name__ == "__main__":
 
     plan = precompute_observation_plan(mode=args.mode, num_points=args.num_points)
 
-    threading.Thread(target=pointing_thread, args=(telescope, pointing_queue, pointing_done, log_queue, terminate_flag), daemon=True).start()
-    threading.Thread(target=data_thread_single, args=(sdr_list[0], noise_diode, data_queue, save_queue, log_queue, terminate_flag), daemon=True).start()
-    threading.Thread(target=data_thread_single, args=(sdr_list[1], noise_diode, data_queue, save_queue, log_queue, terminate_flag), daemon=True).start()
-    threading.Thread(target=fft_thread, args=(raw_data_queue, save_queue, log_queue, terminate_flag), daemon=True).start()
-    threading.Thread(target=save_thread, args=(save_queue, log_queue, terminate_flag), daemon=True).start()
-    threading.Thread(target=log_thread, args=(log_queue, terminate_flag), daemon=True).start()
+    threading.Thread(target=pointing_thread, args=(telescope, pointing_queue, pointing_done, log_queue, terminate_flag), name="PointingThread", daemon=True).start()
+    threading.Thread(target=data_thread_single, args=(sdr_list[0], noise_diode, data_queue, raw_data_queue, log_queue, terminate_flag), name="DataThread-0", daemon=True).start()
+    threading.Thread(target=data_thread_single, args=(sdr_list[1], noise_diode, data_queue, raw_data_queue, log_queue, terminate_flag), name="DataThread-1", daemon=True).start()
+    threading.Thread(target=fft_thread, args=(raw_data_queue, save_queue, log_queue, terminate_flag), name="FFFTThread", daemon=True).start()
+    threading.Thread(target=save_thread, args=(save_queue, log_queue, terminate_flag), name="SaveThread", daemon=True).start()
+    threading.Thread(target=log_thread, args=(log_queue, terminate_flag), name="LogThread", daemon=True).start()
     
 	# Ensure noise diode is OFF before starting
     dummy_point = ObservationPoint(
