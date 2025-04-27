@@ -24,7 +24,7 @@ SAMPLE_RATE = 2.2e6     # Sample rate of SDRs
 USB_FREQ = 1420e6       # Center frequency of SDRs
 LSB_FREQ = 1420.81150357e6
 GAIN = 0                # Internal gain of SDRs
-DATE = "4_22_1"         # month_day_attempt
+DATE = "4_26_2"         # month_day_attempt
 SAVE_BASE_PATH = "./Lab4Data//" + DATE
 POLARIZATION_LABELS = {0: "pol0", 1: "pol1"}  # Map device_index to folder/polarization
 
@@ -88,6 +88,7 @@ def precompute_observation_plan(mode="grid", num_points=300):
                     is_calibration=False, mode="grid"
                 )
                 raw_points.append(point)
+                log_queue.put({"event": "Plan Precomputation", "point": point})
                 id_counter += 1
 
         sorted_counter = 0
@@ -101,7 +102,6 @@ def precompute_observation_plan(mode="grid", num_points=300):
                 sorted_counter += 1
         
         plan = sorted(with_cal, key=lambda p:(p.ra, p.dec))
-        log_queue.put({"event": "Observation Plan", "plan": plan})
 
         return plan
 
@@ -117,8 +117,6 @@ def precompute_observation_plan(mode="grid", num_points=300):
             plan.append(point)
             id_counter += 1
         
-        log_queue.put({"event": "Observation Plan", "plan": plan})
-
         return plan
 
 # ===============================
@@ -302,19 +300,13 @@ if __name__ == "__main__":
         terminate_flag.set()
         telescope.stow()
         log_queue.put({"event": "shutdown"})
-        with open(os.path.join(SAVE_BASE_PATH, "log.jsonl"), "a") as log_file:
-            while not log_queue.empty():
-                try:
-                    entry = log_queue.get(timeout=2)
-                    entry["time"] = datetime.utcnow().isoformat()
-                    log_file.write(json.dumps(entry) + "\n")
-                except Empty:
-                    continue
-            log_queue.put({"Failed Pointings:"})
-            while not failed_queue.empty():
-                try:
-                    entry = failed_queue.get(timeout=2)
-                    entry["time"] = datetime.utcnow().isoformat()
-                    log_file.write(json.dumps(entry) + "\n")
-                except Empty:
-                    continue    
+        print("Waiting for log thread to finish...")
+        if not failed_queue.empty():
+            with open(os.path.join(SAVE_BASE_PATH, "failed_points.jsonl"), "a") as fail_log:
+                while not failed_queue.empty():
+                    try:
+                        entry = failed_queue.get(timeout=2)
+                        entry["time"] = datetime.utcnow().isoformat()
+                        fail_log.write(json.dumps(entry) + "\n")
+                    except Empty:
+                        continue   
