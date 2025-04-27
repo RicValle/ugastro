@@ -147,7 +147,7 @@ def pointing_thread(telescope, pointing_queue, pointing_done, log_queue, termina
             telescope.point(alt, az)
             time.sleep(5)
             pointing_done.set()
-            log_queue.put({"event": "pointed", "id": point.id, "l": point.gal_l, "b": point.gal_b, "ra":point.ra, "dec":point.dec, "alt": alt, "az": az, "time": datetime.utcnow().isoformat()})
+            log_queue.put({"event": "pointed", "id": point.id, "l": point.gal_l, "b": point.gal_b, "ra": point.ra, "dec": point.dec, "alt": alt, "az": az, "time": datetime.utcnow().isoformat()})
         except Empty:
             continue
 
@@ -172,26 +172,24 @@ def data_thread_single(sdr: sdr.SDR, noise_diode, data_queue, raw_data_queue, lo
                 except Exception as e:
                     log_queue.put({"event": "cal_off_error", "message": str(e), "point_id": task.pointing.id})
 
+            try:
+                if task.mode == "LSB":
+                    sdr.set_center_freq(LSB_FREQ)
+                else:
+                    sdr.set_center_freq(USB_FREQ)
 
-            for sdr in sdr_list:
-                try:
-                    if task.mode == "LSB":
-                        sdr.set_center_freq(LSB_FREQ)
-                    else:
-                        sdr.set_center_freq(USB_FREQ)
+                raw = sdr.capture_data(nsamples=NSAMPLES, nblocks=NBLOCKS)
+                raw_data_queue.put((sdr.device_index, raw, task.mode, task.pointing))
+                log_queue.put({
+                    "event": "raw_captured",
+                    "device_index": sdr.device_index,
+                    "pointing_id": task.pointing.id,
+                    "mode": task.mode,
+                    "timestamp": datetime.utcnow().isoformat()
+                })
 
-                    raw = sdr.capture_data(nsamples=NSAMPLES, nblocks=NBLOCKS)
-                    raw_data_queue.put((sdr.device_index, raw, task.mode, task.pointing))
-                    log_queue.put({
-                        "event": "raw_captured",
-                        "device_index": sdr.device_index,
-                        "pointing_id": task.pointing.id,
-                        "mode": task.mode,
-                        "timestamp": datetime.utcnow().isoformat()
-                    })
-
-                except Exception as e:
-                    log_queue.put({"event": "error collecting raw data", "message": str(e), "id": task.pointing.id})
+            except Exception as e:
+                log_queue.put({"event": "error collecting raw data", "message": str(e), "id": task.pointing.id})
         except Exception as e:
             log_queue.put({"event": "error interacting with telescope", "message": str(e), "id": task.pointing.id})
 
@@ -266,7 +264,7 @@ def save_thread(save_queue, log_queue, terminate_flag):
 def log_thread(log_queue, terminate_flag):
     os.makedirs(SAVE_BASE_PATH, exist_ok=True)
     with open(os.path.join(SAVE_BASE_PATH, "log.jsonl"), "a") as log_file:
-        while not terminate_flag.is_set():
+        while not terminate_flag.is_set() or not log_queue.empty():
             try:
                 entry = log_queue.get(timeout=2)
                 if entry is None:
@@ -342,7 +340,6 @@ if __name__ == "__main__":
         data_queue.put(None)
         raw_data_queue.put(None)
         save_queue.put(None)
-        log_queue.put(None)
         try:
             telescope.stow()
         except Exception as e:
