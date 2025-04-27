@@ -250,6 +250,18 @@ def log_thread(log_queue, terminate_flag):
                 if entry is None:
                     break
 
+                def clean(obj):
+                    if isinstance(obj, np.generic):
+                        return obj.item()
+                    elif isinstance(obj, dict):
+                        return {k: clean(v) for k, v in obj.items()}
+                    elif isinstance(obj, list):
+                        return [clean(x) for x in obj]
+                    else:
+                        return obj
+                    
+                entry = clean(entry)
+
                 entry["time"] = datetime.utcnow().isoformat()
                 log_file.write(json.dumps(entry) + "\n")
             except Empty:
