@@ -24,7 +24,7 @@ SAMPLE_RATE = 2.2e6     # Sample rate of SDRs
 USB_FREQ = 1420e6       # Center frequency of SDRs
 LSB_FREQ = 1420.81150357e6
 GAIN = 0                # Internal gain of SDRs
-DATE = "4_26_2"         # month_day_attempt
+DATE = "4_28_1"         # month_day_attempt
 SAVE_BASE_PATH = "./Lab4Data//" + DATE
 POLARIZATION_LABELS = {0: "pol0", 1: "pol1"}  # Map device_index to folder/polarization
 
@@ -329,7 +329,7 @@ def log_thread(log_queue, terminate_flag):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="SDR HI Mapping Script")
     parser.add_argument("--mode", choices=["grid", "track"], default="grid", help="Observation mode")
-    parser.add_argument("--num_points", type=int, default=300, help="Number of observation points (not including calibration points)")
+    parser.add_argument("--num_points", type=int, default=400, help="Number of observation points (not including calibration points)")
     args = parser.parse_args()
     ts_print(f"[Main] Started script.")
 
