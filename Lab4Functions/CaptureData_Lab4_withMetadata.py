@@ -106,6 +106,7 @@ def precompute_observation_plan(mode="grid", num_points=300):
         plan = sorted(with_cal, key=lambda p:(p.ra, p.dec))
         plan_serializable = [asdict(p) for p in plan]
         log_queue.put({"event": "Plan Precomputation", "plan": plan_serializable})
+        print("Done Precomputing Plan")
 
         return plan
 
