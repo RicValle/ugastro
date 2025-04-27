@@ -18,7 +18,7 @@ import astropy.units as u
 # Configuration Parameters
 # ===============================
 NSAMPLES = 2048 	    # Number of samples per FFT block
-NBLOCKS = 4300			# Number of FFT blocks to average per observation point
+NBLOCKS = 17200			# Number of FFT blocks to average per observation point
 CAL_INTERVAL = 4	    # Repeat every N point with calibration diode on 
 SAMPLE_RATE = 2.2e6     # Sample rate of SDRs
 USB_FREQ = 1420e6       # Center frequency of SDRs
@@ -296,14 +296,23 @@ if __name__ == "__main__":
                 data_queue.put(DataTask("LSB", point))
                 data_queue.put(DataTask("USB", point))
 
-            time.sleep(24)
+            time.sleep(3)
     except KeyboardInterrupt:
         print("\nInterrupted. Stopping observation...")
     finally:
         terminate_flag.set()
-        telescope.stow()
+        try:
+            telescope.stow()
+        except Exception as e:
+            print(f"Error stowing telescope: {e}")
         log_queue.put({"event": "shutdown"})
         print("Waiting for log thread to finish...")
+
+        for thread in threading.enumerate():
+            if thread is not threading.current_thread():
+                print(f"Joining thread {thread.name}...")
+                thread.join(timeout=10)  # wait up to 10 seconds per thread
+
         if not failed_queue.empty():
             with open(os.path.join(SAVE_BASE_PATH, "failed_points.jsonl"), "a") as fail_log:
                 while not failed_queue.empty():
