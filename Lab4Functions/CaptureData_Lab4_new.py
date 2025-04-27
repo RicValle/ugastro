@@ -18,7 +18,7 @@ import astropy.units as u
 # Configuration Parameters
 # ===============================
 NSAMPLES = 2048 	    # Number of samples per FFT block
-NBLOCKS = 17200			# Number of FFT blocks to average per observation point
+NBLOCKS = 4300			# Number of FFT blocks to average per observation point
 CAL_INTERVAL = 4	    # Repeat every N point with calibration diode on 
 SAMPLE_RATE = 2.2e6     # Sample rate of SDRs
 USB_FREQ = 1420e6       # Center frequency of SDRs
@@ -72,7 +72,7 @@ def average_power_spectrum(raw_data_blocks: np.ndarray, direct=True) -> np.ndarr
 
     return np.mean(power_spectra, axis=0)
 
-def precompute_observation_plan(mode="grid", num_points=300):
+def precompute_observation_plan(mode="grid", num_points=50):
     # Creates list of observation point objects
     plan = []
     id_counter = 0
@@ -82,12 +82,14 @@ def precompute_observation_plan(mode="grid", num_points=300):
         for b in np.arange(15, 52, 2):
             delta_l = 2 / np.cos(np.radians(b))
             for l in np.arange(105, 162, delta_l):
+                if id_counter > num_points:
+                    continue
+
                 ra, dec = galactic_to_equatorial(l, b)
                 point = ObservationPoint(
                     id=id_counter, gal_l=l, gal_b=b, ra=ra, dec=dec,
                     is_calibration=False, mode="grid"
                 )
-                raw_points.append(point)
                 id_counter += 1
 
         sorted_counter = 0
