@@ -111,7 +111,6 @@ def precompute_observation_plan(mode="grid", num_points=300):
             sorted_counter += 1
         
         plan = sorted(with_cal, key=lambda p:(p.ra, p.dec))
-        ts_print(f"[PlanGeneration] Point id = {p.id}; (l, b) = ({round(l, 3)}, {round(b, 3)}).")
 
         return plan
 
@@ -152,10 +151,11 @@ def pointing_thread(telescope, pointing_queue, pointing_done, log_queue, termina
                 failed_queue.put({"event": "skip", "id": point.id, "reason": "invalid alt/az", "alt": alt, "az": az})
                 continue
             
-            telescope.point(alt, az)
-            ts_print(f"[PointingThread] Pointed at ID {point.id} successfully.")
+            telescope.point(alt, az, wait=True, verbose=True)
             time.sleep(5)
             pointing_done.set()
+            alt_act, az_act = telescope.get_pointing()
+            ts_print(f"[PointingThread] Sucessful pointing to ID {point.id}: alt={alt_act:.2f}, az={az_act:.2f}.")
             log_queue.put({"event": "pointed", "id": point.id, "l": point.gal_l, "b": point.gal_b, "ra":point.ra, "dec":point.dec, "alt": alt, "az": az, "time": datetime.utcnow().isoformat()})
         except Empty:
             continue
@@ -409,7 +409,6 @@ if __name__ == "__main__":
         data_queue.put(None)
         fft_queue.put(None)
         save_queue.put(None)
-        log_queue.put(None)
         try:
             telescope.stow()
         except Exception as e:
@@ -417,6 +416,7 @@ if __name__ == "__main__":
         log_queue.put({"event": "shutdown"})
         ts_print("Waiting for log thread to finish...")
         time.sleep(3)
+        log_queue.put(None)
 
         for thread in threading.enumerate():
             if thread is not threading.current_thread():
