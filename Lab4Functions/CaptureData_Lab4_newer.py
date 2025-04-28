@@ -142,7 +142,7 @@ def pointing_thread(telescope, pointing_queue, pointing_done, log_queue, termina
                 break
 
             jd = timing.julian_date()
-            alt, az = coord.get_altaz(point.ra, point.dec, jd)
+            alt, az = coord.get_altaz(point.ra, point.dec, jd, leo.lat, leo.lon, leo.alt)
             ts_print(f"[PointingThread] Trying to point to ID {point.id}: alt={alt:.2f}, az={az:.2f}")
 
             is_valid = (14 < alt < 85) and (5 < az < 350)
