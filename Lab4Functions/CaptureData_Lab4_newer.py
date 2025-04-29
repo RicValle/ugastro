@@ -65,7 +65,7 @@ def galactic_to_equatorial(l, b):
     
     return c.icrs.ra.deg, c.icrs.dec.deg
 
-def average_power_spectrum(raw_data_blocks: np.ndarray, direct=True) -> np.ndarray:
+def average_power_spectrum(raw_data_blocks: np.ndarray, direct=False) -> np.ndarray:
     if direct:
         fft_blocks = np.fft.rfft(raw_data_blocks, axis=1)
     else:
@@ -226,7 +226,7 @@ def fft_thread(fft_queue, save_queue, log_queue, terminate_flag):
 
             device_index, raw_data, mode, pointing = item
             ts_print(f"[FFTThread] FFT processing for ID {pointing.id}, device {device_index}, mode {mode}")
-            avg_spectrum = average_power_spectrum(raw_data)
+            avg_spectrum = average_power_spectrum(raw_data, direct=False)
             ts_print(f"[FFTThread] FFT done.")
 
             result = DataResult(
