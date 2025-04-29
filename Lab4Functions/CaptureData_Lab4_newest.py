@@ -416,6 +416,11 @@ if __name__ == "__main__":
         ts_print("Waiting for log thread to finish...")
         time.sleep(3)
 
+        try:
+            noise_diode.off()
+        except Exception as e:
+            ts_print(f"[Main] Error turning off noise diode at shutdown: {e}")
+
         for thread in threading.enumerate():
             if thread is not threading.current_thread():
                 ts_print(f"Joining thread {thread.name}...")
