@@ -407,7 +407,6 @@ if __name__ == "__main__":
         terminate_flag.set()
         pointing_queue.put(None)
         data_queue.put(None)
-        fft_queue.put(None)
         save_queue.put(None)
         try:
             telescope.stow()
