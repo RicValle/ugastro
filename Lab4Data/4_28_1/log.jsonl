@@ -1,0 +1,3 @@
+{"event": "Initialization", "NSAMPLES": 2048, "CAL_INTERVAL": 4, "SAMPLE_RATE": 2200000.0, "USB_FREQ": 1420000000.0, "LSB_FREQ": 1420811503.57, "time": "2025-04-29T01:06:36.820279"}
+{"event": "skip", "id": 118, "reason": "invalid alt/az", "time": "2025-04-29T01:06:57.707061"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": -1, "mode": "init", "timestamp": "2025-04-29T01:07:19.921828", "time": "2025-04-29T01:07:19.922090"}
