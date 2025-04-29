@@ -149,14 +149,16 @@ def pointing_thread(telescope, pointing_queue, pointing_done, log_queue, termina
                 ts_print(f"[PointingThread] Skipping ID {point.id}: invalid alt/az")
                 log_queue.put({"event": "skip", "id": point.id, "reason": "invalid alt/az"})
                 failed_queue.put({"event": "skip", "id": point.id, "reason": "invalid alt/az", "alt": alt, "az": az})
+                pointing_result_queue.put((point.id, False))  # REPORT SKIPPED
                 continue
             
             telescope.point(alt, az, wait=True, verbose=True)
-            time.sleep(5)
+            time.sleep(20)
             pointing_done.set()
             alt_act, az_act = telescope.get_pointing()
             ts_print(f"[PointingThread] Sucessful pointing to ID {point.id}: alt={alt_act:.2f}, az={az_act:.2f}.")
             log_queue.put({"event": "pointed", "id": point.id, "l": point.gal_l, "b": point.gal_b, "ra":point.ra, "dec":point.dec, "alt": alt, "az": az, "time": datetime.utcnow().isoformat()})
+            pointing_result_queue.put((point.id, True))  # REPORT SUCCESS
         except Empty:
             continue
         except Exception as e:
@@ -239,6 +241,7 @@ def fft_thread(fft_queue, save_queue, log_queue, terminate_flag):
 
             save_queue.put(result)
             ts_print(f"[FFTThread] Result stored pushed to Save queue.")
+            data_done.set()
 
             log_queue.put({
                 "event": "fft_processed",
@@ -354,6 +357,8 @@ if __name__ == "__main__":
     failed_queue = Queue()
     terminate_flag = threading.Event()
     pointing_done = threading.Event()
+    pointing_result_queue = Queue()
+    data_done = threading.Event()
 
     ts_print(f"[Main] Generating observation plan.")
     plan = precompute_observation_plan(mode=args.mode, num_points=args.num_points)
@@ -392,13 +397,29 @@ if __name__ == "__main__":
             pointing_done.wait(timeout=60)
             ts_print(f"[Main] Pointing done.")
 
+            success = False
+            try:
+                result_id, success = pointing_result_queue.get(timeout=5)
+            except Empty:
+                ts_print(f"[Main] WARNING: No pointing result received.")
+
+            if not success:
+                ts_print(f"[Main] Skipping data collection for ID {point.id}.")
+                continue  # Don't collect data for skipped points!
+
+            ts_print(f"[Main] Pointing done.")
+
             if point.is_calibration:
+                data_done.clear()
                 data_queue.put(DataTask("cal_on", point))
                 ts_print(f"[Main] Calibration task added.")
+                data_done.wait(timeout=60)
             else:
+                data_done.clear()
                 data_queue.put(DataTask("LSB", point))
                 data_queue.put(DataTask("USB", point))
                 ts_print(f"[Main] USB and LSB task added.")
+                data_done.wait(timeout=90)
 
             time.sleep(3)
     except KeyboardInterrupt:
@@ -416,7 +437,6 @@ if __name__ == "__main__":
         log_queue.put({"event": "shutdown"})
         ts_print("Waiting for log thread to finish...")
         time.sleep(3)
-        log_queue.put(None)
 
         for thread in threading.enumerate():
             if thread is not threading.current_thread():
