@@ -1,0 +1,327 @@
+{"event": "skip", "id": 118, "reason": "invalid alt/az", "alt": 34.07606262240373, "az": 1.4658111425842606, "time": "2025-04-30T07:10:02.745358"}
+{"event": "skip", "id": 91, "reason": "invalid alt/az", "alt": 32.1451640443387, "az": 2.1441529830151564, "time": "2025-04-30T07:10:02.777371"}
+{"event": "skip", "id": 91, "reason": "invalid alt/az", "alt": 32.14517864959576, "az": 2.144211947821466, "time": "2025-04-30T07:10:02.806072"}
+{"event": "skip", "id": 145, "reason": "invalid alt/az", "alt": 36.00034999232013, "az": 0.7337491841520428, "time": "2025-04-30T07:10:02.834858"}
+{"event": "skip", "id": 145, "reason": "invalid alt/az", "alt": 36.00035120619709, "az": 0.7337541621428192, "time": "2025-04-30T07:10:02.864262"}
+{"event": "skip", "id": 64, "reason": "invalid alt/az", "alt": 30.2077405645669, "az": 2.771370045018156, "time": "2025-04-30T07:10:02.893015"}
+{"event": "skip", "id": 36, "reason": "invalid alt/az", "alt": 28.264518092823355, "az": 3.352385746097839, "time": "2025-04-30T07:10:02.921887"}
+{"event": "skip", "id": 8, "reason": "invalid alt/az", "alt": 26.316015105390477, "az": 3.891082059805017, "time": "2025-04-30T07:10:02.951216"}
+{"event": "skip", "id": 9, "reason": "invalid alt/az", "alt": 25.99136516070286, "az": 1.6924667386099521, "time": "2025-04-30T07:10:02.979862"}
+{"event": "skip", "id": 9, "reason": "invalid alt/az", "alt": 25.991367956845753, "az": 1.6924943539731745, "time": "2025-04-30T07:10:03.008476"}
+{"event": "skip", "id": 37, "reason": "invalid alt/az", "alt": 27.93280997535277, "az": 1.1165861911506505, "time": "2025-04-30T07:10:03.073465"}
+{"event": "skip", "id": 37, "reason": "invalid alt/az", "alt": 27.932814150676858, "az": 1.1166395272141842, "time": "2025-04-30T07:10:03.102236"}
+{"event": "skip", "id": 65, "reason": "invalid alt/az", "alt": 29.86813842897803, "az": 0.49471028577604287, "time": "2025-04-30T07:10:03.130940"}
+{"event": "skip", "id": 65, "reason": "invalid alt/az", "alt": 29.868139245030182, "az": 0.4947296430872797, "time": "2025-04-30T07:10:03.160206"}
+{"event": "skip", "id": 171, "reason": "invalid alt/az", "alt": 37.91661836739783, "az": 359.93979938699187, "time": "2025-04-30T07:10:03.188773"}
+{"event": "skip", "id": 171, "reason": "invalid alt/az", "alt": 37.91661826799604, "az": 359.93979939168383, "time": "2025-04-30T07:10:03.217598"}
+{"event": "skip", "id": 92, "reason": "invalid alt/az", "alt": 31.7967775754373, "az": 359.8227818066182, "time": "2025-04-30T07:10:03.247031"}
+{"event": "skip", "id": 10, "reason": "invalid alt/az", "alt": 25.652044074624843, "az": 359.5030509800855, "time": "2025-04-30T07:10:03.275636"}
+{"event": "skip", "id": 38, "reason": "invalid alt/az", "alt": 27.5861429161228, "az": 358.8908217743957, "time": "2025-04-30T07:10:03.304295"}
+{"event": "skip", "id": 119, "reason": "invalid alt/az", "alt": 33.718067961430826, "az": 359.09618535423215, "time": "2025-04-30T07:10:03.333787"}
+{"event": "skip", "id": 119, "reason": "invalid alt/az", "alt": 33.71806642782843, "az": 359.0961962122047, "time": "2025-04-30T07:10:03.362602"}
+{"event": "skip", "id": 66, "reason": "invalid alt/az", "alt": 29.513257433223824, "az": 358.22906961254324, "time": "2025-04-30T07:10:03.391330"}
+{"event": "skip", "id": 11, "reason": "invalid alt/az", "alt": 25.298570574621056, "az": 357.32258526292185, "time": "2025-04-30T07:10:03.420729"}
+{"event": "skip", "id": 11, "reason": "invalid alt/az", "alt": 25.298566064675658, "az": 357.3226148854542, "time": "2025-04-30T07:10:03.449418"}
+{"event": "skip", "id": 39, "reason": "invalid alt/az", "alt": 27.225094647957384, "az": 356.67505576642907, "time": "2025-04-30T07:10:03.477967"}
+{"event": "skip", "id": 39, "reason": "invalid alt/az", "alt": 27.225089179220156, "az": 356.6750807875357, "time": "2025-04-30T07:10:03.507235"}
+{"event": "skip", "id": 93, "reason": "invalid alt/az", "alt": 31.43273965557239, "az": 357.5135206213529, "time": "2025-04-30T07:10:03.535987"}
+{"event": "skip", "id": 93, "reason": "invalid alt/az", "alt": 31.432735536040983, "az": 357.51353660900077, "time": "2025-04-30T07:10:03.564667"}
+{"event": "skip", "id": 12, "reason": "invalid alt/az", "alt": 24.931521357118175, "az": 355.1513579769849, "time": "2025-04-30T07:10:03.593926"}
+{"event": "skip", "id": 67, "reason": "invalid alt/az", "alt": 29.14372887281002, "az": 355.97459007971946, "time": "2025-04-30T07:10:03.622747"}
+{"event": "skip", "id": 67, "reason": "invalid alt/az", "alt": 29.143722216528477, "az": 355.97461120249574, "time": "2025-04-30T07:10:03.651357"}
+{"event": "skip", "id": 40, "reason": "invalid alt/az", "alt": 26.850266535336146, "az": 354.4695112485666, "time": "2025-04-30T07:10:03.680631"}
+{"event": "skip", "id": 13, "reason": "invalid alt/az", "alt": 24.55150408024541, "az": 352.98935290657806, "time": "2025-04-30T07:10:03.709312"}
+{"event": "skip", "id": 13, "reason": "invalid alt/az", "alt": 24.55149253968149, "az": 352.98938369201585, "time": "2025-04-30T07:10:03.738071"}
+{"event": "skip", "id": 146, "reason": "invalid alt/az", "alt": 35.63121183817513, "az": 358.30978541056913, "time": "2025-04-30T07:10:03.766790"}
+{"event": "skip", "id": 120, "reason": "invalid alt/az", "alt": 33.343828775706875, "az": 356.73934705895203, "time": "2025-04-30T07:10:03.796300"}
+{"event": "skip", "id": 94, "reason": "invalid alt/az", "alt": 31.053756616365018, "az": 355.21669098146504, "time": "2025-04-30T07:10:03.825080"}
+{"event": "skip", "id": 68, "reason": "invalid alt/az", "alt": 28.760197301341343, "az": 353.73141820488763, "time": "2025-04-30T07:10:03.853896"}
+{"event": "skip", "id": 41, "reason": "invalid alt/az", "alt": 26.462278104160617, "az": 352.27424242098255, "time": "2025-04-30T07:10:03.882681"}
+{"event": "skip", "id": 41, "reason": "invalid alt/az", "alt": 26.462265375427886, "az": 352.27426947698143, "time": "2025-04-30T07:10:03.912276"}
+{"event": "skip", "id": 14, "reason": "invalid alt/az", "alt": 24.159044790023113, "az": 350.8367918699665, "time": "2025-04-30T07:10:03.941048"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 15, "mode": "LSB", "time": "2025-04-30T07:12:28.154428"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_15_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:12:28.161611"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 15, "mode": "LSB", "time": "2025-04-30T07:12:37.073603"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_15_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:12:37.078195"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 15, "mode": "USB", "time": "2025-04-30T07:13:02.071599"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_15_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:13:02.072560"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 15, "mode": "USB", "time": "2025-04-30T07:13:10.974936"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_15_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:13:10.979323"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 15, "mode": "cal_on", "time": "2025-04-30T07:14:03.452786"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_15_cal_on.npz", "mode": "cal_on", "device_index": 0, "time": "2025-04-30T07:14:03.459040"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 15, "mode": "cal_on", "time": "2025-04-30T07:14:12.364265"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_15_cal_on.npz", "mode": "cal_on", "device_index": 1, "time": "2025-04-30T07:14:12.368353"}
+{"event": "skip", "id": 42, "reason": "invalid alt/az", "alt": 25.92094349685599, "az": 350.3365920695709, "time": "2025-04-30T07:14:15.443515"}
+{"event": "skip", "id": 69, "reason": "invalid alt/az", "alt": 28.24229698429129, "az": 351.7036845735685, "time": "2025-04-30T07:14:15.472476"}
+{"event": "skip", "id": 69, "reason": "invalid alt/az", "alt": 28.242283187948395, "az": 351.70370823450133, "time": "2025-04-30T07:14:15.501174"}
+{"event": "skip", "id": 95, "reason": "invalid alt/az", "alt": 30.559692656622396, "az": 353.09132908258886, "time": "2025-04-30T07:14:15.530879"}
+{"event": "skip", "id": 95, "reason": "invalid alt/az", "alt": 30.559680884295727, "az": 353.0913479542966, "time": "2025-04-30T07:14:15.559502"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 16, "mode": "LSB", "time": "2025-04-30T07:15:07.178250"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_16_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:15:07.184595"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 16, "mode": "LSB", "time": "2025-04-30T07:15:16.098047"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_16_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:15:16.102493"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 16, "mode": "USB", "time": "2025-04-30T07:15:41.120861"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_16_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:15:41.121058"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 16, "mode": "USB", "time": "2025-04-30T07:15:50.023482"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_16_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:15:50.027815"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 43, "mode": "LSB", "time": "2025-04-30T07:16:48.045408"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_43_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:16:48.045611"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 43, "mode": "LSB", "time": "2025-04-30T07:16:56.909319"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_43_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:16:56.913628"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 43, "mode": "USB", "time": "2025-04-30T07:17:21.961407"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_43_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:17:21.966548"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 43, "mode": "USB", "time": "2025-04-30T07:17:30.815184"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_43_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:17:30.819455"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 43, "mode": "cal_on", "time": "2025-04-30T07:18:21.277495"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_43_cal_on.npz", "mode": "cal_on", "device_index": 0, "time": "2025-04-30T07:18:21.277700"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 43, "mode": "cal_on", "time": "2025-04-30T07:18:30.190142"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_43_cal_on.npz", "mode": "cal_on", "device_index": 1, "time": "2025-04-30T07:18:30.194640"}
+{"event": "skip", "id": 121, "reason": "invalid alt/az", "alt": 32.7937740605144, "az": 354.6239988087122, "time": "2025-04-30T07:18:33.260900"}
+{"event": "skip", "id": 121, "reason": "invalid alt/az", "alt": 32.79375473994973, "az": 354.624027167726, "time": "2025-04-30T07:18:33.305882"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 70, "mode": "LSB", "time": "2025-04-30T07:19:28.352525"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_70_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:19:28.352713"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 70, "mode": "LSB", "time": "2025-04-30T07:19:37.449881"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_70_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:19:37.450005"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 70, "mode": "USB", "time": "2025-04-30T07:20:02.503422"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_70_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:20:02.507615"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 70, "mode": "USB", "time": "2025-04-30T07:20:11.425646"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_70_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:20:11.430000"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 17, "mode": "LSB", "time": "2025-04-30T07:21:13.890481"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_17_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:21:13.890716"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 17, "mode": "LSB", "time": "2025-04-30T07:21:22.825796"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_17_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:21:22.830218"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 17, "mode": "USB", "time": "2025-04-30T07:21:47.890519"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_17_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:21:47.890720"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 17, "mode": "USB", "time": "2025-04-30T07:21:56.821569"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_17_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:21:56.825962"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 17, "mode": "cal_on", "time": "2025-04-30T07:22:48.221662"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_17_cal_on.npz", "mode": "cal_on", "device_index": 0, "time": "2025-04-30T07:22:48.222970"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 17, "mode": "cal_on", "time": "2025-04-30T07:22:57.195829"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_17_cal_on.npz", "mode": "cal_on", "device_index": 1, "time": "2025-04-30T07:22:57.200240"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 44, "mode": "LSB", "time": "2025-04-30T07:23:55.241439"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_44_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:23:55.246351"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 44, "mode": "LSB", "time": "2025-04-30T07:24:04.183560"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_44_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:24:04.188010"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 44, "mode": "USB", "time": "2025-04-30T07:24:29.251578"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_44_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:24:29.254279"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 44, "mode": "USB", "time": "2025-04-30T07:24:38.180180"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_44_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:24:38.184645"}
+{"event": "skip", "id": 96, "reason": "invalid alt/az", "alt": 29.799596166202516, "az": 351.26267700360324, "time": "2025-04-30T07:24:41.266713"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 18, "mode": "LSB", "time": "2025-04-30T07:25:37.359072"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_18_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:25:37.359266"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 18, "mode": "LSB", "time": "2025-04-30T07:25:46.277320"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_18_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:25:46.281838"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 18, "mode": "USB", "time": "2025-04-30T07:26:11.348140"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_18_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:26:11.348330"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 18, "mode": "USB", "time": "2025-04-30T07:26:20.272605"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_18_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:26:20.276959"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 71, "mode": "LSB", "time": "2025-04-30T07:27:22.706593"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_71_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:27:22.706793"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 71, "mode": "LSB", "time": "2025-04-30T07:27:31.628383"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_71_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:27:31.632927"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 71, "mode": "USB", "time": "2025-04-30T07:27:56.691579"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_71_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:27:56.693496"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 71, "mode": "USB", "time": "2025-04-30T07:28:05.607002"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_71_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:28:05.611432"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 71, "mode": "cal_on", "time": "2025-04-30T07:28:55.922493"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_71_cal_on.npz", "mode": "cal_on", "device_index": 0, "time": "2025-04-30T07:28:55.922686"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 71, "mode": "cal_on", "time": "2025-04-30T07:29:04.852792"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_71_cal_on.npz", "mode": "cal_on", "device_index": 1, "time": "2025-04-30T07:29:04.857135"}
+{"event": "skip", "id": 147, "reason": "invalid alt/az", "alt": 34.985624646206745, "az": 356.19312645560296, "time": "2025-04-30T07:29:07.932874"}
+{"event": "skip", "id": 147, "reason": "invalid alt/az", "alt": 34.98561004771766, "az": 356.19314419991525, "time": "2025-04-30T07:29:07.961774"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 45, "mode": "LSB", "time": "2025-04-30T07:30:04.059914"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_45_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:30:04.060109"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 45, "mode": "LSB", "time": "2025-04-30T07:30:12.994281"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_45_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:30:12.998600"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 45, "mode": "USB", "time": "2025-04-30T07:30:38.060466"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_45_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:30:38.060648"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 45, "mode": "USB", "time": "2025-04-30T07:30:47.011984"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_45_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:30:47.016353"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 45, "mode": "cal_on", "time": "2025-04-30T07:31:38.429727"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_45_cal_on.npz", "mode": "cal_on", "device_index": 0, "time": "2025-04-30T07:31:38.429927"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 45, "mode": "cal_on", "time": "2025-04-30T07:31:47.367979"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_45_cal_on.npz", "mode": "cal_on", "device_index": 1, "time": "2025-04-30T07:31:47.372469"}
+{"event": "skip", "id": 122, "reason": "invalid alt/az", "alt": 31.980455279632586, "az": 352.7272244997226, "time": "2025-04-30T07:31:50.443752"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 19, "mode": "LSB", "time": "2025-04-30T07:32:46.547767"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_19_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:32:46.547964"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 19, "mode": "LSB", "time": "2025-04-30T07:32:55.538026"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_19_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:32:55.542546"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 19, "mode": "USB", "time": "2025-04-30T07:33:20.600182"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_19_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:33:20.600381"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 19, "mode": "USB", "time": "2025-04-30T07:33:29.517225"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_19_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:33:29.521449"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 19, "mode": "cal_on", "time": "2025-04-30T07:34:20.929419"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_19_cal_on.npz", "mode": "cal_on", "device_index": 0, "time": "2025-04-30T07:34:20.929546"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 19, "mode": "cal_on", "time": "2025-04-30T07:34:29.839054"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_19_cal_on.npz", "mode": "cal_on", "device_index": 1, "time": "2025-04-30T07:34:29.839177"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 97, "mode": "LSB", "time": "2025-04-30T07:35:36.754927"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_97_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:35:36.755126"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 97, "mode": "LSB", "time": "2025-04-30T07:35:45.713536"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_97_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:35:45.717954"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 97, "mode": "USB", "time": "2025-04-30T07:36:10.795439"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_97_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:36:10.798961"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 97, "mode": "USB", "time": "2025-04-30T07:36:19.726181"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_97_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:36:19.730436"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 97, "mode": "cal_on", "time": "2025-04-30T07:37:10.047070"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_97_cal_on.npz", "mode": "cal_on", "device_index": 0, "time": "2025-04-30T07:37:10.047267"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 97, "mode": "cal_on", "time": "2025-04-30T07:37:18.980907"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_97_cal_on.npz", "mode": "cal_on", "device_index": 1, "time": "2025-04-30T07:37:18.985398"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 72, "mode": "LSB", "time": "2025-04-30T07:38:19.221773"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_72_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:38:19.225297"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 72, "mode": "LSB", "time": "2025-04-30T07:38:28.159867"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_72_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:38:28.164355"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 72, "mode": "USB", "time": "2025-04-30T07:38:53.231408"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_72_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:38:53.234368"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 72, "mode": "USB", "time": "2025-04-30T07:39:02.182963"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_72_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:39:02.187344"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 46, "mode": "LSB", "time": "2025-04-30T07:40:02.427066"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_46_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:40:02.427261"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 46, "mode": "LSB", "time": "2025-04-30T07:40:11.365419"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_46_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:40:11.369865"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 46, "mode": "USB", "time": "2025-04-30T07:40:36.451534"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_46_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:40:36.452409"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 46, "mode": "USB", "time": "2025-04-30T07:40:45.388014"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_46_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:40:45.392553"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 20, "mode": "LSB", "time": "2025-04-30T07:41:45.624383"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_20_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:41:45.630802"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 20, "mode": "LSB", "time": "2025-04-30T07:41:54.545269"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_20_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:41:54.549687"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 20, "mode": "USB", "time": "2025-04-30T07:42:19.610000"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_20_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:42:19.610188"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 20, "mode": "USB", "time": "2025-04-30T07:42:28.526406"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_20_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:42:28.530807"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 73, "mode": "LSB", "time": "2025-04-30T07:43:30.956106"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_73_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:43:30.956311"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 73, "mode": "LSB", "time": "2025-04-30T07:43:39.863551"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_73_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:43:39.867783"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 73, "mode": "USB", "time": "2025-04-30T07:44:04.936096"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_73_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:44:04.936343"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 73, "mode": "USB", "time": "2025-04-30T07:44:13.862599"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_73_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:44:13.866941"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 73, "mode": "cal_on", "time": "2025-04-30T07:45:04.161475"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_73_cal_on.npz", "mode": "cal_on", "device_index": 0, "time": "2025-04-30T07:45:04.163340"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 73, "mode": "cal_on", "time": "2025-04-30T07:45:13.073805"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_73_cal_on.npz", "mode": "cal_on", "device_index": 1, "time": "2025-04-30T07:45:13.078210"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 98, "mode": "LSB", "time": "2025-04-30T07:46:13.310616"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_98_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:46:13.310817"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 98, "mode": "LSB", "time": "2025-04-30T07:46:22.283088"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_98_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:46:22.287348"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 98, "mode": "USB", "time": "2025-04-30T07:46:47.385388"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_98_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:46:47.385576"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 98, "mode": "USB", "time": "2025-04-30T07:46:56.353814"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_98_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:46:56.358178"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 47, "mode": "LSB", "time": "2025-04-30T07:48:01.100383"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_47_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:48:01.107226"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 47, "mode": "LSB", "time": "2025-04-30T07:48:10.065868"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_47_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:48:10.070328"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 47, "mode": "USB", "time": "2025-04-30T07:48:35.129933"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_47_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:48:35.130128"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 47, "mode": "USB", "time": "2025-04-30T07:48:44.053679"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_47_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:48:44.058039"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 47, "mode": "cal_on", "time": "2025-04-30T07:49:35.484707"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_47_cal_on.npz", "mode": "cal_on", "device_index": 0, "time": "2025-04-30T07:49:35.491013"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 47, "mode": "cal_on", "time": "2025-04-30T07:49:44.431801"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_47_cal_on.npz", "mode": "cal_on", "device_index": 1, "time": "2025-04-30T07:49:44.435957"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 21, "mode": "LSB", "time": "2025-04-30T07:50:44.685658"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_21_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:50:44.685860"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 21, "mode": "LSB", "time": "2025-04-30T07:50:53.641214"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_21_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:50:53.644457"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 21, "mode": "USB", "time": "2025-04-30T07:51:18.731505"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_21_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:51:18.732913"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 21, "mode": "USB", "time": "2025-04-30T07:51:27.685261"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_21_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:51:27.689652"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 21, "mode": "cal_on", "time": "2025-04-30T07:52:19.111496"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_21_cal_on.npz", "mode": "cal_on", "device_index": 0, "time": "2025-04-30T07:52:19.115023"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 21, "mode": "cal_on", "time": "2025-04-30T07:52:28.044100"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_21_cal_on.npz", "mode": "cal_on", "device_index": 1, "time": "2025-04-30T07:52:28.048473"}
+{"event": "skip", "id": 123, "reason": "invalid alt/az", "alt": 30.743269059475235, "az": 351.2338081156309, "time": "2025-04-30T07:52:31.130525"}
+{"event": "skip", "id": 123, "reason": "invalid alt/az", "alt": 30.743229790538496, "az": 351.2338573711075, "time": "2025-04-30T07:52:31.174656"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 48, "mode": "LSB", "time": "2025-04-30T07:53:26.182815"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_48_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:53:26.183019"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 48, "mode": "LSB", "time": "2025-04-30T07:53:35.149010"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_48_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:53:35.153525"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 48, "mode": "USB", "time": "2025-04-30T07:54:00.241453"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_48_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:54:00.241652"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 48, "mode": "USB", "time": "2025-04-30T07:54:09.190630"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_48_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:54:09.195088"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 22, "mode": "LSB", "time": "2025-04-30T07:55:09.465132"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_22_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:55:09.471367"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 22, "mode": "LSB", "time": "2025-04-30T07:55:18.418751"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_22_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:55:18.423302"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 22, "mode": "USB", "time": "2025-04-30T07:55:43.495790"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_22_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:55:43.495981"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 22, "mode": "USB", "time": "2025-04-30T07:55:52.428169"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_22_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:55:52.432662"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 74, "mode": "LSB", "time": "2025-04-30T07:56:55.993610"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_74_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:56:55.993856"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 74, "mode": "LSB", "time": "2025-04-30T07:57:04.940932"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_74_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:57:04.945363"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 74, "mode": "USB", "time": "2025-04-30T07:57:30.009178"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_74_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:57:30.009381"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 74, "mode": "USB", "time": "2025-04-30T07:57:38.930966"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_74_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:57:38.935351"}
+{"event": "skip", "id": 148, "reason": "invalid alt/az", "alt": 33.85316785580141, "az": 354.44668843556644, "time": "2025-04-30T07:57:42.010695"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 99, "mode": "LSB", "time": "2025-04-30T07:58:39.212128"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_99_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T07:58:39.212330"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 99, "mode": "LSB", "time": "2025-04-30T07:58:48.140983"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_99_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T07:58:48.145531"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 99, "mode": "USB", "time": "2025-04-30T07:59:13.220656"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_99_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T07:59:13.220900"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 99, "mode": "USB", "time": "2025-04-30T07:59:22.213710"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_99_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T07:59:22.218085"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 99, "mode": "cal_on", "time": "2025-04-30T08:00:13.641386"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_99_cal_on.npz", "mode": "cal_on", "device_index": 0, "time": "2025-04-30T08:00:13.646786"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 99, "mode": "cal_on", "time": "2025-04-30T08:00:22.591305"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_99_cal_on.npz", "mode": "cal_on", "device_index": 1, "time": "2025-04-30T08:00:22.595739"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 23, "mode": "LSB", "time": "2025-04-30T08:01:32.744394"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_23_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T08:01:32.750576"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 23, "mode": "LSB", "time": "2025-04-30T08:01:41.695492"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_23_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T08:01:41.699948"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 23, "mode": "USB", "time": "2025-04-30T08:02:06.763628"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_23_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T08:02:06.763817"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 23, "mode": "USB", "time": "2025-04-30T08:02:15.706390"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_23_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T08:02:15.710765"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 23, "mode": "cal_on", "time": "2025-04-30T08:03:07.117186"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_23_cal_on.npz", "mode": "cal_on", "device_index": 0, "time": "2025-04-30T08:03:07.117391"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 23, "mode": "cal_on", "time": "2025-04-30T08:03:16.048711"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_23_cal_on.npz", "mode": "cal_on", "device_index": 1, "time": "2025-04-30T08:03:16.053244"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 49, "mode": "LSB", "time": "2025-04-30T08:04:15.197442"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_49_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T08:04:15.197640"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 49, "mode": "LSB", "time": "2025-04-30T08:04:24.145630"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_49_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T08:04:24.150368"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 49, "mode": "USB", "time": "2025-04-30T08:04:49.217018"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_49_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T08:04:49.217202"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 49, "mode": "USB", "time": "2025-04-30T08:04:58.154710"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_49_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T08:04:58.159081"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 49, "mode": "cal_on", "time": "2025-04-30T08:05:49.578120"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_49_cal_on.npz", "mode": "cal_on", "device_index": 0, "time": "2025-04-30T08:05:49.584557"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 49, "mode": "cal_on", "time": "2025-04-30T08:05:58.532356"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_49_cal_on.npz", "mode": "cal_on", "device_index": 1, "time": "2025-04-30T08:05:58.536485"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 124, "mode": "LSB", "time": "2025-04-30T08:07:08.703263"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_124_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T08:07:08.703460"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 124, "mode": "LSB", "time": "2025-04-30T08:07:17.641955"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_124_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T08:07:17.646365"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 124, "mode": "USB", "time": "2025-04-30T08:07:42.729959"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_124_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T08:07:42.730153"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 124, "mode": "USB", "time": "2025-04-30T08:07:51.674478"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_124_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T08:07:51.678818"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 75, "mode": "LSB", "time": "2025-04-30T08:08:57.451465"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_75_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T08:08:57.452265"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 75, "mode": "LSB", "time": "2025-04-30T08:09:06.378726"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_75_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T08:09:06.383253"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 75, "mode": "USB", "time": "2025-04-30T08:09:31.471450"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_75_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T08:09:31.472310"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 75, "mode": "USB", "time": "2025-04-30T08:09:40.411277"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_75_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T08:09:40.415565"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 75, "mode": "cal_on", "time": "2025-04-30T08:10:31.837811"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_75_cal_on.npz", "mode": "cal_on", "device_index": 0, "time": "2025-04-30T08:10:31.838008"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 75, "mode": "cal_on", "time": "2025-04-30T08:10:40.766546"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_75_cal_on.npz", "mode": "cal_on", "device_index": 1, "time": "2025-04-30T08:10:40.770913"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 100, "mode": "LSB", "time": "2025-04-30T08:11:41.013080"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_100_LSB.npz", "mode": "LSB", "device_index": 0, "time": "2025-04-30T08:11:41.013277"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 100, "mode": "LSB", "time": "2025-04-30T08:11:49.953114"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_100_LSB.npz", "mode": "LSB", "device_index": 1, "time": "2025-04-30T08:11:49.957497"}
+{"event": "fft_processed", "device_index": 0, "pointing_id": 100, "mode": "USB", "time": "2025-04-30T08:12:15.034496"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol0/obs_100_USB.npz", "mode": "USB", "device_index": 0, "time": "2025-04-30T08:12:15.034688"}
+{"event": "fft_processed", "device_index": 1, "pointing_id": 100, "mode": "USB", "time": "2025-04-30T08:12:23.978112"}
+{"event": "saved", "file": "./Lab4Data//4_30_1/pol1/obs_100_USB.npz", "mode": "USB", "device_index": 1, "time": "2025-04-30T08:12:23.982554"}
